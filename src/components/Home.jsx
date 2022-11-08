@@ -6,19 +6,26 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <>
+
+    {/* 
+    Add some professional homepage and all other tab pictures and catchy contents. 
+    Testimonials from clients
+    Office Location
+    Our Partners
+    Add a drop down at the buttom level of the home page (Navigation, Our Services, Contacts)
+    */}
       <div className='grid bg-gray-100 pt-16 dark:bg-gray-700 lg:grid-cols-2 2xl:grid-cols-5'>
         <div className='mx-auto max-w-md px-4 py-4 sm:max-w-xl lg:max-w-full lg:px-12 lg:py-24 xl:mr-0 2xl:col-span-2'>
           <div className='max-w-xl'>
             <h1 className='mt-2 text-2xl font-bold text-gray-900 dark:text-white sm:mt-4 sm:text-4xl lg:mt-4 lg:text-3xl xl:text-4xl'>
-              You can travel anywhere.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ut unde quos fugiat, 
               <br />
-              <span className='text-indigo-500 dark:text-indigo-600'>
-                Take advantage of that.
+              <span className='text-blue-500 dark:text-blue-600'>
+              Facere eos nesciunt praesentium mollitia repudiandae repellat dolore
               </span>
             </h1>
             <p className='mt-2 text-gray-600 dark:text-white sm:text-xl'>
-              Buscation helps you tour beautiful locations so you can enjoy
-              nature.
+            e eos nesciunt praesentium mollitia repudiandae repellat dolore
             </p>
             <img
               src={Logo}
@@ -28,9 +35,9 @@ const Home = () => {
             <div className='mt-4 space-x-1 sm:mt-6'>
               <a
                 href='/'
-                className='focus:outline-none inline-block transform rounded-lg bg-indigo-500 px-5 py-3 text-sm font-semibold uppercase tracking-wider text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-indigo-400 focus:ring focus:ring-indigo-500 focus:ring-opacity-50 focus:ring-offset-2 active:bg-indigo-600 dark:bg-indigo-600  sm:text-base '
+                className='focus:outline-none inline-block transform rounded-lg bg-[#2b4b77] px-5 py-3 text-sm font-semibold uppercase tracking-wider text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-blue-400 focus:ring focus:ring-blue-500 focus:ring-opacity-50 focus:ring-offset-2 active:bg-blue-600 dark:bg-[#264775]  sm:text-base '
               >
-                Join next tour
+                View all courses
               </a>
               <a
                 href='/'
@@ -70,7 +77,7 @@ const Home = () => {
         <div className='text-center'>
           <Link to='/all-states'>
             <button
-              className='m-5 transform rounded-lg bg-indigo-500 px-6 py-2 text-sm font-semibold uppercase tracking-widest text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-indigo-400 focus:ring-indigo-500 focus:ring-opacity-50 active:bg-indigo-600 dark:border-white dark:bg-indigo-600 dark:text-white'
+              className='m-5 transform rounded-lg bg-blue-500 px-6 py-2 text-sm font-semibold uppercase tracking-widest text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-blue-400 focus:ring-blue-500 focus:ring-opacity-50 active:bg-blue-600 dark:border-white dark:bg-blue-600 dark:text-white'
               onClick={() => window.scrollTo(0, 0)}
             >
               See all
