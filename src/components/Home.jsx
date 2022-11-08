@@ -6,27 +6,19 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <>
-
-    {/* 
-    Add some professional homepage and all other tab pictures and catchy contents. 
-    Testimonials from clients
-    Office Location
-    Our Partners
-    Add a drop down at the buttom level of the home page (Navigation, Our Services, Contacts)
-    */}
       <div className='grid bg-gray-100 pt-16 dark:bg-gray-700 lg:grid-cols-2 2xl:grid-cols-5'>
         <div className='mx-auto max-w-md px-4 py-4 sm:max-w-xl lg:max-w-full lg:px-12 lg:py-24 xl:mr-0 2xl:col-span-2'>
           <div className='max-w-xl'>
-            <h1 className='mt-2 text-2xl font-bold text-gray-900 dark:text-white sm:mt-4 sm:text-4xl lg:mt-4 lg:text-3xl xl:text-4xl'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ut unde quos fugiat, 
+            <h1 className='mt-2 text-2xl font-bold text-gray-900 dark:text-white sm:mt-4 sm:text-4xl lg:mt-4 lg:text-3xl'>
+              Logically Your Best Choice. We are unwavering to quality 
               <br />
               <span className='text-blue-500 dark:text-blue-600'>
               Facere eos nesciunt praesentium mollitia repudiandae repellat dolore
               </span>
             </h1>
-            <p className='mt-2 text-gray-600 dark:text-white sm:text-xl'>
+            {/* <p className='mt-2 text-gray-600 dark:text-white sm:text-xl'>
             e eos nesciunt praesentium mollitia repudiandae repellat dolore
-            </p>
+            </p> */}
             <img
               src={Logo}
               alt='People going in the bus'
@@ -59,7 +51,7 @@ const Home = () => {
       </div>
       <div className='mx-auto max-w-full px-8 py-4 dark:bg-gray-800 lg:max-w-full lg:px-8'>
         <h2 className='text-center text-2xl font-semibold tracking-wider text-gray-900 dark:text-white'>
-          Popular destination
+          About Us
         </h2>
 
         {/* <div className='mt-6 grid gap-6 rounded-md lg:grid-cols-2 xl:grid-cols-3'>
@@ -73,7 +65,62 @@ const Home = () => {
                 />
               </>
             ))}
-        </div> */}
+        </div> 
+        
+        Add some professional homepage and all other tab pictures and catchy contents. 
+    Testimonials from clients
+    Office Location
+    Our Partners
+    Add a drop down at the buttom level of the home page (Navigation, Our Services, Contacts)
+    */}
+        <div className='text-center'>
+          <Link to='/all-states'>
+            <button
+              className='m-5 transform rounded-lg bg-blue-500 px-6 py-2 text-sm font-semibold uppercase tracking-widest text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-blue-400 focus:ring-blue-500 focus:ring-opacity-50 active:bg-blue-600 dark:border-white dark:bg-blue-600 dark:text-white'
+              onClick={() => window.scrollTo(0, 0)}
+            >
+              See all
+            </button>
+          </Link>
+        </div>
+      </div>
+      <div className='mx-auto max-w-full px-8 py-4 dark:bg-gray-800 lg:max-w-full lg:px-8'>
+        <h2 className='text-center text-2xl font-semibold tracking-wider text-gray-900 dark:text-white'>
+        Testimonials
+        </h2>
+
+        <div className='text-center'>
+          <Link to='/all-states'>
+            <button
+              className='m-5 transform rounded-lg bg-blue-500 px-6 py-2 text-sm font-semibold uppercase tracking-widest text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-blue-400 focus:ring-blue-500 focus:ring-opacity-50 active:bg-blue-600 dark:border-white dark:bg-blue-600 dark:text-white'
+              onClick={() => window.scrollTo(0, 0)}
+            >
+              See all
+            </button>
+          </Link>
+        </div>
+      </div>
+      <div className='mx-auto max-w-full px-8 py-4 dark:bg-gray-800 lg:max-w-full lg:px-8'>
+        <h2 className='text-center text-2xl font-semibold tracking-wider text-gray-900 dark:text-white'>
+        Office Location
+        </h2>
+
+        <div className='text-center'>
+          <Link to='/all-states'>
+            <button
+              className='m-5 transform rounded-lg bg-blue-500 px-6 py-2 text-sm font-semibold uppercase tracking-widest text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-blue-400 focus:ring-blue-500 focus:ring-opacity-50 active:bg-blue-600 dark:border-white dark:bg-blue-600 dark:text-white'
+              onClick={() => window.scrollTo(0, 0)}
+            >
+              See all
+            </button>
+          </Link>
+        </div>
+      </div>
+      <div className='mx-auto max-w-full px-8 py-4 dark:bg-gray-800 lg:max-w-full lg:px-8'>
+        <h2 className='text-center text-2xl font-semibold tracking-wider text-gray-900 dark:text-white'>
+        Our Partners
+        </h2>
+
         <div className='text-center'>
           <Link to='/all-states'>
             <button
