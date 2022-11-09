@@ -5,8 +5,12 @@ import ImageSlider from "./ImageSlider";
 
 const Home = () => {
   const slides = [
-    { url: "http://localhost:3001/images/image-1.jpg", title: "beach" },
-    { url: "http://localhost:3001/images/image-2.jpg", title: "boat" },
+    { url: "/images/homepage1.jpg", title: "beach" },
+    { url: "/images/homepage2.jpg", title: "beach" },
+    { url: "/images/homepage3.jpg", title: "beach" },
+    { url: "/images/homepage4.jpg", title: "beach" },
+    { url: "/images/homepage5.jpg", title: "beach" },
+    { url: "/images/homepage6.jpg", title: "beach" }
   ];
 
   return (

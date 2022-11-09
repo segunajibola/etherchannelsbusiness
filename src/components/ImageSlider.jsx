@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const sliderStyles = {
   width: "110%",
@@ -66,6 +66,12 @@ const ImageSlider = ({ slides }) => {
     ...slideStyles,
     backgroundImage: `url(${slides[currentIndex].url})`,
   };
+
+  useEffect(() => {
+      setTimeout(() => {
+        goToNext();
+      }, 1000);
+  });
 
   return (
     <div style={sliderStyles}>
