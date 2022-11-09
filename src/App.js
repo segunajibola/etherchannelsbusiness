@@ -16,7 +16,7 @@ function App() {
   return (
     <div className={`overflow-hidden ${darkMode ? "dark" : ""}`} id="dark">
       <Router>
-        <Navbar handleMode={handleMode} darkMode={darkMode}/>
+        <Navbar handleMode={handleMode} darkMode={darkMode} />
         <Routes>
           <Route exact path="/" element={<Home />} />
 
