@@ -10,7 +10,7 @@ const Home = () => {
     { url: "/images/homepage3.jpg", title: "beach" },
     { url: "/images/homepage4.jpg", title: "beach" },
     { url: "/images/homepage5.jpg", title: "beach" },
-    { url: "/images/homepage6.jpg", title: "beach" }
+    { url: "/images/homepage6.jpg", title: "beach" },
   ];
 
   return (
@@ -63,6 +63,34 @@ const Home = () => {
             alt="People going in the bus"
             className="absolute inset-0 h-full w-full rounded object-cover object-center"
           /> */}
+        </div>
+      </div>
+      <div className="grid lg:grid-cols-2 bg-gray-100 dark:bg-gray-700">
+        <img
+          src="/images/homepage2.jpg"
+          alt=""
+          className="m-10 w-[500px] h-[320px] rounded-lg"
+        />
+        <div>
+          <h2 className="text-center text-2xl font-semibold tracking-wider text-gray-900 dark:text-white">
+            About Us
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias,
+            error esse veniam expedita minus animi nam fugiat est cum provident
+            ea voluptates quam consequatur quia tempore ut exercitationem fugit
+            officiis!
+          </p>
+          <div className="text-center">
+          <Link to="/all-states">
+            <button
+              className="m-5 transform rounded-lg bg-blue-500 px-6 py-2 text-sm font-semibold uppercase tracking-widest text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-blue-400 focus:ring-blue-500 focus:ring-opacity-50 active:bg-blue-600 dark:border-white dark:bg-blue-600 dark:text-white"
+              onClick={() => window.scrollTo(0, 0)}
+            >
+              See all
+            </button>
+          </Link>
+        </div>
         </div>
       </div>
       <div className="mx-auto max-w-full px-8 py-4 dark:bg-gray-800 lg:max-w-full lg:px-8">
