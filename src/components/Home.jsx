@@ -16,9 +16,9 @@ const Home = () => {
   return (
     <>
       <div className="grid bg-gray-100 pt-16 dark:bg-gray-700 lg:grid-cols-2 2xl:grid-cols-5">
-        <div className="mx-auto py-4 sm:w-[38rem] lg:max-w-full lg:px-12 lg:py-24 xl:mr-0 2xl:col-span-2">
-          <div className="">
-            <div className="w-[360px] h-[300px] mb-32 mx-auto">
+        <div className="mx-auto py-4 w-screen lg:max-w-full lg:px-12 lg:py-24 xl:mr-0 2xl:col-span-2">
+          <div className="mx-auto">
+            <div className="w-[380px] h-[300px] mb-32 mx-auto">
               <ImageSlider slides={slides} />
             </div>
             <h1 className="mt-26 text-sm text-center font-bold text-gray-900 dark:text-white sm:mt-4 sm:text-4xl lg:mt-4 lg:text-3xl">
