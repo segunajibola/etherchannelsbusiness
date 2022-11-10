@@ -17,7 +17,7 @@ const Home = () => {
     <>
       <div className="grid bg-gray-600 pt-16 dark:bg-gray-700 lg:grid-cols-2 2xl:grid-cols-5">
         <div className="mx-auto py-4 bg-gray-200 w-screen lg:max-w-full lg:px-12 lg:py-24 xl:mr-0 2xl:col-span-2">
-          <div className="mx-auto w-[400px] bg-gray-600">
+          <div className="mx-auto w-[400px]">
             <div className="w-[350px] h-[300px] mb-32 mx-2">
               <ImageSlider slides={slides} />
             </div>
