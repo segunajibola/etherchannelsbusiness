@@ -16,10 +16,13 @@ const Home = () => {
   return (
     <>
       <div className="grid bg-gray-100 pt-16 dark:bg-gray-700 lg:grid-cols-2 2xl:grid-cols-5">
-        <div className="mx-auto max-w-md px-4 py-4 sm:max-w-xl lg:max-w-full lg:px-12 lg:py-24 xl:mr-0 2xl:col-span-2">
-          <div className="max-w-xl">
-            <h1 className="mt-2 text-2xl font-bold text-gray-900 dark:text-white sm:mt-4 sm:text-4xl lg:mt-4 lg:text-3xl">
-              Logically Your Best Choice. We are unwavering to quality
+        <div className="mx-auto py-4 sm:w-[38rem] lg:max-w-full lg:px-12 lg:py-24 xl:mr-0 2xl:col-span-2">
+          <div className="">
+            <div className="w-[360px] h-[300px] mb-32 mx-auto">
+              <ImageSlider slides={slides} />
+            </div>
+            <h1 className="mt-26 text-sm text-center font-bold text-gray-900 dark:text-white sm:mt-4 sm:text-4xl lg:mt-4 lg:text-3xl">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
               <br />
               <span className="text-blue-500 dark:text-blue-600">
                 Facere eos nesciunt praesentium mollitia repudiandae repellat
@@ -54,8 +57,8 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="relative m-3 hidden lg:block 2xl:col-span-3">
-          <div className="w-[500px] h-[280px] my-o mx-auto">
+        <div className="relative mt-3 hidden lg:block 2xl:col-span-3">
+          <div className="w-[550px] h-[280px] my-0 mx-auto">
             <ImageSlider slides={slides} />
           </div>
           {/* <img
@@ -65,6 +68,7 @@ const Home = () => {
           /> */}
         </div>
       </div>
+      {/* About */}
       <div className="grid lg:grid-cols-2 bg-gray-100 dark:bg-gray-700">
         <img
           src="/images/homepage2.jpg"
@@ -76,21 +80,25 @@ const Home = () => {
             About Us
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias,
-            error esse veniam expedita minus animi nam fugiat est cum provident
-            ea voluptates quam consequatur quia tempore ut exercitationem fugit
-            officiis!
+            Ether-channel Solution Services is an I.T firm founded on the 21st
+            of December 2020, which aimed at providing quality assurance with a
+            top-notch I.T solutions to all our business partners and customers.
+            We are innovative, highly motivated and well equipped with one of
+            the best IT infrastructures in place and quality training hands. We
+            are absolutely committed to ensure that our clients are making good
+            technical decisions and are realizing business value and results
+            from their I.T. investments throughout our business partnering.
           </p>
           <div className="text-center">
-          <Link to="/all-states">
-            <button
-              className="m-5 transform rounded-lg bg-blue-500 px-6 py-2 text-sm font-semibold uppercase tracking-widest text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-blue-400 focus:ring-blue-500 focus:ring-opacity-50 active:bg-blue-600 dark:border-white dark:bg-blue-600 dark:text-white"
-              onClick={() => window.scrollTo(0, 0)}
-            >
-              See all
-            </button>
-          </Link>
-        </div>
+            <Link to="/all-states">
+              <button
+                className="m-5 transform rounded-lg bg-blue-500 px-6 py-2 text-sm font-semibold uppercase tracking-widest text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-blue-400 focus:ring-blue-500 focus:ring-opacity-50 active:bg-blue-600 dark:border-white dark:bg-blue-600 dark:text-white"
+                onClick={() => window.scrollTo(0, 0)}
+              >
+                See all
+              </button>
+            </Link>
+          </div>
         </div>
       </div>
       <div className="mx-auto max-w-full px-8 py-4 dark:bg-gray-800 lg:max-w-full lg:px-8">
