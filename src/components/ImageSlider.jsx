@@ -44,7 +44,7 @@ const dotsContainerStyles = {
 const dotStyle = {
   margin: "0 3px",
   cursor: "pointer",
-  fontSize: "20px",
+  fontSize: "10px",
 //   color: `${slideIndex} ? "red" : "green"`,
 };
 
