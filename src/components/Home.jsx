@@ -16,10 +16,10 @@ const Home = () => {
 
   return (
     <>
-      <div className="grid bg-gray-200 pt-14 px-[2px] dark:bg-gray-700 lg:grid-cols-2 2xl:grid-cols-5 border-4 border-green-500 w-screen sm:w-full">
-        <div className="mx-auto bg-gray-200 lg:max-w-full lg:px-12 lg:py-24 xl:mr-0 2xl:col-span-2 border-4 border-yellow-500">
-          <div className="mx-auto w-fit mt-0 text-center border-4 border-red-500">
-            <div className="w-full h-[300px] mb-4 border-4 border-green-500">
+      <div className="grid bg-gray-200 pt-14 px-[2px] dark:bg-gray-700 lg:grid-cols-2 2xl:grid-cols-5 w-screen sm:w-full">
+        <div className="mx-auto bg-gray-200 lg:max-w-full lg:px-12 lg:py-24 xl:mr-0 2xl:col-span-2">
+          <div className="mx-auto w-fit mt-0 text-center">
+            <div className="w-full h-[300px] mb-4 md:hidden">
               <ImageSlider slides={slides} className="h-fit" />
             </div>
             <h1 className="">GREETINGS!!!</h1>
@@ -31,17 +31,6 @@ const Home = () => {
               professional and Top-Notch I.T training and Computer-Based Testing
               to corporate organizations and individual clients.
             </p>
-            {/* <p className='mt-2 text-gray-600 dark:text-white sm:text-xl'>
-            e eos nesciunt praesentium mollitia repudiandae repellat dolore
-            </p> */}
-            {/* <img
-              src={Logo}
-              alt="People going in the bus"
-              className="my-2 h-52 w-full rounded-lg object-center shadow-xl sm:mt-8 sm:h-64 sm:object-cover lg:hidden"
-            /> */}
-            {/* <div style={containerStyles}>
-              <ImageSlider slides={slides} />
-            </div> */}
             <div className="mt-4 space-x-1 sm:mt-6">
               <a
                 href="/"
@@ -63,22 +52,19 @@ const Home = () => {
           <div className="w-[550px] h-[280px] my-0 mx-auto">
             <ImageSlider slides={slides} />
           </div>
-          {/* <img
-            src={Logo}
-            alt="People going in the bus"
-            className="absolute inset-0 h-full w-full rounded object-cover object-center"
-          /> */}
         </div>
       </div>
+
       {/* About */}
+      
       <div className="grid lg:grid-cols-2 bg-gray-100 dark:bg-gray-700">
         <img
           src="/images/aboutUs2.jpeg"
           alt=""
-          className="m-10 w-[350px] h-[320px] rounded-lg mx-auto"
+          className="m-10 w-screen sm:w-full sm:mx-2 h-[320px] mx-auto"
         />
-        <div className="w-[340px] mx-auto text-center">
-          <h2 className="text-center text-2xl font-semibold tracking-wider text-gray-900 dark:text-white">
+        <div className="w-[430px] mx-auto text-center">
+          <h2 className="text-2xl font-semibold tracking-wider text-gray-900 dark:text-white">
             About Us
           </h2>
           <p>
@@ -91,7 +77,6 @@ const Home = () => {
             technical decisions and are realizing business value and results
             from their I.T. investments throughout our business partnering.
           </p>
-          <div className="text-center">
             <Link to="/all-states">
               <button
                 className="m-2 pb-2 text-sm font-semibold underline tracking-widest dark:border-white dark:bg-blue-600 dark:text-white"
@@ -100,7 +85,6 @@ const Home = () => {
                 More about us.
               </button>
             </Link>
-          </div>
         </div>
       </div>
       <div className="mx-auto max-w-[1000px] w-[400px] px-2 py-2 lg:max-w-full lg:px-8">
