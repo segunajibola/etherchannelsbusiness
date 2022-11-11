@@ -1,4 +1,4 @@
-import testimonials from '../data/testimonials';
+import testimonials from "../data/testimonials";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -11,13 +11,23 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 
 const Testimonials = () => {
   return (
-    <div id='testimonials' className='w-full overflow-hidden dark:bg-gray-100 dark:text-gray-800'>
-      <div className='flex flex-col justify-center items-center w-full h-full'>
-        <div className='max-w-[1000px] w-full grid grid-cols sm:grid-cols-1 gap-8 px-4'>
-          <div className='text-center md:mt-20 md:ml-10 text-xl md:text-left'>
-            <p>What how clients are saying.</p>
+    <div
+      id="testimonials"
+      className="w-full overflow-hidden dark:bg-gray-100 dark:text-gray-800"
+    >
+      {/* <div className="flex flex-col justify-center items-center w-full h-full pt-4"> */}
+        {/* <div className="max-w-[1000px] w-full">
+          <div className="absolute pb-8 pl-4">
+            <p className="text-[4.5rem] sm:text-[7rem] md:text-8xl font-bold inline tracking-tighter opacity-10 border-b-4 border-yellow-600">
+              Tfgestimonials
+            </p>
           </div>
-          <div className='md:ml-[20rem]'>          
+        </div> */}
+        <div className="grid grid-cols sm:grid-cols-1 justify-center gap-8 px-4 pt-4">
+          <div className="text-center md:mt-20 md:ml-10 text-2xl md:text-left">
+            <p>What others are saying.</p>
+          </div>
+          <div className="md:ml-[20rem]">
             <Swiper
               spaceBetween={30}
               centeredSlides={true}
@@ -30,26 +40,25 @@ const Testimonials = () => {
               }}
               navigation={true}
               modules={[Autoplay, Pagination, Navigation]}
-              className="w-[340px] mx-auto"
+              className="w-[380px] sm:w-[30rem] mx-auto md:w-[38rem]"
             >
               {testimonials.map((testimonial) => (
                 <SwiperSlide className="md:mt-1 p-2">
-                  <figure className="grid rounded-xl p-3 shadow-lg shadow-gray-200">
-                    <img className="w-32 h-32 rounded-full mx-auto" src={testimonial.image} alt="" />
+                  <figure className="bg-gray-100 grid rounded-xl p-3 shadow-md shadow-gray-700">
+                    <img
+                      className="w-32 h-32 rounded-full mx-auto"
+                      src={testimonial.image}
+                      alt=""
+                    />
                     <div className="pt-4 text-center space-y-3">
-                      
-                      <blockquote className='mx-auto'>
-                          <p className="text-lg font-semibold">
+                      <blockquote className="mx-auto">
+                        <p className="text-lg font-semibold mx-4 dark:text-gray-900">
                           {testimonial.text}
-                          </p>
+                        </p>
                       </blockquote>
                       <figcaption className="font-medium text-gray-500 dark:text-gray-800">
-                          <div className="">
-                          {testimonial.name}
-                          </div>
-                          <div className="mb-2">
-                          {testimonial.position}
-                          </div>
+                        <div className="">{testimonial.name}</div>
+                        <div className="mb-2">{testimonial.position}</div>
                       </figcaption>
                     </div>
                   </figure>
@@ -57,10 +66,10 @@ const Testimonials = () => {
               ))}
             </Swiper>
           </div>
-        </div>
+        {/* </div> */}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Testimonials
+export default Testimonials;

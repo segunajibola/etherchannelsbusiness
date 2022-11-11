@@ -103,22 +103,11 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="mx-auto max-w-full px-8 py-4 dark:bg-gray-800 lg:max-w-full lg:px-8">
+      <div className="mx-auto max-w-[1000px] w-[400px] px-2 py-2 lg:max-w-full lg:px-8">
         <h2 className="text-center text-2xl font-semibold tracking-wider text-gray-900 dark:text-white">
           Testimonials
         </h2>
         <Testimonials />
-
-        <div className="text-center">
-          <Link to="/all-states">
-            <button
-              className="m-5 transform rounded-lg bg-blue-500 px-6 py-2 text-sm font-semibold uppercase tracking-widest text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-blue-400 focus:ring-blue-500 focus:ring-opacity-50 active:bg-blue-600 dark:border-white dark:bg-blue-600 dark:text-white"
-              onClick={() => window.scrollTo(0, 0)}
-            >
-              See all
-            </button>
-          </Link>
-        </div>
       </div>
       <div className="mx-auto max-w-full px-8 py-4 dark:bg-gray-800 lg:max-w-full lg:px-8">
         <h2 className="text-center text-2xl font-semibold tracking-wider text-gray-900 dark:text-white">
@@ -140,16 +129,17 @@ const Home = () => {
         <h2 className="text-center text-2xl font-semibold tracking-wider text-gray-900 dark:text-white">
           Our Partners
         </h2>
-
-        <div className="text-center">
-          <Link to="/all-states">
-            <button
-              className="m-5 transform rounded-lg bg-blue-500 px-6 py-2 text-sm font-semibold uppercase tracking-widest text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-blue-400 focus:ring-blue-500 focus:ring-opacity-50 active:bg-blue-600 dark:border-white dark:bg-blue-600 dark:text-white"
-              onClick={() => window.scrollTo(0, 0)}
-            >
-              See all
-            </button>
-          </Link>
+        <div className="grid grid-cols-2">
+          <div className="mx-auto">
+            <img src={Logo} alt="" className="w-32 h-32" />
+            <img src={Logo} alt="" className="w-32 h-32" />
+            <img src={Logo} alt="" className="w-32 h-32" />
+          </div>
+          <div className="mx-auto">
+            <img src={Logo} alt="" className="w-32 h-32" />
+            <img src={Logo} alt="" className="w-32 h-32" />
+            <img src={Logo} alt="" className="w-32 h-32" />
+          </div>
         </div>
       </div>
     </>
