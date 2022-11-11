@@ -15,15 +15,7 @@ const Testimonials = () => {
       id="testimonials"
       className="w-full overflow-hidden dark:bg-gray-100 dark:text-gray-800"
     >
-      {/* <div className="flex flex-col justify-center items-center w-full h-full pt-4"> */}
-        {/* <div className="max-w-[1000px] w-full">
-          <div className="absolute pb-8 pl-4">
-            <p className="text-[4.5rem] sm:text-[7rem] md:text-8xl font-bold inline tracking-tighter opacity-10 border-b-4 border-yellow-600">
-              Tfgestimonials
-            </p>
-          </div>
-        </div> */}
-        <div className="grid grid-cols sm:grid-cols-1 justify-center gap-8 px-4 pt-4">
+        <div className="grid grid-cols sm:grid-cols-1 justify-center gap-8 px-2 pt-4">
           <div className="text-center md:mt-20 md:ml-10 text-2xl md:text-left">
             <p>What others are saying.</p>
           </div>
@@ -40,11 +32,11 @@ const Testimonials = () => {
               }}
               navigation={true}
               modules={[Autoplay, Pagination, Navigation]}
-              className="w-[380px] sm:w-[30rem] mx-auto md:w-[38rem]"
+              className="w-[440px] sm:w-[30rem] mx-auto md:w-[38rem] border-4 border-red-500"
             >
               {testimonials.map((testimonial) => (
                 <SwiperSlide className="md:mt-1 p-2">
-                  <figure className="bg-gray-100 grid rounded-xl p-3 shadow-md shadow-gray-700">
+                  <figure className="bg-gray-100 grid rounded-lg p-3 shadow-md shadow-gray-700">
                     <img
                       className="w-32 h-32 rounded-full mx-auto"
                       src={testimonial.image}

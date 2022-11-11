@@ -61,10 +61,10 @@ const Home = () => {
         <img
           src="/images/aboutUs2.jpeg"
           alt=""
-          className="m-10 w-screen sm:w-full sm:mx-2 h-[320px] mx-auto"
+          className="m-5 w-screen sm:w-full sm:mx-2 h-[320px] mx-auto"
         />
         <div className="w-[430px] mx-auto text-center">
-          <h2 className="text-2xl font-semibold tracking-wider text-gray-900 dark:text-white">
+          <h2 className="text-2xl font-semibold tracking-wider text-gray-900 dark:text-white -mt-2">
             About Us
           </h2>
           <p>
@@ -87,7 +87,7 @@ const Home = () => {
             </Link>
         </div>
       </div>
-      <div className="mx-auto max-w-[1000px] w-[400px] px-2 py-2 lg:max-w-full lg:px-8">
+      <div className="mx-auto max-w-[1000px] w-[450px] px-2 py-2 lg:max-w-full lg:px-8">
         <h2 className="text-center text-2xl font-semibold tracking-wider text-gray-900 dark:text-white">
           Testimonials
         </h2>
