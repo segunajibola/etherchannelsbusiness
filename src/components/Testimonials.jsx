@@ -32,7 +32,7 @@ const Testimonials = () => {
               }}
               navigation={true}
               modules={[Autoplay, Pagination, Navigation]}
-              className="w-[440px] sm:w-[30rem] mx-auto md:w-[38rem] border-4 border-red-500"
+              className="w-[440px] sm:w-[30rem] mx-auto md:w-[38rem]"
             >
               {testimonials.map((testimonial) => (
                 <SwiperSlide className="md:mt-1 p-2">
