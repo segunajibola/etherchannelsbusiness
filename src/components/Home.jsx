@@ -2,6 +2,7 @@ import React from "react";
 import Logo from "../assets/home/homepage1.jpg";
 import { Link } from "react-router-dom";
 import ImageSlider from "./ImageSlider";
+import Testimonials from "./Testimonials";
 
 const Home = () => {
   const slides = [
@@ -106,6 +107,7 @@ const Home = () => {
         <h2 className="text-center text-2xl font-semibold tracking-wider text-gray-900 dark:text-white">
           Testimonials
         </h2>
+        <Testimonials />
 
         <div className="text-center">
           <Link to="/all-states">
