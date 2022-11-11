@@ -93,48 +93,13 @@ const Home = () => {
           <div className="text-center">
             <Link to="/all-states">
               <button
-                className="m-3 transform rounded-lg bg-blue-500 px-6 py-2 text-sm font-semibold uppercase tracking-widest text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-blue-400 focus:ring-blue-500 focus:ring-opacity-50 active:bg-blue-600 dark:border-white dark:bg-blue-600 dark:text-white"
+                className="m-2 pb-2 text-sm font-semibold underline tracking-widest dark:border-white dark:bg-blue-600 dark:text-white"
                 onClick={() => window.scrollTo(0, 0)}
               >
                 More about us.
               </button>
             </Link>
           </div>
-        </div>
-      </div>
-      <div className="mx-auto max-w-full px-8 py-4 dark:bg-gray-800 lg:max-w-full lg:px-8">
-        <h2 className="text-center text-2xl font-semibold tracking-wider text-gray-900 dark:text-white">
-          About Us
-        </h2>
-
-        {/* <div className='mt-6 grid gap-6 rounded-md lg:grid-cols-2 xl:grid-cols-3'>
-          {allDestinations
-            .filter((item, index) => index < 6)
-            .map((eachDestination) => (
-              <>
-                <DestinationCards
-                  destination={eachDestination}
-                  key={eachDestination.id}
-                />
-              </>
-            ))}
-        </div> 
-        
-        Add some professional homepage and all other tab pictures and catchy contents. 
-    Testimonials from clients
-    Office Location
-    Our Partners
-    Add a drop down at the buttom level of the home page (Navigation, Our Services, Contacts)
-    */}
-        <div className="text-center">
-          <Link to="/all-states">
-            <button
-              className="m-5 transform rounded-lg bg-blue-500 px-6 py-2 text-sm font-semibold uppercase tracking-widest text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-blue-400 focus:ring-blue-500 focus:ring-opacity-50 active:bg-blue-600 dark:border-white dark:bg-blue-600 dark:text-white"
-              onClick={() => window.scrollTo(0, 0)}
-            >
-              See all
-            </button>
-          </Link>
         </div>
       </div>
       <div className="mx-auto max-w-full px-8 py-4 dark:bg-gray-800 lg:max-w-full lg:px-8">
