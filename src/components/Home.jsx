@@ -15,19 +15,20 @@ const Home = () => {
 
   return (
     <>
-      <div className="grid bg-gray-600 pt-16 dark:bg-gray-700 lg:grid-cols-2 2xl:grid-cols-5">
-        <div className="mx-auto py-4 bg-gray-200 w-screen lg:max-w-full lg:px-12 lg:py-24 xl:mr-0 2xl:col-span-2">
-          <div className="mx-auto w-[380px]">
+      <div className="grid bg-gray-200 pt-14 dark:bg-gray-700 lg:grid-cols-2 2xl:grid-cols-5">
+        <div className="mx-auto py-4 bg-gray-200 lg:max-w-full lg:px-12 lg:py-24 xl:mr-0 2xl:col-span-2">
+          <div className="mx-auto w-[380px] text-center">
             <div className="w-[340px] h-[300px] mb-32 mx-2">
               <ImageSlider slides={slides} />
             </div>
-            <h1 className="mt-26 text-sm text-center font-bold text-gray-900 dark:text-white sm:mt-4 sm:text-4xl lg:mt-4 lg:text-3xl">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              <br />
-              <span className="text-blue-500 dark:text-blue-600">
-                Facere eos nesciunt praesentium mollitia repudiandae repellat
-                dolore
-              </span>
+            <h1 className="mt-26 text-sm text-center font-bold text-gray-900 dark:text-white sm:mt-4 lg:mt-4 lg:text-3xl">
+              GREETINGS!!! Hello!!! Good to see you on our website today!!! Are
+              you thinking of acquiring an In-Demand I.T skills to fetch you
+              your dreams job, here is the best place for you to take all things
+              IT Training and CBT Testing hub!! Our core value is the provision
+              of affordable professional and Top-Notch I.T training and
+              Computer-Based Testing to corporate organizations and individual
+              clients.
             </h1>
             {/* <p className='mt-2 text-gray-600 dark:text-white sm:text-xl'>
             e eos nesciunt praesentium mollitia repudiandae repellat dolore
@@ -71,11 +72,11 @@ const Home = () => {
       {/* About */}
       <div className="grid lg:grid-cols-2 bg-gray-100 dark:bg-gray-700">
         <img
-          src="/images/homepage2.jpg"
+          src="/images/aboutUs2.jpeg"
           alt=""
-          className="m-10 w-[500px] h-[320px] rounded-lg"
+          className="m-10 w-[350px] h-[320px] rounded-lg mx-auto"
         />
-        <div>
+        <div className="w-[340px] mx-auto text-center">
           <h2 className="text-center text-2xl font-semibold tracking-wider text-gray-900 dark:text-white">
             About Us
           </h2>
@@ -92,10 +93,10 @@ const Home = () => {
           <div className="text-center">
             <Link to="/all-states">
               <button
-                className="m-5 transform rounded-lg bg-blue-500 px-6 py-2 text-sm font-semibold uppercase tracking-widest text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-blue-400 focus:ring-blue-500 focus:ring-opacity-50 active:bg-blue-600 dark:border-white dark:bg-blue-600 dark:text-white"
+                className="m-3 transform rounded-lg bg-blue-500 px-6 py-2 text-sm font-semibold uppercase tracking-widest text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-blue-400 focus:ring-blue-500 focus:ring-opacity-50 active:bg-blue-600 dark:border-white dark:bg-blue-600 dark:text-white"
                 onClick={() => window.scrollTo(0, 0)}
               >
-                See all
+                More about us.
               </button>
             </Link>
           </div>
