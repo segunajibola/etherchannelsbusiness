@@ -1,9 +1,11 @@
 import { useState, useEffect } from "react";
 
 const sliderStyles = {
-  width: "110%",
+  width: "100%",
   position: "relative",
-  height: "130%",
+  height: "100%",
+  marginLeft: "auto",
+  marginRight: "auto"
 };
 
 const slideStyles = {

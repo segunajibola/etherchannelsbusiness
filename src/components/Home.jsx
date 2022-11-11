@@ -16,21 +16,21 @@ const Home = () => {
 
   return (
     <>
-      <div className="grid bg-gray-200 pt-14 dark:bg-gray-700 lg:grid-cols-2 2xl:grid-cols-5">
-        <div className="mx-auto py-4 bg-gray-200 lg:max-w-full lg:px-12 lg:py-24 xl:mr-0 2xl:col-span-2">
-          <div className="mx-auto w-[380px] text-center">
-            <div className="w-[340px] h-[300px] mb-32 mx-2">
-              <ImageSlider slides={slides} />
+      <div className="grid bg-gray-200 pt-14 px-[2px] dark:bg-gray-700 lg:grid-cols-2 2xl:grid-cols-5 border-4 border-green-500 w-screen sm:w-full">
+        <div className="mx-auto bg-gray-200 lg:max-w-full lg:px-12 lg:py-24 xl:mr-0 2xl:col-span-2 border-4 border-yellow-500">
+          <div className="mx-auto w-fit mt-0 text-center border-4 border-red-500">
+            <div className="w-full h-[300px] mb-4 border-4 border-green-500">
+              <ImageSlider slides={slides} className="h-fit" />
             </div>
-            <h1 className="mt-26 text-sm text-center font-bold text-gray-900 dark:text-white sm:mt-4 lg:mt-4 lg:text-3xl">
-              GREETINGS!!! Hello!!! Good to see you on our website today!!! Are
-              you thinking of acquiring an In-Demand I.T skills to fetch you
-              your dreams job, here is the best place for you to take all things
-              IT Training and CBT Testing hub!! Our core value is the provision
-              of affordable professional and Top-Notch I.T training and
-              Computer-Based Testing to corporate organizations and individual
-              clients.
-            </h1>
+            <h1 className="">GREETINGS!!!</h1>
+            <p className="mt-2 text-sm text-gray-900 dark:text-white sm:mt-4 lg:mt-4 lg:text-3xl">
+              Hello!!! Good to see you on our website today!!! Are you thinking
+              of acquiring an In-Demand I.T skills to fetch you your dreams job,
+              here is the best place for you to take all things IT Training and
+              CBT Testing hub!! Our core value is the provision of affordable
+              professional and Top-Notch I.T training and Computer-Based Testing
+              to corporate organizations and individual clients.
+            </p>
             {/* <p className='mt-2 text-gray-600 dark:text-white sm:text-xl'>
             e eos nesciunt praesentium mollitia repudiandae repellat dolore
             </p> */}
@@ -108,22 +108,6 @@ const Home = () => {
           Testimonials
         </h2>
         <Testimonials />
-      </div>
-      <div className="mx-auto max-w-full px-8 py-4 dark:bg-gray-800 lg:max-w-full lg:px-8">
-        <h2 className="text-center text-2xl font-semibold tracking-wider text-gray-900 dark:text-white">
-          Office Location
-        </h2>
-
-        <div className="text-center">
-          <Link to="/all-states">
-            <button
-              className="m-5 transform rounded-lg bg-blue-500 px-6 py-2 text-sm font-semibold uppercase tracking-widest text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-blue-400 focus:ring-blue-500 focus:ring-opacity-50 active:bg-blue-600 dark:border-white dark:bg-blue-600 dark:text-white"
-              onClick={() => window.scrollTo(0, 0)}
-            >
-              See all
-            </button>
-          </Link>
-        </div>
       </div>
       <div className="mx-auto max-w-full px-8 py-4 dark:bg-gray-800 lg:max-w-full lg:px-8">
         <h2 className="text-center text-2xl font-semibold tracking-wider text-gray-900 dark:text-white">
