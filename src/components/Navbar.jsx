@@ -28,7 +28,7 @@ const Navbar = ({ handleMode, darkMode }) => {
         <img
           src={Logo}
           alt="Logo Image"
-          style={{ width: "40px", height: "40px", borderRadius: "50px" }}
+          style={{ width: "50px", height: "50px", borderRadius: "50px" }}
         />
       </Link>
 
@@ -58,7 +58,7 @@ const Navbar = ({ handleMode, darkMode }) => {
         onClick={handleMode}
         className="z-30 ml-72 sm:ml-[30rem] md:ml-0 cursor-pointer dark:text-gray-800"
       >
-        {darkMode ? <FaMoon size={20} /> : <FaLightbulb size={20} />}
+        {darkMode ? <FaMoon size={22} /> : <FaLightbulb size={22} />}
       </div>
 
       {/* Hamburger */}
@@ -66,7 +66,7 @@ const Navbar = ({ handleMode, darkMode }) => {
         onClick={handleClick}
         className="md:hidden z-30 cursor-pointer dark:text-gray-800"
       >
-        {!nav ? <FaBars size={20} /> : <FaTimes size={20} />}
+        {!nav ? <FaBars size={22} /> : <FaTimes size={22} />}
       </div>
 
       {/* Mobile menu */}
