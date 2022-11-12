@@ -96,14 +96,14 @@ const Home = () => {
         </h2>
         <div className="grid grid-cols-2">
           <div className="mx-auto">
-            <img src={Logo} alt="" className="w-32 h-32" />
-            <img src={Logo} alt="" className="w-32 h-32" />
-            <img src={Logo} alt="" className="w-32 h-32" />
+            <img src={Logo} alt="" className="w-24 h-24" />
+            <img src={Logo} alt="" className="w-24 h-24" />
+            <img src={Logo} alt="" className="w-24 h-24" />
           </div>
           <div className="mx-auto">
-            <img src={Logo} alt="" className="w-32 h-32" />
-            <img src={Logo} alt="" className="w-32 h-32" />
-            <img src={Logo} alt="" className="w-32 h-32" />
+            <img src={Logo} alt="" className="w-24 h-24" />
+            <img src={Logo} alt="" className="w-24 h-24" />
+            <img src={Logo} alt="" className="w-24 h-24" />
           </div>
         </div>
       </div>
@@ -111,7 +111,7 @@ const Home = () => {
         <h2 className="text-center text-2xl font-semibold tracking-wider text-gray-900 dark:text-white">
           Contact Information
         </h2>
-        <div className="">
+        <div className="w-4/5 mx-auto">
           <a href="">
             <HiOutlineMail
               size={29}
