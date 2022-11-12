@@ -18,30 +18,26 @@ const Home = () => {
   return (
     <>
       <div className="grid bg-gray-200 pt-14 px-[2px] dark:bg-gray-700 lg:grid-cols-2 2xl:grid-cols-5 w-screen sm:w-full">
-        <div className="mx-auto bg-gray-200 lg:max-w-full lg:px-12 lg:py-24 xl:mr-0 2xl:col-span-2">
+        <div className="mx-auto bg-gray-200 lg:max-w-full lg:px-12 lg:py-24 xl:mr-0 2xl:col-span-2 pb-4">
           <div className="mx-auto w-fit mt-0 text-center">
-            <div className="w-full h-[200px] mb-4 md:hidden">
+            <div className="w-full h-[200px] mb-6 md:hidden">
               <ImageSlider slides={slides} className="h-fit" />
             </div>
-            <h1 className="">GREETINGS!!!</h1>
+            <h1 className="my-5">GREETINGS!!!</h1>
             <p className="mt-2 text-sm text-gray-900 dark:text-white sm:mt-4 lg:mt-4 lg:text-3xl">
-              Hello!!! Good to see you on our website today!!! Are you thinking
-              of acquiring an In-Demand I.T skills to fetch you your dreams job,
-              here is the best place for you to take all things IT Training and
-              CBT Testing hub!! Our core value is the provision of affordable
-              professional and Top-Notch I.T training and Computer-Based Testing
-              to corporate organizations and individual clients.
+              Hello!!! Good to see you on our website today!!! Are you thinking of acquiring an In-Demand I.T skills to fetch you your dreams job, here is the best place for you to take all things IT Training and CBT Testing hub!! Our core value is the provision of affordable
+              professional and Top-Notch I.T training and Computer-Based Testing to corporate organizations and individual clients.
             </p>
-            <div className="mt-4 space-x-1 sm:mt-6">
+            <div className="mt-4 space-x-3 sm:mt-6">
               <a
                 href="/"
-                className="focus:outline-none inline-block transform rounded-lg bg-[#2b4b77] px-5 py-3 text-sm font-semibold uppercase tracking-wider text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-blue-400 focus:ring focus:ring-blue-500 focus:ring-opacity-50 focus:ring-offset-2 active:bg-blue-600 dark:bg-[#264775]  sm:text-base "
+                className="focus:outline-none inline-block transform rounded-lg bg-[#2b4b77] px-3 py-2 text-sm font-semibold uppercase tracking-wider text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-blue-400 focus:ring focus:ring-blue-500 focus:ring-opacity-50 focus:ring-offset-2 active:bg-blue-600 dark:bg-[#264775]"
               >
                 View all courses
               </a>
               <a
                 href="/"
-                className="focus:outline-none inline-block rounded-lg bg-gray-300 px-5 py-3 text-sm font-semibold uppercase tracking-wider text-gray-800 hover:bg-gray-200 focus:ring focus:ring-gray-300 focus:ring-opacity-50 focus:ring-offset-2 active:bg-gray-400 sm:text-base"
+                className="focus:outline-none inline-block rounded-lg bg-gray-300 px-3 py-2 text-sm font-semibold uppercase tracking-wider text-gray-800 hover:bg-gray-200 focus:ring focus:ring-gray-300 focus:ring-opacity-50 focus:ring-offset-2 active:bg-gray-400 sm:text-base"
               >
                 Know more
               </a>
@@ -62,10 +58,10 @@ const Home = () => {
         <img
           src="/images/aboutUs2.jpeg"
           alt=""
-          className="m-5 w-screen sm:w-full sm:mx-2 h-[320px] mx-auto"
+          className="mt-0 mb-3 w-screen sm:w-full sm:mx-2 h-[320px] mx-auto"
         />
         <div className="w-[430px] mx-auto text-center">
-          <h2 className="text-2xl font-semibold tracking-wider text-gray-900 dark:text-white -mt-2">
+          <h2 className="text-2xl font-semibold tracking-wider text-gray-900 dark:text-white my-2">
             About Us
           </h2>
           <p>
