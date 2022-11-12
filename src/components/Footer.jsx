@@ -66,41 +66,27 @@ const Footer = () => {
                     <a href="" className='block'>
                         Term & Conditions
                     </a>
-                    <a href="https://calendly.com/a/30min" className='mt-[1px] block'>
+                    <a href="https://calendly.com/" className='mt-[1px] block'>
                         Schedule a Meeting
                     </a>
-                    <div className='flex gap-1.5 mt-2'>
-                        <a href='https://www.twitter.com/iama'>
-                            <FaTwitter size={24} className='text-blue-500' />
+                    <div className='flex gap-1.5 mt-4'>
+                        <a href='https://www.twitter.com/'>
+                            <FaTwitter size={20} className='text-blue-500' />
                         </a>
-                        <a href='https://www.linkedin.com/in/a/'>
-                            <FaLinkedin size={24} className='text-blue-500' />
-                        </a>
-                        <a href='https://www.github.com/a'>
-                            <FaGithub size={24} className='text-white dark:text-gray-800' />
+                        <a href='https://www.linkedin.com/in/'>
+                            <FaLinkedin size={20} className='text-blue-500' />
                         </a>
                         <a href='https://wa.me/'>
-                            <FaWhatsapp size={24} className='text-green-500' />
+                            <FaWhatsapp size={20} className='text-green-500' />
                         </a>
-                        <a href='https://www.facebook.com/ajibola.segunemmanuel'>
-                            <FaFacebook size={22} className='text-blue-300' />
+                        <a href='https://www.facebook.com/'>
+                            <FaFacebook size={20} className='text-blue-300' />
                         </a>
-                    </div>
-                    <div className='flex gap-1 mt-2'>
-                        <a href='https://www.instagram.com/iama'>
-                            <FaInstagram size={24} className='text-red-300 dark:text-red-900' />
+                        <a href='https://www.instagram.com/'>
+                            <FaInstagram size={20} className='text-red-300 dark:text-red-900' />
                         </a>
                         <a href='mailto:ajbl.segun@gmail.com'>
                             <HiOutlineMail size={29} className='-mt-[2px] text-gray-300 dark:text-gray-600' />
-                        </a>
-                        <a href='https://codepen.io/iama'>
-                            <FaCodepen size={25} className='mt-[1px] text-gray-600' />
-                        </a>
-                        <a href='https://stackoverflow.com/users/15411958/a'>
-                            <FaStackOverflow size={26} className='text-yellow-300 dark:text-yellow-800' />
-                        </a>
-                        <a href='https://dev.to/iama'>
-                            <FaDev size={25} className='mt-[2px] text-gray-500' />
                         </a>
                     </div>
                 </div>
