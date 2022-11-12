@@ -17,8 +17,7 @@ import { HashLink } from 'react-router-hash-link';
 const Footer = () => {
   return (
     <footer className='w-full text-left text-gray-300 bg-[#2b4b77] md:pt-10 dark:bg-gray-300 dark:text-gray-800'>
-        <div className='border-t-2 border-gray-300 dark:border-gray-500 border-solid'></div>
-            <div className='grid max-w-7xl md:grid-cols-2 gap-1 space-y-1 md:mx-2 border-4 border-red-500 p-2'>
+            <div className='grid max-w-7xl md:grid-cols-2 gap-1 space-y-1 md:mx-2 p-2'>
                 <div className=''>
                     <h5 className='text-xl underline font-semibold'>
                        Quick Links
@@ -92,10 +91,10 @@ const Footer = () => {
                 </div>
             </div>
             <Link to="/" className="flex justify-center">
-                <button className='text-gray-100 border-2 hover:text-gray-800 hover:bg-gray-100 hover:border-gray-200 px-4 py-2 md:my-2 dark:text-gray-900 dark:border-gray-500 dark:hover:bg-gray-300 dark:hover:border-gray-800' onClick={() => window.scrollTo(0, 0)}>
+                <button className='text-gray-100 border-2 hover:text-gray-800 hover:bg-gray-100 hover:border-gray-200 px-2 py-2 md:my-2 dark:text-gray-900 dark:border-gray-500 dark:hover:bg-gray-300 dark:hover:border-gray-800' onClick={() => window.scrollTo(0, 0)}>
                 Back to Top <FaArrowUp className='inline'/></button>
             </Link>
-    <p className='p-2 '>
+    <p className='p-2 text-center'>
     Copyright &copy; {new Date().getFullYear()}. All right reserved.
     </p>
   </footer>
