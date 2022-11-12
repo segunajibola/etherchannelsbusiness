@@ -74,7 +74,7 @@ const Home = () => {
             technical decisions and are realizing business value and results
             from their I.T. investments throughout our business partnering.
           </p>
-          <Link to="/all-states">
+          <Link to="/about">
             <button
               className="m-2 pb-2 text-sm font-semibold underline tracking-widest dark:border-white dark:bg-blue-600 dark:text-white"
               onClick={() => window.scrollTo(0, 0)}
