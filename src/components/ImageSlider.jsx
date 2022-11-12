@@ -74,7 +74,7 @@ const ImageSlider = ({ slides }) => {
   useEffect(() => {
       setTimeout(() => {
         goToNext();
-      }, 3000);
+      }, 6000);
   });
 
   return (

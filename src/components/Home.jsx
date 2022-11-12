@@ -20,7 +20,7 @@ const Home = () => {
       <div className="grid bg-gray-200 pt-14 px-[2px] dark:bg-gray-700 lg:grid-cols-2 2xl:grid-cols-5 w-screen sm:w-full">
         <div className="mx-auto bg-gray-200 lg:max-w-full lg:px-12 lg:py-24 xl:mr-0 2xl:col-span-2">
           <div className="mx-auto w-fit mt-0 text-center">
-            <div className="w-full h-[300px] mb-4 md:hidden">
+            <div className="w-full h-[200px] mb-4 md:hidden">
               <ImageSlider slides={slides} className="h-fit" />
             </div>
             <h1 className="">GREETINGS!!!</h1>
