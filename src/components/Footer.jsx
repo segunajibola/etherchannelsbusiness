@@ -1,13 +1,9 @@
 import {
     FaWhatsapp,
-    FaGithub,
     FaLinkedin,
     FaInstagram,
     FaTwitter,
-    FaStackOverflow,
     FaFacebook,
-    FaDev,
-    FaCodepen,
     FaArrowUp,
   } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
