@@ -3,6 +3,7 @@ import Logo from "../assets/home/homepage1.jpg";
 import { Link } from "react-router-dom";
 import ImageSlider from "./ImageSlider";
 import Testimonials from "./Testimonials";
+import { HiOutlineMail, HiPhone, HiLocationMarker } from "react-icons/hi";
 
 const Home = () => {
   const slides = [
@@ -56,7 +57,7 @@ const Home = () => {
       </div>
 
       {/* About */}
-      
+
       <div className="grid lg:grid-cols-2 bg-gray-100 dark:bg-gray-700">
         <img
           src="/images/aboutUs2.jpeg"
@@ -77,14 +78,14 @@ const Home = () => {
             technical decisions and are realizing business value and results
             from their I.T. investments throughout our business partnering.
           </p>
-            <Link to="/all-states">
-              <button
-                className="m-2 pb-2 text-sm font-semibold underline tracking-widest dark:border-white dark:bg-blue-600 dark:text-white"
-                onClick={() => window.scrollTo(0, 0)}
-              >
-                More about us.
-              </button>
-            </Link>
+          <Link to="/all-states">
+            <button
+              className="m-2 pb-2 text-sm font-semibold underline tracking-widest dark:border-white dark:bg-blue-600 dark:text-white"
+              onClick={() => window.scrollTo(0, 0)}
+            >
+              More about us.
+            </button>
+          </Link>
         </div>
       </div>
       <div className="mx-auto max-w-[1000px] w-[450px] px-2 py-2 lg:max-w-full lg:px-8">
@@ -108,6 +109,34 @@ const Home = () => {
             <img src={Logo} alt="" className="w-32 h-32" />
             <img src={Logo} alt="" className="w-32 h-32" />
           </div>
+        </div>
+      </div>
+      <div className="mx-auto max-w-full px-8 py-4 dark:bg-gray-800 lg:max-w-full lg:px-8">
+        <h2 className="text-center text-2xl font-semibold tracking-wider text-gray-900 dark:text-white">
+          Contact Information
+        </h2>
+        <div className="">
+          <a href="">
+            <HiOutlineMail
+              size={29}
+              className="my-[5px] text-gray-300 dark:text-gray-600 inline"
+            />
+            etherchannelsbusiness@gmail.com
+          </a>
+          <a href="" className="block">
+            <HiPhone
+              size={29}
+              className="text-gray-300 dark:text-gray-600 inline"
+            />
+            +234 803 985 0630
+          </a>
+          <a href="">
+            <HiLocationMarker
+              size={29}
+              className="my-[4px] text-gray-300 dark:text-gray-600 inline"
+            />
+            Address: 23, Oluwalopeye Street, PPL, Ojo, Lagos, Nigeria.
+          </a>
         </div>
       </div>
     </>

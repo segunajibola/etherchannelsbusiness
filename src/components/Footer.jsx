@@ -12,10 +12,10 @@ import { HashLink } from "react-router-hash-link";
 
 const Footer = () => {
   return (
-    <footer className="w-full text-center text-gray-300 bg-[#2b4b77] md:pt-10 dark:bg-gray-300 dark:text-gray-800">
+    <footer className="w-full text-left text-gray-300 bg-[#2b4b77] md:pt-10 dark:bg-gray-300 dark:text-gray-800">
       <div className="grid max-w-7xl md:grid-cols-2 gap-1 space-y-1 md:mx-2 p-2">
         <div className="">
-          <h5 className="text-xl underline font-semibold">Quick Links</h5>
+          <h5 className="my-2 text-xl uppercase font-semibold">Quick Links</h5>
           <p>
             <HashLink className="cursor-pointer" to="/#about">
               Home
@@ -44,7 +44,7 @@ const Footer = () => {
         </div>
 
         <div className="">
-          <h5 className="text-xl underline font-semibold">Other Links</h5>
+          <h5 className="my-2 text-xl uppercase font-semibold">Other Links</h5>
           <a href="" className="block">
             Blog
           </a>
@@ -60,7 +60,10 @@ const Footer = () => {
           <a href="https://calendly.com/" className="mt-[1px] block">
             Schedule a Meeting
           </a>
-          <div className="flex gap-1.5 mt-4">
+        </div>
+      </div>
+
+      <div className="flex gap-1.5 mt-4">
             <a href="https://www.twitter.com/">
               <FaTwitter size={20} className="text-blue-500" />
             </a>
@@ -86,8 +89,7 @@ const Footer = () => {
               />
             </a>
           </div>
-        </div>
-      </div>
+
       <Link to="/" className="flex justify-end m-2">
         <button
           className="text-gray-100 text-sm border-2 hover:text-gray-800 hover:bg-gray-100 hover:border-gray-200 px-1 py-1 md:my-2 dark:text-gray-900 dark:border-gray-500 dark:hover:bg-gray-300 dark:hover:border-gray-800"
@@ -97,7 +99,8 @@ const Footer = () => {
         </button>
       </Link>
       <p className="p-2 text-center">
-        &copy; Etherchannels Limited {new Date().getFullYear()}. All Right Reserved.
+        &copy; Etherchannels Limited {new Date().getFullYear()}. All Right
+        Reserved.
       </p>
     </footer>
   );
