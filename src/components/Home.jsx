@@ -84,6 +84,34 @@ const Home = () => {
           </Link>
         </div>
       </div>
+
+      {/* Services */}
+
+      <div className="grid lg:grid-cols-2 bg-gray-100 dark:bg-gray-700">
+        <img
+          src="/images/services.jpg"
+          alt=""
+          className="mt-0 mb-3 w-screen mx-2 h-[320px] mx-auto"
+        />
+        <div className="mx-auto text-center">
+          <h2 className="text-2xl font-semibold tracking-wider text-gray-900 dark:text-white my-2">
+            Services
+          </h2>
+          <p className="w-11/12 mx-auto">
+            At Etherchannel Solution Sevices, our team are dedicated professionals and solution driven who follow due process that will enable us to deliver quality I.T services that ensures the growth of your business. We are absolutely concern
+            Our experienced and seasoned professionals create, configure, implement, and maintain a healthy cloud and on-premises infrastructure for your business, reducing your IT expenses, and allowing for budgetary planning for the future.
+          </p>
+          <Link to="/services">
+            <button
+              className="m-2 pb-2 text-sm font-semibold underline tracking-widest dark:border-white dark:bg-blue-600 dark:text-white"
+              onClick={() => window.scrollTo(0, 0)}
+            >
+              More about us.
+            </button>
+          </Link>
+        </div>
+      </div>
+
       <div className="mx-auto max-w-[1000px] px-2 py-2 lg:max-w-full lg:px-8">
         <h2 className="text-center text-2xl font-semibold tracking-wider text-gray-900 dark:text-white">
           Testimonials
