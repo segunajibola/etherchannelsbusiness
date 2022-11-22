@@ -19,7 +19,7 @@ const Testimonials = () => {
           <div className="text-center md:mt-20 md:ml-10 text-2xl md:text-left">
             <p>What others are saying.</p>
           </div>
-          <div className="md:ml-[20rem]">
+          <div className="">
             <Swiper
               spaceBetween={30}
               centeredSlides={true}
@@ -32,7 +32,7 @@ const Testimonials = () => {
               }}
               navigation={true}
               modules={[Autoplay, Pagination, Navigation]}
-              className="w-[440px] sm:w-[30rem] mx-auto md:w-[38rem]"
+              className="w-[430px] sm:w-[30rem] mx-auto md:w-[38rem]"
             >
               {testimonials.map((testimonial) => (
                 <SwiperSlide className="md:mt-1 p-2">

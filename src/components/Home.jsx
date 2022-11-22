@@ -58,13 +58,13 @@ const Home = () => {
         <img
           src="/images/aboutUs2.jpeg"
           alt=""
-          className="mt-0 mb-3 w-screen sm:w-full sm:mx-2 h-[320px] mx-auto"
+          className="mt-0 mb-3 w-screen mx-2 h-[320px] mx-auto"
         />
-        <div className="w-[430px] mx-auto text-center">
+        <div className="mx-auto text-center">
           <h2 className="text-2xl font-semibold tracking-wider text-gray-900 dark:text-white my-2">
             About Us
           </h2>
-          <p>
+          <p className="w-11/12 mx-auto">
             Ether-channel Solution Services is an I.T firm founded on the 21st
             of December 2020, which aimed at providing quality assurance with a
             top-notch I.T solutions to all our business partners and customers.
@@ -84,7 +84,7 @@ const Home = () => {
           </Link>
         </div>
       </div>
-      <div className="mx-auto max-w-[1000px] w-[450px] px-2 py-2 lg:max-w-full lg:px-8">
+      <div className="mx-auto max-w-[1000px] px-2 py-2 lg:max-w-full lg:px-8">
         <h2 className="text-center text-2xl font-semibold tracking-wider text-gray-900 dark:text-white">
           Testimonials
         </h2>
