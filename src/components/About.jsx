@@ -26,6 +26,30 @@ const About = () => {
           </p>
         </div>
       </div>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 w-11/12 mx-auto text-center">
+        <div className="my-3">
+          <h2>OUR MISSION CONTENTS</h2>
+          <p>
+            Our primary aim and objectives is to bridge the technology gap in Nigeria and to motivate and blend young talented tech minds to provides quality, cost-effective training and services to increase individual and organizational productivity and enrichment.
+          </p>
+        </div>
+        <div className="mb-3">
+          <h2>OUR VISION CONTENTS</h2>
+          <p>
+            Our vision is to be the best and foremost provider of
+            Industry-leading Technological and Business skill set training institute in Nigeria and all around the globe.
+          </p>
+        </div>
+      </div>
+
+      {/* 
+      OUR MISSION CONTENTS
+Our primary aim and objectives is to bridge the technology gap in Nigeria and to motivate and blend young talented tech minds to provides quality, cost-effective training and services to increase individual and organizational productivity and enrichment.
+
+OUR VISION CONTENTS
+Our vision is to be the best and foremost provider of Industry-leading Technological and Business skill set training institute in Nigeria and all around the globe.
+      */}
     </>
   );
 };
