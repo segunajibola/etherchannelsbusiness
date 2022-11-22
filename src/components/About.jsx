@@ -3,8 +3,8 @@ import React from "react";
 
 const About = () => {
   return (
-    <>
-      <div className="grid lg:grid-cols-2 bg-gray-100 dark:bg-gray-700">
+    <div className="bg-gray-100 dark:bg-gray-700">
+      <div className="grid lg:grid-cols-2">
         <img
           src="/images/aboutUs1.png"
           alt=""
@@ -34,7 +34,7 @@ const About = () => {
             Our primary aim and objectives is to bridge the technology gap in Nigeria and to motivate and blend young talented tech minds to provides quality, cost-effective training and services to increase individual and organizational productivity and enrichment.
           </p>
         </div>
-        <div className="mb-3">
+        <div className="mb-3 md:my-3">
           <h2>OUR VISION CONTENTS</h2>
           <p>
             Our vision is to be the best and foremost provider of
@@ -42,15 +42,7 @@ const About = () => {
           </p>
         </div>
       </div>
-
-      {/* 
-      OUR MISSION CONTENTS
-Our primary aim and objectives is to bridge the technology gap in Nigeria and to motivate and blend young talented tech minds to provides quality, cost-effective training and services to increase individual and organizational productivity and enrichment.
-
-OUR VISION CONTENTS
-Our vision is to be the best and foremost provider of Industry-leading Technological and Business skill set training institute in Nigeria and all around the globe.
-      */}
-    </>
+    </div>
   );
 };
 
