@@ -91,7 +91,7 @@ const Home = () => {
 
       {/* Services */}
 
-      <div className="grid lg:grid-cols-2 bg-gray-100 dark:bg-gray-700">
+      <div className="grid lg:grid-cols-2 bg-[#2b4b77] dark:bg-gray-700">
         <div className="relative">
           <img
             src="/images/services.jpg"
@@ -103,11 +103,11 @@ const Home = () => {
           </h2> */}
         </div>
 
-        <div className="my-0 mx-auto text-center text-white bg-[#2b4b77] p-5">
+        <div className="w-full mx-auto text-center text-white p-5">
           <h2 className="text-2xl font-semibold tracking-wider dark:text-white my-2">
             Services
           </h2>
-          <p className="w-11/12 mx-auto">
+          {/* <p className="w-11/12 mx-auto">
             At Etherchannel Solution Sevices, our team are dedicated
             professionals and solution driven who follow due process that will
             enable us to deliver quality I.T services that ensures the growth of
@@ -116,16 +116,19 @@ const Home = () => {
             healthy cloud and on-premises infrastructure for your business,
             reducing your IT expenses, and allowing for budgetary planning for
             the future.
-          </p>
-
-          <Link to="/services">
+          </p> */}
+          <p className="w-11/12 mx-auto">
+            What we do and offer, Check<Link to="/services">
             <button
               className="m-2 pb-2 text-sm font-semibold underline tracking-widest dark:border-white dark:bg-blue-600 dark:text-white"
               onClick={() => window.scrollTo(0, 0)}
             >
-              More about us.
+              here.
             </button>
           </Link>
+          </p>
+
+          
         </div>
       </div>
 
