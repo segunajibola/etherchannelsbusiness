@@ -20,13 +20,17 @@ const Home = () => {
       <div className="grid bg-gray-200 pt-14 px-[2px] dark:bg-gray-700 lg:grid-cols-2 2xl:grid-cols-5 w-screen sm:w-full">
         <div className="mx-auto bg-gray-200 lg:max-w-full lg:px-12 lg:py-24 xl:mr-0 2xl:col-span-2 pb-4">
           <div className="mx-auto w-fit mt-0 text-center">
-            <div className="w-full h-[200px] mb-6 md:hidden">
+            <div className="w-full h-[230px] mb-6 md:hidden">
               <ImageSlider slides={slides} className="h-fit" />
             </div>
             <h1 className="my-5">GREETINGS!!!</h1>
             <p className="mt-2 text-sm text-gray-900 dark:text-white sm:mt-4 lg:mt-4 lg:text-3xl">
-              Hello!!! Good to see you on our website today!!! Are you thinking of acquiring an In-Demand I.T skills to fetch you your dreams job, here is the best place for you to take all things IT Training and CBT Testing hub!! Our core value is the provision of affordable
-              professional and Top-Notch I.T training and Computer-Based Testing to corporate organizations and individual clients.
+              Hello!!! Good to see you on our website today!!! Are you thinking
+              of acquiring an In-Demand I.T skills to fetch you your dreams job,
+              here is the best place for you to take all things IT Training and
+              CBT Testing hub!! Our core value is the provision of affordable
+              professional and Top-Notch I.T training and Computer-Based Testing
+              to corporate organizations and individual clients.
             </p>
             <div className="mt-4 space-x-3 sm:mt-6">
               <a
@@ -64,7 +68,7 @@ const Home = () => {
           <h2 className="text-2xl font-semibold tracking-wider text-gray-900 dark:text-white my-2">
             About Us
           </h2>
-          <p className="w-11/12 mx-auto">
+          <p className="w-11/12 mx-auto h-full">
             Ether-channel Solution Services is an I.T firm founded on the 21st
             of December 2020, which aimed at providing quality assurance with a
             top-notch I.T solutions to all our business partners and customers.
@@ -88,19 +92,32 @@ const Home = () => {
       {/* Services */}
 
       <div className="grid lg:grid-cols-2 bg-gray-100 dark:bg-gray-700">
-        <img
-          src="/images/services.jpg"
-          alt=""
-          className="mt-0 mb-3 w-screen mx-2 h-[320px] mx-auto"
-        />
-        <div className="mx-auto text-center">
-          <h2 className="text-2xl font-semibold tracking-wider text-gray-900 dark:text-white my-2">
+        <div className="relative">
+          <img
+            src="/images/services.jpg"
+            alt=""
+            className="mt-0 w-screen mx-2 h-[320px] mx-auto"
+          />
+          {/* <h2 className="absolute bottom-10 right-10 text-2xl text-red-500">
+            Services
+          </h2> */}
+        </div>
+
+        <div className="my-0 mx-auto text-center text-white bg-[#2b4b77] p-5">
+          <h2 className="text-2xl font-semibold tracking-wider dark:text-white my-2">
             Services
           </h2>
           <p className="w-11/12 mx-auto">
-            At Etherchannel Solution Sevices, our team are dedicated professionals and solution driven who follow due process that will enable us to deliver quality I.T services that ensures the growth of your business. We are absolutely concern
-            Our experienced and seasoned professionals create, configure, implement, and maintain a healthy cloud and on-premises infrastructure for your business, reducing your IT expenses, and allowing for budgetary planning for the future.
+            At Etherchannel Solution Sevices, our team are dedicated
+            professionals and solution driven who follow due process that will
+            enable us to deliver quality I.T services that ensures the growth of
+            your business. We are absolutely concern Our experienced and
+            seasoned professionals create, configure, implement, and maintain a
+            healthy cloud and on-premises infrastructure for your business,
+            reducing your IT expenses, and allowing for budgetary planning for
+            the future.
           </p>
+
           <Link to="/services">
             <button
               className="m-2 pb-2 text-sm font-semibold underline tracking-widest dark:border-white dark:bg-blue-600 dark:text-white"

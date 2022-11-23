@@ -8,6 +8,9 @@
           display: none;
       } 
   }
+  .bg {
+    background-image: url('./assets/about/aboutUs1.png');
+  }
 }
 
 /* 
