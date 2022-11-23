@@ -3,7 +3,8 @@ import Logo from "../assets/home/homepage1.jpg";
 import { Link } from "react-router-dom";
 import ImageSlider from "./ImageSlider";
 import Testimonials from "./Testimonials";
-import { HiOutlineMail, HiPhone, HiLocationMarker } from "react-icons/hi";
+import { HiOutlineMail, HiPhone, HiLocationMarker } from "react-icons/hi";import {  FaArrowRight,
+} from "react-icons/fa";
 
 const Home = () => {
   const slides = [
@@ -125,6 +126,7 @@ const Home = () => {
             >
               here.
             </button>
+            <FaArrowRight className="inline" />
           </Link>
           </p>
 
