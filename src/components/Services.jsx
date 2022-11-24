@@ -44,7 +44,7 @@ const Services = () => {
               CBT Testing
             </h3>
           </div>
-          <div className="h-[400px] bg-gray-100">
+          <div className="h-[700px] bg-gray-100 text-lg border-4 border-red-500">
             <div className="w-11/12 mx-auto">
               <h2 className="my-2 text-lg">
                 CBT Testing (Pearson VUE, Prometric, Promotional exams, Jamb CBT
