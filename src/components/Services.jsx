@@ -44,8 +44,8 @@ const Services = () => {
               CBT Testing
             </h3>
           </div>
-          <div className="h-[700px] bg-gray-100 text-lg">
-            <div className="w-11/12 mx-auto">
+          <div className="h-auto bg-gray-100 text-lg">
+            <div className="w-11/12 mx-auto py-2">
               <h2 className="my-2 text-lg">
                 CBT Testing (Pearson VUE, Prometric, Promotional exams, Jamb CBT
                 exams, School exams, Navy and Army exams, External exams)
@@ -76,16 +76,103 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="relative">
-          <img
-            src="images/services/digitalMkt/digitalMkt1.jpeg"
-            alt=""
-            srcset=""
-            className="h-32 w-full rounded-xl object-cover object-bottom m-2"
-          />
-          <h3 className="absolute bottom-2 left-4 text-5xl font-bold text-blue-100 drop-shadow-xl shadow-w">
-            Digital Marketing
-          </h3>
+
+        <div>
+          <div className="relative">
+            <img
+              src="images/services/itTraining/itTraining1.jpg"
+              alt=""
+              srcset=""
+              className="h-32 w-full rounded-xl object-cover object-bo m-2"
+            />
+            <h3 className="absolute bottom-2 left-4 text-5xl font-bold text-blue-100 drop-shadow-xl shadow-w">
+              IT Training
+            </h3>
+          </div>
+          <div className="h-auto bg-gray-100 text-lg">
+            <div className="w-11/12 mx-auto">
+              <h2 className="my-2 text-lg">
+                IT Training and Services (Corporate and Retail training for both
+                organizations and Individuals)
+              </h2>
+              <p>
+                Welcome to IT Training section, here at Etherchannel Solution
+                Services, we work with our customers to know the best IT
+                Training courses to recommend that will boost their employees
+                performance and growth with the mond-blowing training facilities
+                in place. We offer both Corporate and Retail training options to
+                our customers
+              </p>
+              <h3 className="my-2 text-lg">Corporate Training</h3>
+              <p>
+                The best way we know our customers IT training demand is to work
+                adequately with them to know the kinds of best courses to
+                recommend that can help them achieve their goals and interested
+                customers can also join our public classes and enjoy a fantastic
+                discount on our courses.
+              </p>
+              <h4>Corporate Training Courses</h4>
+              <h5>Microsoft Office Category</h5>
+              <ul>
+                <li>
+                  a. Basic Computer Appreciation training for Domestic Staff
+                </li>
+                <li>b. Microsoft Excel 2016: Level 1, 2 & 3</li>
+                <li> c. Microsoft Office Suite 2016: 1, 2 & 3</li>
+                <li>
+                  d. Microsoft Excel and PowerPoint 2016 skills training for
+                  Sales and Marketing Team
+                </li>
+                <li> e. Excel 2016 Programming with VBA</li>
+              </ul>
+              <h5>
+                MICROSOFT 365 MODERN DESKTOP ADMINISTRATOR (MD-100, MD-101)
+                (ASSOCIATE LEVEL)
+              </h5>
+              <ul>
+                <li>a. Windows 10</li>
+                <li>c. Managing modern desktop</li>
+                <li>d. Microsoft 365 Messaging Administrator (MS-203)</li>
+                <li>e. Microsoft 365 Security Administrator (MS-500) </li>
+                <li>f. Microsoft 365 Developer (MS600) </li>
+                <li>g. Microsoft 365 Teams Administrator (MS-700)</li>
+              </ul>
+
+              --- MICROSOFT OFFICE CATEGORY:
+
+
+--- TRAINING FOR OFFICE 365 CERTIFICATIONS
+1A. MICROSOFT 365 FUNDAMENTALS
+a. MS-900T01-A: Microsoft 365 Fundamentals
+
+              <h5>Microsoft Office</h5>
+              <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+              
+              
+              <h5></h5>
+              <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
