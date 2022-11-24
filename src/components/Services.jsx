@@ -33,7 +33,7 @@ const Services = () => {
 
       <div>
         <div>
-          <img src="" alt="" srcset="" />
+          <img src="../assets/services/digital-marketing.jpeg" alt="" srcset="" className="h-32 w-32" />
           <h3></h3>
         </div>
       </div>
