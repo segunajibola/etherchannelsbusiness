@@ -138,39 +138,124 @@ const Services = () => {
                 <li>g. Microsoft 365 Teams Administrator (MS-700)</li>
               </ul>
 
-              --- MICROSOFT OFFICE CATEGORY:
-
-
---- TRAINING FOR OFFICE 365 CERTIFICATIONS
-1A. MICROSOFT 365 FUNDAMENTALS
-a. MS-900T01-A: Microsoft 365 Fundamentals
-
-              <h5>Microsoft Office</h5>
+              <h5>TRAINING FOR OFFICE 365 CERTIFICATIONS</h5>
+              <h6>1A. MICROSOFT 365 FUNDAMENTALS</h6>
               <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>a. MS-900T01-A: Microsoft 365 Fundamentals</li>
               </ul>
-              
-              
-              <h5></h5>
+
+              <h6>1B. MICROSOFT 365 (EXPERT)</h6>
               <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>a. Microsoft 365 Teams Administrator (MS-700)</li>
               </ul>
+
+              <h5>MICROSOFT POWER PLATFORM</h5>
+              <ul>
+                <li>
+                  a. PL-900: Microsoft Certified Power Platform Fundamentals
+                </li>
+              </ul>
+
+              <h5>Power Platform Associate</h5>
+              <ul>
+                <li>a. Power Platform App Maker (PL-100)</li>
+                <li>b. Power Platform Functional Consultant (PL-200)</li>
+                <li>c. Power Platform Developer (PL-400)</li>
+                <li>d. Power Apps + Dynamics 365 Developer (MB-200, MB400)</li>
+                <li>e. Data Analyst (DA-100)</li>
+              </ul>
+
+              <h5>MICROSOFT OFFICE 365 POWER PLATFORM EXPERT LEVEL</h5>
+              <ul>
+                <li>
+                  a. MB-600: Microsoft Certified: Power Apps + Dynamics 365
+                  Solution Architect Expert
+                </li>
+              </ul>
+
+              <h5>MICROSOFT DYNAMIC OFFICE 365 INTERMEDIATE LEVEL</h5>
+              <ul>
+                <li>
+                  a. MB-200T01-A: Dynamics 365: Power Platform applications
+                </li>
+                <li>
+                  b. MB-200T03-A: Dynamics 365: Power Platform integrations
+                </li>
+                <li>
+                  c. MB-200T04-A: Dynamics 365: Power Platform test and deploy
+                </li>
+                <li>d. MB-210T01: Microsoft Dynamics 365 Sales</li>
+                <li>
+                  e. MB-200T00-A: Microsoft Power Platform + Dynamics 365 Core
+                </li>
+              </ul>
+
+              <h5>MICROSOFT AZURE TRAINING (FUNDAMENTALS MASTER THE BASICS)</h5>
+              <ul>
+                <li>a. Azure Fundamentals (AZ-900)</li>
+                <li>b. Azure AI Fundamentals (AI-900)</li>
+                <li>c. Azure Data Fundamentals (DP-900)</li>
+              </ul>
+
+              <h5>AZURE FOR ADMINISTRATOR ASSOCIATE</h5>
+              <li>a. Azure Administrator (AZ-104)</li>
+              <li>b. Developing Solutions for Azure (AZ-204)</li>
+
+              <h5>AZURE SECURITY ENGINEER ASSOCIATE</h5>
+              <ul>
+                <li>a. Microsoft Azure Security Technologies AZ-500T00</li>
+              </ul>
+
+              <h5>DEVOPS ENGINEER EXPERT</h5>
+              <ul>
+                <li>
+                  a. Designing and Implementing Microsoft DevOps solutions
+                  (AZ-400T00-A)
+                </li>
+              </ul>
+
+              <h5>AZURE FOR SOLUTIONS ARCHITECT EXPERT</h5>
+              <ul>
+                <li>
+                  a. Microsoft Azure Technologies for AWS Architects* (AZ030T00)
+                </li>
+                <li>b. Microsoft Azure Architect Technologies* (AZ-303T00)</li>
+                <li>c. Microsoft Azure Architect Design (AZ-304T00)</li>
+              </ul>
+
+              <h3 className="my-2 text-lg">Retail Training</h3>
+              <p>
+                Welcome to our Retail Training landing page, Planning on getting
+                a rightful and job demanding IT skills in 2022, we gat you
+                covered! At Etherchannel Solution Services, we provides and
+                recommend the best IT training to our clients and our courses
+                are well prepared for both individuals and groups which meet
+                their training needs. Check out the list of courses offered.
+              </p>
+              <h4>IF YOU TRAIN WITH US:</h4>
+              <ul>
+                <li>
+                  1. You get unlimited access to course materials for free.
+                </li>
+                <li>2. Hand on labs experience with quality trainers.</li>
+                <li>3. Course certificate after completing a course.</li>
+                <li>
+                  4. CBT and VUE testing to supplement your training needs.
+                </li>
+              </ul>
+              <h4>RETAIL COURSES OFFERED:</h4>
+              <h5>IT FUNDAMENTALS CATEGORY:</h5>
+              <li>
+                A. Internet Appreciation and Microsoft Office 2021 Essentials
+              </li>
+              <li>B. Microsoft Office 2021 for Advanced Users</li>
+              <li>C. Advanced Excel for Business class and Professionals</li>
+              <li>D. Computer Networking Fundamentals</li>
+
+              {/* 
+
+-
+              */}
             </div>
           </div>
         </div>
