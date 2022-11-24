@@ -6,7 +6,7 @@ const Services = () => {
       <div className="grid lg:grid-cols-2 bg-gray-100 dark:bg-gray-700">
         <div className="relative">
           <img
-            src="/images/services.jpg"
+            src="images/services/digital-marketing.jpeg"
             alt=""
             className="mt-0 w-screen mx-2 h-[320px] mx-auto"
           />
@@ -32,9 +32,27 @@ const Services = () => {
       <h2>What we offer</h2>
 
       <div>
-        <div>
-          <img src="../assets/services/digital-marketing.jpeg" alt="" srcset="" className="h-32 w-32" />
-          <h3></h3>
+        <div className="relative">
+          <img
+            src="images/services/digital-marketing.jpeg"
+            alt=""
+            srcset=""
+            className="h-32 w-full rounded-xl object-cover m-2"
+          />
+          <h3 className="absolute bottom-2 left-4 text-5xl font-bold text-blue-100 drop-shadow-xl shadow-w">
+            Digital Marketing
+          </h3>
+        </div>
+        <div className="relative">
+          <img
+            src="images/services/digital-marketing.jpeg"
+            alt=""
+            srcset=""
+            className="h-32 w-full rounded-xl object-cover m-2"
+          />
+          <h3 className="absolute bottom-2 left-4 text-5xl font-bold text-blue-100 drop-shadow-xl shadow-w">
+            Digital Marketing
+          </h3>
         </div>
       </div>
     </div>
