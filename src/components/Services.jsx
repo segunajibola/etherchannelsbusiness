@@ -12,7 +12,7 @@ const Services = () => {
           />
         </div>
 
-        <div className="w-full mx-auto text-center text-white p-5">
+        <div className="w-full mx-auto text-center p-5">
           <h2 className="text-2xl font-semibold tracking-wider dark:text-white my-2">
             Services
           </h2>
@@ -26,6 +26,15 @@ const Services = () => {
             reducing your IT expenses, and allowing for budgetary planning for
             the future.
           </p>
+        </div>
+      </div>
+
+      <h2>What we offer</h2>
+
+      <div>
+        <div>
+          <img src="" alt="" srcset="" />
+          <h3></h3>
         </div>
       </div>
     </div>
