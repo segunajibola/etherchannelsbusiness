@@ -45,28 +45,43 @@ const Services = () => {
             </h3>
           </div>
           <div className="h-[400px] bg-gray-100">
-            <h3>CBT Testing</h3>
-            1. (Pearson VUE, Prometric, Promotional exams, Jamb CBT
-            exams, School exams, Navy and Army exams, External exams) --- CBT
-            TESTING CONTENTS We've structured our testing environment at
-            Etherchannel in such a way that would be comfortable, conducive and
-            secure for the candidates to take their tests with the adequate
-            guidelines and instructions from our competent test administrator
-            which helps the students to comes out at their very best. EXAMS WE
-            DELIVERED: The below are the list of examinations that we delivered
-            at Etherchannel Solution Services at optimum level: a. Pearson VUE
-            exams b. Prometric exams c. Promotional exams d. Jamb CBT exams e.
-            School exams (Internal exams) f. Navy and Army exams g. External
-            exams h. ICAN exams i. Placement exams. Add some testing pictures as
-            the landing page and some additional testing environment as well.
+            <div className="w-11/12 mx-auto">
+              <h2 className="my-2 text-lg">
+                CBT Testing (Pearson VUE, Prometric, Promotional exams, Jamb CBT
+                exams, School exams, Navy and Army exams, External exams)
+              </h2>
+              <p>
+                We've structured our testing environment at Etherchannel in such
+                a way that would be comfortable, conducive and secure for the
+                candidates to take their tests with the adequate guidelines and
+                instructions from our competent test administrator which helps
+                the students to comes out at their very best.
+              </p>
+              <h3 className="my-2 text-lg">Exams We Deliver</h3>
+              <p>
+                The below are the list of examinations that we delivered at
+                Etherchannel Solution Services at optimum level.
+              </p>
+              <ul>
+                <li>a. Pearson VUE exams</li>
+                <li>b. Prometric exams</li>
+                <li>c. Promotional exams</li>
+                <li>d. Jamb CBT exams</li>
+                <li>e. School exams (Internal exams)</li>
+                <li>f. Navy and Army exams</li>
+                <li>g. External exams</li>
+                <li>h. ICAN exams</li>
+                <li>i. Placement exams.</li>
+              </ul>
+            </div>
           </div>
         </div>
         <div className="relative">
           <img
-            src="images/services/digital-marketing.jpeg"
+            src="images/services/digitalMkt/digitalMkt1.jpeg"
             alt=""
             srcset=""
-            className="h-32 w-full rounded-xl object-cover m-2"
+            className="h-32 w-full rounded-xl object-cover object-bottom m-2"
           />
           <h3 className="absolute bottom-2 left-4 text-5xl font-bold text-blue-100 drop-shadow-xl shadow-w">
             Digital Marketing
