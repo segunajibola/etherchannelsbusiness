@@ -6,7 +6,7 @@ const Services = () => {
       <div className="grid lg:grid-cols-2 bg-gray-100 dark:bg-gray-700">
         <div className="relative">
           <img
-            src="images/services/digital-marketing.jpeg"
+            src="images/services/itTraining/itTraining2.jpg"
             alt=""
             className="mt-0 w-screen mx-2 h-[320px] mx-auto"
           />
@@ -16,7 +16,7 @@ const Services = () => {
           <h2 className="text-2xl font-semibold tracking-wider dark:text-white my-2">
             Services
           </h2>
-          <p className="w-11/12 mx-auto">
+          <p className="w-11/12 mx-auto text-lg">
             At Etherchannel Solution Sevices, our team are dedicated
             professionals and solution driven who follow due process that will
             enable us to deliver quality I.T services that ensures the growth of
@@ -44,7 +44,7 @@ const Services = () => {
               CBT Testing
             </h3>
           </div>
-          <div className="h-[700px] bg-gray-100 text-lg border-4 border-red-500">
+          <div className="h-[700px] bg-gray-100 text-lg">
             <div className="w-11/12 mx-auto">
               <h2 className="my-2 text-lg">
                 CBT Testing (Pearson VUE, Prometric, Promotional exams, Jamb CBT
