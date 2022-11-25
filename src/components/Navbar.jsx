@@ -33,7 +33,7 @@ const Navbar = ({ handleMode, darkMode }) => {
       </Link>
 
       {/* menu */}
-      <ul className="hidden md:flex space-x-10 text-sm">
+      <ul className="hidden md:flex space-x-10 text-md tracking-wide">
         <li className="cursor-pointer">
           <Link to="/" onClick={() => window.scrollTo(0, 0)}>
             Home
@@ -43,10 +43,10 @@ const Navbar = ({ handleMode, darkMode }) => {
           <Link to="/about">About</Link>
         </li>
         <li className="cursor-pointer">
-          <Link to="/courses">Courses</Link>
+          <Link to="/services">Services</Link>
         </li>
         <li className="cursor-pointer">
-          <Link to="/services">Services</Link>
+          <Link to="/resources">Resources</Link>
         </li>
         <li className="cursor-pointer">
           <Link to="/contact">Contact</Link>

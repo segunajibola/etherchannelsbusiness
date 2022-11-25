@@ -12,9 +12,9 @@ const slideStyles = {
   width: "100%",
   height: "100%",
   backgroundSize: "cover",
-  backgroundPosition: "center",
+  backgroundPosition: "top",
   marginLeft: "auto",
-  marginRight: "auto"
+  marginRight: "auto",
 };
 
 const rightArrowStyles = {

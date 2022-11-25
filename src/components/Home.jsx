@@ -3,8 +3,8 @@ import Logo from "../assets/home/homepage1.jpg";
 import { Link } from "react-router-dom";
 import ImageSlider from "./ImageSlider";
 import Testimonials from "./Testimonials";
-import { HiOutlineMail, HiPhone, HiLocationMarker } from "react-icons/hi";import {  FaArrowRight,
-} from "react-icons/fa";
+import { HiOutlineMail, HiPhone, HiLocationMarker } from "react-icons/hi";
+import { FaArrowRight } from "react-icons/fa";
 
 const Home = () => {
   const slides = [
@@ -18,14 +18,19 @@ const Home = () => {
 
   return (
     <>
-      <div className="grid bg-gray-200 pt-14 px-[2px] dark:bg-gray-700 lg:grid-cols-2 2xl:grid-cols-5 w-screen sm:w-full">
-        <div className="mx-auto bg-gray-200 lg:max-w-full lg:px-12 lg:py-24 xl:mr-0 2xl:col-span-2 pb-4">
+      <div className="grid bg-gray-200 pt-10 px-[2px] dark:bg-gray-700 lg:grid-cols-1 w-screen sm:w-full">
+        <div className="relative mt-2 hidden md:block md:col-span-5 2xl:col-span-3">
+          <div className="w-full h-[470px] my-0 mx-auto">
+            <ImageSlider slides={slides} />
+          </div>
+        </div>
+        <div className="mx-auto bg-gray-200 lg:max-w-full lg:px-12 lg:py-12 xl:mr-0 2xl:col-span-2 pb-4">
           <div className="mx-auto w-fit mt-0 text-center">
             <div className="w-full h-[230px] mb-6 md:hidden">
               <ImageSlider slides={slides} className="h-fit" />
             </div>
-            <h1 className="my-5">GREETINGS!!!</h1>
-            <p className="mt-2 text-sm text-gray-900 dark:text-white sm:mt-4 lg:mt-4 lg:text-3xl">
+            <h1 className="my-2">GREETINGS!!!</h1>
+            <p className="mt-2 text-sm text-gray-900 dark:text-white sm:mt-4 lg:mt-4 lg:text-2xl">
               Hello!!! Good to see you on our website today!!! Are you thinking
               of acquiring an In-Demand I.T skills to fetch you your dreams job,
               here is the best place for you to take all things IT Training and
@@ -49,12 +54,6 @@ const Home = () => {
             </div>
           </div>
         </div>
-
-        <div className="relative mt-3 hidden lg:block 2xl:col-span-3">
-          <div className="w-[550px] h-[280px] my-0 mx-auto">
-            <ImageSlider slides={slides} />
-          </div>
-        </div>
       </div>
 
       {/* About */}
@@ -63,9 +62,9 @@ const Home = () => {
         <img
           src="/images/aboutUs2.jpeg"
           alt=""
-          className="mt-0 mb-3 w-screen mx-2 h-[320px] mx-auto"
+          className="mt-0 mb-3 md:my-2 w-screen mx-2 h-[320px] mx-auto object-cover object-top rounded-md"
         />
-        <div className="mx-auto text-center">
+        <div className="text-center m-auto">
           <h2 className="text-2xl font-semibold tracking-wider text-gray-900 dark:text-white my-2">
             About Us
           </h2>
@@ -92,32 +91,35 @@ const Home = () => {
 
       {/* Services */}
 
-      <div className="grid lg:grid-cols-2 bg-[#2b4b77] dark:bg-gray-700">
-        <div className="relative">
+      <div className="bg-[#2b4b77] dark:bg-gray-700">
+        {/* <div className="relative">
           <img
             src="/images/services.jpg"
             alt=""
             className="mt-0 w-screen mx-2 h-[320px] mx-auto"
           />
-        </div>
+        </div> */}
 
         <div className="w-full mx-auto text-center text-white p-5">
           <h2 className="text-2xl font-semibold tracking-wider dark:text-white my-2">
             Services
           </h2>
           <p className="w-11/12 mx-auto">
-            What we do and offer, Check<Link to="/services">
-            <button
-              className="m-2 pb-2 text-sm font-semibold underline tracking-widest dark:border-white dark:bg-blue-600 dark:text-white"
-              onClick={() => window.scrollTo(0, 0)}
-            >
-              here.
-            </button>
-            <FaArrowRight className="inline" />
-          </Link>
+          Our dedicated professionals follow due process to deliver quality I.T services that ensures the growth of your business.
+            <Link to="/services">
+              <button
+                className="m-2 pb-2 text-sm font-semibold underline tracking-widest dark:border-white dark:bg-blue-600 dark:text-white"
+                onClick={() => window.scrollTo(0, 0)}
+              >
+                here.
+              </button>
+              <FaArrowRight className="inline" />
+            </Link>
           </p>
+        </div>
 
-          
+        <div className="grid md:grid-cols-3">
+        
         </div>
       </div>
 
