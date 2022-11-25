@@ -5,7 +5,7 @@ const data = [
     alt: "CBT Testing",
     name: "CBT Testing",
     description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt quia officiis eveniet deleniti saepe.",
-    link: "https://videvafashionline.vercel.app", 
+    link: "https://google.com", 
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ const data = [
     alt: "Microsoft Office",
     name: "Microsoft Office",
     description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt quia officiis eveniet deleniti saepe.",
-    link: "https://videvafashionline.vercel.app", 
+    link: "https://google.com", 
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const data = [
     alt: "Azure Training",
     name: "Azure Training",
     description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt quia officiis eveniet deleniti saepe.",
-    link: "https://videvafashionline.vercel.app", 
+    link: "https://google.com", 
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const data = [
     alt: "IT Fundamentals",
     name: "IT Fundamentals",
     description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt quia officiis eveniet deleniti saepe.",
-    link: "https://videvafashionline.vercel.app", 
+    link: "https://google.com", 
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ const data = [
     alt: "Cloud",
     name: "Cloud",
     description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt quia officiis eveniet deleniti saepe.",
-    link: "https://videvafashionline.vercel.app", 
+    link: "https://google.com", 
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ const data = [
     alt: "Data Science & AI",
     name: "Data Science & AI",
     description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt quia officiis eveniet deleniti saepe.",
-    link: "https://videvafashionline.vercel.app", 
+    link: "https://google.com", 
   },
 ]
 
