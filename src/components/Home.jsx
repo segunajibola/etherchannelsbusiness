@@ -5,6 +5,8 @@ import ImageSlider from "./ImageSlider";
 import Testimonials from "./Testimonials";
 import { HiOutlineMail, HiPhone, HiLocationMarker } from "react-icons/hi";
 import { FaArrowRight } from "react-icons/fa";
+import data from "../data/services.js";
+import ServicesCard from "./ServiceCard";
 
 const Home = () => {
   const slides = [
@@ -106,9 +108,9 @@ const Home = () => {
             </p>
           </div>
           <div className="grid grid-cols-1 pt-20 md:-mt-5 md:pt-32 md:grid-cols-2 lg:grid-cols-3 gap-6 z-10">
-            {/* {data.filter((item, index) => index < 6).map((project) => (
-           <ProjectCard project={project} />
-          ))} */}
+            {data.filter((item, index) => index < 6).map((services) => (
+           <ServicesCard services={services} />
+          ))}
           </div>
           <Link to="/services">
               <button
