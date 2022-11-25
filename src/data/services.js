@@ -4,7 +4,7 @@ const data = [
     image: "/images/homepage1.jpg",
     alt: "CBT Testing",
     name: "CBT Testing",
-    description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt quia officiis eveniet deleniti saepe.",
+    description: "This is a dummy text, will be changed later to the description of the services.",
     link: "https://google.com", 
   },
   {
@@ -12,7 +12,7 @@ const data = [
     image: "/images/homepage2.jpg",
     alt: "Microsoft Office",
     name: "Microsoft Office",
-    description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt quia officiis eveniet deleniti saepe.",
+    description: "This is a dummy text, will be changed later to the description of the services.",
     link: "https://google.com", 
   },
   {
@@ -20,7 +20,7 @@ const data = [
     image: "/images/homepage3.jpg",
     alt: "Azure Training",
     name: "Azure Training",
-    description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt quia officiis eveniet deleniti saepe.",
+    description: "This is a dummy text, will be changed later to the description of the services.",
     link: "https://google.com", 
   },
   {
@@ -28,7 +28,7 @@ const data = [
     image: "/images/homepage4.jpg",
     alt: "IT Fundamentals",
     name: "IT Fundamentals",
-    description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt quia officiis eveniet deleniti saepe.",
+    description: "This is a dummy text, will be changed later to the description of the services.",
     link: "https://google.com", 
   },
   {
@@ -36,7 +36,7 @@ const data = [
     image: "/images/homepage5.jpg",
     alt: "Cloud",
     name: "Cloud",
-    description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt quia officiis eveniet deleniti saepe.",
+    description: "This is a dummy text, will be changed later to the description of the services.",
     link: "https://google.com", 
   },
   {
@@ -44,7 +44,7 @@ const data = [
     image: "/images/homepage6.jpg",
     alt: "Data Science & AI",
     name: "Data Science & AI",
-    description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt quia officiis eveniet deleniti saepe.",
+    description: "This is a dummy text, will be changed later to the description of the services.",
     link: "https://google.com", 
   },
 ]
