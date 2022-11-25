@@ -11,7 +11,7 @@ const ServiceCard = ({services}) => {
                       {services.description}
                   </p>
                   <p className="mt-2"><span className="font-semibold">services stack: </span>{services.stack}</p>
-                  <a href={services.link} className="inline-block mt-4 px-2 py-1 bg-white rounded-md shadow-md text-sm font-bold text-black">See More</a>
+                  <a href={services.link} className="block mt-4 px-2 py-1 bg-white rounded-md shadow-md text-sm font-bold text-black w-24 mx-auto text-center">See More</a>
               </div>
             </div>
           </a>
