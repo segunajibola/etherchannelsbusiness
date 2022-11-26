@@ -144,6 +144,7 @@ const Home = () => {
           </div>
           <div className="mx-auto">
             <img src={Logo} alt="" className="w-24 h-24" />
+            <img src={Logo} alt="" className="w-24 h-24" />
           </div>
         </div>
       </div>
@@ -151,37 +152,30 @@ const Home = () => {
         <h2 className="text-center text-2xl font-semibold tracking-wider text-gray-900 dark:text-white">
           Contact Information
         </h2>
-        <div className="w-11/12 mx-auto">
+        <div className="w-11/12 my-3 mx-auto">
           <div className="grid grid-cols-3">
-            <div className="bg-blue-200 space-x-2 w-[400px]">
+            <div className="bg-gray-200 w-[400px] rounded-xl p-4">
             <HiOutlineMail
               size={39}
               className="my-[5px]"
             />
             <p className="">etherchannelsbusiness@gmail.com</p>
             </div>
-          </div>
-          <a href="">
-            <HiOutlineMail
-              size={29}
-              className="my-[5px] text-gray-300 dark:text-gray-600 inline"
-            />
-            etherchannelsbusiness@gmail.com
-          </a>
-          <a href="" className="block">
+            <div className="bg-gray-200 w-[400px] rounded-xl p-4">
             <HiPhone
-              size={29}
-              className="text-gray-300 dark:text-gray-600 inline"
+              size={39}
+              className="my-[5px]"
             />
-            +234 803 985 0630
-          </a>
-          <a href="">
+            <p className="">+234 803 985 0630</p>
+            </div>
+            <div className="bg-gray-200 w-[400px] rounded-xl p-4">
             <HiLocationMarker
-              size={29}
-              className="my-[4px] text-gray-300 dark:text-gray-600 inline"
+              size={39}
+              className="my-[5px]"
             />
-            Address: 23, Oluwalopeye Street, PPL, Ojo, Lagos, Nigeria.
-          </a>
+            <p className="">Address: 23, Oluwalopeye Street, PPL, Ojo, Lagos, Nigeria.</p>
+            </div>
+          </div>
         </div>
       </div>
     </>
