@@ -93,21 +93,18 @@ const Home = () => {
 
       {/* Services */}
 
-      <div
-        id="services"
-        className="w-full text-gray-300 bg-[#0a192f] dark:bg-gray-100"
-      >
-        <div className="max-w-[950px] mx-auto p-4 flex flex-col justify-center h-full">
-          <div className="">
-            <h2 className="text-center text-2xl font-semibold tracking-wider dark:text-white my-2">
+      <div id="services" className="w-full bg-gray-200 dark:bg-gray-100">
+        <div className="p-4 flex flex-col justify-center h-full">
+          <div className="text-center">
+            <h2 className="text-2xl font-semibold tracking-wider my-2">
               Services
             </h2>
-            <p className="w-11/12 mx-auto">
+            <p className="text-xl mx-auto">
               Our dedicated professionals follow due process to deliver quality
               I.T services that ensures the growth of your business.
             </p>
           </div>
-          <div className="grid grid-cols-1 pt-4 md:grid-cols-2 lg:grid-cols-3 gap-6 z-10">
+          <div className="max-w-[1000px] mx-auto grid grid-cols-1 pt-4 md:grid-cols-2 lg:grid-cols-3 gap-6 z-10">
             {data
               .filter((item, index) => index < 6)
               .map((services) => (
@@ -116,7 +113,7 @@ const Home = () => {
           </div>
           <Link to="/services" className="flex justify-center">
             <button
-              className="text-gray-100 border-2 px-2 py-2 my-4 rounded-md tracking-wide text-xl"
+              className="text-gray-100 bg-blue-500 px-2 py-2 mt-6 rounded-md tracking-wide text-xl"
               onClick={() => window.scrollTo(0, 0)}
             >
               See all services
@@ -136,15 +133,16 @@ const Home = () => {
         <h2 className="text-center text-2xl font-semibold tracking-wider text-gray-900 dark:text-white">
           Our Partners
         </h2>
-        <div className="grid grid-cols-2">
+        <div className="grid grid-rows-1 md:grid-cols-3 md:w-[30rem] mx-auto">
           <div className="mx-auto">
-            <img src={Logo} alt="" className="w-24 h-24" />
             <img src={Logo} alt="" className="w-24 h-24" />
             <img src={Logo} alt="" className="w-24 h-24" />
           </div>
           <div className="mx-auto">
             <img src={Logo} alt="" className="w-24 h-24" />
             <img src={Logo} alt="" className="w-24 h-24" />
+          </div>
+          <div className="mx-auto">
             <img src={Logo} alt="" className="w-24 h-24" />
           </div>
         </div>
@@ -153,7 +151,16 @@ const Home = () => {
         <h2 className="text-center text-2xl font-semibold tracking-wider text-gray-900 dark:text-white">
           Contact Information
         </h2>
-        <div className="w-4/5 mx-auto">
+        <div className="w-11/12 mx-auto">
+          <div className="grid grid-cols-3">
+            <div className="bg-blue-200 space-x-2 w-[400px]">
+            <HiOutlineMail
+              size={39}
+              className="my-[5px]"
+            />
+            <p className="">etherchannelsbusiness@gmail.com</p>
+            </div>
+          </div>
           <a href="">
             <HiOutlineMail
               size={29}
