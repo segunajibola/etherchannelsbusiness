@@ -64,7 +64,7 @@ const Home = () => {
         <img
           src="/images/aboutUs2.jpeg"
           alt=""
-          className="mt-0 mb-3 md:my-2 w-screen mx-2 h-[320px] mx-auto object-cover object-top rounded-md"
+          className="mt-0 mb-3 md:my-2 w-screen mx-2 h-[320px] md:h-[400px] mx-auto object-cover object-top rounded-md"
         />
         <div className="text-center m-auto">
           <h2 className="text-2xl font-semibold tracking-wider text-gray-900 dark:text-white my-2">
