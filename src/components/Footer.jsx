@@ -7,7 +7,7 @@ import {
   FaArrowUp,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import { HiOutlineMail } from "react-icons/hi";
+import { HiOutlineMail, HiPhone, HiLocationMarker } from "react-icons/hi";
 import { HashLink } from "react-router-hash-link";
 import Logo from "../assets/navbar/etherchannellogo.png";
 
@@ -113,9 +113,23 @@ const Footer = () => {
           <div>
             <HiOutlineMail
               size={29}
-              className="-mt-[2px] text-gray-300 dark:text-gray-600"
+              className="inline mr-1 -mt-[2px] text-gray-300 dark:text-gray-600"
             />
-            <span></span>
+            <span>etherchannelsbusiness@gmail.com</span>
+          </div>
+          <div className="my-2">
+            <HiPhone
+              size={29}
+              className="inline mr-1 -mt-[2px] text-gray-300 dark:text-gray-600"
+            />
+            <span>+234 803 985 0630</span>
+          </div>
+          <div>
+            <HiLocationMarker
+              size={29}
+              className="inline mr-1 -mt-[2px] text-gray-300 dark:text-gray-600"
+            />
+            <span>Address: 23, Oluwalopeye Street, PPL, Ojo, Lagos, Nigeria.</span>
           </div>
         </div>
       </div>
