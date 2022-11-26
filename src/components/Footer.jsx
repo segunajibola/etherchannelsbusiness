@@ -13,8 +13,8 @@ import Logo from "../assets/navbar/etherchannellogo.png";
 
 const Footer = () => {
   return (
-    <footer className="w-full text-left text-gray-300 bg-[#2b4b77] md:pt-3 dark:bg-gray-300 dark:text-gray-800">
-      <div className="grid max-w-7xl md:grid-cols-4 gap-1 space-x-8 space-y-1 p-2 mx-auto">
+    <footer className="w-full text-left text-gray-300 bg-[#2b4b77] md:pt-3 dark:bg-gray-300 dark:text-gray-800 text-2xl">
+      <div className="grid max-w-[70%] md:grid-cols-4 gap-1 space-x-8 space-y-1 p-2 mx-auto">
         <div>
           <Link
             className="cursor-pointer"
