@@ -12,12 +12,11 @@ import VisibilitySensor from "react-visibility-sensor";
 
 const Home = () => {
   const slides = [
-    { url: "/images/homepage1.jpg", title: "beach" },
-    { url: "/images/homepage2.jpg", title: "beach" },
-    { url: "/images/homepage3.jpg", title: "beach" },
-    { url: "/images/homepage4.jpg", title: "beach" },
-    { url: "/images/homepage5.jpg", title: "beach" },
-    { url: "/images/homepage6.jpg", title: "beach" },
+    { url: "/images/pic1.jpeg", title: "beach" },
+    { url: "/images/pic2.jpeg", title: "beach" },
+    { url: "/images/pic3.jpeg", title: "beach" },
+    { url: "/images/pic4.jpeg", title: "beach" },
+    { url: "/images/pic5.jpeg", title: "beach" },
   ];
 
   useCountUp({

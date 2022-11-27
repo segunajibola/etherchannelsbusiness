@@ -5,7 +5,7 @@ const sliderStyles = {
   position: "relative",
   height: "100%",
   marginLeft: "auto",
-  marginRight: "auto"
+  marginRight: "auto",
 };
 
 const slideStyles = {
@@ -48,7 +48,12 @@ const dotStyle = {
   margin: "0 3px",
   cursor: "pointer",
   fontSize: "10px",
-//   color: `${slideIndex} ? "red" : "green"`,
+  //   color: `${slideIndex} ? "red" : "green"`,
+};
+
+const text = {
+  fontSize: "300px",
+  fontColor: "red",
 };
 
 const ImageSlider = ({ slides }) => {
@@ -72,9 +77,9 @@ const ImageSlider = ({ slides }) => {
   };
 
   useEffect(() => {
-      setTimeout(() => {
-        goToNext();
-      }, 6000);
+    setTimeout(() => {
+      goToNext();
+    }, 6000);
   });
 
   return (
@@ -87,7 +92,11 @@ const ImageSlider = ({ slides }) => {
           ❱
         </div>
       </div>
-      <div style={slideStylesWidthBackground}></div>
+      <div style={slideStylesWidthBackground}>
+        <div style={text} className="text-7xl text-red-500">
+          {slides.title}
+        </div>
+      </div>
       <div style={dotsContainerStyles}>
         {slides.map((slide, slideIndex) => (
           <div
@@ -95,8 +104,9 @@ const ImageSlider = ({ slides }) => {
             key={slideIndex}
             onClick={() => goToSlide(slideIndex)}
           >
-            ●
+            ● <div>{slide.title}</div>
           </div>
+          
         ))}
       </div>
     </div>
