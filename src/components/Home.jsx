@@ -22,7 +22,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="grid bg-gray-200 pt-10 px-[2px] dark:bg-gray-700 lg:grid-cols-1 w-screen sm:w-full border-4 border-red-500">
+      <div className="grid bg-gray-200 pt-10 px-[2px] dark:bg-gray-700 lg:grid-cols-1 w-screen sm:w-full">
         <div className="relative mt-2 hidden md:block md:col-span-5 2xl:col-span-3">
           <div className="w-full h-[470px] my-0 mx-auto">
             <ImageSlider slides={slides} />
@@ -116,9 +116,9 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="my-4 w-[80%] mx-auto border-4 border-red-500">
+      <div className="my-4 w-[80%] mx-auto">
         <div className="text-center">
-          <h3 className="font-bold text-2xl">Some numbers that matters</h3>
+          <h3 className="text-3xl">Some numbers that matters</h3>
           <h4 className="my-2 text-lg">
             Our recent achievement shown by numbers
           </h4>
@@ -131,7 +131,7 @@ const Home = () => {
               offset={{ bottom: 200 }}
             >
               {({ isVisible }) => (
-                <div className="inline h-[20px] border-4 border-red-500">
+                <div className="inline h-[20px]">
                   {isVisible ? <CountUp end={10} /> : null}
                 </div>
               )}
@@ -187,7 +187,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="mx-auto max-w-[1000px] px-2 py-2 lg:max-w-full md:mt-4 lg:px-8">
+      <div className="mx-auto bg-gray-200 max-w-[1000px] px-2 py-2 lg:max-w-full md:mt-4 lg:px-8">
         <h2 className="text-center text-2xl font-semibold tracking-wider text-gray-900 dark:text-white">
           Testimonials
         </h2>
