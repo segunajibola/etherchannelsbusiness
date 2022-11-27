@@ -7,6 +7,8 @@ import { HiOutlineMail, HiPhone, HiLocationMarker } from "react-icons/hi";
 import { FaArrowRight } from "react-icons/fa";
 import data from "../data/services.js";
 import ServicesCard from "./ServiceCard";
+import CountUp from "react-countup";
+import VisibilitySensor from "react-visibility-sensor";
 
 const Home = () => {
   const slides = [
@@ -32,7 +34,9 @@ const Home = () => {
               <ImageSlider slides={slides} className="h-fit" />
             </div>
             <p className="mt-2 text-sm text-gray-900 dark:text-white sm:mt-4 md:mt-2 lg:text-2xl">
-              Are you thinking of acquiring an in-demand IT skills to fetch you your dream job? Here is the best place for you to up-skill your knowledge and growth in the digital world.
+              Are you thinking of acquiring an in-demand IT skills to fetch you
+              your dream job? Here is the best place for you to up-skill your
+              knowledge and growth in the digital world.
             </p>
             <div className="mt-4 space-x-3 sm:mt-6">
               <a
@@ -103,12 +107,83 @@ const Home = () => {
           </div>
           <Link to="/services" className="flex justify-center">
             <button
-              className="text-gray-100 bg-blue-500 px-2 py-2 mt-6 rounded-md tracking-wide text-xl"
+              className="text-gray-100 bg-blue-500 px-2 py-2 my-6 rounded-md tracking-wide text-xl"
               onClick={() => window.scrollTo(0, 0)}
             >
               See all services
             </button>
           </Link>
+        </div>
+      </div>
+
+      <div className="my-4 w-[80%] mx-auto border-4 border-red-500">
+        <div className="text-center">
+          <h3 className="font-bold text-2xl">Some numbers that matters</h3>
+          <h4 className="my-2 text-lg">
+            Our recent achievement shown by numbers
+          </h4>
+        </div>
+        <div className="grid grid-cols-2 md:grid-cols-4 md:w-11/12 mx-auto py-4">
+          <div className="text-center text-xl">
+            <VisibilitySensor
+              className="inline"
+              partialVisibility
+              offset={{ bottom: 200 }}
+            >
+              {({ isVisible }) => (
+                <div className="inline h-[20px] border-4 border-red-500">
+                  {isVisible ? <CountUp end={10} /> : null}
+                </div>
+              )}
+            </VisibilitySensor>
+            <span className="inline">+</span>
+            <h5 className="">Years of Experience</h5>
+          </div>
+          <div className="text-center text-xl">
+            <VisibilitySensor
+              className="inline"
+              partialVisibility
+              offset={{ bottom: 200 }}
+            >
+              {({ isVisible }) => (
+                <div className="inline h-[20px]">
+                  {isVisible ? <CountUp end={100} /> : null}
+                </div>
+              )}
+            </VisibilitySensor>
+            <span className="inline">+</span>
+            <h5 className="">Clients</h5>
+          </div>
+          <div className="text-center text-xl">
+            <VisibilitySensor
+              className="inline"
+              partialVisibility
+              offset={{ bottom: 200 }}
+            >
+              {({ isVisible }) => (
+                <div className="inline h-[20px]">
+                  {isVisible ? <CountUp end={200} /> : null}
+                </div>
+              )}
+            </VisibilitySensor>
+            <span className="inline">+</span>
+            <h5 className="">Successful Deployment</h5>
+          </div>
+          <div className="text-center text-xl">
+            <VisibilitySensor
+              className="inline"
+              partialVisibility
+              offset={{ bottom: 200 }}
+            >
+              {({ isVisible }) => (
+                <div className="inline h-[20px">
+                  {isVisible ? <CountUp end={14} /> : null}
+                </div>
+              )}
+            </VisibilitySensor>
+            <span className="inline">+</span>
+            <h5 className="">Awards & Recognition</h5>
+          </div>
         </div>
       </div>
 
@@ -145,25 +220,18 @@ const Home = () => {
         <div className="w-11/12 my-3 mx-auto">
           <div className="grid grid-cols-3 mx-auto">
             <div className="bg-gray-200 w-[400px] rounded-xl p-4 mx-auto">
-            <HiOutlineMail
-              size={39}
-              className="my-[5px]"
-            />
-            <p className="">etherchannelsbusiness@gmail.com</p>
+              <HiOutlineMail size={39} className="my-[5px]" />
+              <p className="">etherchannelsbusiness@gmail.com</p>
             </div>
             <div className="bg-gray-200 w-[400px] rounded-xl p-4 mx-auto">
-            <HiPhone
-              size={39}
-              className="my-[5px]"
-            />
-            <p className="">+234 803 985 0630</p>
+              <HiPhone size={39} className="my-[5px]" />
+              <p className="">+234 803 985 0630</p>
             </div>
             <div className="bg-gray-200 w-[400px] rounded-xl p-4 mx-auto">
-            <HiLocationMarker
-              size={39}
-              className="my-[5px]"
-            />
-            <p className="">Address: 23, Oluwalopeye Street, PPL, Ojo, Lagos, Nigeria.</p>
+              <HiLocationMarker size={39} className="my-[5px]" />
+              <p className="">
+                Address: 23, Oluwalopeye Street, PPL, Ojo, Lagos, Nigeria.
+              </p>
             </div>
           </div>
         </div>
