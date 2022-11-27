@@ -20,25 +20,19 @@ const Home = () => {
 
   return (
     <>
-      <div className="grid bg-gray-200 pt-10 px-[2px] dark:bg-gray-700 lg:grid-cols-1 w-screen sm:w-full">
+      <div className="grid bg-gray-200 pt-10 px-[2px] dark:bg-gray-700 lg:grid-cols-1 w-screen sm:w-full border-4 border-red-500">
         <div className="relative mt-2 hidden md:block md:col-span-5 2xl:col-span-3">
           <div className="w-full h-[470px] my-0 mx-auto">
             <ImageSlider slides={slides} />
           </div>
         </div>
-        <div className="mx-auto bg-gray-200 lg:max-w-full lg:px-12 lg:py-12 xl:mr-0 2xl:col-span-2 pb-4">
+        <div className="mx-auto bg-gray-200 lg:max-w-full pb-4 lg:p-8 xl:mr-0 2xl:col-span-2">
           <div className="mx-auto w-fit mt-0 text-center">
             <div className="w-full h-[230px] mb-6 md:hidden">
               <ImageSlider slides={slides} className="h-fit" />
             </div>
-            <h1 className="my-2">GREETINGS!!!</h1>
-            <p className="mt-2 text-sm text-gray-900 dark:text-white sm:mt-4 lg:mt-4 lg:text-2xl">
-              Hello!!! Good to see you on our website today!!! Are you thinking
-              of acquiring an In-Demand I.T skills to fetch you your dreams job,
-              here is the best place for you to take all things IT Training and
-              CBT Testing hub!! Our core value is the provision of affordable
-              professional and Top-Notch I.T training and Computer-Based Testing
-              to corporate organizations and individual clients.
+            <p className="mt-2 text-sm text-gray-900 dark:text-white sm:mt-4 md:mt-2 lg:text-2xl">
+              Are you thinking of acquiring an in-demand IT skills to fetch you your dream job? Here is the best place for you to up-skill your knowledge and growth in the digital world.
             </p>
             <div className="mt-4 space-x-3 sm:mt-6">
               <a
@@ -60,7 +54,7 @@ const Home = () => {
 
       {/* About */}
 
-      <div className="grid lg:grid-cols-2 bg-gray-100 dark:bg-gray-700">
+      {/* <div className="grid lg:grid-cols-2 bg-gray-100 dark:bg-gray-700">
         <img
           src="/images/aboutUs2.jpeg"
           alt=""
@@ -89,22 +83,18 @@ const Home = () => {
             </button>
           </Link>
         </div>
-      </div>
+      </div> */}
 
       {/* Services */}
 
       <div id="services" className="w-full bg-gray-200 dark:bg-gray-100">
-        <div className="p-4 flex flex-col justify-center h-full">
+        <div className="p-2 flex flex-col justify-center h-full">
           <div className="text-center">
-            <h2 className="text-2xl font-semibold tracking-wider my-2">
+            <h2 className="text-2xl uppercase font-semibold tracking-wider pb-4">
               Services
             </h2>
-            <p className="text-xl mx-auto">
-              Our dedicated professionals follow due process to deliver quality
-              I.T services that ensures the growth of your business.
-            </p>
           </div>
-          <div className="max-w-[1000px] mx-auto grid grid-cols-1 pt-4 md:grid-cols-2 lg:grid-cols-3 gap-6 z-10">
+          <div className="max-w-[1100px] mx-auto grid grid-cols-1 pt-4 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {data
               .filter((item, index) => index < 6)
               .map((services) => (
