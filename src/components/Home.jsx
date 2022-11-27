@@ -7,7 +7,7 @@ import { HiOutlineMail, HiPhone, HiLocationMarker } from "react-icons/hi";
 import { FaArrowRight } from "react-icons/fa";
 import data from "../data/services.js";
 import ServicesCard from "./ServiceCard";
-import CountUp from "react-countup";
+import CountUp, { useCountUp } from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
 
 const Home = () => {
@@ -19,6 +19,13 @@ const Home = () => {
     { url: "/images/homepage5.jpg", title: "beach" },
     { url: "/images/homepage6.jpg", title: "beach" },
   ];
+
+  useCountUp({
+    ref: 'counter',
+    end: 1234567,
+    enableScrollSpy: true,
+    scrollSpyDelay: 1000,
+  });
 
   return (
     <>
@@ -125,52 +132,22 @@ const Home = () => {
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4 md:w-11/12 mx-auto py-4">
           <div className="text-center text-xl">
-            <VisibilitySensor
-              className="inline"
-              partialVisibility
-              offset={{ bottom: 200 }}
-            >
-              {({ isVisible }) => (
-                <div className="inline h-[20px]">
-                  {isVisible ? <CountUp end={10} /> : null}
-                </div>
-              )}
-            </VisibilitySensor>
+          <CountUp end={10} enableScrollSpy />
             <span className="inline">+</span>
             <h5 className="">Years of Experience</h5>
           </div>
           <div className="text-center text-xl">
-            <VisibilitySensor
-              className="inline"
-              partialVisibility
-              offset={{ bottom: 200 }}
-            >
-              {({ isVisible }) => (
-                <div className="inline h-[20px]">
-                  {isVisible ? <CountUp end={100} /> : null}
-                </div>
-              )}
-            </VisibilitySensor>
+          <CountUp end={100} enableScrollSpy />
             <span className="inline">+</span>
             <h5 className="">Clients</h5>
           </div>
           <div className="text-center text-xl">
-            <VisibilitySensor
-              className="inline"
-              partialVisibility
-              offset={{ bottom: 200 }}
-            >
-              {({ isVisible }) => (
-                <div className="inline h-[20px]">
-                  {isVisible ? <CountUp end={200} /> : null}
-                </div>
-              )}
-            </VisibilitySensor>
+          <CountUp end={200} enableScrollSpy />
             <span className="inline">+</span>
             <h5 className="">Successful Deployment</h5>
           </div>
           <div className="text-center text-xl">
-            <VisibilitySensor
+            {/* <VisibilitySensor
               className="inline"
               partialVisibility
               offset={{ bottom: 200 }}
@@ -180,7 +157,8 @@ const Home = () => {
                   {isVisible ? <CountUp end={14} /> : null}
                 </div>
               )}
-            </VisibilitySensor>
+            </VisibilitySensor> */}
+            <CountUp end={14} enableScrollSpy />
             <span className="inline">+</span>
             <h5 className="">Awards & Recognition</h5>
           </div>
