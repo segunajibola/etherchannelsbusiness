@@ -17,6 +17,7 @@ const Home = () => {
     { url: "/images/pic3.jpeg", title: "beach" },
     { url: "/images/pic4.jpeg", title: "beach" },
     { url: "/images/pic5.jpeg", title: "beach" },
+    { url: "/images/pic6.webp", title: "beach" },
   ];
 
   useCountUp({
@@ -30,7 +31,7 @@ const Home = () => {
     <>
       <div className="grid bg-gray-200 pt-10 px-[2px] dark:bg-gray-700 lg:grid-cols-1 w-screen sm:w-full">
         <div className="relative mt-2 hidden md:block md:col-span-5 2xl:col-span-3">
-          <div className="w-full h-[1100px] my-0 mx-auto">
+          <div className="w-full h-[500px] my-0 mx-auto">
             <ImageSlider slides={slides} />
           </div>
         </div>
