@@ -14,7 +14,7 @@ import Logo from "../assets/navbar/etherchannellogo.png";
 const Footer = () => {
   return (
     <footer className="w-full text-left text-gray-300 bg-[#2b4b77] md:pt-3 dark:bg-gray-300 dark:text-gray-800 text-2xl">
-      <div className="grid max-w-[70%] md:grid-cols-4 gap-1 space-x-8 space-y-1 p-2 mx-auto">
+      <div className="grid max-w-[90%] md:grid-cols-4 gap-1 space-x-8 space-y-1 p-2 mx-auto">
         <div>
           <Link
             className="cursor-pointer"
@@ -24,7 +24,7 @@ const Footer = () => {
             <img
               src={Logo}
               alt="Logo Image"
-              style={{ width: "200px", height: "200px", borderRadius: "50px" }}
+              style={{ width: "180px", height: "180px", borderRadius: "50px" }}
               className="md:-mt-6"
             />
           </Link>

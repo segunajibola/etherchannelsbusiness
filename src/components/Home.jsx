@@ -20,7 +20,7 @@ const Home = () => {
   ];
 
   useCountUp({
-    ref: 'counter',
+    ref: "counter",
     end: 1234567,
     enableScrollSpy: true,
     scrollSpyDelay: 1000,
@@ -30,7 +30,7 @@ const Home = () => {
     <>
       <div className="grid bg-gray-200 pt-10 px-[2px] dark:bg-gray-700 lg:grid-cols-1 w-screen sm:w-full">
         <div className="relative mt-2 hidden md:block md:col-span-5 2xl:col-span-3">
-          <div className="w-full h-[470px] my-0 mx-auto">
+          <div className="w-full h-[1100px] my-0 mx-auto">
             <ImageSlider slides={slides} />
           </div>
         </div>
@@ -122,31 +122,32 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="my-4 w-[80%] mx-auto">
-        <div className="text-center">
-          <h3 className="text-3xl">Some numbers that matters</h3>
-          <h4 className="my-2 text-lg">
-            Our recent achievement shown by numbers
-          </h4>
-        </div>
-        <div className="grid grid-cols-2 md:grid-cols-4 md:w-11/12 mx-auto py-4">
-          <div className="text-center text-xl">
-          <CountUp end={10} enableScrollSpy />
-            <span className="inline">+</span>
-            <h5 className="">Years of Experience</h5>
+      <div className="my-4 w-[80%] h-[400px] mx-auto">
+        <div className="relative h-[200px] py-[100px]">
+          <div className="text-center">
+            <h3 className="text-3xl">Some numbers that matters</h3>
+            <h4 className="my-2 text-lg">
+              Our recent achievement shown by numbers
+            </h4>
           </div>
-          <div className="text-center text-xl">
-          <CountUp end={100} enableScrollSpy />
-            <span className="inline">+</span>
-            <h5 className="">Clients</h5>
-          </div>
-          <div className="text-center text-xl">
-          <CountUp end={200} enableScrollSpy />
-            <span className="inline">+</span>
-            <h5 className="">Successful Deployment</h5>
-          </div>
-          <div className="text-center text-xl">
-            {/* <VisibilitySensor
+          <div className="grid grid-cols-2 md:grid-cols-4 md:w-11/12 mx-auto pt-4">
+            <div className="text-center text-xl">
+              <CountUp end={10} enableScrollSpy />
+              <span className="inline">+</span>
+              <h5 className="">Years of Experience</h5>
+            </div>
+            <div className="text-center text-xl">
+              <CountUp end={100} enableScrollSpy />
+              <span className="inline">+</span>
+              <h5 className="">Clients</h5>
+            </div>
+            <div className="text-center text-xl">
+              <CountUp end={200} enableScrollSpy />
+              <span className="inline">+</span>
+              <h5 className="">Successful Deployment</h5>
+            </div>
+            <div className="text-center text-xl">
+              {/* <VisibilitySensor
               className="inline"
               partialVisibility
               offset={{ bottom: 200 }}
@@ -157,15 +158,16 @@ const Home = () => {
                 </div>
               )}
             </VisibilitySensor> */}
-            <CountUp end={14} enableScrollSpy />
-            <span className="inline">+</span>
-            <h5 className="">Awards & Recognition</h5>
+              <CountUp end={14} enableScrollSpy />
+              <span className="inline">+</span>
+              <h5 className="">Awards & Recognition</h5>
+            </div>
           </div>
         </div>
       </div>
 
       <div className="mx-auto bg-gray-200 max-w-[1000px] px-2 py-2 lg:max-w-full md:mt-4 lg:px-8">
-        <h2 className="text-center text-2xl font-semibold tracking-wider text-gray-900 dark:text-white">
+        <h2 className="text-center mt-4 text-2xl font-semibold tracking-wider text-gray-900 dark:text-white">
           Testimonials
         </h2>
         <p className="text-center text-2xl">What others are saying.</p>
