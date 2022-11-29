@@ -1,5 +1,5 @@
 import React from "react";
-import { RxEnter } from "react-icons/rx";
+import { BsLink } from "react-icons/bs";
 
 const ServiceCard = ({ services }) => {
   return (
@@ -16,7 +16,7 @@ const ServiceCard = ({ services }) => {
           />
           <div
             class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out flex items-center justify-center bg-black-rgba"
-          ><RxEnter className="text-blue-500" size={72}/></div>
+          ><BsLink className="text-blue-500" size={72}/></div>
           
         </div>
 
