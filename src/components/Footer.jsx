@@ -115,7 +115,7 @@ const Footer = () => {
               size={25}
               className="inline mr-1 -mt-[2px] text-gray-300 dark:text-gray-600"
             />
-            <span className="text-md">etherchannelsbusiness@gmail.com</span>
+            <span className="text-[17px]">etherchannelsbusiness@gmail.com</span>
           </div>
           <div className="my-2">
             <HiPhone

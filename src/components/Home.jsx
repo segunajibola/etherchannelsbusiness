@@ -31,21 +31,21 @@ const Home = () => {
     <>
       <div className="grid bg-gray-200 pt-10 px-[2px] dark:bg-gray-700 lg:grid-cols-1 w-screen sm:w-full">
         <div className="relative mt-2 hidden md:block md:col-span-5 2xl:col-span-3">
-          <div className="w-full h-[500px] my-0 mx-auto">
+          <div className="w-full h-[1100px] my-0 mx-auto">
             <ImageSlider slides={slides} />
           </div>
         </div>
         <div className="mx-auto bg-gray-200 lg:max-w-full pb-4 lg:p-8 xl:mr-0 2xl:col-span-2">
           <div className="mx-auto w-fit mt-0 text-center">
-            <div className="w-full h-[230px] mb-6 md:hidden">
+            <div className="w-full h-[230px] md:hidden">
               <ImageSlider slides={slides} className="h-fit" />
             </div>
-            <p className="mt-2 text-sm text-gray-900 dark:text-white sm:mt-4 md:mt-2 lg:text-2xl">
+            <p className="my-12 text-sm text-gray-900 dark:text-white lg:text-2xl">
               Are you thinking of acquiring an in-demand IT skills to fetch you
               your dream job? Here is the best place for you to up-skill your
               knowledge and growth in the digital world.
             </p>
-            <div className="mt-4 space-x-3 sm:mt-6">
+            <div className="pt-4 space-x-3 sm:mt-6">
               <a
                 href="/"
                 className="focus:outline-none inline-block transform rounded-lg bg-[#2b4b77] px-3 py-2 text-sm font-semibold uppercase tracking-wider text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-blue-400 focus:ring focus:ring-blue-500 focus:ring-opacity-50 focus:ring-offset-2 active:bg-blue-600 dark:bg-[#264775]"
@@ -101,7 +101,7 @@ const Home = () => {
       <div id="services" className="w-full bg-gray-200 dark:bg-gray-100">
         <div className="p-2 flex flex-col justify-center h-full">
           <div className="text-center">
-            <h2 className="text-2xl uppercase font-semibold tracking-wider pb-4">
+            <h2 className="text-3xl uppercase font-semibold tracking-wider pb-4 md:my-8">
               Services
             </h2>
           </div>
@@ -114,7 +114,7 @@ const Home = () => {
           </div>
           <Link to="/services" className="flex justify-center">
             <button
-              className="text-gray-100 bg-blue-500 px-2 py-2 my-6 rounded-md tracking-wide text-xl"
+              className="text-gray-100 bg-blue-500 p-2 md:p-4 my-6 rounded-md tracking-wide text-xl font-semi-bold"
               onClick={() => window.scrollTo(0, 0)}
             >
               See all services
