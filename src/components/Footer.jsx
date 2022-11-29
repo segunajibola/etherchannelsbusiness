@@ -28,36 +28,41 @@ const Footer = () => {
               className="md:-mt-6"
             />
           </Link> */}
-          <p>
+          {/* <p>
             Ether-channel Solution Services is an I.T firm founded on the 21st
             of December 2020, which aimed at providing quality assurance with a
             top-notch I.T solutions to all our business partners and customers.
-          </p>
-          <div className="flex gap-1.5 mt-4">
+          </p> */}
+          <div className="grid grid-cols-1 gap-1.5">
+          <h5 className="my-2 text-xl uppercase font-semibold">Social Media</h5>
+          <div>
             <a href="https://www.twitter.com/">
-              <FaTwitter size={20} className="text-blue-500" />
-            </a>
+              <FaTwitter size={20} className="text-blue-500 inline" />
+            </a> <span className="">Twitter</span>
+          </div>
+            <div>
             <a href="https://www.linkedin.com/in/">
-              <FaLinkedin size={20} className="text-blue-500" />
-            </a>
+              <FaLinkedin size={20} className="text-blue-500 inline" />
+            </a> <span className="">LinkedIn</span>
+          </div>
+          <div>
             <a href="https://wa.me/">
-              <FaWhatsapp size={20} className="text-green-500" />
-            </a>
+              <FaWhatsapp size={20} className="text-green-500 inline" />
+            </a> <span className="">WhatsApp</span>
+          </div>
+          <div>
             <a href="https://www.facebook.com/">
-              <FaFacebook size={20} className="text-blue-300" />
-            </a>
+              <FaFacebook size={20} className="text-blue-300 inline" />
+            </a> <span className="">Facebook</span>
+          </div>
+          <div>
             <a href="https://www.instagram.com/">
               <FaInstagram
                 size={20}
-                className="text-red-300 dark:text-red-900"
+                className="text-red-300 dark:text-red-900 inline"
               />
-            </a>
-            <a href="">
-              <HiOutlineMail
-                size={29}
-                className="-mt-[2px] text-gray-300 dark:text-gray-600"
-              />
-            </a>
+            </a> <span className="">Instagram</span>
+          </div>
           </div>
         </div>
         <div className="">
