@@ -10,24 +10,24 @@ const data = [
   {
     id: 2,
     image: "/images/homepage2.jpg",
-    alt: "Microsoft Office",
-    name: "Microsoft Office",
+    alt: "Study Abroad Processing & Immigration",
+    name: "Study Abroad Processing & Immigration",
     description: "This is a dummy text, will be changed later to the description of the services.",
     link: "https://google.com", 
   },
   {
     id: 3,
     image: "/images/homepage3.jpg",
-    alt: "Azure Training",
-    name: "Azure Training",
+    alt: "Network Development",
+    name: "Network Development",
     description: "This is a dummy text, will be changed later to the description of the services.",
     link: "https://google.com", 
   },
   {
     id: 4,
     image: "/images/homepage4.jpg",
-    alt: "IT Fundamentals",
-    name: "IT Fundamentals",
+    alt: "CCTV Installation",
+    name: "CCTV Installation",
     description: "This is a dummy text, will be changed later to the description of the services.",
     link: "https://google.com", 
   },
@@ -42,11 +42,19 @@ const data = [
   {
     id: 6,
     image: "/images/homepage6.jpg",
-    alt: "Data Science & AI",
-    name: "Data Science & AI",
+    alt: "Web Development",
+    name: "Web Development",
     description: "This is a dummy text, will be changed later to the description of the services.",
     link: "https://google.com", 
   },
+  {
+    id: 7,
+    image: "/images/homepage6.jpg",
+    alt: "All Jamb Activities",
+    name: "All Jamb Activities",
+    description: "This is a dummy text, will be changed later to the description of the services.",
+    link: "https://google.com", 
+  }
 ]
 
 export default data;
