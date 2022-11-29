@@ -114,7 +114,7 @@ const Home = () => {
           </div>
           <Link to="/services" className="flex justify-center">
             <button
-              className="text-gray-100 bg-blue-500 p-2 md:p-4 my-6 rounded-md tracking-wide text-xl font-semi-bold"
+              className="text-gray-100 bg-blue-500 p-2 md:p-4 my-6 rounded-md tracking-wide text-xl font-semibold"
               onClick={() => window.scrollTo(0, 0)}
             >
               See all services
@@ -123,8 +123,8 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="my-4 w-[80%] h-[400px] mx-auto">
-        <div className="relative h-[200px] py-[100px]">
+      <div className="my-4 w-[80%] h-[500px] mx-auto">
+        <div className="relative h-[300px] pt-[150px]">
           <div className="text-center">
             <h3 className="text-3xl">Some numbers that matters</h3>
             <h4 className="my-2 text-lg">
@@ -167,7 +167,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="mx-auto bg-gray-200 max-w-[1000px] px-2 py-2 lg:max-w-full md:mt-4 lg:px-8">
+      <div className="mx-auto bg-gray-200 max-w-[1000px] px-2 py-2 lg:max-w-full md:mt-4 md:py-20">
         <h2 className="text-center mt-4 text-2xl font-semibold tracking-wider text-gray-900 dark:text-white">
           Testimonials
         </h2>
