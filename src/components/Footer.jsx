@@ -13,10 +13,10 @@ import Logo from "../assets/navbar/etherchannellogo.png";
 
 const Footer = () => {
   return (
-    <footer className="w-full text-left text-gray-300 bg-[#2b4b77] md:pt-3 dark:bg-gray-300 dark:text-gray-800 text-lg">
-      <div className="grid max-w-[90%] md:grid-cols-4 gap-1 space-x-8 space-y-1 p-2 mx-auto border-4 border-yellow-500">
+    <footer className="w-full text-left text-gray-300 bg-[#2b4b77] md:py-8 dark:bg-gray-300 dark:text-gray-800 text-lg">
+      <div className="grid max-w-[90%] md:grid-cols-4 gap-1 space-x-8 space-y-1 p-2 mx-auto">
         <div>
-          <Link
+          {/* <Link
             className="cursor-pointer"
             to="/"
             onClick={() => window.scrollTo(0, 0)}
@@ -27,7 +27,7 @@ const Footer = () => {
               style={{ width: "180px", height: "180px", borderRadius: "50px" }}
               className="md:-mt-6"
             />
-          </Link>
+          </Link> */}
           <p>
             Ether-channel Solution Services is an I.T firm founded on the 21st
             of December 2020, which aimed at providing quality assurance with a

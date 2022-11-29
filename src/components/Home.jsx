@@ -174,8 +174,9 @@ const Home = () => {
         <p className="text-center text-2xl">What others are saying.</p>
         <Testimonials />
       </div>
-      <div className="mx-auto max-w-full px-8 py-4 dark:bg-gray-800 lg:max-w-full lg:px-8">
-        <h2 className="text-center text-2xl font-semibold tracking-wider text-gray-900 dark:text-white">
+
+      <div className="mx-auto max-w-full px-8 py-4 dark:bg-gray-800 lg:max-w-full md:px-8 md:py-24 md:my-4">
+        <h2 className="text-center text-2xl font-semibold tracking-wider text-gray-900 dark:text-white md:mb-8">
           Our Partners
         </h2>
         <div className="grid grid-rows-1 md:grid-cols-3 md:w-[30rem] mx-auto">
@@ -194,10 +195,10 @@ const Home = () => {
         </div>
       </div>
       <div className="mx-auto max-w-full px-8 py-4 dark:bg-gray-800 lg:max-w-full lg:px-8">
-        <h2 className="text-center text-2xl font-semibold tracking-wider text-gray-900 dark:text-white">
+        <h2 className="text-center text-2xl font-semibold tracking-wider text-gray-900 dark:text-white md:pb-8">
           Contact Information
         </h2>
-        <div className="w-11/12 my-3 mx-auto">
+        <div className="w-11/12 my-6 mx-auto">
           <div className="grid grid-cols-3 mx-auto">
             <div className="bg-gray-200 w-[400px] rounded-xl p-4 mx-auto">
               <HiOutlineMail size={39} className="my-[5px]" />
