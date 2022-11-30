@@ -21,7 +21,7 @@ const ServiceCard = ({ services }) => {
         </div>
 
         <div className="p-8 text-center">
-          <h3 className="font-bold w-full border-4 border-red-500 text-2xl">{services.name}</h3>
+          <h3 className="font-bold w-full text-2xl">{services.name}</h3>
           <p className="py-6 truncate">{services.description}</p>
           <a
             href={services.link}

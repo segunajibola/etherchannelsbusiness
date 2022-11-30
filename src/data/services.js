@@ -17,7 +17,7 @@ const data = [
   {
     id: 3,
     image: "/images/studyAbroad1.webp",
-    alt: "Study Abroad Processing & Immigration",
+    alt: "Study Abroad & Immigration",
     name: "Study Abroad Processing & Immigration",
     description: "This is a dummy text, will be changed later to the description of the services.",
     link: "", 
@@ -27,7 +27,7 @@ const data = [
     image: "/images/networkDeploy1.webp",
     alt: "Network Deployment",
     name: "Network Deployment",
-    description: "This is a dummy text, will be changed later to the description of the services.",
+    description: "Network Deployment requires a great planning and well structured design to achieve organizational goals and motive which brings effective and work friendly space for their employees and business growth.",
     link: "", 
   },
   {
@@ -35,7 +35,7 @@ const data = [
     image: "/images/cctvInstallation1.jpeg",
     alt: "CCTV Installation",
     name: "CCTV Installation",
-    description: "This is a dummy text, will be changed later to the description of the services.",
+    description: "When it comes to securing and monitoring your business, home and office workspace activities, there are different types and quality of CCTV camera to choose from. Surveillance systems play a huge part in today’s society, and with cameras all around us, our day-to-day lives are experiencing higher levels of security.",
     link: "", 
   },
   {
