@@ -36,10 +36,11 @@ const Testimonials = () => {
                 <SwiperSlide className="md:my-5 p-2">
                   <figure className="p-3 text-center">
                     <img
-                      className="w-32 h-32 rounded-full mx-auto"
+                      className="w-48 h-48 mx-auto"
                       src={clients.image}
                       alt=""
                     />
+                    <p className="text-xl my-4">{clients.name}</p>
                   </figure>
                 </SwiperSlide>
               ))}

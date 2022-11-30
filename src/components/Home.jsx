@@ -5,6 +5,7 @@ import partner3 from "../assets/home/juniper.png";
 import partner4 from "../assets/home/lasuLogo.png";
 import partner5 from "../assets/home/microsoft.jpeg";
 import partner6 from "../assets/home/pearson.png";
+import partner7 from "../assets/home/foloPay.jpg";
 import client1 from "../assets/home/collegeOfNursing.webp";
 import client2 from "../assets/home/dragnet.png";
 import client3 from "../assets/home/jambLogo.png";
@@ -208,13 +209,14 @@ const Home = () => {
         <h2 className="block text-center text-3xl font-semibold tracking-wider text-gray-900 dark:text-white md:mb-8">
           Our Partners
         </h2>
-        <div className="grid md:grid-cols-6 gap-8 md:w-[60rem] mx-auto">
+        <div className="grid md:grid-cols-7 gap-8 md:w-[60rem] mx-auto">
           <img src={partner1} alt="" className="w-44 h-40" />
           <img src={partner2} alt="" className="w-44 h-40" />
           <img src={partner3} alt="" className="w-44 h-40" />
           <img src={partner4} alt="" className="w-44 h-40" />
           <img src={partner5} alt="" className="w-44 h-40" />
           <img src={partner6} alt="" className="w-44 h-40" />
+          <img src={partner7} alt="" className="w-44 h-40" />
         </div>
       </div>
 
