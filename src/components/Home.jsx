@@ -229,15 +229,15 @@ const Home = () => {
         </h2>
         <div className="w-11/12 my-6 mx-auto">
           <div className="grid grid-cols-3 mx-auto">
-            <div className="bg-gray-200 w-[400px] rounded-xl p-4 mx-auto">
+            <div className="bg-gray-200 w-[380px] rounded-xl p-4 mx-auto">
               <HiOutlineMail size={39} className="my-[5px]" />
               <p className="text-lg">etherchannelsbusiness@gmail.com</p>
             </div>
-            <div className="bg-gray-200 w-[400px] rounded-xl p-4 mx-auto">
+            <div className="bg-gray-200 w-[380px] rounded-xl p-4 mx-auto">
               <HiPhone size={39} className="my-[5px]" />
               <p className="text-lg">+234 803 985 0630</p>
             </div>
-            <div className="bg-gray-200 w-[400px] rounded-xl p-4 mx-auto">
+            <div className="bg-gray-200 w-[380px] rounded-xl p-4 mx-auto">
               <HiLocationMarker size={39} className="my-[5px]" />
               <p  className="text-lg">
                 Address: 23, Oluwalopeye Street, PPL, Ojo, Lagos, Nigeria.
