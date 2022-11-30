@@ -108,7 +108,10 @@ const Home = () => {
 
       {/* Services */}
 
-      <div id="services" className="w-full bg-gray-200 dark:bg-gray-100">
+      <div
+        id="services"
+        className="w-full dark:bg-gray-100 flex items-center justify-center mb-12 bg-fixed bg-center bg-cover bg"
+      >
         <div className="p-2 flex flex-col justify-center h-full">
           <div className="text-center">
             <h2 className="text-3xl uppercase font-semibold tracking-wider pb-4 md:my-8">
@@ -182,11 +185,11 @@ const Home = () => {
           Our Clients
         </h2>
         <div className="grid md:grid-cols-5 gap-8 md:w-[60rem] mx-auto">
-            <img src={client1} alt="" className="w-44 h-40" />
-            <img src={client2} alt="" className="w-44 h-40" />
-            <img src={client3} alt="" className="w-44 h-40" />
-            <img src={client4} alt="" className="w-44 h-40" />
-            <img src={client5} alt="" className="w-44 h-40" />
+          <img src={client1} alt="" className="w-44 h-40" />
+          <img src={client2} alt="" className="w-44 h-40" />
+          <img src={client3} alt="" className="w-44 h-40" />
+          <img src={client4} alt="" className="w-44 h-40" />
+          <img src={client5} alt="" className="w-44 h-40" />
         </div>
       </div>
 
@@ -203,15 +206,14 @@ const Home = () => {
           Our Partners
         </h2>
         <div className="grid md:grid-cols-6 gap-8 md:w-[60rem] mx-auto">
-            <img src={partner1} alt="" className="w-44 h-40" />
-            <img src={partner2} alt="" className="w-44 h-40" />
-            <img src={partner3} alt="" className="w-44 h-40" />
-            <img src={partner4} alt="" className="w-44 h-40" />
-            <img src={partner5} alt="" className="w-44 h-40" />
-            <img src={partner6} alt="" className="w-44 h-40" />
+          <img src={partner1} alt="" className="w-44 h-40" />
+          <img src={partner2} alt="" className="w-44 h-40" />
+          <img src={partner3} alt="" className="w-44 h-40" />
+          <img src={partner4} alt="" className="w-44 h-40" />
+          <img src={partner5} alt="" className="w-44 h-40" />
+          <img src={partner6} alt="" className="w-44 h-40" />
         </div>
       </div>
-
 
       <div className="mx-auto max-w-full px-8 py-4 dark:bg-gray-800 lg:max-w-full lg:px-8">
         <h2 className="text-center text-2xl font-semibold tracking-wider text-gray-900 dark:text-white md:pb-8">
@@ -229,7 +231,7 @@ const Home = () => {
             </div>
             <div className="bg-gray-200 w-[380px] rounded-xl p-4 mx-auto">
               <HiLocationMarker size={39} className="my-[5px]" />
-              <p  className="text-lg">
+              <p className="text-lg">
                 Address: 23, Oluwalopeye Street, PPL, Ojo, Lagos, Nigeria.
               </p>
             </div>
