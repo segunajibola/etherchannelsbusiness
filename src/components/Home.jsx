@@ -115,7 +115,7 @@ const Home = () => {
       >
         <div className="p-2 flex flex-col justify-center h-full">
           <div className="text-center">
-            <h2 className="text-3xl uppercase font-semibold tracking-wider pb-4 md:my-8">
+            <h2 className="text-4xl uppercase font-bold tracking-wider pb-4 md:my-8 text-white">
               Services
             </h2>
           </div>
