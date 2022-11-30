@@ -35,14 +35,14 @@ const Testimonials = () => {
           {clients
             .filter((item, index) => index > 4)
             .map((clients) => (
-              <SwiperSlide className="md:my-5 p-2">
+              <SwiperSlide className="md:my-2 p-2">
                 <figure className="p-3 text-center">
                   <img
                     className="w-48 h-48 mx-auto"
                     src={clients.image}
                     alt=""
                   />
-                  <p className="text-xl my-4">{clients.name}</p>
+                  <p className="text-xl my-2">{clients.name}</p>
                 </figure>
               </SwiperSlide>
             ))}
