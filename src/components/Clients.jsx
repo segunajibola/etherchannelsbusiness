@@ -1,4 +1,4 @@
-import testimonials from "../data/testimonials";
+import clients from "../data/clients";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -30,21 +30,21 @@ const Testimonials = () => {
               modules={[Autoplay, Pagination, Navigation]}
               className="w-[430px] sm:w-[30rem] mx-auto md:w-[40rem]"
             >
-              {testimonials.map((testimonial) => (
+              {clients.map((clients) => (
                 <SwiperSlide className="md:my-5 p-2">
                   <figure className="grid rounded-lg p-3 text-center">
                     <img
                       className="w-32 h-32 rounded-full mx-auto"
-                      src={testimonial.image}
+                      src={clients.image}
                       alt=""
                     />
                     <figcaption className="font-medium text-gray-500 dark:text-gray-800">
-                        <div className="">{testimonial.name}</div>
-                        <div className="mb-2">{testimonial.position}</div>
+                        <div className="">{clients.name}</div>
+                        <div className="mb-2">{clients.position}</div>
                       </figcaption>
                       <blockquote className="mx-auto">
                         <p className="text-lg font-semibold mx-2 dark:text-gray-900">
-                          {testimonial.text}
+                          {clients.text}
                         </p>
                       </blockquote>
                   </figure>

@@ -17,6 +17,7 @@ import { HiOutlineMail, HiPhone, HiLocationMarker } from "react-icons/hi";
 import { FaArrowRight } from "react-icons/fa";
 import data from "../data/services.js";
 import ServicesCard from "./ServiceCard";
+import Clients from "./Clients";
 import CountUp, { useCountUp } from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
 
@@ -118,7 +119,7 @@ const Home = () => {
               Services
             </h2>
           </div>
-          <div className="max-w-[1100px] mx-auto grid grid-cols-1 pt-4 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="max-w-[1100px] mx-auto grid grid-cols-1 pt-4 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-10">
             {data
               .filter((item, index) => index < 6)
               .map((services) => (
@@ -200,6 +201,8 @@ const Home = () => {
         <p className="text-center text-2xl">What others are saying.</p>
         <Testimonials />
       </div>
+
+      <Clients />
 
       <div className="mx-auto max-w-full px-8 py-4 bg-gray-200 dark:bg-gray-800 lg:max-w-full md:px-8 md:py-28 md:my-4 flex items-center justify-center mb-12 bg-fixed bg-center bg-cover bg-3">
         <h2 className="text-center text-2xl font-semibold tracking-wider text-gray-900 dark:text-white md:mb-8">
