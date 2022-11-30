@@ -4,12 +4,19 @@
 
 @layer base {
   @media only screen and (min-width: 992px) {
-      #nav {
-          display: none;
-      } 
+    #nav {
+      display: none;
+    }
   }
   .bg {
-    background-image: url('./assets/about/aboutUs1.png');
+    background-image: url("./assets/about/aboutUs1.png");
+  }
+  #line-clamp {
+    width: auto;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
   }
 }
 

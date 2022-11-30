@@ -19,7 +19,7 @@ const data = [
     image: "/images/studyAbroad1.webp",
     alt: "Study Abroad & Immigration",
     name: "Study Abroad & Immigration",
-    description: "This is a dummy text, will be changed later to the description of the services.",
+    description: "To acquire global education, skills and knowledge is a great steps for individuals, government and organizations that sponsor people, to compete with the global people around the world and bring growth in return to the society. Relocating to foreign country to study, work and live requires a thorough planning and process, we have a reliable platform that makes the processes seamless.",
     link: "", 
   },
   {
@@ -43,7 +43,7 @@ const data = [
     image: "/images/webDesign1.jpeg",
     alt: "Web Development",
     name: "Web Development",
-    description: "This is a dummy text, will be changed later to the description of the services.",
+    description: "The structure, design and simplicity of your website is more important than ever, specifically in an increasingly competitive market. We offers a variety of website design and development services, from creating and designing mobile web development solutions, web applications and sensible website designs.",
     link: "", 
   },
   {

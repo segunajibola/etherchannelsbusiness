@@ -20,12 +20,12 @@ const ServiceCard = ({ services }) => {
           
         </div>
 
-        <div className="p-8 text-center">
-          <h3 className="font-bold w-full text-2xl">{services.name}</h3>
-          <p className="py-6 truncate">{services.description}</p>
+        <div className="px-4 py-8 text-center">
+          <h3 className="font-bold w-full text-[22px]">{services.name}</h3>
+          <p className="py-6" id="line-clamp">{services.description}</p>
           <a
             href={services.link}
-            className="block mt-2 px-2 md:p-4 py-1 bg-white rounded-md shadow-md text-sm md:text-lg font-bold text-black w-11/12 mx-auto text-center"
+            className="block mt-3 px-2 md:p-3 py-1 bg-white rounded-md shadow-md text-sm md:text-lg font-bold text-black w-11/12 mx-auto text-center"
           >
             See More
           </a>
