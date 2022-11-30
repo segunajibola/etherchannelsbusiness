@@ -5,7 +5,7 @@ const ServiceCard = ({ services }) => {
   return (
     <a href={services.link}>
       <div
-        className="bg-blue-500 text-white rounded-3xl shadow-lg hover:scale-110 delay-500 ease-in-out duration-300"
+        className="bg-blue-500 text-white rounded-3xl shadow-xl shadow-black hover:scale-110 delay-500 ease-in-out duration-300"
         key={services.id}
       >
         <div className="relative">

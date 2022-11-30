@@ -127,7 +127,7 @@ const Home = () => {
           </div>
           <Link to="/services" className="flex justify-center">
             <button
-              className="text-gray-100 bg-blue-500 p-2 md:p-4 my-6 rounded-md tracking-wide text-xl font-semibold"
+              className="text-gray-100 bg-blue-500 p-2 md:p-4 my-6 md:mt-12 rounded-md tracking-wide text-xl font-semibold"
               onClick={() => window.scrollTo(0, 0)}
             >
               See all services
