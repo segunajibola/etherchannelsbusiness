@@ -19,7 +19,7 @@ const Navbar = ({ handleMode, darkMode }) => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed z-20 w-full h-[60px] shadow-lg flex justify-between items-center px-4 bg-[#2b4b77] dark:bg-gray-500 text-gray-300 dark:text-gray-800">
+    <div className="fixed z-20 w-full h-[80px] shadow-lg flex justify-between items-center px-4 bg-[#2b4b77] dark:bg-gray-500 text-gray-300 dark:text-gray-800">
       <Link
         className="cursor-pointer"
         to="/"
@@ -28,7 +28,7 @@ const Navbar = ({ handleMode, darkMode }) => {
         <img
           src={Logo}
           alt="Logo Image"
-          style={{ width: "50px", height: "50px", borderRadius: "50px" }}
+          style={{ width: "80px", height: "80px", borderRadius: "50px" }}
         />
       </Link>
 
@@ -58,7 +58,7 @@ const Navbar = ({ handleMode, darkMode }) => {
         onClick={handleMode}
         className="z-30 ml-72 sm:ml-[30rem] md:ml-0 cursor-pointer dark:text-gray-800"
       >
-        {darkMode ? <FaMoon size={22} /> : <FaLightbulb size={22} />}
+        {darkMode ? <FaMoon size={27} /> : <FaLightbulb size={27} />}
       </div>
 
       {/* Hamburger */}

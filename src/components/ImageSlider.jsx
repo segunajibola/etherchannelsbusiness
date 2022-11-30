@@ -12,7 +12,7 @@ const slideStyles = {
   width: "100%",
   height: "100%",
   backgroundSize: "cover",
-  backgroundPosition: "top",
+  backgroundPosition: "center",
   marginLeft: "auto",
   marginRight: "auto",
 };

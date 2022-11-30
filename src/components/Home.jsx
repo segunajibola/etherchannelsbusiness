@@ -41,7 +41,7 @@ const Home = () => {
     <>
       <div className="grid bg-gray-200 pt-10 px-[2px] dark:bg-gray-700 lg:grid-cols-1 w-screen sm:w-full">
         <div className="relative mt-2 hidden md:block md:col-span-5 2xl:col-span-3">
-          <div className="w-full h-[1000px] my-0 mx-auto">
+          <div className="w-full h-[85vh] my-0 mx-auto">
             <ImageSlider slides={slides} />
           </div>
         </div>
@@ -177,22 +177,16 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="mx-auto max-w-full px-8 py-4 bg-gray-200 dark:bg-gray-800 lg:max-w-full md:px-8 md:py-32 md:my-4">
+      <div className="mx-auto max-w-full px-8 py-4 bg-gray-200 dark:bg-gray-800 lg:max-w-full md:px-8 md:py-28 md:my-4">
         <h2 className="text-center text-2xl font-semibold tracking-wider text-gray-900 dark:text-white md:mb-8">
           Our Clients
         </h2>
-        <div className="grid grid-rows-1 md:grid-cols-3 md:w-[30rem] mx-auto">
-          <div className="mx-auto">
-            <img src={client1} alt="" className="w-24 h-24" />
-            <img src={client2} alt="" className="w-24 h-24" />
-          </div>
-          <div className="mx-auto">
-            <img src={client3} alt="" className="w-24 h-24" />
-            <img src={client4} alt="" className="w-24 h-24" />
-          </div>
-          <div className="mx-auto">
-            <img src={client5} alt="" className="w-24 h-24" />
-          </div>
+        <div className="grid md:grid-cols-5 gap-8 md:w-[60rem] mx-auto">
+            <img src={client1} alt="" className="w-44 h-40" />
+            <img src={client2} alt="" className="w-44 h-40" />
+            <img src={client3} alt="" className="w-44 h-40" />
+            <img src={client4} alt="" className="w-44 h-40" />
+            <img src={client5} alt="" className="w-44 h-40" />
         </div>
       </div>
 
@@ -204,25 +198,21 @@ const Home = () => {
         <Testimonials />
       </div>
 
-      <div className="mx-auto max-w-full px-8 py-4 bg-gray-200 dark:bg-gray-800 lg:max-w-full md:px-8 md:py-32 md:my-4">
+      <div className="mx-auto max-w-full px-8 py-4 bg-gray-200 dark:bg-gray-800 lg:max-w-full md:px-8 md:py-28 md:my-4">
         <h2 className="text-center text-2xl font-semibold tracking-wider text-gray-900 dark:text-white md:mb-8">
           Our Partners
         </h2>
-        <div className="grid grid-rows-1 md:grid-cols-3 md:w-[30rem] mx-auto">
-          <div className="mx-auto">
-            <img src={partner1} alt="" className="w-24 h-24" />
-            <img src={partner2} alt="" className="w-24 h-24" />
-          </div>
-          <div className="mx-auto">
-            <img src={partner3} alt="" className="w-24 h-24" />
-            <img src={partner4} alt="" className="w-24 h-24" />
-          </div>
-          <div className="mx-auto">
-            <img src={partner5} alt="" className="w-24 h-24" />
-            <img src={partner6} alt="" className="w-24 h-24" />
-          </div>
+        <div className="grid md:grid-cols-6 gap-8 md:w-[60rem] mx-auto">
+            <img src={partner1} alt="" className="w-44 h-40" />
+            <img src={partner2} alt="" className="w-44 h-40" />
+            <img src={partner3} alt="" className="w-44 h-40" />
+            <img src={partner4} alt="" className="w-44 h-40" />
+            <img src={partner5} alt="" className="w-44 h-40" />
+            <img src={partner6} alt="" className="w-44 h-40" />
         </div>
       </div>
+
+
       <div className="mx-auto max-w-full px-8 py-4 dark:bg-gray-800 lg:max-w-full lg:px-8">
         <h2 className="text-center text-2xl font-semibold tracking-wider text-gray-900 dark:text-white md:pb-8">
           Contact Information
