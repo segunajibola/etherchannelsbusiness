@@ -209,7 +209,7 @@ const Home = () => {
         <h2 className="block text-center text-3xl font-semibold tracking-wider text-gray-900 dark:text-white md:mb-8">
           Our Partners
         </h2>
-        <div className="grid md:grid-cols-7 gap-8 md:w-[60rem] mx-auto">
+        <div className="grid md:grid-cols-7 gap-8 md:w-[75rem] mx-auto">
           <img src={partner1} alt="" className="w-44 h-40" />
           <img src={partner2} alt="" className="w-44 h-40" />
           <img src={partner3} alt="" className="w-44 h-40" />
