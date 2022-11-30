@@ -41,7 +41,7 @@ const Home = () => {
     <>
       <div className="grid bg-gray-200 pt-10 px-[2px] dark:bg-gray-700 lg:grid-cols-1 w-screen sm:w-full">
         <div className="relative mt-2 hidden md:block md:col-span-5 2xl:col-span-3">
-          <div className="w-full h-[1100px] my-0 mx-auto">
+          <div className="w-full h-[1000px] my-0 mx-auto">
             <ImageSlider slides={slides} />
           </div>
         </div>
@@ -177,7 +177,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="mx-auto max-w-full px-8 py-4 bg-gray-200 dark:bg-gray-800 lg:max-w-full md:px-8 md:py-24 md:my-4">
+      <div className="mx-auto max-w-full px-8 py-4 bg-gray-200 dark:bg-gray-800 lg:max-w-full md:px-8 md:py-32 md:my-4">
         <h2 className="text-center text-2xl font-semibold tracking-wider text-gray-900 dark:text-white md:mb-8">
           Our Clients
         </h2>
@@ -204,7 +204,7 @@ const Home = () => {
         <Testimonials />
       </div>
 
-      <div className="mx-auto max-w-full px-8 py-4 bg-gray-200 dark:bg-gray-800 lg:max-w-full md:px-8 md:py-24 md:my-4">
+      <div className="mx-auto max-w-full px-8 py-4 bg-gray-200 dark:bg-gray-800 lg:max-w-full md:px-8 md:py-32 md:my-4">
         <h2 className="text-center text-2xl font-semibold tracking-wider text-gray-900 dark:text-white md:mb-8">
           Our Partners
         </h2>
