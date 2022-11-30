@@ -9,7 +9,13 @@
     }
   }
   .bg {
-    background-image: url("./assets/home/bg.jpg");
+    background-image: url("./assets/home/bg2.jpeg");
+  }
+  .bg-2 {
+    background-image: url("./assets/home/bg3.png");
+  }
+  .bg-3 {
+    background-image: url("./assets/home/bg5.jpeg");
   }
   #line-clamp {
     width: auto;

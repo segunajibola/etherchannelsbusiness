@@ -33,7 +33,7 @@ const Navbar = ({ handleMode, darkMode }) => {
       </Link>
 
       {/* menu */}
-      <ul className="hidden md:flex space-x-10 text-md tracking-wide">
+      <ul className="hidden md:flex space-x-10 text-md font-semibold tracking-wide">
         <li className="cursor-pointer">
           <Link to="/" onClick={() => window.scrollTo(0, 0)}>
             Home

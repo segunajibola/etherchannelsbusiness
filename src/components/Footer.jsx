@@ -13,7 +13,7 @@ import Logo from "../assets/navbar/etherchannellogo.png";
 
 const Footer = () => {
   return (
-    <footer className="w-full text-left text-gray-300 bg-[#2b4b77] md:py-8 dark:bg-gray-300 dark:text-gray-800 text-lg">
+    <footer className="w-full text-left text-white bg-[#2b4b77] md:py-8 dark:bg-gray-300 dark:text-gray-800 text-lg">
       <div className="grid max-w-[90%] md:grid-cols-4 gap-1 space-x-8 space-y-1 p-2 mx-auto">
         <div>
           {/* <Link
@@ -141,7 +141,7 @@ const Footer = () => {
 
       <Link to="/" className="flex justify-end m-2">
         <button
-          className="text-gray-100 text-sm border-2 hover:text-gray-800 hover:bg-gray-100 hover:border-gray-200 px-1 py-1 md:my-2 dark:text-gray-900 dark:border-gray-500 dark:hover:bg-gray-300 dark:hover:border-gray-800"
+          className="text-white text-sm border-2 hover:text-gray-800 hover:bg-gray-100 hover:border-gray-200 px-1 py-1 md:my-2 dark:text-gray-900 dark:border-gray-500 dark:hover:bg-gray-300 dark:hover:border-gray-800"
           onClick={() => window.scrollTo(0, 0)}
         >
           Back to Top <FaArrowUp className="inline" />

@@ -180,7 +180,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="mx-auto max-w-full px-8 py-4 bg-gray-200 dark:bg-gray-800 lg:max-w-full md:px-8 md:py-28 md:my-4">
+      <div className="mx-auto max-w-full px-8 py-4 bg-gray-200 dark:bg-gray-800 lg:max-w-full md:px-8 md:py-28 md:my-4 flex items-center justify-center mb-12 bg-fixed bg-center bg-cover bg-2">
         <h2 className="text-center text-2xl font-semibold tracking-wider text-gray-900 dark:text-white md:mb-8">
           Our Clients
         </h2>
@@ -201,7 +201,7 @@ const Home = () => {
         <Testimonials />
       </div>
 
-      <div className="mx-auto max-w-full px-8 py-4 bg-gray-200 dark:bg-gray-800 lg:max-w-full md:px-8 md:py-28 md:my-4">
+      <div className="mx-auto max-w-full px-8 py-4 bg-gray-200 dark:bg-gray-800 lg:max-w-full md:px-8 md:py-28 md:my-4 flex items-center justify-center mb-12 bg-fixed bg-center bg-cover bg-3">
         <h2 className="text-center text-2xl font-semibold tracking-wider text-gray-900 dark:text-white md:mb-8">
           Our Partners
         </h2>
