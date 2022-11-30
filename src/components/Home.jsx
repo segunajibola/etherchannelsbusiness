@@ -115,7 +115,7 @@ const Home = () => {
       >
         <div className="p-2 flex flex-col justify-center h-full">
           <div className="text-center">
-            <h2 className="text-4xl uppercase font-bold tracking-wider pb-4 md:my-8 text-white">
+            <h2 className="bg-blue-500 w-[200px] mx-auto text-4xl uppercase font-semibold tracking-wider p-2 md:my-8 text-white rounded-lg shadow-2xl">
               Services
             </h2>
           </div>
@@ -181,8 +181,8 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="mx-auto max-w-full px-8 py-4 bg-gray-200 dark:bg-gray-800 lg:max-w-full md:px-8 md:py-28 md:my-4 flex items-center justify-center mb-12 bg-fixed bg-center bg-cover bg-2">
-        <h2 className="text-center text-2xl font-semibold tracking-wider text-gray-900 dark:text-white md:mb-8">
+      <div className="mx-auto max-w-full px-8 py-4 bg-gray-200 dark:bg-gray-800 lg:max-w-full md:px-8 md:py-28 md:my-4 bg-fixed bg-center bg-cover bg-2">
+        <h2 className="text-center text-3xl font-semibold tracking-wider text-gray-900 dark:text-white md:mb-8">
           Our Clients
         </h2>
         <div className="grid md:grid-cols-5 gap-8 md:w-[60rem] mx-auto">
@@ -204,8 +204,8 @@ const Home = () => {
 
       <Clients />
 
-      <div className="mx-auto max-w-full px-8 py-4 bg-gray-200 dark:bg-gray-800 lg:max-w-full md:px-8 md:py-28 md:my-4 flex items-center justify-center mb-12 bg-fixed bg-center bg-cover bg-3">
-        <h2 className="text-center text-2xl font-semibold tracking-wider text-gray-900 dark:text-white md:mb-8">
+      <div className="mx-auto max-w-full px-8 py-4 bg-gray-200 dark:bg-gray-800 lg:max-w-full md:px-8 md:py-28 md:my-4 bg-fixed bg-center bg-cover bg-3">
+        <h2 className="block text-center text-3xl font-semibold tracking-wider text-gray-900 dark:text-white md:mb-8">
           Our Partners
         </h2>
         <div className="grid md:grid-cols-6 gap-8 md:w-[60rem] mx-auto">
