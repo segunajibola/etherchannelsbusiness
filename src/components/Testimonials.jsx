@@ -15,7 +15,7 @@ const Testimonials = () => {
       id="testimonials"
       className="w-full overflow-hidden dark:bg-gray-100 dark:text-gray-800"
     >
-        <div className="grid grid-cols sm:grid-cols-1 justify-center gap-8 px-2 pt-4">
+        {/* <div className="grid grid-cols sm:grid-cols-1 justify-center gap-8 px-2 pt-4"> */}
             <Swiper
               spaceBetween={30}
               centeredSlides={true}
@@ -32,7 +32,7 @@ const Testimonials = () => {
             >
               {testimonials.map((testimonial) => (
                 <SwiperSlide className="md:my-5 p-2">
-                  <figure className="grid rounded-lg p-3 text-center">
+                  <figure className="p-3 text-center">
                     <img
                       className="w-32 h-32 rounded-full mx-auto"
                       src={testimonial.image}
@@ -52,7 +52,7 @@ const Testimonials = () => {
               ))}
             </Swiper>
       </div>
-    </div>
+    // </div>
   );
 };
 

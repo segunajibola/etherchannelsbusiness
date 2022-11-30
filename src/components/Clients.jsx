@@ -20,11 +20,13 @@ const Testimonials = () => {
               spaceBetween={30}
               centeredSlides={true}
               autoplay={{
-                delay: 2500,
+                delay: 1000,
                 disableOnInteraction: false,
               }}
+              // showsPagination={false}
               pagination={{
-                clickable: true,
+                clickable: false,
+                // hiddenClass: "swiper-pagination-hidden",
               }}
               navigation={false}
               modules={[Autoplay, Pagination, Navigation]}
@@ -32,21 +34,12 @@ const Testimonials = () => {
             >
               {clients.map((clients) => (
                 <SwiperSlide className="md:my-5 p-2">
-                  <figure className="grid rounded-lg p-3 text-center">
+                  <figure className="p-3 text-center">
                     <img
                       className="w-32 h-32 rounded-full mx-auto"
                       src={clients.image}
                       alt=""
                     />
-                    <figcaption className="font-medium text-gray-500 dark:text-gray-800">
-                        <div className="">{clients.name}</div>
-                        <div className="mb-2">{clients.position}</div>
-                      </figcaption>
-                      <blockquote className="mx-auto">
-                        <p className="text-lg font-semibold mx-2 dark:text-gray-900">
-                          {clients.text}
-                        </p>
-                      </blockquote>
                   </figure>
                 </SwiperSlide>
               ))}
