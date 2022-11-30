@@ -18,7 +18,7 @@ const data = [
     id: 3,
     image: "/images/studyAbroad1.webp",
     alt: "Study Abroad & Immigration",
-    name: "Study Abroad Processing & Immigration",
+    name: "Study Abroad & Immigration",
     description: "This is a dummy text, will be changed later to the description of the services.",
     link: "", 
   },

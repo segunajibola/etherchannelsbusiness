@@ -1,5 +1,15 @@
 import React from "react";
-import Logo from "../assets/home/homepage1.jpg";
+import partner1 from "../assets/home/ciscoLogo.png";
+import partner2 from "../assets/home/ecCouncil.png";
+import partner3 from "../assets/home/juniper.png";
+import partner4 from "../assets/home/lasuLogo.png";
+import partner5 from "../assets/home/microsoft.jpeg";
+import partner6 from "../assets/home/pearson.png";
+import client1 from "../assets/home/collegeOfNursing.webp";
+import client2 from "../assets/home/dragnet.png";
+import client3 from "../assets/home/jambLogo.png";
+import client4 from "../assets/home/lasuLogo.png";
+import client5 from "../assets/home/trcnLogo.jpeg";
 import { Link } from "react-router-dom";
 import ImageSlider from "./ImageSlider";
 import Testimonials from "./Testimonials";
@@ -126,28 +136,28 @@ const Home = () => {
       <div className="my-4 w-[80%] h-[500px] mx-auto">
         <div className="relative h-[300px] pt-[150px]">
           <div className="text-center">
-            <h3 className="text-3xl">Some numbers that matters</h3>
-            <h4 className="my-2 text-lg">
+            <h3 className="text-4xl">Some numbers that matters</h3>
+            <h4 className="my-2 text-xl">
               Our recent achievement shown by numbers
             </h4>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 md:w-11/12 mx-auto pt-4">
-            <div className="text-center text-xl">
+          <div className="grid grid-cols-2 md:grid-cols-4 md:w-11/12 mx-auto pt-4 text-2xl">
+            <div className="text-center">
               <CountUp end={10} enableScrollSpy />
               <span className="inline">+</span>
               <h5 className="">Years of Experience</h5>
             </div>
-            <div className="text-center text-xl">
+            <div className="text-center">
               <CountUp end={100} enableScrollSpy />
               <span className="inline">+</span>
               <h5 className="">Clients</h5>
             </div>
-            <div className="text-center text-xl">
+            <div className="text-center">
               <CountUp end={200} enableScrollSpy />
               <span className="inline">+</span>
               <h5 className="">Successful Deployment</h5>
             </div>
-            <div className="text-center text-xl">
+            <div className="text-center">
               {/* <VisibilitySensor
               className="inline"
               partialVisibility
@@ -167,6 +177,25 @@ const Home = () => {
         </div>
       </div>
 
+      <div className="mx-auto max-w-full px-8 py-4 dark:bg-gray-800 lg:max-w-full md:px-8 md:py-24 md:my-4">
+        <h2 className="text-center text-2xl font-semibold tracking-wider text-gray-900 dark:text-white md:mb-8">
+          Our Clients
+        </h2>
+        <div className="grid grid-rows-1 md:grid-cols-3 md:w-[30rem] mx-auto">
+          <div className="mx-auto">
+            <img src={client1} alt="" className="w-24 h-24" />
+            <img src={client2} alt="" className="w-24 h-24" />
+          </div>
+          <div className="mx-auto">
+            <img src={client3} alt="" className="w-24 h-24" />
+            <img src={client4} alt="" className="w-24 h-24" />
+          </div>
+          <div className="mx-auto">
+            <img src={client5} alt="" className="w-24 h-24" />
+          </div>
+        </div>
+      </div>
+
       <div className="mx-auto bg-gray-200 max-w-[1000px] px-2 py-2 lg:max-w-full md:mt-4 md:py-20">
         <h2 className="text-center mt-4 text-2xl font-semibold tracking-wider text-gray-900 dark:text-white">
           Testimonials
@@ -181,16 +210,16 @@ const Home = () => {
         </h2>
         <div className="grid grid-rows-1 md:grid-cols-3 md:w-[30rem] mx-auto">
           <div className="mx-auto">
-            <img src={Logo} alt="" className="w-24 h-24" />
-            <img src={Logo} alt="" className="w-24 h-24" />
+            <img src={partner1} alt="" className="w-24 h-24" />
+            <img src={partner2} alt="" className="w-24 h-24" />
           </div>
           <div className="mx-auto">
-            <img src={Logo} alt="" className="w-24 h-24" />
-            <img src={Logo} alt="" className="w-24 h-24" />
+            <img src={partner3} alt="" className="w-24 h-24" />
+            <img src={partner4} alt="" className="w-24 h-24" />
           </div>
           <div className="mx-auto">
-            <img src={Logo} alt="" className="w-24 h-24" />
-            <img src={Logo} alt="" className="w-24 h-24" />
+            <img src={partner5} alt="" className="w-24 h-24" />
+            <img src={partner6} alt="" className="w-24 h-24" />
           </div>
         </div>
       </div>
