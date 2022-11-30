@@ -28,7 +28,43 @@ const clients = [
       image: "/images/dragnet.png",
       alt: "Business man 2",
       name: "Dragnet",
-    }
+    },
+    {
+      id: 6,
+      image: "/images/ecCouncil.png",
+      alt: "Business man 2",
+      name: "EC Council",
+    },
+    {
+      id: 7,
+      image: "/images/ciscoLogo.png",
+      alt: "Business man 2",
+      name: "Cisco",
+    },
+    {
+      id: 8,
+      image: "/images/juniper.png",
+      alt: "Business man 2",
+      name: "Juniper",
+    },
+    {
+      id: 9,
+      image: "/images/lasuLogo.png",
+      alt: "Business man 2",
+      name: "Lagos State University",
+    },
+    {
+      id: 10,
+      image: "/images/microsoft.jpeg",
+      alt: "Business man 2",
+      name: "Microsoft",
+    },
+    {
+      id: 11,
+      image: "/images/pearson.png",
+      alt: "Business man 2",
+      name: "TRCN",
+    },
   ]
   
   export default clients;

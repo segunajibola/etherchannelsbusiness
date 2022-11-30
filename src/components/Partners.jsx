@@ -33,7 +33,7 @@ const Testimonials = () => {
           className="w-[430px] sm:w-[30rem] mx-auto md:w-[40rem]"
         >
           {clients
-            .filter((item, index) => index < 5)
+            .filter((item, index) => index > 4)
             .map((clients) => (
               <SwiperSlide className="md:my-5 p-2">
                 <figure className="p-3 text-center">

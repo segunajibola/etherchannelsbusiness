@@ -19,6 +19,7 @@ import { FaArrowRight } from "react-icons/fa";
 import data from "../data/services.js";
 import ServicesCard from "./ServiceCard";
 import Clients from "./Clients";
+import Partners from "./Partners";
 import CountUp, { useCountUp } from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
 
@@ -186,13 +187,14 @@ const Home = () => {
         <h2 className="text-center text-3xl font-semibold tracking-wider text-gray-900 dark:text-white md:mb-8">
           Our Clients
         </h2>
-        <div className="grid md:grid-cols-5 gap-8 md:w-[60rem] mx-auto">
+        {/* <div className="grid md:grid-cols-5 gap-8 md:w-[60rem] mx-auto">
           <img src={client1} alt="" className="w-44 h-40" />
           <img src={client2} alt="" className="w-44 h-40" />
           <img src={client3} alt="" className="w-44 h-40" />
           <img src={client4} alt="" className="w-44 h-40" />
           <img src={client5} alt="" className="w-44 h-40" />
-        </div>
+        </div> */}
+        <Clients />
       </div>
 
       <div className="mx-auto max-w-[1000px] px-2 py-2 lg:max-w-full md:mt-4 md:py-20">
@@ -203,13 +205,11 @@ const Home = () => {
         <Testimonials />
       </div>
 
-      <Clients />
-
       <div className="mx-auto max-w-full px-8 py-4 bg-gray-200 dark:bg-gray-800 lg:max-w-full md:px-8 md:py-28 md:my-4 bg-fixed bg-center bg-cover bg-3">
         <h2 className="block text-center text-3xl font-semibold tracking-wider text-gray-900 dark:text-white md:mb-8">
           Our Partners
         </h2>
-        <div className="grid md:grid-cols-7 gap-8 md:w-[75rem] mx-auto">
+        {/* <div className="grid md:grid-cols-7 gap-8 md:w-[75rem] mx-auto">
           <img src={partner1} alt="" className="w-44 h-40" />
           <img src={partner2} alt="" className="w-44 h-40" />
           <img src={partner3} alt="" className="w-44 h-40" />
@@ -217,7 +217,8 @@ const Home = () => {
           <img src={partner5} alt="" className="w-44 h-40" />
           <img src={partner6} alt="" className="w-44 h-40" />
           <img src={partner7} alt="" className="w-44 h-40" />
-        </div>
+        </div> */}
+        <Partners />
       </div>
 
       <div className="mx-auto max-w-full px-8 py-4 dark:bg-gray-800 lg:max-w-full lg:px-8">
