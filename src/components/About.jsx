@@ -5,7 +5,7 @@ import banner from "../assets/about/about2.jpeg"
 const About = () => {
   return (
     <div className="bg-gray-100 dark:bg-gray-700 py-4">
-      <div className="grid grid-cols-2 md:grid-cols-1 mt-[80px]">
+      <div className="grid grid-cols-2 md:grid-cols-1 mt-[60px]">
         <img
           src={banner}
           alt=""
