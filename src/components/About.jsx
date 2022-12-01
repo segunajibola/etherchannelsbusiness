@@ -39,7 +39,7 @@ const About = () => {
         <div className="mb-3 md:my-3">
           <h2 className="text-2xl py-8 font-semibold">OUR VISION</h2>
           <p className="text-xl">
-          Our vision is to be the best and foremost provider of Industry-lead Technological and Business skills set training institute in Nigeria and all across the Africa.
+          Our vision is to be the best and foremost provider of Industry-lead Technological and Business skills set training institute in Nigeria and all across the Afrca.
           </p>
         </div>
       </div>
