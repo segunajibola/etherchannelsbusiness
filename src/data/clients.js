@@ -63,8 +63,14 @@ const clients = [
       id: 11,
       image: "/images/pearson.png",
       alt: "Business man 2",
-      name: "TRCN",
+      name: "Pearson Coporation",
     },
+    {
+      id: 12,
+      image: "/images/foloPay.jpg",
+      alt: "Busines",
+      name: "FoloPay",
+    }
   ]
   
   export default clients;

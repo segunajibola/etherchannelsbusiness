@@ -206,7 +206,7 @@ const Home = () => {
       </div>
 
       <div className="mx-auto max-w-full px-8 py-4 bg-gray-200 dark:bg-gray-800 lg:max-w-full md:px-8 md:py-28 md:my-4 bg-fixed bg-center bg-cover bg-3">
-        <h2 className="block text-center text-3xl font-semibold tracking-wider text-gray-900 dark:text-white md:mb-8">
+        <h2 className="block text-center text-3xl font-semibold tracking-wider text-white dark:text-white md:mb-8">
           Our Partners
         </h2>
         {/* <div className="grid md:grid-cols-7 gap-8 md:w-[75rem] mx-auto">
