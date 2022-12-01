@@ -48,7 +48,7 @@ const data = [
   },
   {
     id: 7,
-    image: "/images/homepage6.jpg",
+    image: "/images/jambLogo.png",
     alt: "All Jamb Activities",
     name: "All Jamb Activities",
     description: "This is a dummy text, will be changed later to the description of the services.",

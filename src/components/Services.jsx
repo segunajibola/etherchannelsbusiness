@@ -1,35 +1,45 @@
 import React from "react";
+import banner from "../assets/services/services2.webp";
+import data from "../data/services.js";
+import ServicesCard from "./ServiceCard";
 
 const Services = () => {
   return (
-    <div>
-      <div className="grid lg:grid-cols-2 bg-gray-100 dark:bg-gray-700">
-        <div className="relative">
+    <>
+      <div className="bg-gray-100 py-4 dark:bg-gray-700">
+        <div className="grid grid-cols-2 md:grid-cols-1 mt-[40px]">
           <img
-            src="images/services/itTraining/itTraining2.jpg"
+            src={banner}
             alt=""
-            className="mt-0 w-screen mx-2 h-[320px] mx-auto"
+            className="mb-3 w-screen h-[70vh] object-cover object-center"
           />
-        </div>
-
-        <div className="w-full mx-auto text-center p-5">
-          <h2 className="text-2xl font-semibold tracking-wider dark:text-white my-2">
-            Services
-          </h2>
-          <p className="w-11/12 mx-auto text-lg">
-            At Etherchannel Solution Sevices, our team are dedicated
-            professionals and solution driven who follow due process that will
-            enable us to deliver quality I.T services that ensures the growth of
-            your business. We are absolutely concern Our experienced and
-            seasoned professionals create, configure, implement, and maintain a
-            healthy cloud and on-premises infrastructure for your business,
-            reducing your IT expenses, and allowing for budgetary planning for
-            the future.
-          </p>
+          <div className="mx-auto text-center">
+            <h2 className="text-3xl font-semibold tracking-wider text-gray-900 dark:text-white my-8">
+              Our Services
+            </h2>
+            <p className="w-11/12 mx-auto py-16 text-xl">
+              We are IT Solution Services firm founded on the 21st of December
+              2020 and Our core value is aimed at providing quality assurance
+              with an unbeatable solutions driven to all our business partners
+              and customers. We are innovative, highly motivated and well
+              equipped with one of the best IT infrastructures, quality and
+              competent training hands. We are absolutely committed to ensure
+              that our clients are taking highly recommended technical decisions
+              and are realizing business value and results from their IT
+              Investments throughout our business partnering.
+            </p>
+          </div>
         </div>
       </div>
 
       <h2 className="text-center font-bold text-2xl my-3">What we offer</h2>
+
+      <div className="max-w-[1100px] mx-auto grid grid-cols-1 py-8 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-10">
+        {data
+          .map((services) => (
+            <ServicesCard services={services} />
+          ))}
+      </div>
 
       <div>
         <div className="">
@@ -251,16 +261,11 @@ const Services = () => {
               <li>B. Microsoft Office 2021 for Advanced Users</li>
               <li>C. Advanced Excel for Business class and Professionals</li>
               <li>D. Computer Networking Fundamentals</li>
-
-              {/* 
-
--
-              */}
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
