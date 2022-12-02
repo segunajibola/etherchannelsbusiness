@@ -1,9 +1,10 @@
 import React from "react";
 import { BsLink } from "react-icons/bs";
+import { Link } from 'react-router-dom';
+
 
 const ServiceCard = ({ services }) => {
   return (
-    <a href={services.link}>
       <div
         className="bg-blue-500 text-white rounded-3xl shadow-xl shadow-black hover:scale-110 delay-100 ease-in-out duration-300"
         key={services.id}
@@ -23,15 +24,15 @@ const ServiceCard = ({ services }) => {
         <div className="px-4 py-8 text-center">
           <h3 className="font-bold w-full text-[22px]">{services.name}</h3>
           <p className="py-6" id="line-clamp">{services.description}</p>
-          <a
-            href={services.link}
+          <Link to={`/services/${services.name}`} className='block'>
+          <button
             className="block mt-3 px-2 md:p-3 py-1 bg-white rounded-md shadow-md text-sm md:text-lg font-bold text-black w-11/12 mx-auto text-center"
           >
             See More
-          </a>
+          </button>
+          </Link>
         </div>
       </div>
-    </a>
   );
 };
 
