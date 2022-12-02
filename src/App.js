@@ -2,11 +2,12 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Services from "./components/Services";
+import ParticularService from "./components/ParticularService";
 import Courses from "./components/Courses";
 import Footer from "./components/Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useState } from "react";
-import data from "../data/services.js";
+import services from "./data/services.js";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -26,7 +27,7 @@ function App() {
           <Route path="/services" element={<Services />} />
 
           <Route
-          path='/services/:service'
+          path='/services/:id'
           element={<ParticularService services={services} />}
         />
 
