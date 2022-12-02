@@ -30,7 +30,7 @@ const About = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 w-11/12 mx-auto text-center my-16 gap-4">
-        <div className="my-3">
+        <div className="my-3 bg-gray-300 p-4 rounded-2xl">
           <h2 className="text-2xl py-8 font-semibold">OUR MISSION</h2>
           <p className="text-xl">
           Our primary aim and objectives is to bridge the technology gap in Nigeria and to motivate and groom young talented tech minds in providing quality, cost-effective training and digital solution services to increase individual and organizational productivity and enrichment.

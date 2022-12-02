@@ -4,23 +4,23 @@ import { useParams } from "react-router-dom";
 const ParticularService = ({ services }) => {
   console.log("services", services);
 
-  const { id } = useParams();
+  const { name } = useParams();
 
-  console.log("name", id);
+  console.log("name", name);
   
   return (
     <div className="overflow-hidden bg-gray-100  dark:bg-gray-700">
       <div className="mx-auto max-w-7xl pt-12">
         {/* {services */}
-          {/* // .filter((service) => service.id === id) */}
+          // .filter((service) => service.name === name)
           {/* .map((service) => ( */}
-            <div className="flex-shrink-0 text-center py-16" key={id}>
+            <div className="flex-shrink-0 text-center py-16" key={name}>
               {/* <img
                 src={service.image}
                 alt={service.alt}
                 className="h-64 w-full object-cover"
               /> */}
-              <p className="py-12">Hello, {id}</p>
+              <p className="py-12">Hello, {name}</p>
             </div>
           {/* ))} */}
       </div>
