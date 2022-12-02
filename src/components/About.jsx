@@ -29,18 +29,30 @@ const About = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 w-11/12 mx-auto text-center my-16 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 w-11/12 mx-auto text-center my-16 gap-4">
         <div className="my-3 bg-gray-300 p-4 rounded-2xl">
-          <h2 className="text-2xl py-8 font-semibold">OUR MISSION</h2>
+          <h2 className="text-2xl py-8 font-semibold">Our Mission</h2>
           <p className="text-xl">
           Our primary aim and objectives is to bridge the technology gap in Nigeria and to motivate and groom young talented tech minds in providing quality, cost-effective training and digital solution services to increase individual and organizational productivity and enrichment.
           </p>
         </div>
-        <div className="mb-3 md:my-3">
-          <h2 className="text-2xl py-8 font-semibold">OUR VISION</h2>
+        <div className="my-3 bg-gray-300 p-4 rounded-2xl">
+          <h2 className="text-2xl py-8 font-semibold">Our Vision</h2>
           <p className="text-xl">
           Our vision is to be the best and foremost provider of Industry-lead Technological and Business skills set training institute in Nigeria and all across the Africa.
           </p>
+        </div>
+        <div className="my-3 bg-gray-300 p-4 rounded-2xl">
+          <h2 className="text-2xl py-8 font-semibold">Our Core Values</h2>
+          <ul>
+            <li>Honesty</li>
+            <li>Dignity</li>
+            <li>Integrity</li>
+            <li>Ownership</li>
+            <li>Innovation</li>
+            <li>Dedication</li>
+            <li>Satisfaction</li>
+          </ul>
         </div>
       </div>
     </div>
