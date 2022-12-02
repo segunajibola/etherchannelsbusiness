@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
 import React from "react";
 import banner from "../assets/about/about2.jpeg";
+import { MdVisibility, MdCreditScore } from "react-icons/md";
+import { GiMissileLauncher } from "react-icons/gi";
+
 
 const About = () => {
   return (
@@ -29,20 +32,23 @@ const About = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 w-11/12 mx-auto text-center my-16 gap-4">
-        <div className="my-3 bg-gray-300 p-4 rounded-2xl">
+      <div className="grid grid-cols-1 md:grid-cols-3 w-11/12 mx-auto text-center my-16 gap-8">
+        <div className="my-3 bg-gray-300 p-4 rounded-2xl hover:scale-110 delay-100 duration-300">
+          <GiMissileLauncher size={100} className="text-center w-24 mx-auto"/>
           <h2 className="text-2xl py-8 font-semibold">Our Mission</h2>
           <p className="text-xl">
           Our primary aim and objectives is to bridge the technology gap in Nigeria and to motivate and groom young talented tech minds in providing quality, cost-effective training and digital solution services to increase individual and organizational productivity and enrichment.
           </p>
         </div>
-        <div className="my-3 bg-gray-300 p-4 rounded-2xl">
+        <div className="my-3 bg-gray-300 p-4 rounded-2xl hover:scale-110 delay-100 duration-300">
+        <MdVisibility size={100} className="text-center w-24 mx-auto"/>
           <h2 className="text-2xl py-8 font-semibold">Our Vision</h2>
           <p className="text-xl">
           Our vision is to be the best and foremost provider of Industry-lead Technological and Business skills set training institute in Nigeria and all across the Africa.
           </p>
         </div>
-        <div className="my-3 bg-gray-300 p-4 rounded-2xl">
+        <div className="my-3 bg-gray-300 p-4 rounded-2xl hover:scale-110 delay-100 duration-300">
+        <MdCreditScore size={100} className="text-center w-24 mx-auto"/>
           <h2 className="text-2xl py-8 font-semibold">Our Core Values</h2>
           <ul>
             <li>Honesty</li>
