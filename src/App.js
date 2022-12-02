@@ -6,6 +6,7 @@ import Courses from "./components/Courses";
 import Footer from "./components/Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useState } from "react";
+import data from "../data/services.js";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -23,6 +24,11 @@ function App() {
           <Route path="/about" element={<About />} />
 
           <Route path="/services" element={<Services />} />
+
+          <Route
+          path='/services/:service'
+          element={<ParticularService services={services} />}
+        />
 
           <Route path="/courses" element={<Courses />} />
 
