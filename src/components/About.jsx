@@ -24,7 +24,7 @@ const About = () => {
           alt=""
           className="mb-3 w-screen h-[70vh] object-cover object-center"
         />
-        <p className="absolute text-6xl text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-semibold">We Provide Customize I.T Solutions That Suit Your Needs.</p>
+        <p className="absolute text-7xl text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-semibold shadow">We Provide Customize I.T Solutions That Suit Your Needs.</p>
         </div>
         
         <div className="mx-auto text-center">
