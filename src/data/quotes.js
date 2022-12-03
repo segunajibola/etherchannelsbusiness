@@ -6,7 +6,7 @@ const quotes = [
     },
     {
       id: 2,
-      text: '',
+      text: '“Technology should improve your life… not become your life.”',
       name: "Billy Cox"
     },
     {
@@ -56,34 +56,24 @@ const quotes = [
     },
     {
       id: 12,
-      text: '',
-      name: ""
+      text: '“The real danger is not that computers will begin to think like men, but that men will begin to think like computers.”',
+      name: "Sydney Harris"
     },
     {
       id: 13,
-      text: '',
-      name: ""
+      text: '“Science and technology revolutionize our lives, but memory, tradition and myth frame our response.”',
+      name: "Arthur Schlesinger"
     },
     {
-      id: 12,
-      text: '',
-      name: ""
+      id: 14,
+      text: '“Technology is nothing. What’s important is that you have a faith in people, that they’re basically good and smart, and if you give them tools, they’ll do wonderful things with them.”',
+      name: "Steve Jobs"
     },
     {
-      id: 13,
-      text: '',
-      name: ""
-    },
-    {
-      id: 12,
-      text: '',
-      name: ""
-    },
-    {
-      id: 13,
-      text: '',
-      name: ""
-    },
+      id: 15,
+      text: '“The first rule of any technology used in a business is that automation applied to an efficient operation will magnify the efficiency. The second is that automation applied to an inefficient operation will magnify the inefficiency.”',
+      name: "Bill Gates"
+    }
   ]
   
   export default quotes;
