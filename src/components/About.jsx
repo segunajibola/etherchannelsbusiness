@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import React from "react";
-import banner from "../assets/about/about3.jpeg";
+import banner from "../assets/about/about5.webp";
 import { MdVisibility, MdCreditScore } from "react-icons/md";
 import { GiMissileLauncher } from "react-icons/gi";
 
