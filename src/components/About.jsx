@@ -3,7 +3,16 @@ import React from "react";
 import banner from "../assets/about/about5.webp";
 import { MdVisibility, MdCreditScore } from "react-icons/md";
 import { GiMissileLauncher } from "react-icons/gi";
+import { Swiper, SwiperSlide } from "swiper/react";
 
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
+// import required modules
+import { Autoplay, Pagination, Navigation } from "swiper";
+import quotes from "../data/quotes";
 
 const About = () => {
   return (
@@ -61,6 +70,40 @@ const About = () => {
           </ul>
         </div>
       </div>
+
+      <div
+      id="testimonials"
+      className="w-full overflow-hidden dark:bg-gray-100 dark:text-gray-800"
+    >
+      <div className="grid grid-cols sm:grid-cols-1 justify-center gap-8 px-2 pt-4">
+        <Swiper
+          spaceBetween={30}
+          centeredSlides={true}
+          autoplay={{
+            delay: 1000,
+            disableOnInteraction: false,
+          }}
+          // showsPagination={false}
+          pagination={{
+            clickable: false,
+            // hiddenClass: "swiper-pagination-hidden",
+          }}
+          navigation={false}
+          modules={[Autoplay, Pagination, Navigation]}
+          className="w-[430px] sm:w-[30rem] mx-auto md:w-[40rem]"
+        >
+          {quotes
+            .map((quote) => (
+              <SwiperSlide className="md:my-2 p-2">
+                <figure className="p-3 text-center">
+                  <p>{quote.text}</p>
+                  <p className="text-xl my-2">{quote.name}</p>
+                </figure>
+              </SwiperSlide>
+            ))}
+        </Swiper>
+      </div>
+    </div>
     </div>
   );
 };

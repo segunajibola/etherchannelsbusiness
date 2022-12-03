@@ -33,7 +33,7 @@ const Navbar = ({ handleMode, darkMode }) => {
       </Link>
 
       {/* menu */}
-      <ul className="hidden md:flex space-x-10 text-md font-semibold tracking-wide">
+      <ul className="hidden md:flex space-x-10 text-md font-semibold tracking-wide border-4 border-red-400">
         <li className="cursor-pointer">
           <Link to="/" onClick={() => window.scrollTo(0, 0)}>
             Home
@@ -51,12 +51,12 @@ const Navbar = ({ handleMode, darkMode }) => {
         <li className="cursor-pointer">
           <Link to="/contact">Contact</Link>
         </li>
-        <div>
+        <li className="border-4 border-red-500">
           <button className="peer px-5 py-2 bg-green-600 hover:bg-green-700 text-white border-4 border-red-500">
             Dropdown
           </button>
 
-          <div
+          <span
             className="hidden peer-hover:flex hover:flex
          w-[200px]
          flex-col bg-white drop-shadow-lg border-4 border-red-500"
@@ -70,8 +70,8 @@ const Navbar = ({ handleMode, darkMode }) => {
             <a className="px-5 py-3 hover:bg-gray-200" href="#">
               Privacy Policy
             </a>
-          </div>
-        </div>
+            </span>
+        </li>
       </ul>
 
       {/* Dark/Light Mode */}
