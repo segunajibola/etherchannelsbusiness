@@ -82,8 +82,7 @@ const About = () => {
       </div>
 
       <div
-        id="testimonials"
-        className="w-full overflow-hidden dark:bg-gray-100 dark:text-gray-800"
+        className="w-full overflow-hidden dark:text-white"
       >
         <div className="grid grid-cols sm:grid-cols-1 justify-center gap-8 px-2 pt-4">
           <Swiper
@@ -104,7 +103,7 @@ const About = () => {
               <SwiperSlide className="md:my-2 p-2">
                 <figure className="p-3 text-center">
                   <p>{quote.text}</p>
-                  <p className="text-xl my-2">{quote.name}</p>
+                  <p className="text-xl my-2 italic">{quote.name}</p>
                 </figure>
               </SwiperSlide>
             ))}
