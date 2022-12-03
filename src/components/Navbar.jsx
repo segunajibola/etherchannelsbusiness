@@ -33,7 +33,7 @@ const Navbar = ({ handleMode, darkMode }) => {
       </Link>
 
       {/* menu */}
-      <ul className="hidden md:flex space-x-10 text-md font-semibold tracking-wide">
+      <ul className="hidden md:flex space-x-10 text-md font-semibold tracking-wide border-4 border-red-400">
         <li className="cursor-pointer">
           <Link to="/" onClick={() => window.scrollTo(0, 0)}>
             Home
@@ -50,6 +50,27 @@ const Navbar = ({ handleMode, darkMode }) => {
         </li>
         <li className="cursor-pointer">
           <Link to="/contact">Contact</Link>
+        </li>
+        <li className="border-4 border-red-500">
+          <button className="peer px-5 py-2 bg-green-600 hover:bg-green-700 text-white border-4 border-red-500">
+            Dropdown
+          </button>
+
+          <span
+            className="hidden peer-hover:flex hover:flex
+         w-[200px]
+         flex-col bg-white drop-shadow-lg border-4 border-red-500"
+          >
+            <a className="px-5 py-3 hover:bg-gray-200" href="#">
+              About Us
+            </a>
+            <a className="px-5 py-3 hover:bg-gray-200" href="#">
+              Contact Us
+            </a>
+            <a className="px-5 py-3 hover:bg-gray-200" href="#">
+              Privacy Policy
+            </a>
+            </span>
         </li>
       </ul>
 
