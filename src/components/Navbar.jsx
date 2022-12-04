@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { FaMoon, FaLightbulb, FaBars, FaTimes } from "react-icons/fa";
+import { IoIosArrowDown } from "react-icons/io";
 import Logo from "../assets/navbar/etherchannellogo.png";
 import { Link } from "react-router-dom";
 
@@ -31,18 +32,19 @@ const Navbar = ({ handleMode, darkMode }) => {
         <li className="">
           <Link to="/about" className="peer">
             About
+            <IoIosArrowDown className="inline ml-2" />
           </Link>
           <span
             className="hidden peer-hover:flex hover:flex absolute
-         w-[200px] flex-col bg-white drop-shadow-lg"
+         w-[150px] flex-col mt-2 bg-white drop-shadow-lg duration-300 ease-in-out delay-500 transition"
           >
-            <a className="px-5 py-3 hover:bg-gray-200" href="#vision">
+            <a className="px-2 py-3 hover:bg-gray-200" href="/about#vision">
               Our Vision
             </a>
-            <a className="px-5 py-3 hover:bg-gray-200" href="#mission">
+            <a className="px-2 py-3 hover:bg-gray-200" href="/about#mission">
               Our Mission
             </a>
-            <a className="px-5 py-3 hover:bg-gray-200" href="#coreValues">
+            <a className="px-2 py-3 hover:bg-gray-200" href="/about#coreValues">
               Core Values
             </a>
           </span>
