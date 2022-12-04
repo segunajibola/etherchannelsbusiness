@@ -98,7 +98,7 @@ const About = () => {
           >
             {quotes.map((quote) => (
               <SwiperSlide className="md:my-2 p-2">
-                <figure className="p-3 text-3xl text-center italic">
+                <figure className="p-2 text-3xl text-center italic">
                   <p>{quote.text}</p>
                   <p className="text-2xl my-2">{quote.name}</p>
                 </figure>
