@@ -24,7 +24,7 @@ const About = () => {
           alt=""
           className="mb-3 w-screen h-[70vh] object-cover object-center"
         />
-        <p className="absolute text-7xl text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-semibold shadow">We Provide Customize I.T Solutions That Suit Your Needs.</p>
+        <p className="absolute text-7xl text-white top-1/2 left-[30px] -t ranslate-x-1/2 -translate-y-1/2 font-semibold shadow">We Provide Customize I.T Solutions That Suit Your Needs.</p>
         </div>
         
         <div className="mx-auto text-center">
@@ -89,21 +89,18 @@ const About = () => {
             spaceBetween={30}
             centeredSlides={true}
             autoplay={{
-              delay: 1000,
+              delay: 3000,
               disableOnInteraction: false,
             }}
-            pagination={{
-              clickable: false,
-            }}
             navigation={false}
-            modules={[Autoplay, Pagination, Navigation]}
+            modules={[Autoplay, Navigation]}
             className="w-[430px] sm:w-[30rem] mx-auto md:w-[40rem]"
           >
             {quotes.map((quote) => (
               <SwiperSlide className="md:my-2 p-2">
-                <figure className="p-3 text-center">
+                <figure className="p-3 text-3xl text-center italic">
                   <p>{quote.text}</p>
-                  <p className="text-xl my-2 italic">{quote.name}</p>
+                  <p className="text-2xl my-2">{quote.name}</p>
                 </figure>
               </SwiperSlide>
             ))}

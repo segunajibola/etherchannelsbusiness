@@ -2,11 +2,11 @@ import React from "react";
 import { useParams } from "react-router-dom";
 
 const ParticularService = ({ services }) => {
-  console.log("services", services);
+  // console.log("services", services);
 
   const { service } = useParams();
 
-  console.log("params", service);
+  // console.log("params", service);
   
   return (
     <div className="overflow-hidden bg-gray-100 dark:bg-gray-700">
@@ -15,11 +15,11 @@ const ParticularService = ({ services }) => {
           .filter((services) => services.name === service)
           .map((services) => (
             <div className="flex-shrink-0 text-center py-16">
-              {/* <img
-                src={service.image}
-                alt={service.alt}
-                className="h-64 w-full object-cover"
-              /> */}
+              <img
+                src={services.image}
+                alt={services.alt}
+                className="h-[50vh] w-full object-cover"
+              />
               <p className="py-12">Hello, {services.name}</p>
               <p className="py-12">Hello, {services.alt}</p>
               <p className="py-12">Hello, {services.id}</p>
