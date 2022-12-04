@@ -24,12 +24,8 @@ const Testimonials = () => {
             disableOnInteraction: false,
           }}
           // showsPagination={false}
-          pagination={{
-            clickable: false,
-            // hiddenClass: "swiper-pagination-hidden",
-          }}
           navigation={false}
-          modules={[Autoplay, Pagination, Navigation]}
+          modules={[Autoplay, Navigation]}
           className="w-[430px] sm:w-[30rem] mx-auto md:w-[40rem]"
         >
           {clients

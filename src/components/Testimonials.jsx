@@ -23,11 +23,11 @@ const Testimonials = () => {
                 delay: 2500,
                 disableOnInteraction: false,
               }}
-              pagination={{
-                clickable: true,
-              }}
+              // pagination={{
+              //   clickable: true,
+              // }}
               navigation={false}
-              modules={[Autoplay, Pagination, Navigation]}
+              modules={[Autoplay, Navigation]}
               className="w-[430px] sm:w-[30rem] mx-auto md:w-[40rem]"
             >
               {testimonials.map((testimonial) => (
