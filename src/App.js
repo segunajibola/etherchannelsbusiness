@@ -27,7 +27,7 @@ function App() {
           <Route path="/services" element={<Services />} />
 
           <Route
-          path='/services/:id'
+          path='/services/:service'
           element={<ParticularService services={services} />}
         />
 
