@@ -1,10 +1,5 @@
 import { useState } from "react";
-import {
-  FaMoon,
-  FaLightbulb,
-  FaBars,
-  FaTimes,
-} from "react-icons/fa";
+import { FaMoon, FaLightbulb, FaBars, FaTimes } from "react-icons/fa";
 import Logo from "../assets/navbar/etherchannellogo.png";
 import { Link } from "react-router-dom";
 
@@ -33,25 +28,12 @@ const Navbar = ({ handleMode, darkMode }) => {
             Home
           </Link>
         </li>
-        <li className="cursor-pointer">
-          <Link to="/about">About</Link>
-        </li>
-        <li className="cursor-pointer">
-          <Link to="/services">Services</Link>
-        </li>
-        <li className="cursor-pointer">
-          <Link to="/resources">Resources</Link>
-        </li>
-        <li className="cursor-pointer">
-          <Link to="/contact">Contact</Link>
-        </li>
         <li className="">
-          <button className="peer px-5 py-2 bg-green-600 hover:bg-green-700 text-white">
-            Dropdown
-          </button>
-
+          <Link to="/about" className="peer">
+            About
+          </Link>
           <span
-            className="hidden peer-hover:flex hover:flex
+            className="hidden peer-hover:flex hover:flex absolute
          w-[200px] flex-col bg-white drop-shadow-lg"
           >
             <a className="px-5 py-3 hover:bg-gray-200" href="#">
@@ -63,7 +45,16 @@ const Navbar = ({ handleMode, darkMode }) => {
             <a className="px-5 py-3 hover:bg-gray-200" href="#">
               Privacy Policy
             </a>
-            </span>
+          </span>
+        </li>
+        <li className="cursor-pointer">
+          <Link to="/services">Services</Link>
+        </li>
+        <li className="cursor-pointer">
+          <Link to="/resources">Resources</Link>
+        </li>
+        <li className="cursor-pointer">
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
 
