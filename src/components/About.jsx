@@ -45,8 +45,9 @@ const About = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 w-11/12 mx-auto text-center my-16 gap-8">
-        <div className="my-3 bg-gray-300 p-8 rounded-2xl hover:scale-110 delay-100 duration-300">
+      <div className="grid grid-cols-1 md:grid-cols-3 w-11/12 mx-auto text-center mb-16 gap-8">
+        <div className="pt-[100px]" id="mission">
+        <div className="bg-gray-300 p-8 rounded-2xl hover:scale-110 delay-100 duration-300 h-[500px]">
           <GiMissileLauncher size={100} className="text-center w-24 mx-auto" />
           <h2 className="text-2xl py-8 font-semibold">Our Mission</h2>
           <p className="text-xl">
@@ -57,7 +58,9 @@ const About = () => {
             enrichment.
           </p>
         </div>
-        <div className="my-3 bg-gray-300 p-8 rounded-2xl hover:scale-110 delay-100 duration-300">
+        </div>
+        <div className="pt-[100px]" id="vision">
+        <div className="bg-gray-300 p-8 rounded-2xl hover:scale-110 delay-100 duration-300 h-[500px]">
           <MdVisibility size={100} className="text-center w-24 mx-auto" />
           <h2 className="text-2xl py-8 font-semibold">Our Vision</h2>
           <p className="text-xl">
@@ -66,7 +69,9 @@ const About = () => {
             and all across the Africa.
           </p>
         </div>
-        <div className="my-3 bg-gray-300 p-8 rounded-2xl hover:scale-110 delay-100 duration-300">
+        </div>
+        <div className="pt-[100px]" id="coreValues">
+        <div className="bg-gray-300 p-8 rounded-2xl hover:scale-110 delay-100 duration-300 h-[500px]">
           <MdCreditScore size={100} className="text-center w-24 mx-auto" />
           <h2 className="text-2xl py-8 font-semibold">Our Core Values</h2>
           <ul className="text-xl">
@@ -78,6 +83,7 @@ const About = () => {
             <li>Dedication</li>
             <li>Satisfaction</li>
           </ul>
+        </div>
         </div>
       </div>
 

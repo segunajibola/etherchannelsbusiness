@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { FaMoon, FaLightbulb, FaBars, FaTimes } from "react-icons/fa";
+import { IoIosArrowDown } from "react-icons/io";
 import Logo from "../assets/navbar/etherchannellogo.png";
 import { Link } from "react-router-dom";
 
@@ -29,23 +30,27 @@ const Navbar = ({ handleMode, darkMode }) => {
           </Link>
         </li>
         <li className="">
-          <Link to="/about" className="peer">
-            About
+          <Link to="/about" className="peer hover:scale-110">
+            <span className="hover:scale-110">About</span>
+            <IoIosArrowDown className="inline ml-1 hover:scale-110" />
           </Link>
-          <span
-            className="hidden peer-hover:flex hover:flex absolute
-         w-[200px] flex-col bg-white drop-shadow-lg"
+          <div className="hidden p-5 peer-hover:flex hover:flex bg-transparent w-[250px] -mt-2 h-[500px] absolute">
+            <span
+            className="peer-hover:flex flex absolute
+         w-[150px] h-[150px] flex-col mt-5 bg-white drop-shadow-lg z-10"
           >
-            <a className="px-5 py-3 hover:bg-gray-200" href="#">
-              About Us
+            <a className="px-2 py-3 hover:bg-gray-100 text-black" href="/about#vision">
+              Our Vision
             </a>
-            <a className="px-5 py-3 hover:bg-gray-200" href="#">
-              Contact Us
+            <a className="px-2 py-3 hover:bg-gray-100 text-black" href="/about#mission">
+              Our Mission
             </a>
-            <a className="px-5 py-3 hover:bg-gray-200" href="#">
-              Privacy Policy
+            <a className="px-2 py-3 hover:bg-gray-100 text-black" href="/about#coreValues">
+              Core Values
             </a>
           </span>
+          </div>
+          
         </li>
         <li className="cursor-pointer">
           <Link to="/services">Services</Link>
