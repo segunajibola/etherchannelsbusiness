@@ -29,10 +29,10 @@ const Navbar = ({ handleMode, darkMode }) => {
             Home
           </Link>
         </li>
-        <li className="">
-          <Link to="/about" className="peer hover:scale-110">
-            <span className="hover:scale-110">About</span>
-            <IoIosArrowDown className="inline ml-1 hover:scale-110" />
+        <li className="hover:scale-110">
+          <Link to="/about" className="peer">
+            About
+            <IoIosArrowDown className="inline ml-1" />
           </Link>
           <div className="hidden p-5 peer-hover:flex hover:flex bg-transparent w-[250px] -mt-2 h-[500px] absolute">
             <span
