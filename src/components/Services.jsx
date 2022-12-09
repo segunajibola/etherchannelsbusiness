@@ -1,5 +1,5 @@
 import React from "react";
-import banner from "../assets/services/services2.webp";
+import banner from "../assets/services/services3.jpeg";
 import data from "../data/services.js";
 import ServicesCard from "./ServiceCard";
 
@@ -37,11 +37,11 @@ const Services = () => {
       <div className="max-w-[1100px] mx-auto grid grid-cols-1 py-8 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-10">
         {data
           .map((services) => (
-            <ServicesCard services={services} />
+            <ServicesCard services={services} first={false} />
           ))}
       </div>
 
-      <div>
+      {/* <div>
         <div className="">
           <div className="relative">
             <img
@@ -264,7 +264,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

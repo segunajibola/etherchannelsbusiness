@@ -1,16 +1,4 @@
 import React from "react";
-import partner1 from "../assets/home/ciscoLogo.png";
-import partner2 from "../assets/home/ecCouncil.png";
-import partner3 from "../assets/home/juniper.png";
-import partner4 from "../assets/home/lasuLogo.png";
-import partner5 from "../assets/home/microsoft.jpeg";
-import partner6 from "../assets/home/pearson.png";
-import partner7 from "../assets/home/foloPay.jpg";
-import client1 from "../assets/home/collegeOfNursing.webp";
-import client2 from "../assets/home/dragnet.png";
-import client3 from "../assets/home/jambLogo.png";
-import client4 from "../assets/home/lasuLogo.png";
-import client5 from "../assets/home/trcnLogo.jpeg";
 import { Link } from "react-router-dom";
 import ImageSlider from "./ImageSlider";
 import Testimonials from "./Testimonials";
@@ -125,7 +113,7 @@ const Home = () => {
             {data
               .filter((item, index) => index < 6)
               .map((services) => (
-                <ServicesCard services={services} />
+                <ServicesCard services={services} first={true} />
               ))}
           </div>
           <Link to="/services" className="flex justify-center">
