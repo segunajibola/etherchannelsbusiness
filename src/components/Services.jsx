@@ -37,7 +37,7 @@ const Services = () => {
       <div className="max-w-[1100px] mx-auto grid grid-cols-1 py-8 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-10">
         {data
           .map((services) => (
-            <ServicesCard services={services} />
+            <ServicesCard services={services} first={false} />
           ))}
       </div>
 

@@ -113,7 +113,7 @@ const Home = () => {
             {data
               .filter((item, index) => index < 6)
               .map((services) => (
-                <ServicesCard services={services} />
+                <ServicesCard services={services} first={true} />
               ))}
           </div>
           <Link to="/services" className="flex justify-center">
