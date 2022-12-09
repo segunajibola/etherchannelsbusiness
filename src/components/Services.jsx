@@ -21,15 +21,7 @@ const Services = () => {
               Our Services
             </h2>
             <p className="w-11/12 mx-auto py-16 text-xl">
-              We are IT Solution Services firm founded on the 21st of December
-              2020 and Our core value is aimed at providing quality assurance
-              with an unbeatable solutions driven to all our business partners
-              and customers. We are innovative, highly motivated and well
-              equipped with one of the best IT infrastructures, quality and
-              competent training hands. We are absolutely committed to ensure
-              that our clients are taking highly recommended technical decisions
-              and are realizing business value and results from their IT
-              Investments throughout our business partnering.
+              Our core value is the provision of affordable, professional and up-to-date digital I.T training skills that focuses on business need for both corporate organizations, governments and individuals.
             </p>
           </div>
         </div>
