@@ -28,7 +28,7 @@ const data = [
   {
     id: 4,
     image1: "/images/networkDeploy1.webp",
-    image2: "/images/networkDeploy2.jepg",
+    image2: "/images/networkDeploy2.jpeg",
     alt: "Network Deployment",
     name: "Network Deployment",
     description: "Network Deployment requires a great planning and well structured design to achieve organizational goals and motive which brings effective and work friendly space for their employees and business growth.",
@@ -46,7 +46,7 @@ const data = [
   {
     id: 6,
     image1: "/images/webDesign1.jpeg",
-    image2: "/images/webDesign1.jpeg",
+    image2: "/images/webDesign2.jpeg",
     alt: "Web Development",
     name: "Web Development",
     description: "The structure, design and simplicity of your website is more important than ever, specifically in an increasingly competitive market. We offers a variety of website design and development services, from creating and designing mobile web development solutions, web applications and sensible website designs.",

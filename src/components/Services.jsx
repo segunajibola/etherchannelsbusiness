@@ -41,7 +41,7 @@ const Services = () => {
           ))}
       </div>
 
-      <div>
+      {/* <div>
         <div className="">
           <div className="relative">
             <img
@@ -264,7 +264,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
