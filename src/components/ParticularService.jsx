@@ -14,28 +14,16 @@ const ParticularService = ({ services }) => {
         {services
           .filter((services) => services.name === service)
           .map((services) => (
-            <div className="flex-shrink-0 text-center py-16">
+            <div className="flex-shrink-0 text-center py-8">
               <img
-                src={services.image}
+                src={services.image1}
                 alt={services.alt}
-                className="h-[50vh] w-full object-cover"
+                className="mb-3 w-screen h-[70vh] object-cover object-center"
               />
-              <p className="py-12">Hello, {services.name}</p>
-              <p className="py-12">Hello, {services.alt}</p>
-              <p className="py-12">Hello, {services.id}</p>
+              <h1 className="py-12">{services.name}</h1>
             </div>
           ))}
       </div>
-
-      {/* <div className="mx-auto mb-3 grid max-w-full gap-6 rounded-md px-4 py-6 md:grid-cols-2 lg:max-w-full lg:px-8 xl:grid-cols-3">
-        {destination
-          .filter((destination) => destination.state === state)
-          .map((destination) =>
-            destination.tourCenter?.map((center) => (
-              <TourismCards center={center} key={center.id} />
-            ))
-          )}
-      </div> */}
     </div>
   );
 };
