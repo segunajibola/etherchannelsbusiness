@@ -39,13 +39,13 @@ const Navbar = ({ handleMode, darkMode }) => {
             className="peer-hover:flex flex absolute
          w-[150px] h-[150px] flex-col mt-5 bg-white drop-shadow-lg z-10"
           >
-            <a className="px-2 py-3 hover:bg-gray-100 text-black" href="/about#vision">
+            <a className="px-2 py-3 hover:bg-gray-200 text-black" href="/about#vision">
               Our Vision
             </a>
-            <a className="px-2 py-3 hover:bg-gray-100 text-black" href="/about#mission">
+            <a className="px-2 py-3 hover:bg-gray-200 text-black" href="/about#mission">
               Our Mission
             </a>
-            <a className="px-2 py-3 hover:bg-gray-100 text-black" href="/about#coreValues">
+            <a className="px-2 py-3 hover:bg-gray-200 text-black" href="/about#coreValues">
               Core Values
             </a>
           </span>
