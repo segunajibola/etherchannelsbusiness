@@ -1,5 +1,5 @@
 import React from "react";
-import banner from "../assets/services/services2.webp";
+import banner from "../assets/services/services3.jpeg";
 import data from "../data/services.js";
 import ServicesCard from "./ServiceCard";
 
