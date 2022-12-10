@@ -8,25 +8,20 @@ const Services = () => {
     <>
       <div className="bg-gray-100 py-4 dark:bg-gray-700">
         <div className="grid grid-cols-2 md:grid-cols-1 mt-[40px]">
+          <div>
           <img
             src={banner}
             alt=""
             className="mb-3 w-screen h-[70vh] object-cover object-center"
           />
+          <p className="absolute text-6xl w-[1000px] text-white top-1/2 left-[30px] -t ranslate-x-1/2 -translate-y-1/2 font-semibold shadow">Improve Your Business Efficiency With Our High Quality Solutions.</p>
+          </div>
           <div className="mx-auto text-center">
             <h2 className="text-3xl font-semibold tracking-wider text-gray-900 dark:text-white my-8">
               Our Services
             </h2>
             <p className="w-11/12 mx-auto py-16 text-xl">
-              We are IT Solution Services firm founded on the 21st of December
-              2020 and Our core value is aimed at providing quality assurance
-              with an unbeatable solutions driven to all our business partners
-              and customers. We are innovative, highly motivated and well
-              equipped with one of the best IT infrastructures, quality and
-              competent training hands. We are absolutely committed to ensure
-              that our clients are taking highly recommended technical decisions
-              and are realizing business value and results from their IT
-              Investments throughout our business partnering.
+              Our core value is the provision of affordable, professional and up-to-date digital I.T training skills that focuses on business need for both corporate organizations, governments and individuals.
             </p>
           </div>
         </div>

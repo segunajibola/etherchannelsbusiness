@@ -48,7 +48,6 @@ const dotStyle = {
   margin: "0 3px",
   cursor: "pointer",
   fontSize: "10px",
-  //   color: `${slideIndex} ? "red" : "green"`,
 };
 
 const text = {
