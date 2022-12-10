@@ -1,4 +1,7 @@
 import { useState, useEffect } from "react";
+import { motion } from "framer-motion";
+import AnimatedText from "./AnimatedText";
+import "../style.css";
 
 const sliderStyles = {
   width: "100%",
@@ -81,6 +84,32 @@ const ImageSlider = ({ slides }) => {
     }, 6000);
   });
 
+  const [replay, setReplay] = useState(true);
+  // Placeholder text data, as if from API
+  const placeholderText = [
+    { type: "heading1", text: "Framer Motion" },
+    {
+      type: "heading2",
+      text: "Animating responsive text!",
+    },
+  ];
+
+  const container = {
+    visible: {
+      transition: {
+        staggerChildren: 0.025,
+      },
+    },
+  };
+
+  // Quick and dirt for the example
+  // const handleReplay = () => {
+  //   setReplay(!replay);
+  //   setTimeout(() => {
+  //     setReplay(true);
+  //   }, 600);
+  // };
+
   return (
     <div style={sliderStyles}>
       <div>
@@ -92,9 +121,25 @@ const ImageSlider = ({ slides }) => {
         </div>
       </div>
       <div style={slideStylesWidthBackground}>
-        <div style={text} className="text-7xl text-red-500">
+        {/* <div style={text} className="text-7xl text-red-500 z-10">
           {slides.title}
-        </div>
+        </div> */}
+        <motion.div
+          className="App"
+          initial="hidden"
+          // animate="visible"
+          animate={replay ? "visible" : "hidden"}
+          variants={container}
+        >
+          <div className="container">
+            {placeholderText.map((item, index) => {
+              return <AnimatedText {...item} key={index} />;
+            })}
+          </div>
+          {/* <button onClick={handleReplay}>
+            Replay <span>⟲</span>
+          </button> */}
+        </motion.div>
       </div>
       {/* <div style={dotsContainerStyles}>
         {slides.map((slide, slideIndex) => (
