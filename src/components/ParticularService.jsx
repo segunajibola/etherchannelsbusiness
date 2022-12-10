@@ -16,7 +16,7 @@ const ParticularService = ({ services }) => {
           .map((services) => (
             <div className="flex-shrink-0 text-center py-8">
               <img
-                src={services.image1}
+                src={services.image2}
                 alt={services.alt}
                 className="mb-3 w-screen h-[70vh] object-cover object-center"
               />

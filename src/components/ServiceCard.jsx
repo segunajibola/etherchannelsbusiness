@@ -27,6 +27,7 @@ const ServiceCard = (props) => {
           <Link to={`/services/${props.services.name}`} className='block'>
           <button
             className="block mt-3 px-2 md:p-3 py-1 bg-white rounded-md shadow-md text-sm md:text-lg font-bold text-black w-11/12 mx-auto text-center"
+            onClick={() => window.scroll(0,0)}
           >
             See More
           </button>
