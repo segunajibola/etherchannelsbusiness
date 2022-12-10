@@ -62,7 +62,7 @@ const data = [
     link: "", 
   },
   {
-    id: 7,
+    id: 8,
     image1: "/images/jambLogo.png",
     image2: "/images/jambLogo.png",
     alt: "Entry Level Training",
@@ -71,7 +71,7 @@ const data = [
     link: "", 
   },
   {
-    id: 7,
+    id: 9,
     image1: "/images/jambLogo.png",
     image2: "/images/jambLogo.png",
     alt: "Career Builder",
@@ -80,7 +80,7 @@ const data = [
     link: "", 
   },
   {
-    id: 7,
+    id: 10,
     image1: "/images/jambLogo.png",
     image2: "/images/jambLogo.png",
     alt: "Coporate Training",
@@ -89,7 +89,7 @@ const data = [
     link: "", 
   },
   {
-    id: 7,
+    id: 11,
     image1: "/images/jambLogo.png",
     image2: "/images/jambLogo.png",
     alt: "Professional Training",
@@ -98,32 +98,23 @@ const data = [
     link: "", 
   },
   {
-    id: 7,
+    id: 12,
     image1: "/images/jambLogo.png",
     image2: "/images/jambLogo.png",
-    alt: "All Jamb Activities",
-    name: "All Jamb Activities",
+    alt: "Certificate Examination",
+    name: "Certificate Examination",
     description: "This is a dummy text, will be changed later to the description of the services.",
     link: "", 
   },
   {
-    id: 7,
+    id: 13,
     image1: "/images/jambLogo.png",
     image2: "/images/jambLogo.png",
-    alt: "All Jamb Activities",
-    name: "All Jamb Activities",
+    alt: "IELTS Training & Examination",
+    name: "IELTS Training & Examination",
     description: "This is a dummy text, will be changed later to the description of the services.",
     link: "", 
   },
-  {
-    id: 7,
-    image1: "/images/jambLogo.png",
-    image2: "/images/jambLogo.png",
-    alt: "All Jamb Activities",
-    name: "All Jamb Activities",
-    description: "This is a dummy text, will be changed later to the description of the services.",
-    link: "", 
-  }
 ]
 
 export default data;

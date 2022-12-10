@@ -30,7 +30,7 @@ const Services = () => {
       <h2 className="text-center font-bold text-2xl my-3">What we offer</h2>
 
       <div className="max-w-[1100px] mx-auto grid grid-cols-1 py-8 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-10">
-        {data
+        {data.filter(services => services.name !== "IT Training")
           .map((services) => (
             <ServicesCard services={services} first={false} />
           ))}
