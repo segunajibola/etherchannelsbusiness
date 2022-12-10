@@ -10,7 +10,7 @@ const ParticularService = ({ services }) => {
   
   return (
     <div className="overflow-hidden bg-gray-100 dark:bg-gray-700">
-      <div className="mx-auto max-w-7xl pt-12">
+      <div className="w-screen pt-12">
         {services
           .filter((services) => services.name === service)
           .map((services) => (
