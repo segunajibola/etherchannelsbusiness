@@ -2,7 +2,7 @@ const data = [
   {
     id: 1,
     image1: "/images/itTraining1.jpeg",
-    image2: "/images/itTraining2.jpg",
+    image2: "/images/itTraining1.jpeg",
     alt: "IT Training",
     name: "IT Training",
     description: "We work with our customers to know the best IT Training courses to recommend that will boost their employees performance and growth with the mind-blowing training facilities in place. We offer Entry Level Training ,Corporate, Professional and Career Builder training options to our customers at both On-site and Off-site.",
