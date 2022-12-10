@@ -64,7 +64,7 @@ const data = [
   {
     id: 8,
     image1: "/images/jambLogo.png",
-    image2: "/images/jambLogo.png",
+    image2: "/images/entryLevelTraining.jpeg",
     alt: "Entry Level Training",
     name: "Entry Level Training",
     description: "This is a dummy text, will be changed later to the description of the services.",
@@ -73,7 +73,7 @@ const data = [
   {
     id: 9,
     image1: "/images/jambLogo.png",
-    image2: "/images/jambLogo.png",
+    image2: "/images/careerBuilder.jpeg",
     alt: "Career Builder",
     name: "Career Builder",
     description: "This is a dummy text, will be changed later to the description of the services.",
@@ -82,7 +82,7 @@ const data = [
   {
     id: 10,
     image1: "/images/jambLogo.png",
-    image2: "/images/jambLogo.png",
+    image2: "/images/coporateTraining.jpg",
     alt: "Coporate Training",
     name: "Coporate Training",
     description: "This is a dummy text, will be changed later to the description of the services.",
@@ -91,7 +91,7 @@ const data = [
   {
     id: 11,
     image1: "/images/jambLogo.png",
-    image2: "/images/jambLogo.png",
+    image2: "/images/professionalTraining.jpeg",
     alt: "Professional Training",
     name: "Professional Training",
     description: "This is a dummy text, will be changed later to the description of the services.",
@@ -100,7 +100,7 @@ const data = [
   {
     id: 12,
     image1: "/images/jambLogo.png",
-    image2: "/images/jambLogo.png",
+    image2: "/images/certificationExaminamtion.jpeg",
     alt: "Certificate Examination",
     name: "Certificate Examination",
     description: "This is a dummy text, will be changed later to the description of the services.",
