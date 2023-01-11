@@ -17,7 +17,6 @@ const data = [
     link: "",
     description2: "We've structured our testing environment at Ether-channel in such a way that would be comfortable, conducive, stress free and secure for the candidates to take their tests with the adequate guidelines and instructions from our competent test administrator/supervisor which helps the candidates to come out at their optimum best.",
     heading1: "INTERNATIONAL TESTING",
-    
     heading1li1: "PEARSON VUE CERTIFICATION EXAMS",
     heading1li2: "PROMETRIC EXAMS",
     heading1li3: "IELTS EXAMS",
@@ -25,25 +24,20 @@ const data = [
     heading1li5: "DUOLINGO EXAMS",
     heading2: "PROFESSIONAL TESTING",
     heading2li1: "ICAN EXAMS",
-
-    A. 
-B. CISCO EXAMS
-C. MICROSOFT EXAMS
-D. AWS EXAMS
-E. JUNIPER EXAMS
-F. HUAWEI EXAMS
-G. ORACLE EXAMS
+    heading2li2: "CISCO EXAMS",
+    heading2li3: "MICROSOFT EXAMS",
+    heading2li4: "AWS EXAMS",
+    heading2li5: "JUNIPER EXAMS",
+    heading2li6: "HUAWEI EXAMS",
+    heading2li7: "ORACLE EXAMS",
     heading3: "LOCAL TESTING (ALL LOCAL EXAMS IN NIGERIA)",
-
-
-A. PROMOTION EXAMS
-B. JAMB CBT EXAMS
-C. ARMY/NAVY EXAMS
-D. INTERNAL/EXTERNAL EXAMS
-E. TRCN EXAMS
-G. NURSING COLLEGE EXAMS
-H. POST UTME EXAMS
-I. 
+    heading3li1: "PROMOTION EXAMS",
+    heading3li2: "JAMB CBT EXAMS",
+    heading3li3: "ARMY/NAVY EXAMS",
+    heading3li4: "INTERNAL/EXTERNAL EXAMS",
+    heading3li5: "TRCN EXAMS",
+    heading3li6: "NURSING COLLEGE EXAMS",
+    heading3li7: "POST UTME EXAMS",
   },
   {
     id: 3,

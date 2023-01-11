@@ -25,8 +25,12 @@ const ParticularService = ({ services }) => {
               <h1>Check out those exams we deliver</h1>
               <p>{services.heading1}</p>
               <ul>
-                <li>
-                </li>
+                <li>{services.heading1.li1}</li>
+                <li>{services.heading1.li1}</li>
+                <li>{services.heading1.li1}</li>
+                <li>{services.heading1.li1}</li>
+                <li>{services.heading1.li1}</li>
+                <li>{services.heading1.li1}</li>
               </ul>
               <p>{services.heading2}</p>
               <ul>
