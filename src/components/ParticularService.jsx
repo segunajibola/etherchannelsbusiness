@@ -7,7 +7,7 @@ const ParticularService = ({ services }) => {
   const { service } = useParams();
 
   // console.log("params", service);
-  
+
   return (
     <div className="overflow-hidden bg-gray-100 dark:bg-gray-700">
       <div className="w-screen pt-12">
@@ -20,7 +20,37 @@ const ParticularService = ({ services }) => {
                 alt={services.alt}
                 className="mb-3 w-screen h-[70vh] object-cover object-center"
               />
-              <h1 className="py-12">{services.name}</h1>
+              <h1 className="py-12 text-xl">{services.name}</h1>
+              <p className="px-12 py-4 text-lg">{services.description2}</p>
+              <h1>Check out those exams we deliver</h1>
+              <p>{services.heading1}</p>
+              <ul>
+                <li>{services.heading1li3}</li>
+                <li>{services.heading1li1}</li>
+                <li>{services.heading1li2}</li>
+                <li>{services.heading1li4}</li>
+                <li>{services.heading1li5}</li>
+              </ul>
+              <p>{services.heading2}</p>
+              <ul>
+                <li>{services.heading2li1}</li>
+                <li>{services.heading2li2}</li>
+                <li>{services.heading2li3}</li>
+                <li>{services.heading2li4}</li>
+                <li>{services.heading2li5}</li>
+                <li>{services.heading2li6}</li>
+                <li>{services.heading2li7}</li>
+              </ul>
+              <p>{services.heading3}</p>
+              <ul>
+                <li>{services.heading3li1}</li>
+                <li>{services.heading3li2}</li>
+                <li>{services.heading3li3}</li>
+                <li>{services.heading3li4}</li>
+                <li>{services.heading3li5}</li>
+                <li>{services.heading3li6}</li>
+                <li>{services.heading3li7}</li>
+              </ul>
             </div>
           ))}
       </div>
