@@ -14,7 +14,7 @@ function App() {
   const handleMode = () => {
     setDarkMode(!darkMode);
   };
-
+// partners and clients export default
   return (
     <div className={`overflow-hidden ${darkMode ? "dark" : ""}`} id="dark">
       <Router>
