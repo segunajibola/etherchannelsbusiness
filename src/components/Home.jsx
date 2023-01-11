@@ -175,13 +175,6 @@ const Home = () => {
         <h2 className="text-center text-3xl font-semibold tracking-wider text-gray-900 dark:text-white md:mb-8">
           Our Clients
         </h2>
-        {/* <div className="grid md:grid-cols-5 gap-8 md:w-[60rem] mx-auto">
-          <img src={client1} alt="" className="w-44 h-40" />
-          <img src={client2} alt="" className="w-44 h-40" />
-          <img src={client3} alt="" className="w-44 h-40" />
-          <img src={client4} alt="" className="w-44 h-40" />
-          <img src={client5} alt="" className="w-44 h-40" />
-        </div> */}
         <Clients />
       </div>
 
