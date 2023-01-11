@@ -6,7 +6,7 @@ const data = [
     alt: "IT Training",
     name: "IT Training",
     description: "We work with our customers to know the best IT Training courses to recommend that will boost their employees performance and growth with the mind-blowing training facilities in place. We offer Entry Level Training ,Corporate, Professional and Career Builder training options to our customers at both On-site and Off-site.",
-    link: "", 
+    link: "",
   },{
     id: 2,
     image1: "/images/cbtTesting1.jpeg",
@@ -14,7 +14,36 @@ const data = [
     alt: "CBT Testing",
     name: "CBT Testing",
     description: "We've structured our testing environment at Ether-channel in such a way that would be comfortable, conducive, stress free and secure for the candidates to take their tests with the adequate guidelines and instructions from our competent test administrator/supervisor which helps the students to come out at their very best.",
-    link: "", 
+    link: "",
+    description2: "We've structured our testing environment at Ether-channel in such a way that would be comfortable, conducive, stress free and secure for the candidates to take their tests with the adequate guidelines and instructions from our competent test administrator/supervisor which helps the candidates to come out at their optimum best.",
+    heading1: "INTERNATIONAL TESTING",
+    
+    heading1li1: "PEARSON VUE CERTIFICATION EXAMS",
+    heading1li2: "PROMETRIC EXAMS",
+    heading1li3: "IELTS EXAMS",
+    heading1li4: "ACCA EXAMS",
+    heading1li5: "DUOLINGO EXAMS",
+    heading2: "PROFESSIONAL TESTING",
+    heading2li1: "ICAN EXAMS",
+
+    A. 
+B. CISCO EXAMS
+C. MICROSOFT EXAMS
+D. AWS EXAMS
+E. JUNIPER EXAMS
+F. HUAWEI EXAMS
+G. ORACLE EXAMS
+    heading3: "LOCAL TESTING (ALL LOCAL EXAMS IN NIGERIA)",
+
+
+A. PROMOTION EXAMS
+B. JAMB CBT EXAMS
+C. ARMY/NAVY EXAMS
+D. INTERNAL/EXTERNAL EXAMS
+E. TRCN EXAMS
+G. NURSING COLLEGE EXAMS
+H. POST UTME EXAMS
+I. 
   },
   {
     id: 3,
@@ -23,7 +52,7 @@ const data = [
     alt: "Study Abroad & Immigration",
     name: "Study Abroad & Immigration",
     description: "To acquire global education, skills and knowledge is a great steps for individuals, government and organizations that sponsor people, to compete with the global people around the world and bring growth in return to the society. Relocating to foreign country to study, work and live requires a thorough planning and process, we have a reliable platform that makes the processes seamless.",
-    link: "", 
+    link: "",
   },
   {
     id: 4,
