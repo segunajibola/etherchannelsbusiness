@@ -23,16 +23,17 @@ const ParticularService = ({ services }) => {
               <h1 className="py-12 text-xl">{services.name}</h1>
               <p className="px-12 py-4 text-lg">{services.description2}</p>
               <h1>Check out those exams we deliver</h1>
-              <p>{services.heading1}</p>
-              <ul>
+              <p className="font-semibold py-4">{services.heading1}</p>
+              <ul className="flex w-[90%] mx-auto border-4 text-center">
+                {/* exam map */}
                 <li>{services.heading1li3}</li>
                 <li>{services.heading1li1}</li>
                 <li>{services.heading1li2}</li>
                 <li>{services.heading1li4}</li>
                 <li>{services.heading1li5}</li>
               </ul>
-              <p>{services.heading2}</p>
-              <ul>
+              <p className="font-semibold py-4">{services.heading2}</p>
+              <ul className="flex">
                 <li>{services.heading2li1}</li>
                 <li>{services.heading2li2}</li>
                 <li>{services.heading2li3}</li>
@@ -41,8 +42,8 @@ const ParticularService = ({ services }) => {
                 <li>{services.heading2li6}</li>
                 <li>{services.heading2li7}</li>
               </ul>
-              <p>{services.heading3}</p>
-              <ul>
+              <p className="font-semibold py-4">{services.heading3}</p>
+              <ul className="flex">
                 <li>{services.heading3li1}</li>
                 <li>{services.heading3li2}</li>
                 <li>{services.heading3li3}</li>
