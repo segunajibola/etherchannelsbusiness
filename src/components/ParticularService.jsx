@@ -24,17 +24,27 @@ const ParticularService = ({ services }) => {
               <p className="px-12 py-4 text-lg">{services.description2}</p>
               <h1>Check out those exams we deliver</h1>
               <p className="font-semibold py-4">{services.heading1}</p>
-              <div className="flex w-[7g0%] mx-auto border-4 text-center">
-                {/* exam map */}
+              <div className="flex w-[70%] mx-auto text-center gap-4">
                 <div>
-                  <img src={services.pearsonVue} className="w-32 h-32" alt="" srcset="" />
-                  <p>{services.heading1li3}</p>
+                  <img src={services.pic1} className="w-32 h-32" alt="" srcset="" />
+                  <p>{services.name1}</p>
                 </div>
-
-                <div>{services.heading1li1}</div>
-                <div>{services.heading1li2}</div>
-                <div>{services.heading1li4}</div>
-                <div>{services.heading1li5}</div>
+                <div>
+                  <img src={services.pic2} className="w-32 h-32" alt="" srcset="" />
+                  <p>{services.name2}</p>
+                </div>
+                <div>
+                  <img src={services.pic3} className="w-32 h-32" alt="" srcset="" />
+                  <p>{services.name3}</p>
+                </div>
+                <div>
+                  <img src={services.pic4} className="w-32 h-32" alt="" srcset="" />
+                  <p>{services.name4}</p>
+                </div>
+                <div>
+                  <img src={services.pic5} className="w-32 h-32" alt="" srcset="" />
+                  <p>{services.name5}</p>
+                </div>
               </div>
               <p className="font-semibold py-4">{services.heading2}</p>
               <div className="flex">
