@@ -138,7 +138,7 @@ const ParticularService = ({ services }) => {
                 </div>
               </div>
               <p className="font-semibold py-4 text-xl">{services.heading3}</p>
-              <div className="flex w-[70%] mx-auto text-center gap-3">
+              <div className="flex w-[80%] mx-auto text-center gap-3">
                 <div>
                   <img
                     src={services.thirdpic1}
@@ -201,6 +201,15 @@ const ParticularService = ({ services }) => {
                     srcset=""
                   />
                   <p>{services.thirdname7}</p>
+                </div>
+                <div>
+                  <img
+                    src={services.thirdpic8}
+                    className="w-32 h-32"
+                    alt=""
+                    srcset=""
+                  />
+                  <p>{services.thirdname8}</p>
                 </div>
               </div>
             </div>
