@@ -26,35 +26,56 @@ const ParticularService = ({ services }) => {
               <p className="font-semibold py-4">{services.heading1}</p>
               <div className="flex w-[70%] mx-auto text-center gap-4">
                 <div>
-                  <img src={services.pic1} className="w-32 h-32" alt="" srcset="" />
-                  <p>{services.name1}</p>
+                  <img src={services.firstpic1} className="w-32 h-32" alt="" srcset="" />
+                  <p>{services.firstname1}</p>
                 </div>
                 <div>
-                  <img src={services.pic2} className="w-32 h-32" alt="" srcset="" />
-                  <p>{services.name2}</p>
+                  <img src={services.firstpic2} className="w-32 h-32" alt="" srcset="" />
+                  <p>{services.firstname2}</p>
                 </div>
                 <div>
-                  <img src={services.pic3} className="w-32 h-32" alt="" srcset="" />
-                  <p>{services.name3}</p>
+                  <img src={services.firstpic3} className="w-32 h-32" alt="" srcset="" />
+                  <p>{services.firstname3}</p>
                 </div>
                 <div>
-                  <img src={services.pic4} className="w-32 h-32" alt="" srcset="" />
-                  <p>{services.name4}</p>
+                  <img src={services.firstpic4} className="w-32 h-32" alt="" srcset="" />
+                  <p>{services.firstname4}</p>
                 </div>
                 <div>
-                  <img src={services.pic5} className="w-32 h-32" alt="" srcset="" />
-                  <p>{services.name5}</p>
+                  <img src={services.firstpic5} className="w-32 h-32" alt="" srcset="" />
+                  <p>{services.firstname5}</p>
                 </div>
               </div>
               <p className="font-semibold py-4">{services.heading2}</p>
-              <div className="flex">
-                <li>{services.heading2li1}</li>
-                <li>{services.heading2li2}</li>
-                <li>{services.heading2li3}</li>
-                <li>{services.heading2li4}</li>
-                <li>{services.heading2li5}</li>
-                <li>{services.heading2li6}</li>
-                <li>{services.heading2li7}</li>
+              <div className="flex w-[70%] mx-auto text-center gap-4">
+              <div>
+                  <img src={services.secondpic1} className="w-32 h-32" alt="" srcset="" />
+                  <p>{services.secondname1}</p>
+                </div>
+                <div>
+                  <img src={services.secondpic2} className="w-32 h-32" alt="" srcset="" />
+                  <p>{services.secondname2}</p>
+                </div>
+                <div>
+                  <img src={services.secondpic3} className="w-32 h-32" alt="" srcset="" />
+                  <p>{services.secondname3}</p>
+                </div>
+                <div>
+                  <img src={services.secondpic4} className="w-32 h-32" alt="" srcset="" />
+                  <p>{services.secondname4}</p>
+                </div>
+                <div>
+                  <img src={services.secondpic5} className="w-32 h-32" alt="" srcset="" />
+                  <p>{services.secondname5}</p>
+                </div>
+                <div>
+                  <img src={services.secondpic5} className="w-32 h-32" alt="" srcset="" />
+                  <p>{services.secondname5}</p>
+                </div>
+                <div>
+                  <img src={services.secondpic5} className="w-32 h-32" alt="" srcset="" />
+                  <p>{services.secondname5}</p>
+                </div>
               </div>
               <p className="font-semibold py-4">{services.heading3}</p>
               <div className="flex">
