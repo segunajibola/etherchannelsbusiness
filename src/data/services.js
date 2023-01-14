@@ -52,7 +52,7 @@ const data = [
     thirdpic2: "/images/cbtTesting/jamb.png",
     thirdname2: "JAMB CBT EXAMS",
     thirdpic3: "/images/cbtTesting/army.png",
-    thirdname3: "ARMY/NAVY EXAMS",
+    thirdname3: "ARMY EXAMS",
     thirdpic4: "/images/cbtTesting/lasu.png",
     thirdname4: "INTERNAL/EXTERNAL EXAMS",
     thirdpic5: "/images/cbtTesting/trcn.jpeg",
@@ -61,6 +61,8 @@ const data = [
     thirdname6: "NURSING COLLEGE EXAMS",
     thirdpic7: "/images/cbtTesting/oracle.png",
     thirdname7: "POST UTME EXAMS",
+    thirdpic8: "/images/cbtTesting/navy.png",
+    thirdname8: "NAVY EXAMS",
   },
   {
     id: 3,

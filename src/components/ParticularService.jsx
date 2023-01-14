@@ -20,11 +20,11 @@ const ParticularService = ({ services }) => {
                 alt={services.alt}
                 className="mb-3 w-screen h-[70vh] object-cover object-center"
               />
-              <h1 className="py-12 text-3xl font-semibold">{services.name}</h1>
+              <h1 className="pt-10 text-3xl font-semibold">{services.name}</h1>
               <p className="px-12 py-4 text-lg">{services.description2}</p>
-              <h1 className="text-2xl">Check out those exams we deliver</h1>
-              <p className="font-semibold py-4 text-xl">{services.heading1}</p>
-              <div className="flex w-[60%] mx-auto text-center gap-5">
+              <h1 className="text-2xl pt-4 pb-2">Check out those exams we deliver</h1>
+              <p className="font-semibold py-4 text-xl pt-10 pb-8">{services.heading1}</p>
+              <div className="flex w-[60%] mx-auto text-center gap-6 pb-24">
                 <div>
                   <img
                     src={services.firstpic1}
@@ -71,8 +71,8 @@ const ParticularService = ({ services }) => {
                   <p>{services.firstname5}</p>
                 </div>
               </div>
-              <p className="font-semibold py-4 text-xl">{services.heading2}</p>
-              <div className="flex w-[70%] mx-auto text-center gap-3">
+              <p className="font-semibold py-4 text-xl pt-10 pb-8">{services.heading2}</p>
+              <div className="flex w-[80%] mx-auto text-center gap-5 pb-24">
                 <div>
                   <img
                     src={services.secondpic1}
@@ -137,8 +137,8 @@ const ParticularService = ({ services }) => {
                   <p>{services.secondname7}</p>
                 </div>
               </div>
-              <p className="font-semibold py-4 text-xl">{services.heading3}</p>
-              <div className="flex w-[70%] mx-auto text-center gap-3">
+              <p className="font-semibold py-4 text-xl pt-10 pb-8">{services.heading3}</p>
+              <div className="flex w-[90%] mx-auto text-center gap-5 pb-24">
                 <div>
                   <img
                     src={services.thirdpic1}
@@ -201,6 +201,15 @@ const ParticularService = ({ services }) => {
                     srcset=""
                   />
                   <p>{services.thirdname7}</p>
+                </div>
+                <div>
+                  <img
+                    src={services.thirdpic8}
+                    className="w-32 h-32"
+                    alt=""
+                    srcset=""
+                  />
+                  <p>{services.thirdname8}</p>
                 </div>
               </div>
             </div>
