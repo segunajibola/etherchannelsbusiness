@@ -12,7 +12,7 @@ const data = [
   {
     id: 2,
     image1: "/images/cbtTesting1.jpeg",
-    image2: "/images/cbtTesting22.jpeg",
+    image2: "/images/cbtTesting22.webp",
     alt: "CBT Testing",
     name: "CBT Testing",
     description:
