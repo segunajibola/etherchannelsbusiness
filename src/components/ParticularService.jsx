@@ -12,7 +12,7 @@ const ParticularService = ({ services }) => {
 
   useEffect(() => {
     AOS.init({
-      duration: 400,
+      duration: 300,
       easing: 'ease-in-out-quart',
     })
   })
@@ -37,7 +37,7 @@ const ParticularService = ({ services }) => {
               <p className="font-bold py-4 text-2xl pt-10 pb-16">
                 {services.heading1}
               </p>
-              <div className="flex w-[60%] mx-auto text-center gap-6 pb-24">
+              <div className="flex w-[60%] mx-auto text-center gap-6 pb-24" data-aos="zoom-in">
                 <div>
                   <img
                     src={services.firstpic1}
@@ -87,7 +87,7 @@ const ParticularService = ({ services }) => {
               <p className="font-bold py-4 text-2xl pt-10 pb-16">
                 {services.heading2}
               </p>
-              <div className="flex w-[80%] mx-auto text-center gap-5 pb-24">
+              <div className="flex w-[80%] mx-auto text-center gap-5 pb-24" data-aos="zoom-right">
                 <div>
                   <img
                     src={services.secondpic1}
@@ -155,7 +155,7 @@ const ParticularService = ({ services }) => {
               <p className="font-bold py-4 text-2xl pt-10 pb-16">
                 {services.heading3}
               </p>
-              <div className="flex w-[80%] mx-auto text-center gap-5 pb-24">
+              <div className="flex w-[80%] mx-auto text-center gap-5 pb-24" data-aos="zoom-right">
                 <div>
                   <img
                     src={services.thirdpic1}
@@ -256,7 +256,7 @@ const ParticularService = ({ services }) => {
                     <img
                       src={services.amenities2pic}
                       style={{ width: "1120px" }}
-                      className="w-[70remg] h-[20rem] rounded-lg border-4 border-blue-500 p-2"
+                      className="w-[70remg] h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
                       alt=""
                       srcset=""
                     />
@@ -265,7 +265,7 @@ const ParticularService = ({ services }) => {
                     <img
                       src={services.amenities3pic}
                       style={{ width: "480px", objectFit: "cover" }}
-                      className="w-[7f0rem] h-[20rem] rounded-lg border-4 border-blue-500 p-2"
+                      className="w-[7f0rem] h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
                       alt=""
                       srcset=""
                     />
@@ -282,7 +282,7 @@ const ParticularService = ({ services }) => {
                     <img
                       src={services.amenities4pic}
                       style={{ width: "1120px" }}
-                      className="w-[70frem] h-[20rem] rounded-lg border-4 border-blue-500 p-2"
+                      className="w-[70frem] h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
                       alt=""
                       srcset=""
                     />
@@ -291,7 +291,7 @@ const ParticularService = ({ services }) => {
                     <img
                       src={services.amenities5pic}
                       style={{ width: "500px" }}
-                      className="w-[7f0rem] h-[20rem] rounded-lg border-4 border-blue-500 p-2"
+                      className="w-[7f0rem] h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
                       alt=""
                       srcset=""
                     />
@@ -308,7 +308,7 @@ const ParticularService = ({ services }) => {
                     <img
                       src={services.amenities6pic}
                       style={{ width: "600px" }}
-                      className="w-[7f0rem] h-[20rem] rounded-lg border-4 border-blue-500 p-2"
+                      className="w-[7f0rem] h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
                       alt=""
                       srcset=""
                     />
