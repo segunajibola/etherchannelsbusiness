@@ -23,193 +23,193 @@ const ParticularService = ({ services }) => {
               <h1 className="pt-10 text-3xl font-semibold">{services.name}</h1>
               <p className="px-12 py-4 text-lg">{services.description2}</p>
               <h1 className="text-2xl pt-[150px] pb-1">Check out those exams we deliver</h1>
-              <p className="font-semibold py-4 text-xl pt-10 pb-16">{services.heading1}</p>
+              <p className="font-bold py-4 text-2xl pt-10 pb-16">{services.heading1}</p>
               <div className="flex w-[60%] mx-auto text-center gap-6 pb-24">
                 <div>
                   <img
                     src={services.firstpic1}
-                    className="w-32 h-32"
+                    className="w-36 h-36"
                     alt=""
                     srcset=""
                   />
-                  <p>{services.firstname1}</p>
+                  {/* <p>{services.firstname1}</p> */}
                 </div>
                 <div>
                   <img
                     src={services.firstpic2}
-                    className="w-32 h-32"
+                    className="w-36 h-36"
                     alt=""
                     srcset=""
                   />
-                  <p>{services.firstname2}</p>
+                  {/* <p>{services.firstname2}</p> */}
                 </div>
                 <div>
                   <img
                     src={services.firstpic3}
-                    className="w-32 h-32"
+                    className="w-36 h-36"
                     alt=""
                     srcset=""
                   />
-                  <p>{services.firstname3}</p>
+                  {/* <p>{services.firstname3}</p> */}
                 </div>
                 <div>
                   <img
                     src={services.firstpic4}
-                    className="w-32 h-32"
+                    className="w-36 h-36"
                     alt=""
                     srcset=""
                   />
-                  <p>{services.firstname4}</p>
+                  {/* <p>{services.firstname4}</p> */}
                 </div>
                 <div>
                   <img
                     src={services.firstpic5}
-                    className="w-32 h-32"
+                    className="w-36 h-36"
                     alt=""
                     srcset=""
                   />
-                  <p>{services.firstname5}</p>
+                  {/* <p>{services.firstname5}</p> */}
                 </div>
               </div>
-              <p className="font-semibold py-4 text-xl pt-10 pb-16">{services.heading2}</p>
+              <p className="font-bold py-4 text-2xl pt-10 pb-16">{services.heading2}</p>
               <div className="flex w-[80%] mx-auto text-center gap-5 pb-24">
                 <div>
                   <img
                     src={services.secondpic1}
-                    className="w-32 h-32"
+                    className="w-36 h-36"
                     alt=""
                     srcset=""
                   />
-                  <p>{services.secondname1}</p>
+                  {/* <p>{services.secondname1}</p> */}
                 </div>
                 <div>
                   <img
                     src={services.secondpic2}
-                    className="w-32 h-32"
+                    className="w-36 h-36"
                     alt=""
                     srcset=""
                   />
-                  <p>{services.secondname2}</p>
+                  {/* <p>{services.secondname2}</p> */}
                 </div>
                 <div>
                   <img
                     src={services.secondpic3}
-                    className="w-32 h-32"
+                    className="w-36 h-36"
                     alt=""
                     srcset=""
                   />
-                  <p>{services.secondname3}</p>
+                  {/* <p>{services.secondname3}</p> */}
                 </div>
                 <div>
                   <img
                     src={services.secondpic4}
-                    className="w-32 h-32"
+                    className="w-36 h-36"
                     alt=""
                     srcset=""
                   />
-                  <p>{services.secondname4}</p>
+                  {/* <p>{services.secondname4}</p> */}
                 </div>
                 <div>
                   <img
                     src={services.secondpic5}
-                    className="w-32 h-32"
+                    className="w-36 h-36"
                     alt=""
                     srcset=""
                   />
-                  <p>{services.secondname5}</p>
+                  {/* <p>{services.secondname5}</p> */}
                 </div>
                 <div>
                   <img
                     src={services.secondpic6}
-                    className="w-32 h-32"
+                    className="w-36 h-36"
                     alt=""
                     srcset=""
                   />
-                  <p>{services.secondname6}</p>
+                  {/* <p>{services.secondname6}</p> */}
                 </div>
                 <div>
                   <img
                     src={services.secondpic7}
-                    className="w-32 h-32"
+                    className="w-36 h-36"
                     alt=""
                     srcset=""
                   />
-                  <p>{services.secondname7}</p>
+                  {/* <p>{services.secondname7}</p> */}
                 </div>
               </div>
-              <p className="font-semibold py-4 text-xl pt-10 pb-16">{services.heading3}</p>
+              <p className="font-bold py-4 text-2xl pt-10 pb-16">{services.heading3}</p>
               <div className="flex w-[90%] mx-auto text-center gap-5 pb-24">
                 <div>
                   <img
                     src={services.thirdpic1}
-                    className="w-32 h-32"
+                    className="w-36 h-36"
                     alt=""
                     srcset=""
                   />
-                  <p>{services.thirdname1}</p>
+                  {/* <p>{services.thirdname1}</p> */}
                 </div>
                 <div>
                   <img
                     src={services.thirdpic2}
-                    className="w-32 h-32"
+                    className="w-36 h-36"
                     alt=""
                     srcset=""
                   />
-                  <p>{services.thirdname2}</p>
+                  {/* <p>{services.thirdname2}</p> */}
                 </div>
                 <div>
                   <img
                     src={services.thirdpic3}
-                    className="w-32 h-32"
+                    className="w-36 h-36"
                     alt=""
                     srcset=""
                   />
-                  <p>{services.thirdname3}</p>
+                  {/* <p>{services.thirdname3}</p> */}
                 </div>
                 <div>
                   <img
                     src={services.thirdpic4}
-                    className="w-32 h-32"
+                    className="w-36 h-36"
                     alt=""
                     srcset=""
                   />
-                  <p>{services.thirdname4}</p>
+                  {/* <p>{services.thirdname4}</p> */}
                 </div>
                 <div>
                   <img
                     src={services.thirdpic5}
-                    className="w-32 h-32"
+                    className="w-36 h-36"
                     alt=""
                     srcset=""
                   />
-                  <p>{services.thirdname5}</p>
+                  {/* <p>{services.thirdname5}</p> */}
                 </div>
                 <div>
                   <img
                     src={services.thirdpic6}
-                    className="w-32 h-32"
+                    className="w-36 h-36"
                     alt=""
                     srcset=""
                   />
-                  <p>{services.thirdname6}</p>
+                  {/* <p>{services.thirdname6}</p> */}
                 </div>
                 <div>
                   <img
                     src={services.thirdpic7}
-                    className="w-32 h-32"
+                    className="w-36 h-36"
                     alt=""
                     srcset=""
                   />
-                  <p>{services.thirdname7}</p>
+                  {/* <p>{services.thirdname7}</p> */}
                 </div>
                 <div>
                   <img
                     src={services.thirdpic8}
-                    className="w-32 h-32"
+                    className="w-36 h-36"
                     alt=""
                     srcset=""
                   />
-                  <p>{services.thirdname8}</p>
+                  {/* <p>{services.thirdname8}</p> */}
                 </div>
               </div>
             </div>
