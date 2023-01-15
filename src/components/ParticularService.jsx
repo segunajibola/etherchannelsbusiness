@@ -221,45 +221,52 @@ const ParticularService = ({ services }) => {
                 </div>
               </div>
               <div>
-                <h2 className="py-8 font-bold text-2xl">
+                <h2 className="pt-24 pb-8 font-bold text-2xl">
                   {services.amenities}
                 </h2>
 
                 <div>
-                  <div className="flex w-[80%] mx-auto my-10">
-                    <img src={services.amenities1pic} className="w-[70rem] h-[20rem]" alt="" srcset="" />
+                  <div className="flex w-[80%] mx-auto my-10 gap-x-8">
+                    <img src={services.amenities1pic} style={{width: "700px"}} className="w-[70remg] h-[20rem]" alt="" srcset="" />
                     <div>
-                      <h3 className="text-lg">{services.amenities1}</h3>
-                      <p>{services.amenities1text}</p>
+                      <h3 className="text-xl my-4">{services.amenities1}</h3>
+                      <p className="text-lg">{services.amenities1text}</p>
                     </div>
                   </div>
-                  <div className="flex w-[80%] mx-auto my-10">
-                    <img src={services.amenities2pic} className="w-[70rem] h-[20rem]" alt="" srcset="" />
+                  <div className="flex w-[80%] mx-auto my-10 gap-x-8">
                     <div>
-                      <h3 className="text-lg">{services.amenities2}</h3>
-                      <p>{services.amenities2text}</p>
+                      <h3 className="text-xl my-4">{services.amenities2}</h3>
+                      <p className="text-lg">{services.amenities2text}</p>
+                    </div>
+                    <img src={services.amenities2pic} style={{width: "1120px"}} className="w-[70remg] h-[20rem]" alt="" srcset="" />
+                  </div>
+                  <div className="flex w-[80%] mx-auto my-10 gap-x-8">
+                    <img src={services.amenities3pic} style={{width: "480px", objectFit: "cover"}} className="w-[7f0rem] h-[20rem]" alt="" srcset="" />
+                    <div>
+                      <h3 className="text-xl my-4">{services.amenities3}</h3>
+                      <p className="text-lg">{services.amenities3text}</p>
                     </div>
                   </div>
-                  <div className="flex w-[80%] mx-auto my-10">
-                    <img src={services.amenities3pic} className="w-[70rem] h-[20rem]" alt="" srcset="" />
+                  <div className="flex w-[80%] mx-auto my-10 gap-x-8">
                     <div>
-                      <h3 className="text-lg">{services.amenities3}</h3>
-                      <p>{services.amenities3text}</p>
+                      <h3 className="text-xl my-4">{services.amenities4}</h3>
+                      <p className="text-lg">{services.amenities4text}</p>
+                    </div>
+                    <img src={services.amenities4pic} style={{width: "1120px"}} className="w-[70frem] h-[20rem]" alt="" srcset="" />
+                  </div>
+                  <div className="flex w-[80%] mx-auto my-10 gap-x-8">
+                    <img src={services.amenities5pic} style={{width: "500px"}} className="w-[7f0rem] h-[20rem]" alt="" srcset="" />
+                    <div>
+                      <h3 className="text-xl my-4">{services.amenities5}</h3>
+                      <p className="text-lg">{services.amenities5text}</p>
                     </div>
                   </div>
-                  <div className="flex w-[80%] mx-auto my-10">
-                    <img src={services.amenities4pic} className="w-[70rem] h-[20rem]" alt="" srcset="" />
+                  <div className="flex w-[80%] mx-auto my-10 gap-x-8">
                     <div>
-                      <h3 className="text-lg">{services.amenities4}</h3>
-                      <p>{services.amenities4text}</p>
+                      <h3 className="text-xl my-4">{services.amenities6}</h3>
+                      <p className="text-lg">{services.amenities6text}</p>
                     </div>
-                  </div>
-                  <div className="flex w-[80%] mx-auto my-10">
-                    <img src={services.amenities5pic} className="w-[70rem] h-[20rem]" alt="" srcset="" />
-                    <div>
-                      <h3 className="text-lg">{services.amenities5}</h3>
-                      <p>{services.amenities5text}</p>
-                    </div>
+                    <img src={services.amenities6pic} style={{width: "600px"}} className="w-[7f0rem] h-[20rem]" alt="" srcset="" />
                   </div>
                 </div>
               </div>
