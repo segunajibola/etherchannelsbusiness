@@ -22,8 +22,8 @@ const ParticularService = ({ services }) => {
               />
               <h1 className="pt-10 text-3xl font-semibold">{services.name}</h1>
               <p className="px-12 py-4 text-lg">{services.description2}</p>
-              <h1 className="text-2xl pt-4 pb-2">Check out those exams we deliver</h1>
-              <p className="font-semibold py-4 text-xl pt-10 pb-8">{services.heading1}</p>
+              <h1 className="text-2xl pt-[150px] pb-1">Check out those exams we deliver</h1>
+              <p className="font-semibold py-4 text-xl pt-10 pb-16">{services.heading1}</p>
               <div className="flex w-[60%] mx-auto text-center gap-6 pb-24">
                 <div>
                   <img
@@ -71,7 +71,7 @@ const ParticularService = ({ services }) => {
                   <p>{services.firstname5}</p>
                 </div>
               </div>
-              <p className="font-semibold py-4 text-xl pt-10 pb-8">{services.heading2}</p>
+              <p className="font-semibold py-4 text-xl pt-10 pb-16">{services.heading2}</p>
               <div className="flex w-[80%] mx-auto text-center gap-5 pb-24">
                 <div>
                   <img
@@ -137,7 +137,7 @@ const ParticularService = ({ services }) => {
                   <p>{services.secondname7}</p>
                 </div>
               </div>
-              <p className="font-semibold py-4 text-xl pt-10 pb-8">{services.heading3}</p>
+              <p className="font-semibold py-4 text-xl pt-10 pb-16">{services.heading3}</p>
               <div className="flex w-[90%] mx-auto text-center gap-5 pb-24">
                 <div>
                   <img
