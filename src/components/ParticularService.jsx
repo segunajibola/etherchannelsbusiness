@@ -22,8 +22,12 @@ const ParticularService = ({ services }) => {
               />
               <h1 className="pt-10 text-3xl font-semibold">{services.name}</h1>
               <p className="px-12 py-4 text-lg">{services.description2}</p>
-              <h1 className="text-2xl pt-[150px] pb-1">Check out those exams we deliver</h1>
-              <p className="font-bold py-4 text-2xl pt-10 pb-16">{services.heading1}</p>
+              <h1 className="text-2xl pt-[150px] pb-1">
+                Check out those exams we deliver
+              </h1>
+              <p className="font-bold py-4 text-2xl pt-10 pb-16">
+                {services.heading1}
+              </p>
               <div className="flex w-[60%] mx-auto text-center gap-6 pb-24">
                 <div>
                   <img
@@ -71,7 +75,9 @@ const ParticularService = ({ services }) => {
                   {/* <p>{services.firstname5}</p> */}
                 </div>
               </div>
-              <p className="font-bold py-4 text-2xl pt-10 pb-16">{services.heading2}</p>
+              <p className="font-bold py-4 text-2xl pt-10 pb-16">
+                {services.heading2}
+              </p>
               <div className="flex w-[80%] mx-auto text-center gap-5 pb-24">
                 <div>
                   <img
@@ -137,7 +143,9 @@ const ParticularService = ({ services }) => {
                   {/* <p>{services.secondname7}</p> */}
                 </div>
               </div>
-              <p className="font-bold py-4 text-2xl pt-10 pb-16">{services.heading3}</p>
+              <p className="font-bold py-4 text-2xl pt-10 pb-16">
+                {services.heading3}
+              </p>
               <div className="flex w-[90%] mx-auto text-center gap-5 pb-24">
                 <div>
                   <img
@@ -210,6 +218,49 @@ const ParticularService = ({ services }) => {
                     srcset=""
                   />
                   {/* <p>{services.thirdname8}</p> */}
+                </div>
+              </div>
+              <div>
+                <h2 className="py-8 font-bold text-2xl">
+                  {services.amenities}
+                </h2>
+
+                <div>
+                  <div className="flex w-[80%] mx-auto my-10">
+                    <img src={services.amenities1pic} className="w-[70rem] h-[20rem]" alt="" srcset="" />
+                    <div>
+                      <h3 className="text-lg">{services.amenities1}</h3>
+                      <p>{services.amenities1text}</p>
+                    </div>
+                  </div>
+                  <div className="flex w-[80%] mx-auto my-10">
+                    <img src={services.amenities2pic} className="w-[70rem] h-[20rem]" alt="" srcset="" />
+                    <div>
+                      <h3 className="text-lg">{services.amenities2}</h3>
+                      <p>{services.amenities2text}</p>
+                    </div>
+                  </div>
+                  <div className="flex w-[80%] mx-auto my-10">
+                    <img src={services.amenities3pic} className="w-[70rem] h-[20rem]" alt="" srcset="" />
+                    <div>
+                      <h3 className="text-lg">{services.amenities3}</h3>
+                      <p>{services.amenities3text}</p>
+                    </div>
+                  </div>
+                  <div className="flex w-[80%] mx-auto my-10">
+                    <img src={services.amenities4pic} className="w-[70rem] h-[20rem]" alt="" srcset="" />
+                    <div>
+                      <h3 className="text-lg">{services.amenities4}</h3>
+                      <p>{services.amenities4text}</p>
+                    </div>
+                  </div>
+                  <div className="flex w-[80%] mx-auto my-10">
+                    <img src={services.amenities5pic} className="w-[70rem] h-[20rem]" alt="" srcset="" />
+                    <div>
+                      <h3 className="text-lg">{services.amenities5}</h3>
+                      <p>{services.amenities5text}</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
