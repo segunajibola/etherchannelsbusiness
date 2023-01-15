@@ -226,36 +226,36 @@ const ParticularService = ({ services }) => {
                 </h2>
 
                 <div>
-                  <div className="flex w-[80%] mx-auto">
-                    <img src={services.amenities1pic} alt="" srcset="" />
+                  <div className="flex w-[80%] mx-auto my-10">
+                    <img src={services.amenities1pic} className="w-[70rem] h-[20rem]" alt="" srcset="" />
                     <div>
                       <h3 className="text-lg">{services.amenities1}</h3>
                       <p>{services.amenities1text}</p>
                     </div>
                   </div>
-                  <div className="flex w-[80%] mx-auto">
-                    <img src={services.amenities2pic} alt="" srcset="" />
+                  <div className="flex w-[80%] mx-auto my-10">
+                    <img src={services.amenities2pic} className="w-[70rem] h-[20rem]" alt="" srcset="" />
                     <div>
                       <h3 className="text-lg">{services.amenities2}</h3>
                       <p>{services.amenities2text}</p>
                     </div>
                   </div>
-                  <div className="flex w-[80%] mx-auto">
-                    <img src={services.amenities3pic} alt="" srcset="" />
+                  <div className="flex w-[80%] mx-auto my-10">
+                    <img src={services.amenities3pic} className="w-[70rem] h-[20rem]" alt="" srcset="" />
                     <div>
                       <h3 className="text-lg">{services.amenities3}</h3>
                       <p>{services.amenities3text}</p>
                     </div>
                   </div>
-                  <div className="flex w-[80%] mx-auto">
-                    <img src={services.amenities4pic} alt="" srcset="" />
+                  <div className="flex w-[80%] mx-auto my-10">
+                    <img src={services.amenities4pic} className="w-[70rem] h-[20rem]" alt="" srcset="" />
                     <div>
                       <h3 className="text-lg">{services.amenities4}</h3>
                       <p>{services.amenities4text}</p>
                     </div>
                   </div>
-                  <div className="flex w-[80%] mx-auto">
-                    <img src={services.amenities5pic} alt="" srcset="" />
+                  <div className="flex w-[80%] mx-auto my-10">
+                    <img src={services.amenities5pic} className="w-[70rem] h-[20rem]" alt="" srcset="" />
                     <div>
                       <h3 className="text-lg">{services.amenities5}</h3>
                       <p>{services.amenities5text}</p>
