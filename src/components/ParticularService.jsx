@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const ParticularService = ({ services }) => {
   // console.log("services", services);
@@ -7,6 +9,13 @@ const ParticularService = ({ services }) => {
   const { service } = useParams();
 
   // console.log("params", service);
+
+  useEffect(() => {
+    AOS.init({
+      duration: 400,
+      easing: 'ease-in-out-quart',
+    })
+  })
 
   return (
     <div className="overflow-hidden bg-gray-100 dark:bg-gray-700">
@@ -226,47 +235,83 @@ const ParticularService = ({ services }) => {
                 </h2>
 
                 <div>
-                  <div className="flex w-[80%] mx-auto my-10 gap-x-8">
-                    <img src={services.amenities1pic} style={{width: "700px"}} className="w-[70remg] h-[20rem]" alt="" srcset="" />
+                  <div className="flex w-[80%] mx-auto my-10 gap-x-8" data-aos="zoom-in-right">
+                    <img
+                      src={services.amenities1pic}
+                      style={{ width: "700px" }}
+                      className="w-[70remg] h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
+                      alt=""
+                      srcset=""
+                    />
                     <div>
                       <h3 className="text-xl my-4">{services.amenities1}</h3>
                       <p className="text-lg">{services.amenities1text}</p>
                     </div>
                   </div>
-                  <div className="flex w-[80%] mx-auto my-10 gap-x-8">
+                  <div className="flex w-[80%] mx-auto my-10 gap-x-8" data-aos="zoom-in-left">
                     <div>
                       <h3 className="text-xl my-4">{services.amenities2}</h3>
                       <p className="text-lg">{services.amenities2text}</p>
                     </div>
-                    <img src={services.amenities2pic} style={{width: "1120px"}} className="w-[70remg] h-[20rem]" alt="" srcset="" />
+                    <img
+                      src={services.amenities2pic}
+                      style={{ width: "1120px" }}
+                      className="w-[70remg] h-[20rem] rounded-lg border-4 border-blue-500 p-2"
+                      alt=""
+                      srcset=""
+                    />
                   </div>
-                  <div className="flex w-[80%] mx-auto my-10 gap-x-8">
-                    <img src={services.amenities3pic} style={{width: "480px", objectFit: "cover"}} className="w-[7f0rem] h-[20rem]" alt="" srcset="" />
+                  <div className="flex w-[80%] mx-auto my-10 gap-x-8" data-aos="slide-right">
+                    <img
+                      src={services.amenities3pic}
+                      style={{ width: "480px", objectFit: "cover" }}
+                      className="w-[7f0rem] h-[20rem] rounded-lg border-4 border-blue-500 p-2"
+                      alt=""
+                      srcset=""
+                    />
                     <div>
                       <h3 className="text-xl my-4">{services.amenities3}</h3>
                       <p className="text-lg">{services.amenities3text}</p>
                     </div>
                   </div>
-                  <div className="flex w-[80%] mx-auto my-10 gap-x-8">
+                  <div className="flex w-[80%] mx-auto my-10 gap-x-8" data-aos="slide-left">
                     <div>
                       <h3 className="text-xl my-4">{services.amenities4}</h3>
                       <p className="text-lg">{services.amenities4text}</p>
                     </div>
-                    <img src={services.amenities4pic} style={{width: "1120px"}} className="w-[70frem] h-[20rem]" alt="" srcset="" />
+                    <img
+                      src={services.amenities4pic}
+                      style={{ width: "1120px" }}
+                      className="w-[70frem] h-[20rem] rounded-lg border-4 border-blue-500 p-2"
+                      alt=""
+                      srcset=""
+                    />
                   </div>
-                  <div className="flex w-[80%] mx-auto my-10 gap-x-8">
-                    <img src={services.amenities5pic} style={{width: "500px"}} className="w-[7f0rem] h-[20rem]" alt="" srcset="" />
+                  <div className="flex w-[80%] mx-auto my-10 gap-x-8" data-aos="slide-right">
+                    <img
+                      src={services.amenities5pic}
+                      style={{ width: "500px" }}
+                      className="w-[7f0rem] h-[20rem] rounded-lg border-4 border-blue-500 p-2"
+                      alt=""
+                      srcset=""
+                    />
                     <div>
                       <h3 className="text-xl my-4">{services.amenities5}</h3>
                       <p className="text-lg">{services.amenities5text}</p>
                     </div>
                   </div>
-                  <div className="flex w-[80%] mx-auto my-10 gap-x-8">
+                  <div className="flex w-[80%] mx-auto my-10 gap-x-8" data-aos="zoom-down">
                     <div>
                       <h3 className="text-xl my-4">{services.amenities6}</h3>
                       <p className="text-lg">{services.amenities6text}</p>
                     </div>
-                    <img src={services.amenities6pic} style={{width: "600px"}} className="w-[7f0rem] h-[20rem]" alt="" srcset="" />
+                    <img
+                      src={services.amenities6pic}
+                      style={{ width: "600px" }}
+                      className="w-[7f0rem] h-[20rem] rounded-lg border-4 border-blue-500 p-2"
+                      alt=""
+                      srcset=""
+                    />
                   </div>
                 </div>
               </div>
