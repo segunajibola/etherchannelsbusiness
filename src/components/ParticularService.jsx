@@ -37,11 +37,11 @@ const ParticularService = ({ services }) => {
               <p className="font-bold py-4 text-2xl pt-10 pb-16">
                 {services.heading1}
               </p>
-              <div className="flex w-[60%] mx-auto text-center gap-6 pb-24" data-aos="zoom-in">
+              <div className="flex w-[80%] mx-auto text-center gap-6 pb-24" data-aos="zoom-in">
                 <div>
                   <img
                     src={services.firstpic1}
-                    className="w-36 h-36"
+                    className="w-44 h-44 border-4 border-blue-200 p-2"
                     alt=""
                     srcset=""
                   />
@@ -50,7 +50,7 @@ const ParticularService = ({ services }) => {
                 <div>
                   <img
                     src={services.firstpic2}
-                    className="w-36 h-36"
+                    className="w-52 h-44 border-4 border-blue-200 p-2"
                     alt=""
                     srcset=""
                   />
@@ -59,7 +59,7 @@ const ParticularService = ({ services }) => {
                 <div>
                   <img
                     src={services.firstpic3}
-                    className="w-36 h-36"
+                    className="w-52 h-44 border-4 border-blue-200 p-2"
                     alt=""
                     srcset=""
                   />
@@ -68,7 +68,7 @@ const ParticularService = ({ services }) => {
                 <div>
                   <img
                     src={services.firstpic4}
-                    className="w-36 h-36"
+                    className="w-52 h-44 border-4 border-blue-200 p-2"
                     alt=""
                     srcset=""
                   />
@@ -77,7 +77,7 @@ const ParticularService = ({ services }) => {
                 <div>
                   <img
                     src={services.firstpic5}
-                    className="w-36 h-36"
+                    className="w-52 h-44 border-4 border-blue-200 p-2"
                     alt=""
                     srcset=""
                   />
