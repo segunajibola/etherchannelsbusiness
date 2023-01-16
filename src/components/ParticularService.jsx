@@ -37,7 +37,7 @@ const ParticularService = ({ services }) => {
               <p className="font-bold py-4 text-2xl pt-10 pb-16">
                 {services.heading1}
               </p>
-              <div className="flex w-[80%] mx-auto text-center gap-6 pb-24" data-aos="zoom-in">
+              <div className="flex w-[80vw] mx-auto text-center gap-6 pb-24 justify-center" data-aos="zoom-in">
                 <div>
                   <img
                     src={services.firstpic1}
@@ -87,11 +87,11 @@ const ParticularService = ({ services }) => {
               <p className="font-bold py-4 text-2xl pt-10 pb-16">
                 {services.heading2}
               </p>
-              <div className="flex w-[80%] mx-auto text-center gap-5 pb-24" data-aos="zoom-right">
+              <div className="flex w-[80%] mx-auto text-center gap-5 pb-24 justify-center" data-aos="zoom-right">
                 <div>
                   <img
                     src={services.secondpic1}
-                    className="w-36 h-36"
+                    className="w-36 h-36 border-4 border-blue-200 p-2"
                     alt=""
                     srcset=""
                   />
@@ -100,7 +100,7 @@ const ParticularService = ({ services }) => {
                 <div>
                   <img
                     src={services.secondpic2}
-                    className="w-36 h-36"
+                    className="w-36 h-36 border-4 border-blue-200 p-2"
                     alt=""
                     srcset=""
                   />
@@ -109,7 +109,7 @@ const ParticularService = ({ services }) => {
                 <div>
                   <img
                     src={services.secondpic3}
-                    className="w-36 h-36"
+                    className="w-36 h-36 border-4 border-blue-200 p-2"
                     alt=""
                     srcset=""
                   />
@@ -118,7 +118,7 @@ const ParticularService = ({ services }) => {
                 <div>
                   <img
                     src={services.secondpic4}
-                    className="w-36 h-36"
+                    className="w-36 h-36 border-4 border-blue-200 p-2"
                     alt=""
                     srcset=""
                   />
@@ -127,7 +127,7 @@ const ParticularService = ({ services }) => {
                 <div>
                   <img
                     src={services.secondpic5}
-                    className="w-36 h-36"
+                    className="w-36 h-36 border-4 border-blue-200 p-2"
                     alt=""
                     srcset=""
                   />
@@ -136,7 +136,7 @@ const ParticularService = ({ services }) => {
                 <div>
                   <img
                     src={services.secondpic6}
-                    className="w-36 h-36"
+                    className="w-36 h-36 border-4 border-blue-200 p-2"
                     alt=""
                     srcset=""
                   />
@@ -145,7 +145,7 @@ const ParticularService = ({ services }) => {
                 <div>
                   <img
                     src={services.secondpic7}
-                    className="w-36 h-36"
+                    className="w-36 h-36 border-4 border-blue-200 p-2"
                     alt=""
                     srcset=""
                   />
@@ -155,11 +155,11 @@ const ParticularService = ({ services }) => {
               <p className="font-bold py-4 text-2xl pt-10 pb-16">
                 {services.heading3}
               </p>
-              <div className="flex w-[80%] mx-auto text-center gap-5 pb-24" data-aos="zoom-right">
+              <div className="flex w-[80%] mx-auto text-center gap-5 pb-24 justify-center" data-aos="zoom-right">
                 <div>
                   <img
                     src={services.thirdpic1}
-                    className="w-36 h-36"
+                    className="w-36 h-36 border-4 border-blue-200 p-2"
                     alt=""
                     srcset=""
                   />
@@ -168,7 +168,7 @@ const ParticularService = ({ services }) => {
                 <div>
                   <img
                     src={services.thirdpic2}
-                    className="w-36 h-36"
+                    className="w-36 h-36 border-4 border-blue-200 p-2"
                     alt=""
                     srcset=""
                   />
@@ -177,7 +177,7 @@ const ParticularService = ({ services }) => {
                 <div>
                   <img
                     src={services.thirdpic3}
-                    className="w-36 h-36"
+                    className="w-36 h-36 border-4 border-blue-200 p-2"
                     alt=""
                     srcset=""
                   />
@@ -186,7 +186,7 @@ const ParticularService = ({ services }) => {
                 <div>
                   <img
                     src={services.thirdpic4}
-                    className="w-36 h-36"
+                    className="w-36 h-36 border-4 border-blue-200 p-2"
                     alt=""
                     srcset=""
                   />
@@ -195,7 +195,7 @@ const ParticularService = ({ services }) => {
                 <div>
                   <img
                     src={services.thirdpic5}
-                    className="w-36 h-36"
+                    className="w-36 h-36 border-4 border-blue-200 p-2"
                     alt=""
                     srcset=""
                   />
@@ -204,7 +204,7 @@ const ParticularService = ({ services }) => {
                 <div>
                   <img
                     src={services.thirdpic6}
-                    className="w-36 h-36"
+                    className="w-36 h-36 border-4 border-blue-200 p-2"
                     alt=""
                     srcset=""
                   />
@@ -213,7 +213,7 @@ const ParticularService = ({ services }) => {
                 <div>
                   {/* <img
                     src={services.thirdpic7}
-                    className="w-36 h-36"
+                    className="w-36 h-36 border-4 border-blue-200 p-2"
                     alt=""
                     srcset=""
                   /> */}
@@ -222,7 +222,7 @@ const ParticularService = ({ services }) => {
                 <div>
                   <img
                     src={services.thirdpic8}
-                    className="w-36 h-36"
+                    className="w-36 h-36 border-4 border-blue-200 p-2"
                     alt=""
                     srcset=""
                   />
