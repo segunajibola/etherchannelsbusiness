@@ -27,7 +27,7 @@ const ParticularService = ({ services }) => {
               <img
                 src={services.image2}
                 alt={services.alt}
-                className="mb-3 w-screen h-[70vh] object-cover object-center"
+                className="mb-3 w-screen h-[75vh] object-cover object-center"
               />
               <h1 className="pt-10 text-3xl font-semibold">{services.name}</h1>
               <p className="px-12 py-4 text-lg">{services.description2}</p>
@@ -235,7 +235,7 @@ const ParticularService = ({ services }) => {
                 </h2>
 
                 <div>
-                  <div className="flex w-[80%] mx-auto my-10 gap-x-8" data-aos="zoom-in-right">
+                  <div className="flex w-[80%] mx-auto my-28 gap-x-8" data-aos="zoom-in-right">
                     <img
                       src={services.amenities1pic}
                       style={{ width: "700px" }}
@@ -243,13 +243,13 @@ const ParticularService = ({ services }) => {
                       alt=""
                       srcset=""
                     />
-                    <div>
+                    <div className="flex flex-col justify-center">
                       <h3 className="text-xl my-4">{services.amenities1}</h3>
                       <p className="text-lg">{services.amenities1text}</p>
                     </div>
                   </div>
-                  <div className="flex w-[80%] mx-auto my-10 gap-x-8" data-aos="zoom-in-left">
-                    <div>
+                  <div className="flex w-[80%] mx-auto my-28 gap-x-8" data-aos="zoom-in-left">
+                    <div className="flex flex-col justify-center">
                       <h3 className="text-xl my-4">{services.amenities2}</h3>
                       <p className="text-lg">{services.amenities2text}</p>
                     </div>
@@ -261,7 +261,7 @@ const ParticularService = ({ services }) => {
                       srcset=""
                     />
                   </div>
-                  <div className="flex w-[80%] mx-auto my-10 gap-x-8" data-aos="slide-right">
+                  <div className="flex w-[80%] mx-auto my-28 gap-x-8" data-aos="slide-right">
                     <img
                       src={services.amenities3pic}
                       style={{ width: "480px", objectFit: "cover" }}
@@ -269,13 +269,13 @@ const ParticularService = ({ services }) => {
                       alt=""
                       srcset=""
                     />
-                    <div>
+                    <div className="flex flex-col justify-center">
                       <h3 className="text-xl my-4">{services.amenities3}</h3>
                       <p className="text-lg">{services.amenities3text}</p>
                     </div>
                   </div>
-                  <div className="flex w-[80%] mx-auto my-10 gap-x-8" data-aos="slide-left">
-                    <div>
+                  <div className="flex w-[80%] mx-auto my-28 gap-x-8" data-aos="slide-left">
+                    <div className="flex flex-col justify-center">
                       <h3 className="text-xl my-4">{services.amenities4}</h3>
                       <p className="text-lg">{services.amenities4text}</p>
                     </div>
@@ -287,7 +287,7 @@ const ParticularService = ({ services }) => {
                       srcset=""
                     />
                   </div>
-                  <div className="flex w-[80%] mx-auto my-10 gap-x-8" data-aos="slide-right">
+                  <div className="flex w-[80%] mx-auto my-28 gap-x-8" data-aos="slide-right">
                     <img
                       src={services.amenities5pic}
                       style={{ width: "500px" }}
@@ -295,13 +295,13 @@ const ParticularService = ({ services }) => {
                       alt=""
                       srcset=""
                     />
-                    <div>
+                    <div className="flex flex-col justify-center">
                       <h3 className="text-xl my-4">{services.amenities5}</h3>
                       <p className="text-lg">{services.amenities5text}</p>
                     </div>
                   </div>
-                  <div className="flex w-[80%] mx-auto my-10 gap-x-8" data-aos="zoom-down">
-                    <div>
+                  <div className="flex w-[80%] mx-auto my-28 gap-x-8" data-aos="zoom-down">
+                    <div className="flex flex-col justify-center">
                       <h3 className="text-xl my-4">{services.amenities6}</h3>
                       <p className="text-lg">{services.amenities6text}</p>
                     </div>
