@@ -23,11 +23,11 @@ const ParticularService = ({ services }) => {
         {services
           .filter((services) => services.name === service)
           .map((services) => (
-            <div className="flex-shrink-0 text-center py-8">
+            <div className="flex-shrink-0 text-center py-8 bg-2">
               <img
                 src={services.image2}
                 alt={services.alt}
-                className="mb-3 w-screen h-[75vh] object-cover object-center"
+                className="mb-3 w-screen h-[85vh] object-cover object-center"
               />
               <h1 className="pt-10 text-3xl font-semibold">{services.name}</h1>
               <p className="px-12 py-4 text-lg">{services.description2}</p>
