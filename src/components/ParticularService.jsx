@@ -23,9 +23,9 @@ const ParticularService = ({ services }) => {
         {services
           .filter((services) => services.name === service)
           .map((services) => (
-            <div className="flex-shrink-0 text-center py-8 bg-2">
+            <div className="flex-shrink-0 text-center py-8">
               <img
-                src={services.image2}
+                src={services.image3}
                 alt={services.alt}
                 className="mb-3 w-screen h-[85vh] object-cover object-center"
               />
@@ -34,6 +34,7 @@ const ParticularService = ({ services }) => {
               <h1 className="text-2xl pt-[150px] pb-1">
                 Check out those exams we deliver
               </h1>
+              <div className="bg-4">
               <p className="font-bold py-4 text-2xl pt-10 pb-16">
                 {services.heading1}
               </p>
@@ -227,6 +228,7 @@ const ParticularService = ({ services }) => {
                     srcset=""
                   />
                   {/* <p>{services.thirdname8}</p> */}
+                </div>
                 </div>
               </div>
               <div>
