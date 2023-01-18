@@ -153,6 +153,7 @@ const ParticularService = ({ services }) => {
                   {/* <p>{services.secondname7}</p> */}
                 </div>
               </div>
+              </div>
               <p className="font-bold py-4 text-2xl pt-10 pb-16">
                 {services.heading3}
               </p>
@@ -230,7 +231,7 @@ const ParticularService = ({ services }) => {
                   {/* <p>{services.thirdname8}</p> */}
                 </div>
                 </div>
-              </div>
+              {/* </div> */}
               <div>
                 <h2 className="pt-24 pb-8 font-bold text-2xl">
                   {services.amenities}
