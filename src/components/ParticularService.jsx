@@ -232,7 +232,7 @@ const ParticularService = ({ services }) => {
                 </div>
                 </div>
               {/* </div> */}
-              <div>
+              <div className="bg-4">
                 <h2 className="pt-24 pb-8 font-bold text-2xl">
                   {services.amenities}
                 </h2>
