@@ -12,7 +12,8 @@ const data = [
   {
     id: 2,
     image1: "/images/cbtTesting1.jpeg",
-    image2: "/images/cbtTesting22.webp",
+    image2: "/images/cbtTesting2.jpeg",
+    image3: "/images/cbtTesting22.webp",
     alt: "CBT Testing",
     name: "CBT Testing",
     description:
