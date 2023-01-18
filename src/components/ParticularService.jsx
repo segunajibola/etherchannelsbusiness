@@ -31,7 +31,7 @@ const ParticularService = ({ services }) => {
               />
               <h1 className="pt-10 text-3xl font-semibold">{services.name}</h1>
               <p className="px-12 py-4 text-lg">{services.description2}</p>
-              <h1 className="text-2xl pt-[150px] pb-1">
+              <h1 className="text-2xl pt-[150px] pb-8">
                 Check out those exams we deliver
               </h1>
               <div className="bg-4">
@@ -153,6 +153,7 @@ const ParticularService = ({ services }) => {
                   {/* <p>{services.secondname7}</p> */}
                 </div>
               </div>
+              </div>
               <p className="font-bold py-4 text-2xl pt-10 pb-16">
                 {services.heading3}
               </p>
@@ -230,7 +231,7 @@ const ParticularService = ({ services }) => {
                   {/* <p>{services.thirdname8}</p> */}
                 </div>
                 </div>
-              </div>
+              {/* </div> */}
               <div>
                 <h2 className="pt-24 pb-8 font-bold text-2xl">
                   {services.amenities}
