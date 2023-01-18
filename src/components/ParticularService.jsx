@@ -31,7 +31,7 @@ const ParticularService = ({ services }) => {
               />
               <h1 className="pt-10 text-3xl font-semibold">{services.name}</h1>
               <p className="px-12 py-4 text-lg">{services.description2}</p>
-              <h1 className="text-2xl pt-[150px] pb-1">
+              <h1 className="text-2xl pt-[150px] pb-8">
                 Check out those exams we deliver
               </h1>
               <div className="bg-4">
