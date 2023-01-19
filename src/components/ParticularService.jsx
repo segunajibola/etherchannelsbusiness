@@ -35,7 +35,7 @@ const ParticularService = ({ services }) => {
                 Check out those exams we deliver
               </h1>
               <div className="bg-4">
-              <p className="font-bold py-4 text-2xl pt-10 pb-16">
+              <p className="font-bold py-4 text-2xl text-white shadow-xl pt-10 pb-16">
                 {services.heading1}
               </p>
               <div className="flex w-[80vw] mx-auto text-center gap-6 pb-24 justify-center" data-aos="zoom-in">
@@ -85,7 +85,7 @@ const ParticularService = ({ services }) => {
                   {/* <p>{services.firstname5}</p> */}
                 </div>
               </div>
-              <p className="font-bold py-4 text-2xl pt-10 pb-16">
+              <p className="font-bold py-4 text-2xl text-white pt-10 pb-16">
                 {services.heading2}
               </p>
               <div className="flex w-[80%] mx-auto text-center gap-5 pb-24 justify-center" data-aos="zoom-right">
@@ -154,7 +154,7 @@ const ParticularService = ({ services }) => {
                 </div>
               </div>
               {/* </div> */}
-              <p className="font-bold py-4 text-2xl pt-10 pb-16">
+              <p className="font-bold py-4 text-2xl text-white pt-10 pb-16">
                 {services.heading3}
               </p>
               <div className="flex w-[80%] mx-auto text-center gap-5 pb-24 justify-center" data-aos="zoom-right">
