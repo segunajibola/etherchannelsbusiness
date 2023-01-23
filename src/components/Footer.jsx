@@ -142,7 +142,7 @@ const Footer = () => {
       <Link to="/" className="flex justify-end m-2">
         <button
           className="text-white text-sm border-2 hover:text-gray-800 hover:bg-gray-100 hover:border-gray-200 px-1 py-1 md:my-2 dark:text-gray-900 dark:border-gray-500 dark:hover:bg-gray-300 dark:hover:border-gray-800"
-          onClick={() => window.scrollTo(0, 0)}
+          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
         >
           Back to Top <FaArrowUp className="inline" />
         </button>

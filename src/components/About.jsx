@@ -46,7 +46,7 @@ const About = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 w-11/12 mx-auto text-center mb-16 gap-8">
-        <div className="pt-[100px]" id="mission">
+        <div>
         <div className="bg-gray-300 p-8 rounded-2xl hover:scale-110 delay-100 duration-300 h-[500px]">
           <GiMissileLauncher size={100} className="text-center w-24 mx-auto" />
           <h2 className="text-2xl py-8 font-semibold">Our Mission</h2>
@@ -59,7 +59,7 @@ const About = () => {
           </p>
         </div>
         </div>
-        <div className="pt-[100px]" id="vision">
+        <div>
         <div className="bg-gray-300 p-8 rounded-2xl hover:scale-110 delay-100 duration-300 h-[500px]">
           <MdVisibility size={100} className="text-center w-24 mx-auto" />
           <h2 className="text-2xl py-8 font-semibold">Our Vision</h2>
@@ -70,7 +70,7 @@ const About = () => {
           </p>
         </div>
         </div>
-        <div className="pt-[100px]" id="coreValues">
+        <div>
         <div className="bg-gray-300 p-8 rounded-2xl hover:scale-110 delay-100 duration-300 h-[500px]">
           <MdCreditScore size={100} className="text-center w-24 mx-auto" />
           <h2 className="text-2xl py-8 font-semibold">Our Core Values</h2>
