@@ -175,23 +175,23 @@ const data = [
     corporatetrainingc: "Instructor Led Training",
     amenities: "Why Choose us",
     amenities1: "Training Facilities",
-    amenities1pic: "/images/cbtTesting/lounge.jpeg",
+    amenities1pic: "/images/corporateTrainingClassroom.jpeg",
     amenities1text:
       "We have modern and World-Class training facilities and equipments in place for students to enjoy the training atmosphere during their training period.",
     amenities2: "Instructors",
-    amenities2pic: "/images/cbtTesting/lounge.jpeg",
+    amenities2pic: "/images/instructor.jpeg",
     amenities2text:
       "At EtherChannel, all our instructors are Qualified, Certified and Experienced in what they train to their students to become the best in their learning pace.",
     amenities3: "Hands-on Labs Experience",
-    amenities3pic: "/images/cbtTesting/lounge.jpeg",
+    amenities3pic: "/images/labExperience.jpeg",
     amenities3text:
       "Part of the reason why you should choose us, we demonstrate and practice what we teach to our students to have real life experience which make us outstanding (Less Theory More Practical)",
     amenities4: "Customer Service",
-    amenities4pic: "/images/cbtTesting/lounge.jpeg",
+    amenities4pic: "/images/customerService.webp",
     amenities4text:
       "We are so flexible and diligent in attending to our students and customers complains then provides solutions to their problems at all cost.",
     amenities5: "Training Certificate",
-    amenities5pic: "/images/cbtTesting/lounge.jpeg",
+    amenities5pic: "/images/certification.jpeg",
     amenities5text:
       "We are Pearson VUE accredited center that offer certification exams to our students once they complete their training with us.",
   },
