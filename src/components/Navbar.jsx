@@ -3,6 +3,8 @@ import { FaMoon, FaLightbulb, FaBars, FaTimes } from "react-icons/fa";
 import { IoIosArrowDown } from "react-icons/io";
 import Logo from "../assets/navbar/etherchannellogo.png";
 import { Link } from "react-router-dom";
+import services from "../data/services.js";
+
 
 const Navbar = ({ handleMode, darkMode }) => {
   const [nav, setNav] = useState(false);
@@ -36,21 +38,29 @@ const Navbar = ({ handleMode, darkMode }) => {
           </Link>
           <div className="hidden p-5 peer-hover:flex hover:flex bg-transparent w-[250px] -mt-2 h-[500px] absolute">
             <span
-            className="peer-hover:flex flex absolute
+              className="peer-hover:flex flex absolute
          w-[150px] h-[150px] flex-col mt-5 bg-white drop-shadow-lg z-10"
-          >
-            <a className="px-2 py-3 hover:bg-gray-200 text-black" href="/about#vision">
-              Our Vision
-            </a>
-            <a className="px-2 py-3 hover:bg-gray-200 text-black" href="/about#mission">
-              Our Mission
-            </a>
-            <a className="px-2 py-3 hover:bg-gray-200 text-black" href="/about#coreValues">
-              Core Values
-            </a>
-          </span>
+            >
+              <a
+                className="px-2 py-3 hover:bg-gray-200 text-black"
+                href="/about#vision"
+              >
+                Our Vision
+              </a>
+              <a
+                className="px-2 py-3 hover:bg-gray-200 text-black"
+                href="/about#mission"
+              >
+                Our Mission
+              </a>
+              <a
+                className="px-2 py-3 hover:bg-gray-200 text-black"
+                href="/about#coreValues"
+              >
+                Core Values
+              </a>
+            </span>
           </div>
-          
         </li>
         <li className="cursor-pointer">
           <Link to="/services">Services</Link>
@@ -60,6 +70,12 @@ const Navbar = ({ handleMode, darkMode }) => {
         </li>
         <li className="cursor-pointer">
           <Link to="/contact">Contact</Link>
+        </li>
+        <li className="cursor-pointer">
+        {services.filter(services => services.name == "Corporate Training")
+          .map((services) => (
+            <Link to={`/services/${services.name}`}>Corporate Training</Link>
+          ))}
         </li>
       </ul>
 

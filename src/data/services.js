@@ -19,8 +19,7 @@ const data = [
     description:
       "We've structured our testing environment at Ether-channel in such a way that would be comfortable, conducive, stress free and secure for the candidates to take their tests with the adequate guidelines and instructions from our competent test administrator/supervisor which helps the students to come out at their very best.",
     link: "",
-    description2:
-      "We've structured our testing environment at Ether-channel in such a way that would be comfortable, conducive, stress free and secure for the candidates to take their tests with the adequate guidelines and instructions from our competent test administrator/supervisor which helps the candidates to come out at their optimum best.",
+    heading0: "Check out those exams we deliver",
     heading1: "INTERNATIONAL TESTING",
     firstpic1: "/images/cbtTesting/pearsonVue.png",
     firstname1: "PEARSON VUE EXAMS",
@@ -67,22 +66,28 @@ const data = [
     amenities: "AMENITIES",
     amenities1: "ACCESSIBILITY",
     amenities1pic: "/images/cbtTesting/lounge.jpeg",
-    amenities1text: "We have individually adaptive workstations that include a chair, air condition, keyboard, and monitor for work and studying purpose.",
+    amenities1text:
+      "We have individually adaptive workstations that include a chair, air condition, keyboard, and monitor for work and studying purpose.",
     amenities2: "SECURITY",
     amenities2pic: "/images/cbtTesting/security.jpeg",
-    amenities2text: "Our testing center monitoring screen allows the administrators/supervisors to take a thorough observation of test takers while writing examinations. Security cameras are mounted above each testing area that can turn 360 degrees, and zoom in to view the smallest movement to prevent examination malpractices.",
+    amenities2text:
+      "Our testing center monitoring screen allows the administrators/supervisors to take a thorough observation of test takers while writing examinations. Security cameras are mounted above each testing area that can turn 360 degrees, and zoom in to view the smallest movement to prevent examination malpractices.",
     amenities3: "WAITING AREA",
     amenities3pic: "/images/cbtTesting/waitingRoom.jpeg",
-    amenities3text: "Our beautiful lobby/lounge area has a “homey” atmosphere and allows for an escape from deep thought and relaxation during break.",
+    amenities3text:
+      "Our beautiful lobby/lounge area has a “homey” atmosphere and allows for an escape from deep thought and relaxation during break.",
     amenities4: "LOCKERS",
     amenities4pic: "/images/cbtTesting/locker.jpeg",
-    amenities4text: "All test takers and customer's personal belongings will be locked in a large locker. Cell phones and some other items must be turned off and locked up as well. There is a lot of room for your backpack, purse, and other belongings.",
+    amenities4text:
+      "All test takers and customer's personal belongings will be locked in a large locker. Cell phones and some other items must be turned off and locked up as well. There is a lot of room for your backpack, purse, and other belongings.",
     amenities5: "PRIVACY",
     amenities5pic: "/images/cbtTesting/privacy.jpeg",
-    amenities5text: "You are in a comfortable, personal area while testing. We want you to have the best experience possible.",
+    amenities5text:
+      "You are in a comfortable, personal area while testing. We want you to have the best experience possible.",
     amenities6: "CONVENIENCE",
     amenities6pic: "/images/cbtTesting/convenience.jpeg",
-    amenities6text: "We have a reserved clean modern private toilet for the test takers to use during their examination break hours.",
+    amenities6text:
+      "We have a reserved clean modern private toilet for the test takers to use during their examination break hours.",
   },
   {
     id: 3,
@@ -156,13 +161,39 @@ const data = [
   },
   {
     id: 10,
-    image1: "/images/jambLogo.png",
-    image2: "/images/coporateTraining.jpg",
-    alt: "Coporate Training",
-    name: "Coporate Training",
+    image1: "/images/corporateTraining3.webp",
+    image2: "/images/corporateTraining1.jpg",
+    image3: "/images/corporateTraining4.jpeg",
+    alt: "Corporate Training",
+    name: "Corporate Training",
     description:
-      "This is a dummy text, will be changed later to the description of the services.",
+      "We work absolutely with our customers to know the very best IT Training need to recommend that will boost their employee's performance and their business growth with using our ready to use training facilities in place. We offer training to our customers at both On-site and Off-site.",
     link: "",
+    heading0: "Trainig Delivery Method",
+    corporatetraininga: "Classroom Training at our venue (Instructor Led)",
+    corporatetrainingb: "Classroom Training at client venue (Instructor Led)",
+    corporatetrainingc: "Instructor Led Training",
+    amenities: "Why Choose us",
+    amenities1: "Training Facilities",
+    amenities1pic: "/images/corporateTrainingClassroom.jpeg",
+    amenities1text:
+      "We have modern and World-Class training facilities and equipments in place for students to enjoy the training atmosphere during their training period.",
+    amenities2: "Instructors",
+    amenities2pic: "/images/instructor.jpeg",
+    amenities2text:
+      "At EtherChannel, all our instructors are Qualified, Certified and Experienced in what they train to their students to become the best in their learning pace.",
+    amenities3: "Hands-on Labs Experience",
+    amenities3pic: "/images/labExperience.jpeg",
+    amenities3text:
+      "Part of the reason why you should choose us, we demonstrate and practice what we teach to our students to have real life experience which make us outstanding (Less Theory More Practical)",
+    amenities4: "Customer Service",
+    amenities4pic: "/images/customerService.webp",
+    amenities4text:
+      "We are so flexible and diligent in attending to our students and customers complains then provides solutions to their problems at all cost.",
+    amenities5: "Training Certificate",
+    amenities5pic: "/images/certification.jpeg",
+    amenities5text:
+      "We are Pearson VUE accredited center that offer certification exams to our students once they complete their training with us.",
   },
   {
     id: 11,
