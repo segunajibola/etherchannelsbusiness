@@ -19,8 +19,7 @@ const data = [
     description:
       "We've structured our testing environment at Ether-channel in such a way that would be comfortable, conducive, stress free and secure for the candidates to take their tests with the adequate guidelines and instructions from our competent test administrator/supervisor which helps the students to come out at their very best.",
     link: "",
-    description2:
-      "We've structured our testing environment at Ether-channel in such a way that would be comfortable, conducive, stress free and secure for the candidates to take their tests with the adequate guidelines and instructions from our competent test administrator/supervisor which helps the candidates to come out at their optimum best.",
+    heading0: "Check out those exams we deliver",
     heading1: "INTERNATIONAL TESTING",
     firstpic1: "/images/cbtTesting/pearsonVue.png",
     firstname1: "PEARSON VUE EXAMS",
@@ -204,11 +203,12 @@ const data = [
     id: 14,
     image1: "/images/jambLogo.png",
     image2: "/images/jambLogo.png",
-    image3: "/images/jambLogo.png",
+    image3: "/images/corporateTraining3.jpeg",
     alt: "Corporate Training",
     name: "Corporate Training",
-    description: "Corporate Training description text",
+    description: "We work absolutely with our customers to know the very best IT Training need to recommend that will boost their employee's performance and their business growth with using our ready to use training facilities in place. We offer training to our customers at both On-site and Off-site.",
     link: "",
+    heading0: "Trainig Delivery Method",
   },
 ];
 
