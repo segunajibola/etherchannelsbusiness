@@ -248,16 +248,16 @@ const ParticularService = ({ services }) => {
               {/* CBT TESTING */}
 
 
-              {services.corporatetraininga && <div className="flex w-[70%] mx-auto">
-                <div className="m-4 p-5 border-4 rounded-lg">
+              {services.corporatetraininga && <div className="flex w-[70%] mx-auto mb-14">
+                <div className="w-[30rem] m-4 p-5 border-4 rounded-lg">
                   <IoIosPeople size={64} className="mx-auto" />
                   <p className="my-5 text-xl">{services.corporatetraininga}</p>
                 </div>
-                <div className="m-4 p-5 border-4 rounded-lg">
+                <div className="w-[30rem] m-4 p-5 border-4 rounded-lg">
                   <SiGoogleclassroom size={64} className="mx-auto" />
                   <p className="my-5 text-xl">{services.corporatetrainingb}</p>
                 </div>
-                <div className="m-4 p-5 border-4 rounded-lg">
+                <div className="w-[30rem] m-4 p-5 border-4 rounded-lg">
                   <FaPeopleArrows size={64} className="mx-auto" />
                   <p className="my-5 text-xl">{services.corporatetrainingc}</p>
                 </div>

@@ -169,11 +169,11 @@ const data = [
     description:
       "We work absolutely with our customers to know the very best IT Training need to recommend that will boost their employee's performance and their business growth with using our ready to use training facilities in place. We offer training to our customers at both On-site and Off-site.",
     link: "",
-    heading0: "Trainig Delivery Method",
+    heading0: "Training Delivery Method",
     corporatetraininga: "Classroom Training at our venue (Instructor Led)",
     corporatetrainingb: "Classroom Training at client venue (Instructor Led)",
     corporatetrainingc: "Instructor Led Training",
-    amenities: "Why Choose us",
+    amenities: "Why Choose Us",
     amenities1: "Training Facilities",
     amenities1pic: "/images/corporateTrainingClassroom.jpeg",
     amenities1text:
