@@ -20,13 +20,15 @@ const About = () => {
       <div className="grid grid-cols-2 md:grid-cols-1 mt-[60px]">
         <div className="relative">
           <img
-          src={banner}
-          alt=""
-          className="mb-3 w-screen h-[70vh] object-cover object-center"
-        />
-        <p className="absolute text-6xl w-[1000px] text-white top-1/2 left-[30px] -t ranslate-x-1/2 -translate-y-1/2 font-semibold shadow">We Provide Customize I.T Solutions That Suit Your Needs.</p>
+            src={banner}
+            alt=""
+            className="mb-3 w-screen h-[70vh] object-cover object-center"
+          />
+          <p className="absolute text-6xl w-[1000px] text-white top-1/2 left-[30px] -t ranslate-x-1/2 -translate-y-1/2 font-semibold shadow">
+            We Provide Customize I.T Solutions That Suit Your Needs.
+          </p>        
         </div>
-        
+
         <div className="mx-auto text-center">
           <h2 className="text-3xl font-semibold tracking-wider text-gray-900 dark:text-white my-4">
             About Us
@@ -47,49 +49,50 @@ const About = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-3 w-11/12 mx-auto text-center mb-16 gap-8">
         <div>
-        <div className="bg-gray-300 p-8 rounded-2xl hover:scale-110 delay-100 duration-300 h-[500px]">
-          <GiMissileLauncher size={100} className="text-center w-24 mx-auto" />
-          <h2 className="text-2xl py-8 font-semibold">Our Mission</h2>
-          <p className="text-xl">
-            Our primary aim and objectives is to bridge the technology gap in
-            Nigeria and to motivate and groom young talented tech minds in
-            providing quality, cost-effective training and digital solution
-            services to increase individual and organizational productivity and
-            enrichment.
-          </p>
-        </div>
-        </div>
-        <div>
-        <div className="bg-gray-300 p-8 rounded-2xl hover:scale-110 delay-100 duration-300 h-[500px]">
-          <MdVisibility size={100} className="text-center w-24 mx-auto" />
-          <h2 className="text-2xl py-8 font-semibold">Our Vision</h2>
-          <p className="text-xl">
-            Our vision is to be the best and foremost provider of Industry-lead
-            Technological and Business skills set training institute in Nigeria
-            and all across the Africa.
-          </p>
-        </div>
+          <div className="bg-gray-300 p-8 rounded-2xl hover:scale-110 delay-100 duration-300 h-[500px]">
+            <GiMissileLauncher
+              size={100}
+              className="text-center w-24 mx-auto"
+            />
+            <h2 className="text-2xl py-8 font-semibold">Our Mission</h2>
+            <p className="text-xl">
+              Our primary aim and objectives is to bridge the technology gap in
+              Nigeria and to motivate and groom young talented tech minds in
+              providing quality, cost-effective training and digital solution
+              services to increase individual and organizational productivity
+              and enrichment.
+            </p>
+          </div>
         </div>
         <div>
-        <div className="bg-gray-300 p-8 rounded-2xl hover:scale-110 delay-100 duration-300 h-[500px]">
-          <MdCreditScore size={100} className="text-center w-24 mx-auto" />
-          <h2 className="text-2xl py-8 font-semibold">Our Core Values</h2>
-          <ul className="text-xl">
-            <li>Honesty</li>
-            <li>Dignity</li>
-            <li>Integrity</li>
-            <li>Ownership</li>
-            <li>Innovation</li>
-            <li>Dedication</li>
-            <li>Satisfaction</li>
-          </ul>
+          <div className="bg-gray-300 p-8 rounded-2xl hover:scale-110 delay-100 duration-300 h-[500px]">
+            <MdVisibility size={100} className="text-center w-24 mx-auto" />
+            <h2 className="text-2xl py-8 font-semibold">Our Vision</h2>
+            <p className="text-xl">
+              Our vision is to be the best and foremost provider of
+              Industry-lead Technological and Business skills set training
+              institute in Nigeria and all across the Africa.
+            </p>
+          </div>
         </div>
+        <div>
+          <div className="bg-gray-300 p-8 rounded-2xl hover:scale-110 delay-100 duration-300 h-[500px]">
+            <MdCreditScore size={100} className="text-center w-24 mx-auto" />
+            <h2 className="text-2xl py-8 font-semibold">Our Core Values</h2>
+            <ul className="text-xl">
+              <li>Honesty</li>
+              <li>Dignity</li>
+              <li>Integrity</li>
+              <li>Ownership</li>
+              <li>Innovation</li>
+              <li>Dedication</li>
+              <li>Satisfaction</li>
+            </ul>
+          </div>
         </div>
       </div>
 
-      <div
-        className="w-full overflow-hidden dark:text-white"
-      >
+      <div className="w-full overflow-hidden dark:text-white">
         <div className="grid grid-cols sm:grid-cols-1 justify-center gap-8 px-2 pt-4">
           <Swiper
             spaceBetween={30}
