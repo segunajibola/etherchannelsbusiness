@@ -32,7 +32,10 @@ const Navbar = ({ handleMode, darkMode }) => {
           </Link>
         </li>
         <li className="hover:scale-110">
-          <Link to="/about" className="peer">
+        <li className="cursor-pointer">
+          <Link to="/about">About</Link>
+        </li>
+          {/* <Link to="/about" className="peer">
             About
             <IoIosArrowDown className="inline ml-1" />
           </Link>
@@ -59,8 +62,8 @@ const Navbar = ({ handleMode, darkMode }) => {
               >
                 Core Values
               </a>
-            </span>
-          </div>
+            </span> 
+          </div>*/}
         </li>
         <li className="cursor-pointer">
           <Link to="/services">Services</Link>
