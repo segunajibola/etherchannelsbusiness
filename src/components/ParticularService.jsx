@@ -22,11 +22,10 @@ const ParticularService = ({ services }) => {
 
   return (
     <div className="overflow-hidden bg-gray-100 dark:bg-gray-700">
-      <div className="w-screen pt-12">
         {services
           .filter((services) => services.name === service)
           .map((services) => (
-            <div className="flex-shrink-0 text-center py-8">
+            <div className="flex-shrink-0 pt-[80px] text-center">
               <img
                 src={services.image3}
                 alt={services.alt}
@@ -35,7 +34,8 @@ const ParticularService = ({ services }) => {
               <h1 className="pt-10 text-3xl font-semibold">{services.name}</h1>
               <p className="px-12 py-4 text-lg">{services.description}</p>
               <h1 className="text-2xl pt-[150px] pb-8">{services.heading0}</h1>
-              {/* CBT Testing */}
+
+              {/* CBT TESTING */}
               {services.heading1 && (
                 <div className="bg-4">
                   <p className="font-bold py-4 text-2xl text-white shadow-xl pt-10 pb-16">
@@ -245,6 +245,8 @@ const ParticularService = ({ services }) => {
                   </div>
                 </div>
               )}
+              {/* CBT TESTING */}
+
 
               {services.corporatetraininga && <div className="flex w-[70%] mx-auto">
                 <div className="m-4 p-5 border-4 rounded-lg">
@@ -261,7 +263,7 @@ const ParticularService = ({ services }) => {
                 </div>
               </div>}
 
-              <div className="bg-gray-300">
+              <div className="bg-gray-300 pb-5">
                 <h2 className="pt-24 pb-8 font-bold text-2xl">
                   {services.amenities}
                 </h2>
@@ -368,7 +370,6 @@ const ParticularService = ({ services }) => {
             </div>
           ))}
       </div>
-    </div>
   );
 };
 
