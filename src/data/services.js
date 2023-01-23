@@ -211,7 +211,7 @@ const data = [
     heading0: "Trainig Delivery Method",
     corporatetraininga: "Classroom Training at our venue (Instructor Led)",
     corporatetrainingb: "Classroom Training at client venue (Instructor Led)",
-    corporatetrainingc: "Instructor Led Training",
+    corporatetrainingc: "Instructor Led Training",  
   }
 ];
 

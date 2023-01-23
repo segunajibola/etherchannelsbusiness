@@ -2,6 +2,9 @@ import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { IoIosPeople } from "react-icons/io";
+import { FaPeopleArrows } from "react-icons/fa";
+import { SiGoogleclassroom } from "react-icons/si";
 
 const ParticularService = ({ services }) => {
   // console.log("services", services);
@@ -243,9 +246,20 @@ const ParticularService = ({ services }) => {
                 </div>
               )}
 
-              <div>{services.corporatetraininga}</div>
-              <div>{services.corporatetrainingb}</div>
-              <div>{services.corporatetrainingc}</div>
+              <div className="flex w-[70%] mx-auto">
+                <div className="m-4 p-5 border-4 rounded-lg">
+                  <IoIosPeople size={64} className="mx-auto" />
+                  <p className="my-5 text-xl">{services.corporatetraininga}</p>
+                </div>
+                <div className="m-4 p-5 border-4 rounded-lg">
+                  <SiGoogleclassroom size={64} className="mx-auto" />
+                  <p className="my-5 text-xl">{services.corporatetrainingb}</p>
+                </div>
+                <div className="m-4 p-5 border-4 rounded-lg">
+                  <FaPeopleArrows size={64} className="mx-auto" />
+                  <p className="my-5 text-xl">{services.corporatetrainingc}</p>
+                </div>
+              </div>
 
               <div className="bg-gray-300">
                 <h2 className="pt-24 pb-8 font-bold text-2xl">
