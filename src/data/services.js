@@ -67,22 +67,28 @@ const data = [
     amenities: "AMENITIES",
     amenities1: "ACCESSIBILITY",
     amenities1pic: "/images/cbtTesting/lounge.jpeg",
-    amenities1text: "We have individually adaptive workstations that include a chair, air condition, keyboard, and monitor for work and studying purpose.",
+    amenities1text:
+      "We have individually adaptive workstations that include a chair, air condition, keyboard, and monitor for work and studying purpose.",
     amenities2: "SECURITY",
     amenities2pic: "/images/cbtTesting/security.jpeg",
-    amenities2text: "Our testing center monitoring screen allows the administrators/supervisors to take a thorough observation of test takers while writing examinations. Security cameras are mounted above each testing area that can turn 360 degrees, and zoom in to view the smallest movement to prevent examination malpractices.",
+    amenities2text:
+      "Our testing center monitoring screen allows the administrators/supervisors to take a thorough observation of test takers while writing examinations. Security cameras are mounted above each testing area that can turn 360 degrees, and zoom in to view the smallest movement to prevent examination malpractices.",
     amenities3: "WAITING AREA",
     amenities3pic: "/images/cbtTesting/waitingRoom.jpeg",
-    amenities3text: "Our beautiful lobby/lounge area has a “homey” atmosphere and allows for an escape from deep thought and relaxation during break.",
+    amenities3text:
+      "Our beautiful lobby/lounge area has a “homey” atmosphere and allows for an escape from deep thought and relaxation during break.",
     amenities4: "LOCKERS",
     amenities4pic: "/images/cbtTesting/locker.jpeg",
-    amenities4text: "All test takers and customer's personal belongings will be locked in a large locker. Cell phones and some other items must be turned off and locked up as well. There is a lot of room for your backpack, purse, and other belongings.",
+    amenities4text:
+      "All test takers and customer's personal belongings will be locked in a large locker. Cell phones and some other items must be turned off and locked up as well. There is a lot of room for your backpack, purse, and other belongings.",
     amenities5: "PRIVACY",
     amenities5pic: "/images/cbtTesting/privacy.jpeg",
-    amenities5text: "You are in a comfortable, personal area while testing. We want you to have the best experience possible.",
+    amenities5text:
+      "You are in a comfortable, personal area while testing. We want you to have the best experience possible.",
     amenities6: "CONVENIENCE",
     amenities6pic: "/images/cbtTesting/convenience.jpeg",
-    amenities6text: "We have a reserved clean modern private toilet for the test takers to use during their examination break hours.",
+    amenities6text:
+      "We have a reserved clean modern private toilet for the test takers to use during their examination break hours.",
   },
   {
     id: 3,
@@ -192,6 +198,16 @@ const data = [
     name: "All Jamb Activities",
     description:
       "This is a dummy text, will be changed later to the description of the services.",
+    link: "",
+  },
+  {
+    id: 14,
+    image1: "/images/jambLogo.png",
+    image2: "/images/jambLogo.png",
+    image3: "/images/jambLogo.png",
+    alt: "Corporate Training",
+    name: "Corporate Training",
+    description: "Corporate Training description text",
     link: "",
   },
 ];
