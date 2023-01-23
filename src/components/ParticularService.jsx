@@ -246,7 +246,7 @@ const ParticularService = ({ services }) => {
                 </div>
               )}
 
-              <div className="flex w-[70%] mx-auto">
+              {services.corporatetraininga && <div className="flex w-[70%] mx-auto">
                 <div className="m-4 p-5 border-4 rounded-lg">
                   <IoIosPeople size={64} className="mx-auto" />
                   <p className="my-5 text-xl">{services.corporatetraininga}</p>
@@ -259,7 +259,7 @@ const ParticularService = ({ services }) => {
                   <FaPeopleArrows size={64} className="mx-auto" />
                   <p className="my-5 text-xl">{services.corporatetrainingc}</p>
                 </div>
-              </div>
+              </div>}
 
               <div className="bg-gray-300">
                 <h2 className="pt-24 pb-8 font-bold text-2xl">
@@ -347,7 +347,7 @@ const ParticularService = ({ services }) => {
                       <p className="text-lg">{services.amenities5text}</p>
                     </div>
                   </div>
-                  <div
+                  {services.amenities6text && <div
                     className="flex w-[80%] mx-auto my-28 gap-x-8"
                     data-aos="zoom-down"
                   >
@@ -362,7 +362,7 @@ const ParticularService = ({ services }) => {
                       alt=""
                       srcset=""
                     />
-                  </div>
+                  </div>}
                 </div>
               </div>
             </div>

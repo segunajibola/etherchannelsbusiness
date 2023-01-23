@@ -161,13 +161,39 @@ const data = [
   },
   {
     id: 10,
-    image1: "/images/jambLogo.png",
-    image2: "/images/coporateTraining.jpg",
-    alt: "Coporate Training",
-    name: "Coporate Training",
+    image1: "/images/corporateTraining3.webp",
+    image2: "/images/corporateTraining1.jpg",
+    image3: "/images/corporateTraining4.jpeg",
+    alt: "Corporate Training",
+    name: "Corporate Training",
     description:
-      "This is a dummy text, will be changed later to the description of the services.",
+      "We work absolutely with our customers to know the very best IT Training need to recommend that will boost their employee's performance and their business growth with using our ready to use training facilities in place. We offer training to our customers at both On-site and Off-site.",
     link: "",
+    heading0: "Trainig Delivery Method",
+    corporatetraininga: "Classroom Training at our venue (Instructor Led)",
+    corporatetrainingb: "Classroom Training at client venue (Instructor Led)",
+    corporatetrainingc: "Instructor Led Training",
+    amenities: "Why Choose us",
+    amenities1: "Training Facilities",
+    amenities1pic: "/images/cbtTesting/lounge.jpeg",
+    amenities1text:
+      "We have modern and World-Class training facilities and equipments in place for students to enjoy the training atmosphere during their training period.",
+    amenities2: "Instructors",
+    amenities2pic: "/images/cbtTesting/lounge.jpeg",
+    amenities2text:
+      "At EtherChannel, all our instructors are Qualified, Certified and Experienced in what they train to their students to become the best in their learning pace.",
+    amenities3: "Hands-on Labs Experience",
+    amenities3pic: "/images/cbtTesting/lounge.jpeg",
+    amenities3text:
+      "Part of the reason why you should choose us, we demonstrate and practice what we teach to our students to have real life experience which make us outstanding (Less Theory More Practical)",
+    amenities4: "Customer Service",
+    amenities4pic: "/images/cbtTesting/lounge.jpeg",
+    amenities4text:
+      "We are so flexible and diligent in attending to our students and customers complains then provides solutions to their problems at all cost.",
+    amenities5: "Training Certificate",
+    amenities5pic: "/images/cbtTesting/lounge.jpeg",
+    amenities5text:
+      "We are Pearson VUE accredited center that offer certification exams to our students once they complete their training with us.",
   },
   {
     id: 11,
@@ -199,20 +225,6 @@ const data = [
       "This is a dummy text, will be changed later to the description of the services.",
     link: "",
   },
-  {
-    id: 14,
-    image1: "/images/jambLogo.png",
-    image2: "/images/jambLogo.png",
-    image3: "/images/corporateTraining3.jpeg",
-    alt: "Corporate Training",
-    name: "Corporate Training",
-    description: "We work absolutely with our customers to know the very best IT Training need to recommend that will boost their employee's performance and their business growth with using our ready to use training facilities in place. We offer training to our customers at both On-site and Off-site.",
-    link: "",
-    heading0: "Trainig Delivery Method",
-    corporatetraininga: "Classroom Training at our venue (Instructor Led)",
-    corporatetrainingb: "Classroom Training at client venue (Instructor Led)",
-    corporatetrainingc: "Instructor Led Training",  
-  }
 ];
 
 export default data;
