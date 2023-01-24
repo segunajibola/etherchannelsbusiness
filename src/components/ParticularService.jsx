@@ -286,7 +286,7 @@ const ParticularService = ({ services }) => {
                 >
                   <img
                     src={services.amenities1pic}
-                    style={{ width: "700px" }}
+                    style={{ width: "480px" }}
                     className="object-cover object-bottom h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
                     alt=""
                     srcset=""
@@ -306,7 +306,7 @@ const ParticularService = ({ services }) => {
                   </div>
                   <img
                     src={services.amenities2pic}
-                    style={{ width: "1120px" }}
+                    style={{ width: "480px" }}
                     className="object-cover object-center h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
                     alt=""
                     srcset=""
@@ -318,7 +318,7 @@ const ParticularService = ({ services }) => {
                 >
                   <img
                     src={services.amenities3pic}
-                    style={{ width: "480px", objectFit: "cover" }}
+                    style={{ width: "480px" }}
                     className="object-cover object-center h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
                     alt=""
                     srcset=""
@@ -338,7 +338,7 @@ const ParticularService = ({ services }) => {
                   </div>
                   <img
                     src={services.amenities4pic}
-                    style={{ width: "1120px" }}
+                    style={{ width: "480px" }}
                     className="object-cover object-center h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
                     alt=""
                     srcset=""
@@ -350,7 +350,7 @@ const ParticularService = ({ services }) => {
                 >
                   <img
                     src={services.amenities5pic}
-                    style={{ width: "500px" }}
+                    style={{ width: "480px" }}
                     className="object-cover object-center h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
                     alt=""
                     srcset=""
