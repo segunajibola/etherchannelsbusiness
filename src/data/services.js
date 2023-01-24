@@ -173,6 +173,7 @@ const data = [
     corporatetraininga: "Classroom Training at our Venue (Instructor Led)",
     corporatetrainingb: "Classroom Training at Client Venue (Instructor Led)",
     corporatetrainingc: "Online Instructor Led Training",
+    coursesHeading: "Available Courses",
     amenities: "Why Choose Us",
     amenities1: "Training Facilities",
     amenities1pic: "/images/corporateTrainingClassroom.jpeg",
