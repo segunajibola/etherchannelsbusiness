@@ -32,18 +32,22 @@ const ParticularService = ({ services }) => {
                 alt={services.alt}
                 className="mb-3 w-screen h-[85vh] object-cover object-center"
               />
-              <p className="absolute text-7xl w-[75rem] text-gray-100 top-1/2 left-[30px] -t ranslate-x-1/2 -translate-y-1/2 font-semibold shadow">
-                Accelerating The Digital Revolution.
-                <p className="text-left mt-5 ml-4 text-5xl">
-                  We take digital skills education global, empowering individual
-                  and enterprise to succeed in digital landscape.
+              {services.name === "Corporate Training" ? (
+                <p className="absolute text-7xl w-[75rem] text-gray-100 top-1/2 left-[30px] -t ranslate-x-1/2 -translate-y-1/2 font-semibold shadow">
+                  Accelerating The Digital Revolution.
+                  <p className="text-left mt-5 ml-4 text-5xl">
+                    We take digital skills education global, empowering
+                    individual and enterprise to succeed in digital landscape.
+                  </p>
                 </p>
-              </p>
+              ) : (
+                ""
+              )}
             </div>
 
             <h1 className="pt-10 text-3xl font-semibold">{services.name}</h1>
             <p className="px-12 py-4 text-lg">{services.description}</p>
-            <h1 className="text-2xl pt-[150px] pb-8">{services.heading0}</h1>
+            <h1 className="text-2xl font-semibold pt-[150px] pb-8">{services.heading0}</h1>
 
             {/* CBT TESTING */}
             {services.heading1 && (
@@ -274,6 +278,14 @@ const ParticularService = ({ services }) => {
               </div>
             )}
 
+            {services.coursesHeading && (
+              <div>
+                <h3 className="pt-24 pb-8 font-bold text-3xl">
+                  {services.coursesHeading}
+                </h3>
+              </div>
+            )}
+
             <div className="bg-gray-300 pb-5">
               <h2 className="pt-24 pb-8 font-bold text-3xl">
                 {services.amenities}
@@ -292,7 +304,9 @@ const ParticularService = ({ services }) => {
                     srcset=""
                   />
                   <div className="flex flex-col justify-center">
-                    <h3 className="text-xl my-4">{services.amenities1}</h3>
+                    <h3 className="text-2xl my-4 font-semibold">
+                      {services.amenities1}
+                    </h3>
                     <p className="text-lg">{services.amenities1text}</p>
                   </div>
                 </div>
@@ -301,7 +315,9 @@ const ParticularService = ({ services }) => {
                   data-aos="zoom-in-left"
                 >
                   <div className="flex flex-col justify-center">
-                    <h3 className="text-xl my-4">{services.amenities2}</h3>
+                    <h3 className="text-2xl my-4 font-semibold">
+                      {services.amenities2}
+                    </h3>
                     <p className="text-lg">{services.amenities2text}</p>
                   </div>
                   <img
@@ -324,7 +340,9 @@ const ParticularService = ({ services }) => {
                     srcset=""
                   />
                   <div className="flex flex-col justify-center">
-                    <h3 className="text-xl my-4">{services.amenities3}</h3>
+                    <h3 className="text-2xl my-4 font-semibold">
+                      {services.amenities3}
+                    </h3>
                     <p className="text-lg">{services.amenities3text}</p>
                   </div>
                 </div>
@@ -333,7 +351,9 @@ const ParticularService = ({ services }) => {
                   data-aos="slide-left"
                 >
                   <div className="flex flex-col justify-center">
-                    <h3 className="text-xl my-4">{services.amenities4}</h3>
+                    <h3 className="text-2xl my-4 font-semibold">
+                      {services.amenities4}
+                    </h3>
                     <p className="text-lg">{services.amenities4text}</p>
                   </div>
                   <img
@@ -356,7 +376,9 @@ const ParticularService = ({ services }) => {
                     srcset=""
                   />
                   <div className="flex flex-col justify-center">
-                    <h3 className="text-xl my-4">{services.amenities5}</h3>
+                    <h3 className="text-2xl my-4 font-semibold">
+                      {services.amenities5}
+                    </h3>
                     <p className="text-lg">{services.amenities5text}</p>
                   </div>
                 </div>
