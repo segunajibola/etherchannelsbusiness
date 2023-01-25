@@ -295,35 +295,63 @@ const ParticularService = ({ services }) => {
                   </div>
                   <div>
                     <img
-                      src={services.course1}
+                      src={services.course2}
                       alt=""
                       className="w-64 h-64 m-5"
                     />
                   </div>
                   <div>
                     <img
-                      src={services.course1}
+                      src={services.course3}
                       alt=""
                       className="w-64 h-64 m-5"
                     />
                   </div>
                   <div>
                     <img
-                      src={services.course1}
+                      src={services.course4}
                       alt=""
                       className="w-64 h-64 m-5"
                     />
                   </div>
                   <div>
                     <img
-                      src={services.course1}
+                      src={services.course5}
                       alt=""
                       className="w-64 h-64 m-5"
                     />
                   </div>
                   <div>
                     <img
-                      src={services.course1}
+                      src={services.course6}
+                      alt=""
+                      className="w-64 h-64 m-5"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src={services.course7}
+                      alt=""
+                      className="w-64 h-64 m-5"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src={services.course8}
+                      alt=""
+                      className="w-64 h-64 m-5"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src={services.course9}
+                      alt=""
+                      className="w-64 h-64 m-5"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src={services.course10}
                       alt=""
                       className="w-64 h-64 m-5"
                     />
