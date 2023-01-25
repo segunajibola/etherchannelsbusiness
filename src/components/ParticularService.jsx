@@ -284,7 +284,7 @@ const ParticularService = ({ services }) => {
                   {services.coursesHeading}
                 </h3>
                 <div className="flex w-[80%] mx-auto">
-                  <div></div>
+                  <img src={} alt="" />
                 </div>
               </div>
             )}
