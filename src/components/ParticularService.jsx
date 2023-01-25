@@ -33,11 +33,10 @@ const ParticularService = ({ services }) => {
                 className="mb-3 w-screen h-[85vh] object-cover object-center"
               />
               {services.name === "Corporate Training" ? (
-                <p className="absolute text-7xl w-[75rem] text-gray-100 top-1/2 left-[30px] -t ranslate-x-1/2 -translate-y-1/2 font-semibold shadow">
-                  Accelerating The Digital Revolution.
-                  <p className="text-left mt-5 ml-4 text-5xl">
-                    We take digital skills education global, empowering
-                    individual and enterprise to succeed in digital landscape.
+                <p className="absolute text-6xl w-[75rem] text-gray-100 top-1/2 left-[20px] -t ranslate-x-1/2 -translate-y-1/2 font-semibold shadow">
+                  Accelerating The Digital Solution Driven
+                  <p className="text-left mt-10 ml-8 text-3xl">
+                  Providing the right digital solutions and skills that empower individuals, government and enterprise to succeed in digital landscape.
                   </p>
                 </p>
               ) : (
