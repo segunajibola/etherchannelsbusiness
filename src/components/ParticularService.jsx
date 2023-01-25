@@ -285,7 +285,7 @@ const ParticularService = ({ services }) => {
                 <h3 className="pt-24 pb-8 font-bold text-3xl">
                   {services.coursesHeading}
                 </h3>
-                <div className="grid grid-cols-3 gap-4 w-[80%] mx-auto">
+                <div className="grid grid-cols-4 gap-4 w-[80%] mx-auto">
                   <div>
                     <img
                       src={services.course1}
@@ -351,7 +351,21 @@ const ParticularService = ({ services }) => {
                   </div>
                   <div>
                     <img
-                      src={services.course9}
+                      src={services.course10}
+                      alt=""
+                      className="w-64 h-64 m-5"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src={services.course11}
+                      alt=""
+                      className="w-64 h-64 m-5"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src={services.course12}
                       alt=""
                       className="w-64 h-64 m-5"
                     />
