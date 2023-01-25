@@ -370,6 +370,34 @@ const ParticularService = ({ services }) => {
                       className="w-64 h-64 m-5"
                     />
                   </div>
+                  <div>
+                    <img
+                      src={services.course13}
+                      alt=""
+                      className="w-64 h-64 m-5"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src={services.course14}
+                      alt=""
+                      className="w-64 h-64 m-5"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src={services.course15}
+                      alt=""
+                      className="w-64 h-64 m-5"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src={services.course16}
+                      alt=""
+                      className="w-64 h-64 m-5"
+                    />
+                  </div>
                 </div>
               </div>
             )}
