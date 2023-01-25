@@ -290,7 +290,7 @@ const ParticularService = ({ services }) => {
                   <img src={services.course4} alt="" className="w-64 h-64 m-5"/>
                   <img src={services.course5} alt="" className="w-64 h-64 m-5"/>
                   <img src={services.course6} alt="" className="w-64 h-64 m-5"/>
-                  <img src={services.course7} alt="" className="w-64 h-64 m-5"/>
+                  <img src={services.course7} alt="" className="w-64 h-64 m"/>
                 </div>
               </div>
             )}
