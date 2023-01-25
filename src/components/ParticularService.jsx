@@ -284,7 +284,13 @@ const ParticularService = ({ services }) => {
                   {services.coursesHeading}
                 </h3>
                 <div className="flex w-[80%] mx-auto">
-                  <div></div>
+                  <img src={services.course1} alt="" className="w-64 h-64 m-5" />
+                  <img src={services.course2} alt="" className="w-64 h-64 m-5"/>
+                  <img src={services.course3} alt="" className="w-64 h-64 m-5"/>
+                  <img src={services.course4} alt="" className="w-64 h-64 m-5"/>
+                  <img src={services.course5} alt="" className="w-64 h-64 m-5"/>
+                  <img src={services.course6} alt="" className="w-64 h-64 m-5"/>
+                  <img src={services.course7} alt="" className="w-64 h-64 m"/>
                 </div>
               </div>
             )}
