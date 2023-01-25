@@ -351,7 +351,7 @@ const ParticularService = ({ services }) => {
                   </div>
                   <div>
                     <img
-                      src={services.course10}
+                      src={services.course9}
                       alt=""
                       className="w-64 h-64 m-5"
                     />
