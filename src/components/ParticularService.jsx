@@ -47,7 +47,9 @@ const ParticularService = ({ services }) => {
 
             <h1 className="pt-10 text-3xl font-semibold">{services.name}</h1>
             <p className="px-12 py-4 text-lg">{services.description}</p>
-            <h1 className="text-2xl font-semibold pt-[150px] pb-8">{services.heading0}</h1>
+            <h1 className="text-2xl font-semibold pt-[150px] pb-8">
+              {services.heading0}
+            </h1>
 
             {/* CBT TESTING */}
             {services.heading1 && (
@@ -279,18 +281,95 @@ const ParticularService = ({ services }) => {
             )}
 
             {services.coursesHeading && (
-              <div>
+              <div className="pb-10">
                 <h3 className="pt-24 pb-8 font-bold text-3xl">
                   {services.coursesHeading}
                 </h3>
-                <div className="flex w-[80%] mx-auto">
-                  <img src={services.course1} alt="" className="w-64 h-64 m-5" />
-                  <img src={services.course2} alt="" className="w-64 h-64 m-5"/>
-                  <img src={services.course3} alt="" className="w-64 h-64 m-5"/>
-                  <img src={services.course4} alt="" className="w-64 h-64 m-5"/>
-                  <img src={services.course5} alt="" className="w-64 h-64 m-5"/>
-                  <img src={services.course6} alt="" className="w-64 h-64 m-5"/>
-                  <img src={services.course7} alt="" className="w-64 h-64 "/>
+                <div className="grid grid-cols-4 gap-4 w-[80%] mx-auto">
+                  <div>
+                    <img
+                      src={services.course1}
+                      alt=""
+                      className="w-64 h-64 m-5"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src={services.course2}
+                      alt=""
+                      className="w-64 h-64 m-5"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src={services.course3}
+                      alt=""
+                      className="w-64 h-64 m-5"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src={services.course4}
+                      alt=""
+                      className="w-64 h-64 m-5"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src={services.course5}
+                      alt=""
+                      className="w-64 h-64 m-5"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src={services.course6}
+                      alt=""
+                      className="w-64 h-64 m-5"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src={services.course7}
+                      alt=""
+                      className="w-64 h-64 m-5"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src={services.course8}
+                      alt=""
+                      className="w-64 h-64 m-5"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src={services.course9}
+                      alt=""
+                      className="w-64 h-64 m-5"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src={services.course10}
+                      alt=""
+                      className="w-64 h-64 m-5"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src={services.course11}
+                      alt=""
+                      className="w-64 h-64 m-5"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src={services.course12}
+                      alt=""
+                      className="w-64 h-64 m-5"
+                    />
+                  </div>
                 </div>
               </div>
             )}
