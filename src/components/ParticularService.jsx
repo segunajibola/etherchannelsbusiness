@@ -283,6 +283,9 @@ const ParticularService = ({ services }) => {
                 <h3 className="pt-24 pb-8 font-bold text-3xl">
                   {services.coursesHeading}
                 </h3>
+                <div className="flex w-[80%] mx-auto">
+                  <div></div>
+                </div>
               </div>
             )}
 
