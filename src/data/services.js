@@ -121,12 +121,19 @@ const data = [
     link: "",
     heading0: "Available Camera to Install",
     amenities: "Available Camera to Install",
-    subamenities: "Are you confused of which CCTV camera to buy and install in your home and for your business premises? Check out our available CCTV Camera with their features and benefits",
+    subamenities:
+      "Are you confused of which CCTV camera to buy and install in your home and for your business premises? Check out our available CCTV Camera with their features and benefits",
     amenities1: "Dome CCTV Cameras",
     amenities1pic: "/images/corporateTrainingClassroom.jpeg",
     amenities1text:
       "A Dome CCTV camera gets its name from the dome-shaped casing that the camera sits in. Whilst these are relatively discreet CCTV cameras in appearance, this doesn’t stop them from deterring criminals. This is because the dome casing makes it really difficult for people to see which direction the camera is pointing. This creates an air of uncertainty for potential thieves or vandals approaching from all directions.",
-
+      amenitiesMainBenefit: "Main Benefits",
+      amenitiesIdealUses: "Ideal Uses",
+      mainBenefits1: "Unobtrusive design means it’s easy to fit",
+      mainBenefits2: "Suitable for indoor and outdoor use",
+      mainBenefits3: "Vandal resistant dome means it is harder to interfere with the camera",
+      mainBenefits4: "360-degree rotation of the camera so you can cover all angles",
+      IdealUses: "This is the best type of CCTV camera for shops, restaurants, casinos, hotels and other hospitality businesses because the design allows you to monitor a wider angle at your premises. Many also consider this option to be the best indoor CCTV camera as it can be placed on a strategic point of the ceiling to cover all angles of the room without being intrusive in design.",
   },
   {
     id: 6,
@@ -187,12 +194,14 @@ const data = [
     course2: "/images/services/corporateTraining/ISO-9001.jpeg",
     course3: "/images/services/corporateTraining/CISA.png",
     course4: "/images/services/corporateTraining/AZ-400.png",
-    course5: "/images/services/corporateTraining/Certified-Cloud-Security-Professional-Training.jpeg",
+    course5:
+      "/images/services/corporateTraining/Certified-Cloud-Security-Professional-Training.jpeg",
     course6: "/images/services/corporateTraining/CISSP.webp",
     course7: "/images/services/corporateTraining/CMF.png",
     course8: "/images/services/corporateTraining/CMP.png",
     course9: "/images/services/corporateTraining/dynamics-365.png",
-    course10: "/images/services/corporateTraining/MS-365-Certified-Modern-Desktop-Administrator-Associate.jpeg",
+    course10:
+      "/images/services/corporateTraining/MS-365-Certified-Modern-Desktop-Administrator-Associate.jpeg",
     course11: "/images/services/corporateTraining/Microsoft 365 Team Admin.png",
     course12: "/images/services/corporateTraining/ITIL V4.jpeg",
     course13: "/images/services/corporateTraining/TOGAF 9.2.jpeg",

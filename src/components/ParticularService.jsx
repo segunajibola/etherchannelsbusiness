@@ -36,7 +36,9 @@ const ParticularService = ({ services }) => {
                 <p className="absolute text-6xl w-[75rem] text-gray-100 top-1/2 left-[20px] -t ranslate-x-1/2 -translate-y-1/2 font-semibold shadow">
                   Accelerating The Digital Solution Driven
                   <p className="text-left mt-10 ml-8 text-3xl">
-                  Providing the right digital solutions and skills that empower individuals, government and enterprise to succeed in digital landscape.
+                    Providing the right digital solutions and skills that
+                    empower individuals, government and enterprise to succeed in
+                    digital landscape.
                   </p>
                 </p>
               ) : (
@@ -49,10 +51,9 @@ const ParticularService = ({ services }) => {
             <h1 className="text-2xl font-semibold pt-[150px] pb-8">
               {services.heading0}
             </h1>
-            {services.subheading && <h1 className="text-xl pb-8">
-              {services.subheading}
-            </h1>}
-            
+            {services.subheading && (
+              <h1 className="text-xl pb-8">{services.subheading}</h1>
+            )}
 
             {/* CBT TESTING */}
             {services.heading1 && (
@@ -265,7 +266,7 @@ const ParticularService = ({ services }) => {
               </div>
             )}
             {/* CBT TESTING */}
-              
+
             {/* CORPORATE TRAINING */}
             {services.corporatetraininga && (
               <div className="flex w-[70%] mx-auto mb-14">
@@ -407,19 +408,19 @@ const ParticularService = ({ services }) => {
             )}
 
             {/* CORPORATE TRAINING */}
-            
+
             <div className="bg-gray-300 pb-5">
               <h2 className="pt-24 pb-8 font-bold text-3xl">
                 {services.amenities}
               </h2>
-              
-              {services.amenities && <h1 className="text-xl pb-8">
-              {services.amenities}
-            </h1>}
+
+              {services.amenities && (
+                <h1 className="text-xl pb-8">{services.amenities}</h1>
+              )}
 
               <div>
                 <div
-                  className="flex w-[80%] mx-auto my-28 gap-x-8"
+                  className="flex w-[80%] mx-auto mt-28 gap-x-8"
                   data-aos="zoom-in-right"
                 >
                   <img
@@ -436,8 +437,24 @@ const ParticularService = ({ services }) => {
                     <p className="text-lg">{services.amenities1text}</p>
                   </div>
                 </div>
+                {<div
+                  className="flex w-[70%] mx-auto my-2 gap-x-8"
+                  data-aos="zoom-in-right"
+                >
+                  <div>
+                    <h3>{services.amenitiesMainBenefit}</h3>
+                    <ol>
+                      <li>{}</li>
+                      <li></li>
+                    </ol>
+                  </div>
+                  <div>
+                    <h3>{services.amenitiesIdealUses}</h3>
+                    <p>This is the best type of CCTV camera for shops, restaurants, casinos, hotels and other hospitality businesses because the design allows you to monitor a wider angle at your premises. Many also consider this option to be the best indoor CCTV camera as it can be placed on a strategic point of the ceiling to cover all angles of the room without being intrusive in design.</p>
+                  </div>
+                </div>}
                 <div
-                  className="flex w-[80%] mx-auto my-28 gap-x-8"
+                  className="flex w-[80%] mx-auto mt-28 gap-x-8"
                   data-aos="zoom-in-left"
                 >
                   <div className="flex flex-col justify-center">
@@ -455,7 +472,7 @@ const ParticularService = ({ services }) => {
                   />
                 </div>
                 <div
-                  className="flex w-[80%] mx-auto my-28 gap-x-8"
+                  className="flex w-[80%] mx-auto mt-28 gap-x-8"
                   data-aos="slide-right"
                 >
                   <img
@@ -473,7 +490,7 @@ const ParticularService = ({ services }) => {
                   </div>
                 </div>
                 <div
-                  className="flex w-[80%] mx-auto my-28 gap-x-8"
+                  className="flex w-[80%] mx-auto mt-28 gap-x-8"
                   data-aos="slide-left"
                 >
                   <div className="flex flex-col justify-center">
@@ -491,7 +508,7 @@ const ParticularService = ({ services }) => {
                   />
                 </div>
                 <div
-                  className="flex w-[80%] mx-auto my-28 gap-x-8"
+                  className="flex w-[80%] mx-auto mt-28 gap-x-8"
                   data-aos="slide-right"
                 >
                   <img
@@ -510,7 +527,7 @@ const ParticularService = ({ services }) => {
                 </div>
                 {services.amenities6text && (
                   <div
-                    className="flex w-[80%] mx-auto my-28 gap-x-8"
+                    className="flex w-[80%] mx-auto mt-28 gap-x-8"
                     data-aos="zoom-down"
                   >
                     <div className="flex flex-col justify-center">
