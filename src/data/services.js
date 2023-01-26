@@ -122,10 +122,10 @@ const data = [
     heading0: "Available Camera to Install",
     amenities: "Available Camera to Install",
     subamenities: "Are you confused of which CCTV camera to buy and install in your home and for your business premises? Check out our available CCTV Camera with their features and benefits",
-    amenities1: "Training Facilities",
+    amenities1: "Dome CCTV Cameras",
     amenities1pic: "/images/corporateTrainingClassroom.jpeg",
     amenities1text:
-      "We have modern and World-Class training facilities and equipments in place for students to enjoy the training atmosphere during their training period.",
+      "A Dome CCTV camera gets its name from the dome-shaped casing that the camera sits in. Whilst these are relatively discreet CCTV cameras in appearance, this doesn’t stop them from deterring criminals. This is because the dome casing makes it really difficult for people to see which direction the camera is pointing. This creates an air of uncertainty for potential thieves or vandals approaching from all directions.",
 
   },
   {
