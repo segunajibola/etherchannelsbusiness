@@ -51,9 +51,6 @@ const ParticularService = ({ services }) => {
             <h1 className="text-2xl font-semibold pt-[150px] pb-8">
               {services.heading0}
             </h1>
-            {services.subheading && (
-              <h1 className="text-xl pb-8">{services.subheading}</h1>
-            )}
 
             {/* CBT TESTING */}
             {services.heading1 && (
@@ -414,8 +411,8 @@ const ParticularService = ({ services }) => {
                 {services.amenities}
               </h2>
 
-              {services.amenities && (
-                <h1 className="text-xl pb-8">{services.amenities}</h1>
+              {services.subamenities && (
+                <h1 className="text-xl pb-8 mx-10">{services.subamenities}</h1>
               )}
 
               <div>
@@ -437,22 +434,26 @@ const ParticularService = ({ services }) => {
                     <p className="text-lg">{services.amenities1text}</p>
                   </div>
                 </div>
-                {<div
-                  className="flex w-[70%] mx-auto my-2 gap-x-8"
-                  data-aos="zoom-in-right"
-                >
-                  <div>
-                    <h3>{services.amenitiesMainBenefit}</h3>
-                    <ol>
-                      <li>{}</li>
-                      <li></li>
-                    </ol>
+                { services.amenitiesMainBenefit && (
+                  <div
+                    className="flex w-[70%] mx-auto mt-10 gap-x-8"
+                    data-aos="zoom-down"
+                  >
+                    <div className="w-[100rem]">
+                      <h3>{services.amenitiesMainBenefit}</h3>
+                      <ul className="list-disc text-left">
+                        <li>{services.mainBenefitsdome1}</li>
+                        <li>{services.mainBenefitsdome2}</li>
+                        <li>{services.mainBenefitsdome3}</li>
+                        <li>{services.mainBenefitsdome4}</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h3>{services.amenitiesIdealUses}</h3>
+                      <p>{services.IdealUsesdome}</p>
+                    </div>
                   </div>
-                  <div>
-                    <h3>{services.amenitiesIdealUses}</h3>
-                    <p>This is the best type of CCTV camera for shops, restaurants, casinos, hotels and other hospitality businesses because the design allows you to monitor a wider angle at your premises. Many also consider this option to be the best indoor CCTV camera as it can be placed on a strategic point of the ceiling to cover all angles of the room without being intrusive in design.</p>
-                  </div>
-                </div>}
+                )}
                 <div
                   className="flex w-[80%] mx-auto mt-28 gap-x-8"
                   data-aos="zoom-in-left"
@@ -471,6 +472,27 @@ const ParticularService = ({ services }) => {
                     srcset=""
                   />
                 </div>
+                { services.amenitiesMainBenefit && (
+                  <div
+                    className="flex w-[70%] mx-auto mt-10 gap-x-8"
+                    data-aos="zoom-down"
+                  >
+                    <div className="w-[100rem]">
+                      <h3>{services.amenitiesMainBenefit}</h3>
+                      <ul className="list-disc text-left">
+                        <li>{services.mainBenefitsdome1}</li>
+                        <li>{services.mainBenefitsdome2}</li>
+                        <li>{services.mainBenefitsdome3}</li>
+                        <li>{services.mainBenefitsdome4}</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h3>{services.amenitiesIdealUses}</h3>
+                      <p>{services.IdealUsesdome}</p>
+                    </div>
+                  </div>
+                )}
+                
                 <div
                   className="flex w-[80%] mx-auto mt-28 gap-x-8"
                   data-aos="slide-right"
