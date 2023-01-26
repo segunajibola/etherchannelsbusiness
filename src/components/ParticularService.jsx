@@ -49,6 +49,10 @@ const ParticularService = ({ services }) => {
             <h1 className="text-2xl font-semibold pt-[150px] pb-8">
               {services.heading0}
             </h1>
+            {services.subheading && <h1 className="text-xl pb-8">
+              {services.subheading}
+            </h1>}
+            
 
             {/* CBT TESTING */}
             {services.heading1 && (
@@ -261,7 +265,8 @@ const ParticularService = ({ services }) => {
               </div>
             )}
             {/* CBT TESTING */}
-
+              
+            {/* CORPORATE TRAINING */}
             {services.corporatetraininga && (
               <div className="flex w-[70%] mx-auto mb-14">
                 <div className="w-[30rem] m-4 p-5 border-4 rounded-lg">
@@ -401,10 +406,16 @@ const ParticularService = ({ services }) => {
               </div>
             )}
 
+            {/* CORPORATE TRAINING */}
+            
             <div className="bg-gray-300 pb-5">
               <h2 className="pt-24 pb-8 font-bold text-3xl">
                 {services.amenities}
               </h2>
+              
+              {services.amenities && <h1 className="text-xl pb-8">
+              {services.amenities}
+            </h1>}
 
               <div>
                 <div
