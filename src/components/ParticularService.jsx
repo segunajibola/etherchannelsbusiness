@@ -49,6 +49,10 @@ const ParticularService = ({ services }) => {
             <h1 className="text-2xl font-semibold pt-[150px] pb-8">
               {services.heading0}
             </h1>
+            {services.subheading && <h1 className="text-xl pb-8">
+              {services.subheading}
+            </h1>}
+            
 
             {/* CBT TESTING */}
             {services.heading1 && (

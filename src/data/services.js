@@ -113,11 +113,14 @@ const data = [
     id: 5,
     image1: "/images/cctvInstallation1.jpeg",
     image2: "/images/cctvInstallation2.jpeg",
+    image3: "/images/cctvInstallation2.jpeg",
     alt: "CCTV Installation",
     name: "CCTV Installation",
     description:
       "When it comes to securing and monitoring your business, home and office workspace activities, there are different types and quality of CCTV camera to choose from. Surveillance systems play a huge part in today’s society, and with cameras all around us, our day-to-day lives are experiencing higher levels of security.",
     link: "",
+    heading0: "Available Camera to Install",
+    subheading: "Are you confused of which CCTV camera to buy and install in your home and for your business premises? Check out our available CCTV Camera with their features and benefits"
   },
   {
     id: 6,
