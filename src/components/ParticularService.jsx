@@ -36,7 +36,9 @@ const ParticularService = ({ services }) => {
                 <p className="absolute text-6xl w-[75rem] text-gray-100 top-1/2 left-[20px] -t ranslate-x-1/2 -translate-y-1/2 font-semibold shadow">
                   Accelerating The Digital Solution Driven
                   <p className="text-left mt-10 ml-8 text-3xl">
-                  Providing the right digital solutions and skills that empower individuals, government and enterprise to succeed in digital landscape.
+                    Providing the right digital solutions and skills that
+                    empower individuals, government and enterprise to succeed in
+                    digital landscape.
                   </p>
                 </p>
               ) : (
@@ -49,10 +51,6 @@ const ParticularService = ({ services }) => {
             <h1 className="text-2xl font-semibold pt-[150px] pb-8">
               {services.heading0}
             </h1>
-            {services.subheading && <h1 className="text-xl pb-8">
-              {services.subheading}
-            </h1>}
-            
 
             {/* CBT TESTING */}
             {services.heading1 && (
@@ -265,7 +263,7 @@ const ParticularService = ({ services }) => {
               </div>
             )}
             {/* CBT TESTING */}
-              
+
             {/* CORPORATE TRAINING */}
             {services.corporatetraininga && (
               <div className="flex w-[70%] mx-auto mb-14">
@@ -407,19 +405,19 @@ const ParticularService = ({ services }) => {
             )}
 
             {/* CORPORATE TRAINING */}
-            
+
             <div className="bg-gray-300 pb-5">
               <h2 className="pt-24 pb-8 font-bold text-3xl">
                 {services.amenities}
               </h2>
-              
-              {services.amenities && <h1 className="text-xl pb-8">
-              {services.amenities}
-            </h1>}
+
+              {services.subamenities && (
+                <h1 className="text-xl pb-8 mx-10">{services.subamenities}</h1>
+              )}
 
               <div>
                 <div
-                  className="flex w-[80%] mx-auto my-28 gap-x-8"
+                  className="flex w-[80%] mx-auto mt-28 gap-x-8"
                   data-aos="zoom-in-right"
                 >
                   <img
@@ -436,8 +434,28 @@ const ParticularService = ({ services }) => {
                     <p className="text-lg">{services.amenities1text}</p>
                   </div>
                 </div>
+                { services.amenitiesMainBenefit && (
+                  <div
+                    className="flex w-[70%] mx-auto mt-10 gap-x-8"
+                    data-aos="zoom-down"
+                  >
+                    <div className="w-[100rem]">
+                      <h3>{services.amenitiesMainBenefit}</h3>
+                      <ul className="list-disc text-left">
+                        <li>{services.mainBenefitsdome1}</li>
+                        <li>{services.mainBenefitsdome2}</li>
+                        <li>{services.mainBenefitsdome3}</li>
+                        <li>{services.mainBenefitsdome4}</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h3>{services.amenitiesIdealUses}</h3>
+                      <p>{services.IdealUsesdome}</p>
+                    </div>
+                  </div>
+                )}
                 <div
-                  className="flex w-[80%] mx-auto my-28 gap-x-8"
+                  className="flex w-[80%] mx-auto mt-28 gap-x-8"
                   data-aos="zoom-in-left"
                 >
                   <div className="flex flex-col justify-center">
@@ -454,8 +472,29 @@ const ParticularService = ({ services }) => {
                     srcset=""
                   />
                 </div>
+                { services.amenitiesMainBenefit && (
+                  <div
+                    className="flex w-[70%] mx-auto mt-10 gap-x-8"
+                    data-aos="zoom-down"
+                  >
+                    <div className="w-[100rem]">
+                      <h3>{services.amenitiesMainBenefit}</h3>
+                      <ul className="list-disc text-left">
+                        <li>{services.mainBenefitsdome1}</li>
+                        <li>{services.mainBenefitsdome2}</li>
+                        <li>{services.mainBenefitsdome3}</li>
+                        <li>{services.mainBenefitsdome4}</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h3>{services.amenitiesIdealUses}</h3>
+                      <p>{services.IdealUsesdome}</p>
+                    </div>
+                  </div>
+                )}
+                
                 <div
-                  className="flex w-[80%] mx-auto my-28 gap-x-8"
+                  className="flex w-[80%] mx-auto mt-28 gap-x-8"
                   data-aos="slide-right"
                 >
                   <img
@@ -473,7 +512,7 @@ const ParticularService = ({ services }) => {
                   </div>
                 </div>
                 <div
-                  className="flex w-[80%] mx-auto my-28 gap-x-8"
+                  className="flex w-[80%] mx-auto mt-28 gap-x-8"
                   data-aos="slide-left"
                 >
                   <div className="flex flex-col justify-center">
@@ -491,7 +530,7 @@ const ParticularService = ({ services }) => {
                   />
                 </div>
                 <div
-                  className="flex w-[80%] mx-auto my-28 gap-x-8"
+                  className="flex w-[80%] mx-auto mt-28 gap-x-8"
                   data-aos="slide-right"
                 >
                   <img
@@ -510,7 +549,7 @@ const ParticularService = ({ services }) => {
                 </div>
                 {services.amenities6text && (
                   <div
-                    className="flex w-[80%] mx-auto my-28 gap-x-8"
+                    className="flex w-[80%] mx-auto mt-28 gap-x-8"
                     data-aos="zoom-down"
                   >
                     <div className="flex flex-col justify-center">
