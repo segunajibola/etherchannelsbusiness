@@ -511,6 +511,27 @@ const ParticularService = ({ services }) => {
                     <p className="text-lg">{services.amenities3text}</p>
                   </div>
                 </div>
+                { services.amenitiesMainBenefit && (
+                  <div
+                    className="flex w-[70%] mx-auto mt-10 gap-x-8"
+                    data-aos="zoom-down"
+                  >
+                    <div className="w-[100rem]">
+                      <h3>{services.amenitiesMainBenefit}</h3>
+                      <ul className="list-disc text-left">
+                        <li>{services.mainBenefitscmount1}</li>
+                        <li>{services.mainBenefitscmount2}</li>
+                        <li>{services.mainBenefitscmount3}</li>
+                        <li>{services.mainBenefitscmount4}</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h3>{services.amenitiesIdealUses}</h3>
+                      <p>{services.IdealUsescmount}</p>
+                    </div>
+                  </div>
+                )}
+                
                 <div
                   className="flex w-[80%] mx-auto mt-28 gap-x-8"
                   data-aos="slide-left"
