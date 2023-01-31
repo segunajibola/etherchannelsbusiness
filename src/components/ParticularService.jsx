@@ -550,6 +550,27 @@ const ParticularService = ({ services }) => {
                     srcset=""
                   />
                 </div>
+                { services.amenitiesMainBenefit && (
+                  <div
+                    className="flex w-[70%] mx-auto mt-10 gap-x-8"
+                    data-aos="zoom-down"
+                  >
+                    <div className="w-[100rem]">
+                      <h3>{services.amenitiesMainBenefit}</h3>
+                      <ul className="list-disc text-left">
+                        <li>{services.mainBenefitsptz1}</li>
+                        <li>{services.mainBenefitsptz2}</li>
+                        <li>{services.mainBenefitsptz3}</li>
+                        <li>{services.mainBenefitsptz4}</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h3>{services.amenitiesIdealUses}</h3>
+                      <p>{services.IdealUsesptz}</p>
+                    </div>
+                  </div>
+                )}
+
                 <div
                   className="flex w-[80%] mx-auto mt-28 gap-x-8"
                   data-aos="slide-right"
@@ -568,6 +589,27 @@ const ParticularService = ({ services }) => {
                     <p className="text-lg">{services.amenities5text}</p>
                   </div>
                 </div>
+                { services.amenitiesMainBenefit && (
+                  <div
+                    className="flex w-[70%] mx-auto mt-10 gap-x-8"
+                    data-aos="zoom-down"
+                  >
+                    <div className="w-[100rem]">
+                      <h3>{services.amenitiesMainBenefit}</h3>
+                      <ul className="list-disc text-left">
+                        <li>{services.mainBenefitsdaynight1}</li>
+                        <li>{services.mainBenefitsdaynight2}</li>
+                        <li>{services.mainBenefitsdaynight3}</li>
+                        <li>{services.mainBenefitsdaynight4}</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h3>{services.amenitiesIdealUses}</h3>
+                      <p>{services.IdealUsesdaynight}</p>
+                    </div>
+                  </div>
+                )}
+
                 {services.amenities6text && (
                   <div
                     className="flex w-[80%] mx-auto mt-28 gap-x-8"
@@ -584,6 +626,143 @@ const ParticularService = ({ services }) => {
                       alt=""
                       srcset=""
                     />
+                  </div>
+                )}
+                { services.amenitiesMainBenefit && (
+                  <div
+                    className="flex w-[70%] mx-auto mt-10 gap-x-8"
+                    data-aos="zoom-down"
+                  >
+                    <div className="w-[100rem]">
+                      <h3>{services.amenitiesMainBenefit}</h3>
+                      <ul className="list-disc text-left">
+                        <li>{services.mainBenefitsinfarednight1}</li>
+                        <li>{services.mainBenefitsinfarednight2}</li>
+                        <li>{services.mainBenefitsinfarednight3}</li>
+                        <li>{services.mainBenefitsinfarednight4}</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h3>{services.amenitiesIdealUses}</h3>
+                      <p>{services.IdealUsesinfarednight}</p>
+                    </div>
+                  </div>
+                )}
+
+                {services.amenities7text && (
+                  <div
+                    className="flex w-[80%] mx-auto mt-28 gap-x-8"
+                    data-aos="zoom-down"
+                  >
+                    <div className="flex flex-col justify-center">
+                      <h3 className="text-xl my-4">{services.amenities7}</h3>
+                      <p className="text-lg">{services.amenities7text}</p>
+                    </div>
+                    <img
+                      src={services.amenities7pic}
+                      style={{ width: "600px" }}
+                      className="w-[7f0rem] h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
+                      alt=""
+                      srcset=""
+                    />
+                  </div>
+                )}
+                { services.amenitiesMainBenefit && (
+                  <div
+                    className="flex w-[70%] mx-auto mt-10 gap-x-8"
+                    data-aos="zoom-down"
+                  >
+                    <div className="w-[100rem]">
+                      <h3>{services.amenitiesMainBenefit}</h3>
+                      <ul className="list-disc text-left">
+                        <li>{services.mainBenefitsnetwork1}</li>
+                        <li>{services.mainBenefitsnetwork2}</li>
+                        <li>{services.mainBenefitsnetwork3}</li>
+                        <li>{services.mainBenefitsnetwork4}</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h3>{services.amenitiesIdealUses}</h3>
+                      <p>{services.IdealUsesnetwork}</p>
+                    </div>
+                  </div>
+                )}
+
+                {services.amenities8text && (
+                  <div
+                    className="flex w-[80%] mx-auto mt-28 gap-x-8"
+                    data-aos="zoom-down"
+                  >
+                    <div className="flex flex-col justify-center">
+                      <h3 className="text-xl my-4">{services.amenities8}</h3>
+                      <p className="text-lg">{services.amenities8text}</p>
+                    </div>
+                    <img
+                      src={services.amenities8pic}
+                      style={{ width: "600px" }}
+                      className="w-[7f0rem] h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
+                      alt=""
+                      srcset=""
+                    />
+                  </div>
+                )}
+                { services.amenitiesMainBenefit && (
+                  <div
+                    className="flex w-[70%] mx-auto mt-10 gap-x-8"
+                    data-aos="zoom-down"
+                  >
+                    <div className="w-[100rem]">
+                      <h3>{services.amenitiesMainBenefit}</h3>
+                      <ul className="list-disc text-left">
+                        <li>{services.mainBenefitswireless1}</li>
+                        <li>{services.mainBenefitswireless2}</li>
+                        <li>{services.mainBenefitswireless3}</li>
+                        <li>{services.mainBenefitswireless4}</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h3>{services.amenitiesIdealUses}</h3>
+                      <p>{services.IdealUseswireless}</p>
+                    </div>
+                  </div>
+                )}
+
+                {services.amenities9text && (
+                  <div
+                    className="flex w-[80%] mx-auto mt-28 gap-x-8"
+                    data-aos="zoom-down"
+                  >
+                    <div className="flex flex-col justify-center">
+                      <h3 className="text-xl my-4">{services.amenities9}</h3>
+                      <p className="text-lg">{services.amenities9text}</p>
+                    </div>
+                    <img
+                      src={services.amenities9pic}
+                      style={{ width: "600px" }}
+                      className="w-[7f0rem] h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
+                      alt=""
+                      srcset=""
+                    />
+                  </div>
+                )}
+                { services.amenitiesMainBenefit && (
+                  <div
+                    className="flex w-[70%] mx-auto mt-10 gap-x-8"
+                    data-aos="zoom-down"
+                  >
+                    <div className="w-[100rem]">
+                      <h3>{services.amenitiesMainBenefit}</h3>
+                      <ul className="list-disc text-left">
+                        <li>{services.mainBenefitshd1}</li>
+                        <li>{services.mainBenefitshd2}</li>
+                        <li>{services.mainBenefitshd3}</li>
+                        <li>{services.mainBenefitshd4}</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h3>{services.amenitiesIdealUses}</h3>
+                      <p>{services.IdealUseshd}</p>
+                    </div>
                   </div>
                 )}
               </div>
