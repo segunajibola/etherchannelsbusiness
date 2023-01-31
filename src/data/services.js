@@ -113,7 +113,7 @@ const data = [
     id: 5,
     image1: "/images/cctvInstallation1.jpeg",
     image2: "/images/cctvInstallation2.jpeg",
-    image3: "/images/cctvInstallation2.jpeg",
+    image3: "/images/services/cctv/CCTV Landing page.jpeg",
     alt: "CCTV Installation",
     name: "CCTV Installation",
     description:
@@ -123,7 +123,7 @@ const data = [
     subamenities:
       "Are you confused of which CCTV camera to buy and install in your home and for your business premises? Check out our available CCTV Camera with their features and benefits",
     amenities1: "Dome CCTV Cameras",
-    amenities1pic: "/images/corporateTrainingClassroom.jpeg",
+    amenities1pic: "/images/services/cctv/Dome CCTV.jpeg",
     amenities1text:
       "A Dome CCTV camera gets its name from the dome-shaped casing that the camera sits in. Whilst these are relatively discreet CCTV cameras in appearance, this doesn’t stop them from deterring criminals. This is because the dome casing makes it really difficult for people to see which direction the camera is pointing. This creates an air of uncertainty for potential thieves or vandals approaching from all directions.",
     amenitiesMainBenefit: "Main Benefits",
@@ -134,17 +134,17 @@ const data = [
     mainBenefitsdome4: "360-degree rotation of the camera so you can cover all angles",
     IdealUsesdome: "This is the best type of CCTV camera for shops, restaurants, casinos, hotels and other hospitality businesses because the design allows you to monitor a wider angle at your premises. Many also consider this option to be the best indoor CCTV camera as it can be placed on a strategic point of the ceiling to cover all angles of the room without being intrusive in design.",
     amenities2: "Bullet CCTV Cameras",
-    amenities2pic: "/images/corporateTrainingClassroom.jpeg",
+    amenities2pic: "/images/services/cctv/BulletCCTV.jpeg",
     amenities2text:
-      "A Dome CCTV camera gets its name from the dome-shaped casing that the camera sits in. Whilst these are relatively discreet CCTV cameras in appearance, this doesn’t stop them from deterring criminals. This is because the dome casing makes it really difficult for people to see which direction the camera is pointing. This creates an air of uncertainty for potential thieves or vandals approaching from all directions.",
-    mainBenefitsbullet1: "Unobtrusive design means it’s easy to fit",
-    mainBenefitsbullet2: "Suitable for indoor and outdoor use",
-    mainBenefitsbullet3: "Vandal resistant dome means it is harder to interfere with the camera",
-    mainBenefitsbullet4: "360-degree rotation of the camera so you can cover all angles",
-    IdealUsesbullet: "This is the best type of CCTV camera for shops, restaurants, casinos, hotels and other hospitality businesses because the design allows you to monitor a wider angle at your premises. Many also consider this option to be the best indoor CCTV camera as it can be placed on a strategic point of the ceiling to cover all angles of the room without being intrusive in design.",
-    amenities1: "Dome CCTV Cameras",
-    amenities1pic: "/images/corporateTrainingClassroom.jpeg",
-    amenities1text:
+      "Bullet CCTV cameras have an iconic design that is highly visible. They are cylindrical in shape and are capable of observing long distances. Bullet cameras are most commonly placed outdoors so their casings are made resistant to water, dust and dirt.",
+    mainBenefitsbullet1: "Highly visible so acts as a deterrent to criminals",
+  mainBenefitsbullet2: "Resistant to dirt in challenging environments",
+    mainBenefitsbullet3: "Provides surveillance over long distances",
+    mainBenefitsbullet4: "Casing also protects against glare and rain",
+    IdealUsesbullet: "Bullet cameras can be used to good effect in a range of industries such as manufacturing, property management and farming. They not only record good quality pictures but also send out a message to passers-by that your premises is under surveillance. That’s why they have traditionally offered the best CCTV for outside operation.",
+    amenities3: "Dome CCTV Cameras",
+    amenities3pic: "/images/corporateTrainingClassroom.jpeg",
+    amenities3text:
       "A Dome CCTV camera gets its name from the dome-shaped casing that the camera sits in. Whilst these are relatively discreet CCTV cameras in appearance, this doesn’t stop them from deterring criminals. This is because the dome casing makes it really difficult for people to see which direction the camera is pointing. This creates an air of uncertainty for potential thieves or vandals approaching from all directions.",
     mainBenefits1: "Unobtrusive design means it’s easy to fit",
     mainBenefits2: "Suitable for indoor and outdoor use",

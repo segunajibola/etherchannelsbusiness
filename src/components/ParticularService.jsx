@@ -480,15 +480,15 @@ const ParticularService = ({ services }) => {
                     <div className="w-[100rem]">
                       <h3>{services.amenitiesMainBenefit}</h3>
                       <ul className="list-disc text-left">
-                        <li>{services.mainBenefitsdome1}</li>
-                        <li>{services.mainBenefitsdome2}</li>
-                        <li>{services.mainBenefitsdome3}</li>
-                        <li>{services.mainBenefitsdome4}</li>
+                        <li>{services.mainBenefitsbullet1}</li>
+                        <li>{services.mainBenefitsbullet2}</li>
+                        <li>{services.mainBenefitsbullet3}</li>
+                        <li>{services.mainBenefitsbullet4}</li>
                       </ul>
                     </div>
                     <div>
                       <h3>{services.amenitiesIdealUses}</h3>
-                      <p>{services.IdealUsesdome}</p>
+                      <p>{services.IdealUsesbullet}</p>
                     </div>
                   </div>
                 )}
