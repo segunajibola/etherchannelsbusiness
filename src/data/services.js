@@ -196,15 +196,15 @@ const data = [
     mainBenefitswireless3: "Images transmitted over the internet so can be viewed anywhere",
     mainBenefitswireless4: "Secure storage and easy access of archive footage",
     IdealUseswireless: "If a spotless presentation is important in your industry, wireless CCTV cameras are a great security option. Their discreet appearance helps them to blend into the interior. What’s more, there is less set up and camera maintenance required, and footage is transferred via the internet for convenient access.",
-    amenities9: "Day/Night CCTV Cameras",
+    amenities9: "High Definition (HD) CCTV Cameras",
     amenities9pic: "/images/services/cctv/PTZ Pan Tilt & Zoom CCTV.webp",
     amenities9text:
-      "These cameras have been built specifically to operate effectively, regardless of how well lit their environment is. During both daytime and night-time, they will record clear video images that will not be obscured by differing light conditions. This is achieved through their extra sensitive imaging chips.",
-    mainBenefitsdaynight1: "Clear recording in low light",
-    mainBenefitsdaynight2: "They usually record in both color and black and white",
-    mainBenefitsdaynight3: "Can function despite glare, direct sunlight, reflections and poor lighting",
-    mainBenefitsdaynight4: "Casing protects the camera against the elements for outside surveillance",
-    IdealUsesdaynight: "There are various CCTV camera types suited to outside use but the extra sensitive imaging of both day and night imaging modes makes this one camera type unique. It is therefore the ideal CCTV system for business premises that require around the clock CCTV monitoring in an outdoor environment with varying light conditions.",
+      "HD CCTV cameras offer an unrivaled picture quality that delivers high clarity images. Depending on your budget, they can deliver resolutions of 720p, all the way up to 4K. Therefore, there’s no danger that the subject of recordings will ever appear grainy or distorted."
+    mainBenefitshd1: "High definition pictures capture subjects in perfect clarity",
+    mainBenefitshd2: "Extra clarity can also be achieved with zoom function",
+    mainBenefitshd3: "Available on most CCTV models such as domes and bullets",
+    mainBenefitshd4: "Crystal clear imagery provides undeniable criminal identification",
+    IdealUseshd: "High definition cameras are particularly useful for use in environments where there is a high risk of theft. Businesses such as banks and casinos should opt for HD cameras, in order to ensure that visitors to their premises are captured in perfect clarity. The footage recorded will be able to provide undeniable identification in the event of a crime being committed.",
   },
   {
     id: 6,
