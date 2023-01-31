@@ -161,7 +161,7 @@ const data = [
     mainBenefitsptz4: "Pan and tilt feature provides 360 degree field of vision",
     IdealUsesptz: "This is the best CCTV camera for remote viewing. It is really popular in large retail environments and is regarded as the best CCTV for business premises that have a specific valuable object to protect. For example, a museum could program the camera to pan to a particular entry or exit point when it detects movement. So even when it is not being controlled remotely, the camera can cover a much larger area and do the same job of several static cameras.",
     amenities5: "Day/Night CCTV Cameras",
-    amenities5pic: "/images/services/cctv/PTZ Pan Tilt & Zoom CCTV.webp",
+    amenities5pic: "/images/services/cctv/Day-Night-Camera.jpeg",
     amenities5text:
       "These cameras have been built specifically to operate effectively, regardless of how well lit their environment is. During both daytime and night-time, they will record clear video images that will not be obscured by differing light conditions. This is achieved through their extra sensitive imaging chips.",
     mainBenefitsdaynight1: "Clear recording in low light",
@@ -170,7 +170,7 @@ const data = [
     mainBenefitsdaynight4: "Casing protects the camera against the elements for outside surveillance",
     IdealUsesdaynight: "There are various CCTV camera types suited to outside use but the extra sensitive imaging of both day and night imaging modes makes this one camera type unique. It is therefore the ideal CCTV system for business premises that require around the clock CCTV monitoring in an outdoor environment with varying light conditions.",
     amenities6: "Infrared/Night Vision CCTV Cameras",
-    amenities6pic: "/images/services/cctv/PTZ Pan Tilt & Zoom CCTV.webp",
+    amenities6pic: "/images/services/cctv/Infrared CCTV.jpeg",
     amenities6text:
       "As the name suggests, these cameras are designed to operate optimally in pitch black conditions. They achieve this by using infrared technology. Infrared models are more expensive than day/night cameras and those opting for this option usually do so because night recording is vital to the security of their business.",
     mainBenefitsinfarednight1: "Infrared LEDs allow clear recording even in pitch black environments",
@@ -179,7 +179,7 @@ const data = [
     mainBenefitsinfarednight4: "Records color imagery in the daytime and black and white at night",
     IdealUsesinfarednight: "This is the best CCTV camera for night vision functionality. It’s therefore the ideal choice for those who need ultra-reliable recording in complete darkness. For example, banks, farms and manufacturing plants.",
     amenities7: "Network/IP CCTV Cameras",
-    amenities7pic: "/images/services/cctv/PTZ Pan Tilt & Zoom CCTV.webp",
+    amenities7pic: "/images/services/cctv/Network Camera.jpeg",
     amenities7text:
       "These cameras share live footage across the internet so images can be easily accessed from anywhere on the globe. The bandwidth of the video is compressed, in order to make the online feed reliable. Archive footage is stored on network video recorders (NVRs) or on secure software for later access.",
     mainBenefitsnetwork1: "Footage can be viewed online from anywhere in the world",
@@ -188,7 +188,7 @@ const data = [
     mainBenefitsnetwork4: "Low maintenance",
     IdealUsesnetwork: "A network or IP CCTV camera is the ideal choice for business owners who are often away from site and on the move. Footage can be viewed from anywhere in the world, via a smart device such as a PC, laptop or mobile phone.",
     amenities8: "Wireless CCTV Cameras",
-    amenities8pic: "/images/services/cctv/PTZ Pan Tilt & Zoom CCTV.webp",
+    amenities8pic: "/images/services/cctv/Wireless CCTV1.jpeg",
     amenities8text:
       "Wireless CCTV cameras were created to minimize installation time. They also make the appearance of the camera much tidier, which may be an important factor for locations such as churches, museums or stately homes.",
     mainBenefitswireless1: "Easier to install than your average CCTV system",
@@ -197,9 +197,9 @@ const data = [
     mainBenefitswireless4: "Secure storage and easy access of archive footage",
     IdealUseswireless: "If a spotless presentation is important in your industry, wireless CCTV cameras are a great security option. Their discreet appearance helps them to blend into the interior. What’s more, there is less set up and camera maintenance required, and footage is transferred via the internet for convenient access.",
     amenities9: "High Definition (HD) CCTV Cameras",
-    amenities9pic: "/images/services/cctv/PTZ Pan Tilt & Zoom CCTV.webp",
+    amenities9pic: "/images/services/cctv/High Definition CCTV.jpeg",
     amenities9text:
-      "HD CCTV cameras offer an unrivaled picture quality that delivers high clarity images. Depending on your budget, they can deliver resolutions of 720p, all the way up to 4K. Therefore, there’s no danger that the subject of recordings will ever appear grainy or distorted."
+      "HD CCTV cameras offer an unrivaled picture quality that delivers high clarity images. Depending on your budget, they can deliver resolutions of 720p, all the way up to 4K. Therefore, there’s no danger that the subject of recordings will ever appear grainy or distorted.",
     mainBenefitshd1: "High definition pictures capture subjects in perfect clarity",
     mainBenefitshd2: "Extra clarity can also be achieved with zoom function",
     mainBenefitshd3: "Available on most CCTV models such as domes and bullets",
