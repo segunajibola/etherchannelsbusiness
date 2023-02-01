@@ -440,11 +440,11 @@ const ParticularService = ({ services }) => {
                 </div>
                 {services.amenitiesMainBenefit && (
                   <div
-                    className="flex w-[70%] mx-auto mt-20 gap-x-8"
+                    className="grid grid-cols-2 w-[70%] mx-auto mt-20 gap-x-8"
                     data-aos="zoom-down"
                   >
-                    <div className="w-[100rem]">
-                      <h3 className="text-xl">{services.amenitiesMainBenefit}</h3>
+                    <div>
+                      <h3 className="text-xl my-2">{services.amenitiesMainBenefit}</h3>
                       <ul className="list-disc text-left text-lg">
                         <li>{services.mainBenefitsdome1}</li>
                         <li>{services.mainBenefitsdome2}</li>
@@ -453,8 +453,8 @@ const ParticularService = ({ services }) => {
                       </ul>
                     </div>
                     <div>
-                      <h3 className="text-xl">{services.amenitiesIdealUses}</h3>
-                      <p className="text-lg">{services.IdealUsesdome}</p>
+                      <h3 className="text-xl my-2">{services.amenitiesIdealUses}</h3>
+                      <p className="text-lg text-justify">{services.IdealUsesdome}</p>
                     </div>
                   </div>
                 )}
