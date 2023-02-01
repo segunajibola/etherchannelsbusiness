@@ -478,12 +478,12 @@ const ParticularService = ({ services }) => {
                 </div>
                 {services.amenitiesMainBenefit && (
                   <div
-                    className="flex w-[70%] mx-auto mt-10 gap-x-8"
+                    className="grid grid-cols-2 w-[70%] mx-auto mt-20 gap-x-8"
                     data-aos="zoom-down"
                   >
-                    <div className="w-[100rem]">
-                      <h3>{services.amenitiesMainBenefit}</h3>
-                      <ul className="list-disc text-left">
+                    <div>
+                      <h3 className="text-xl my-2">{services.amenitiesMainBenefit}</h3>
+                      <ul className="list-disc text-left text-lg">
                         <li>{services.mainBenefitsbullet1}</li>
                         <li>{services.mainBenefitsbullet2}</li>
                         <li>{services.mainBenefitsbullet3}</li>
@@ -491,8 +491,8 @@ const ParticularService = ({ services }) => {
                       </ul>
                     </div>
                     <div>
-                      <h3>{services.amenitiesIdealUses}</h3>
-                      <p>{services.IdealUsesbullet}</p>
+                      <h3 className="text-xl my-2">{services.amenitiesIdealUses}</h3>
+                      <p className="text-lg text-justify">{services.IdealUsesbullet}</p>
                     </div>
                   </div>
                 )}
@@ -517,12 +517,12 @@ const ParticularService = ({ services }) => {
                 </div>
                 {services.amenitiesMainBenefit && (
                   <div
-                    className="flex w-[70%] mx-auto mt-10 gap-x-8"
+                    className="grid grid-cols-2 w-[70%] mx-auto mt-20 gap-x-8"
                     data-aos="zoom-down"
                   >
-                    <div className="w-[100rem]">
-                      <h3>{services.amenitiesMainBenefit}</h3>
-                      <ul className="list-disc text-left">
+                    <div>
+                      <h3 className="text-xl my-2">{services.amenitiesMainBenefit}</h3>
+                      <ul className="list-disc text-left text-lg">
                         <li>{services.mainBenefitscmount1}</li>
                         <li>{services.mainBenefitscmount2}</li>
                         <li>{services.mainBenefitscmount3}</li>
@@ -530,8 +530,8 @@ const ParticularService = ({ services }) => {
                       </ul>
                     </div>
                     <div>
-                      <h3>{services.amenitiesIdealUses}</h3>
-                      <p>{services.IdealUsescmount}</p>
+                      <h3 className="text-xl my-2">{services.amenitiesIdealUses}</h3>
+                      <p className="text-lg text-justify">{services.IdealUsescmount}</p>
                     </div>
                   </div>
                 )}
@@ -556,12 +556,12 @@ const ParticularService = ({ services }) => {
                 </div>
                 {services.amenitiesMainBenefit && (
                   <div
-                    className="flex w-[70%] mx-auto mt-10 gap-x-8"
+                    className="grid grid-cols-2 w-[70%] mx-auto mt-20 gap-x-8"
                     data-aos="zoom-down"
                   >
-                    <div className="w-[100rem]">
-                      <h3>{services.amenitiesMainBenefit}</h3>
-                      <ul className="list-disc text-left">
+                    <div>
+                      <h3 className="text-xl my-2">{services.amenitiesMainBenefit}</h3>
+                      <ul className="list-disc text-left text-lg">
                         <li>{services.mainBenefitsptz1}</li>
                         <li>{services.mainBenefitsptz2}</li>
                         <li>{services.mainBenefitsptz3}</li>
@@ -569,8 +569,8 @@ const ParticularService = ({ services }) => {
                       </ul>
                     </div>
                     <div>
-                      <h3>{services.amenitiesIdealUses}</h3>
-                      <p>{services.IdealUsesptz}</p>
+                      <h3 className="text-xl my-2">{services.amenitiesIdealUses}</h3>
+                      <p className="text-lg text-justify">{services.IdealUsesptz}</p>
                     </div>
                   </div>
                 )}
@@ -595,12 +595,12 @@ const ParticularService = ({ services }) => {
                 </div>
                 {services.amenitiesMainBenefit && (
                   <div
-                    className="flex w-[70%] mx-auto mt-10 gap-x-8"
+                    className="grid grid-cols-2 w-[70%] mx-auto mt-20 gap-x-8"
                     data-aos="zoom-down"
                   >
-                    <div className="w-[100rem]">
-                      <h3>{services.amenitiesMainBenefit}</h3>
-                      <ul className="list-disc text-left">
+                    <div>
+                      <h3 className="text-xl my-2">{services.amenitiesMainBenefit}</h3>
+                      <ul className="list-disc text-left text-lg">
                         <li>{services.mainBenefitsdaynight1}</li>
                         <li>{services.mainBenefitsdaynight2}</li>
                         <li>{services.mainBenefitsdaynight3}</li>
@@ -608,8 +608,8 @@ const ParticularService = ({ services }) => {
                       </ul>
                     </div>
                     <div>
-                      <h3>{services.amenitiesIdealUses}</h3>
-                      <p>{services.IdealUsesdaynight}</p>
+                      <h3 className="text-xl my-2">{services.amenitiesIdealUses}</h3>
+                      <p className="text-lg text-justify">{services.IdealUsesdaynight}</p>
                     </div>
                   </div>
                 )}
@@ -634,12 +634,12 @@ const ParticularService = ({ services }) => {
                 )}
                 {services.amenitiesMainBenefit && (
                   <div
-                    className="flex w-[70%] mx-auto mt-10 gap-x-8"
-                    data-aos="slide-up"
+                    className="grid grid-cols-2 w-[70%] mx-auto mt-20 gap-x-8"
+                    data-aos="zoom-down"
                   >
-                    <div className="w-[100rem]">
-                      <h3>{services.amenitiesMainBenefit}</h3>
-                      <ul className="list-disc text-left">
+                    <div>
+                      <h3 className="text-xl my-2">{services.amenitiesMainBenefit}</h3>
+                      <ul className="list-disc text-left text-lg">
                         <li>{services.mainBenefitsinfarednight1}</li>
                         <li>{services.mainBenefitsinfarednight2}</li>
                         <li>{services.mainBenefitsinfarednight3}</li>
@@ -647,8 +647,8 @@ const ParticularService = ({ services }) => {
                       </ul>
                     </div>
                     <div>
-                      <h3>{services.amenitiesIdealUses}</h3>
-                      <p>{services.IdealUsesinfarednight}</p>
+                      <h3 className="text-xl my-2">{services.amenitiesIdealUses}</h3>
+                      <p className="text-lg text-justify">{services.IdealUsesinfarednight}</p>
                     </div>
                   </div>
                 )}
@@ -673,12 +673,12 @@ const ParticularService = ({ services }) => {
                 )}
                 {services.amenitiesMainBenefit && (
                   <div
-                    className="flex w-[70%] mx-auto mt-10 gap-x-8"
+                    className="grid grid-cols-2 w-[70%] mx-auto mt-20 gap-x-8"
                     data-aos="zoom-down"
                   >
-                    <div className="w-[100rem]">
-                      <h3>{services.amenitiesMainBenefit}</h3>
-                      <ul className="list-disc text-left">
+                    <div>
+                      <h3 className="text-xl my-2">{services.amenitiesMainBenefit}</h3>
+                      <ul className="list-disc text-left text-lg">
                         <li>{services.mainBenefitsnetwork1}</li>
                         <li>{services.mainBenefitsnetwork2}</li>
                         <li>{services.mainBenefitsnetwork3}</li>
@@ -686,8 +686,8 @@ const ParticularService = ({ services }) => {
                       </ul>
                     </div>
                     <div>
-                      <h3>{services.amenitiesIdealUses}</h3>
-                      <p>{services.IdealUsesnetwork}</p>
+                      <h3 className="text-xl my-2">{services.amenitiesIdealUses}</h3>
+                      <p className="text-lg text-justify">{services.IdealUsesnetwork}</p>
                     </div>
                   </div>
                 )}
@@ -712,12 +712,12 @@ const ParticularService = ({ services }) => {
                 )}
                 {services.amenitiesMainBenefit && (
                   <div
-                    className="flex w-[70%] mx-auto mt-10 gap-x-8"
+                    className="grid grid-cols-2 w-[70%] mx-auto mt-20 gap-x-8"
                     data-aos="zoom-down"
                   >
-                    <div className="w-[100rem]">
-                      <h3>{services.amenitiesMainBenefit}</h3>
-                      <ul className="list-disc text-left">
+                    <div>
+                      <h3 className="text-xl my-2">{services.amenitiesMainBenefit}</h3>
+                      <ul className="list-disc text-left text-lg">
                         <li>{services.mainBenefitswireless1}</li>
                         <li>{services.mainBenefitswireless2}</li>
                         <li>{services.mainBenefitswireless3}</li>
@@ -725,8 +725,8 @@ const ParticularService = ({ services }) => {
                       </ul>
                     </div>
                     <div>
-                      <h3>{services.amenitiesIdealUses}</h3>
-                      <p>{services.IdealUseswireless}</p>
+                      <h3 className="text-xl my-2">{services.amenitiesIdealUses}</h3>
+                      <p className="text-lg text-justify">{services.IdealUseswireless}</p>
                     </div>
                   </div>
                 )}
@@ -751,12 +751,12 @@ const ParticularService = ({ services }) => {
                 )}
                 {services.amenitiesMainBenefit && (
                   <div
-                    className="flex w-[70%] mx-auto mt-10 gap-x-8"
+                    className="grid grid-cols-2 w-[70%] mx-auto mt-20 gap-x-8"
                     data-aos="zoom-down"
                   >
-                    <div className="w-[100rem]">
-                      <h3>{services.amenitiesMainBenefit}</h3>
-                      <ul className="list-disc text-left">
+                    <div>
+                      <h3 className="text-xl my-2">{services.amenitiesMainBenefit}</h3>
+                      <ul className="list-disc text-left text-lg">
                         <li>{services.mainBenefitshd1}</li>
                         <li>{services.mainBenefitshd2}</li>
                         <li>{services.mainBenefitshd3}</li>
@@ -764,8 +764,8 @@ const ParticularService = ({ services }) => {
                       </ul>
                     </div>
                     <div>
-                      <h3>{services.amenitiesIdealUses}</h3>
-                      <p>{services.IdealUseshd}</p>
+                      <h3 className="text-xl my-2">{services.amenitiesIdealUses}</h3>
+                      <p className="text-lg text-justify">{services.IdealUseshd}</p>
                     </div>
                   </div>
                 )}
