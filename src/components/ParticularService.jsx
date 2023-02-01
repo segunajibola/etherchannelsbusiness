@@ -21,7 +21,7 @@ const ParticularService = ({ services }) => {
   });
 
   return (
-    <div className="overflow-hidden bg-gray-100 dark:bg-gray-700">
+    <div className="overflow-hidden dark:bg-gray-700">
       {services
         .filter((services) => services.name === service)
         .map((services) => (
@@ -46,11 +46,15 @@ const ParticularService = ({ services }) => {
               )}
             </div>
 
-            <h1 className="pt-10 text-3xl font-semibold">{services.name}</h1>
-            <p className="px-12 py-4 text-lg">{services.description}</p>
-            <h1 className="text-2xl font-semibold pt-[150px] pb-8">
-              {services.heading0}
-            </h1>
+            <div className={`${services.amenitiesMainBenefit ? "bg-4" : ""}`}>
+              <h1 className="pt-10 text-4xl font-semibold">{services.name}</h1>
+              <p className="px-20 bg-remd-500 py-4 text-lg">
+                {services.description}
+              </p>
+              <h1 className="text-2xl font-semibold pt-[150px] pb-8">
+                {services.heading0}
+              </h1>
+            </div>
 
             {/* CBT TESTING */}
             {services.heading1 && (
@@ -406,13 +410,13 @@ const ParticularService = ({ services }) => {
 
             {/* CORPORATE TRAINING */}
 
-            <div className="bg-gray-300 pb-5">
+            <div className="pb-5">
               <h2 className="pt-24 pb-8 font-bold text-3xl">
                 {services.amenities}
               </h2>
 
               {services.subamenities && (
-                <h1 className="text-xl pb-8 mx-10">{services.subamenities}</h1>
+                <h1 className="text-xl pb-8 mx-20">{services.subamenities}</h1>
               )}
 
               <div>
@@ -434,7 +438,7 @@ const ParticularService = ({ services }) => {
                     <p className="text-lg">{services.amenities1text}</p>
                   </div>
                 </div>
-                { services.amenitiesMainBenefit && (
+                {services.amenitiesMainBenefit && (
                   <div
                     className="flex w-[70%] mx-auto mt-10 gap-x-8"
                     data-aos="zoom-down"
@@ -472,7 +476,7 @@ const ParticularService = ({ services }) => {
                     srcset=""
                   />
                 </div>
-                { services.amenitiesMainBenefit && (
+                {services.amenitiesMainBenefit && (
                   <div
                     className="flex w-[70%] mx-auto mt-10 gap-x-8"
                     data-aos="zoom-down"
@@ -492,7 +496,7 @@ const ParticularService = ({ services }) => {
                     </div>
                   </div>
                 )}
-                
+
                 <div
                   className="flex w-[80%] mx-auto mt-28 gap-x-8"
                   data-aos="slide-right"
@@ -511,7 +515,7 @@ const ParticularService = ({ services }) => {
                     <p className="text-lg">{services.amenities3text}</p>
                   </div>
                 </div>
-                { services.amenitiesMainBenefit && (
+                {services.amenitiesMainBenefit && (
                   <div
                     className="flex w-[70%] mx-auto mt-10 gap-x-8"
                     data-aos="zoom-down"
@@ -531,7 +535,7 @@ const ParticularService = ({ services }) => {
                     </div>
                   </div>
                 )}
-                
+
                 <div
                   className="flex w-[80%] mx-auto mt-28 gap-x-8"
                   data-aos="slide-left"
@@ -550,7 +554,7 @@ const ParticularService = ({ services }) => {
                     srcset=""
                   />
                 </div>
-                { services.amenitiesMainBenefit && (
+                {services.amenitiesMainBenefit && (
                   <div
                     className="flex w-[70%] mx-auto mt-10 gap-x-8"
                     data-aos="zoom-down"
@@ -589,7 +593,7 @@ const ParticularService = ({ services }) => {
                     <p className="text-lg">{services.amenities5text}</p>
                   </div>
                 </div>
-                { services.amenitiesMainBenefit && (
+                {services.amenitiesMainBenefit && (
                   <div
                     className="flex w-[70%] mx-auto mt-10 gap-x-8"
                     data-aos="zoom-down"
@@ -613,7 +617,7 @@ const ParticularService = ({ services }) => {
                 {services.amenities6text && (
                   <div
                     className="flex w-[80%] mx-auto mt-28 gap-x-8"
-                    data-aos="zoom-down"
+                    data-aos="slide-left"
                   >
                     <div className="flex flex-col justify-center">
                       <h3 className="text-xl my-4">{services.amenities6}</h3>
@@ -628,10 +632,10 @@ const ParticularService = ({ services }) => {
                     />
                   </div>
                 )}
-                { services.amenitiesMainBenefit && (
+                {services.amenitiesMainBenefit && (
                   <div
                     className="flex w-[70%] mx-auto mt-10 gap-x-8"
-                    data-aos="zoom-down"
+                    data-aos="slide-up"
                   >
                     <div className="w-[100rem]">
                       <h3>{services.amenitiesMainBenefit}</h3>
@@ -652,7 +656,7 @@ const ParticularService = ({ services }) => {
                 {services.amenities7text && (
                   <div
                     className="flex w-[80%] mx-auto mt-28 gap-x-8"
-                    data-aos="zoom-down"
+                    data-aos="slide-left"
                   >
                     <div className="flex flex-col justify-center">
                       <h3 className="text-xl my-4">{services.amenities7}</h3>
@@ -667,7 +671,7 @@ const ParticularService = ({ services }) => {
                     />
                   </div>
                 )}
-                { services.amenitiesMainBenefit && (
+                {services.amenitiesMainBenefit && (
                   <div
                     className="flex w-[70%] mx-auto mt-10 gap-x-8"
                     data-aos="zoom-down"
@@ -691,7 +695,7 @@ const ParticularService = ({ services }) => {
                 {services.amenities8text && (
                   <div
                     className="flex w-[80%] mx-auto mt-28 gap-x-8"
-                    data-aos="zoom-down"
+                    data-aos="slide-right"
                   >
                     <div className="flex flex-col justify-center">
                       <h3 className="text-xl my-4">{services.amenities8}</h3>
@@ -706,7 +710,7 @@ const ParticularService = ({ services }) => {
                     />
                   </div>
                 )}
-                { services.amenitiesMainBenefit && (
+                {services.amenitiesMainBenefit && (
                   <div
                     className="flex w-[70%] mx-auto mt-10 gap-x-8"
                     data-aos="zoom-down"
@@ -745,7 +749,7 @@ const ParticularService = ({ services }) => {
                     />
                   </div>
                 )}
-                { services.amenitiesMainBenefit && (
+                {services.amenitiesMainBenefit && (
                   <div
                     className="flex w-[70%] mx-auto mt-10 gap-x-8"
                     data-aos="zoom-down"
