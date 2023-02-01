@@ -21,7 +21,7 @@ const ParticularService = ({ services }) => {
   });
 
   return (
-    <div className="overflow-hidden dark:bg-gray-700 mx-16">
+    <div className="overflow-hidden dark:bg-gray-700">
       {services
         .filter((services) => services.name === service)
         .map((services) => (
@@ -48,7 +48,7 @@ const ParticularService = ({ services }) => {
 
             <div className={`${services.amenitiesMainBenefit ? "bg-4" : ""}`}>
               <h1 className="pt-10 text-4xl font-semibold">{services.name}</h1>
-              <p className="px-12 bg-remd-500 py-4 text-lg">
+              <p className="px-20 bg-remd-500 py-4 text-lg">
                 {services.description}
               </p>
               <h1 className="text-2xl font-semibold pt-[150px] pb-8">
@@ -416,7 +416,7 @@ const ParticularService = ({ services }) => {
               </h2>
 
               {services.subamenities && (
-                <h1 className="text-xl pb-8 mx-10">{services.subamenities}</h1>
+                <h1 className="text-xl pb-8 mx-20">{services.subamenities}</h1>
               )}
 
               <div>
