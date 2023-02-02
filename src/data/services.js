@@ -126,7 +126,7 @@ const data = [
     amenities1pic: "/images/services/cctv/Dome CCTV.jpeg",
     amenities1text:
       "A Dome CCTV camera gets its name from the dome-shaped casing that the camera sits in. Whilst these are relatively discreet CCTV cameras in appearance, this doesn’t stop them from deterring criminals. This is because the dome casing makes it really difficult for people to see which direction the camera is pointing. This creates an air of uncertainty for potential thieves or vandals approaching from all directions.",
-    amenitiesMainBenefit: "Main Benefits",
+    amenitiesMainBenefit: "Main Benefis",
     amenitiesIdealUses: "Ideal Uses",
     mainBenefitsdome1: "Unobtrusive design means it’s easy to fit",
     mainBenefitsdome2: "Suitable for indoor and outdoor use",
