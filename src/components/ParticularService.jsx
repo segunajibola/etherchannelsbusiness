@@ -46,7 +46,8 @@ const ParticularService = ({ services }) => {
               )}
             </div>
 
-            <div className={`${services.amenitiesMainBenefit ? "bg-4" : ""}`}>
+            {/* <div className={`${services.amenitiesMainBenefit ? "bg-4" : ""}`}> */}
+            <div>
               <h1 className="pt-10 text-4xl font-semibold">{services.name}</h1>
               <p className="px-20 bg-remd-500 py-4 text-lg">
                 {services.description}
@@ -420,8 +421,7 @@ const ParticularService = ({ services }) => {
               )}
 
               <div className="mx-10 pb-10">
-
-                <div
+                {services.subamenities && (<div
                   className="flex w-[90%] mx-auto mt-28 gap-x-8 bg-5 p-5"
                   data-aos="zoom-in-right"
                 >
@@ -449,7 +449,8 @@ const ParticularService = ({ services }) => {
                       </ul>
                     </div>
                   </div>
-                </div>
+                </div>)}
+
               {!services.subamenities && (<div
                   className="flex w-[80%] mx-auto mt-28 gap-x-8"
                   data-aos="zoom-in-right"
@@ -469,7 +470,7 @@ const ParticularService = ({ services }) => {
                   </div>
                 </div>)}
                 
-                {!services.amenitiesMainBenefit && (
+                {/*{services.amenitiesMainBenefit && (
                   <div
                     className="grid grid-cols-2 w-[70%] mx-auto mt-20 gap-x-8"
                     data-aos="zoom-down"
@@ -482,13 +483,13 @@ const ParticularService = ({ services }) => {
                         <li>{services.mainBenefitsdome3}</li>
                         <li>{services.mainBenefitsdome4}</li>
                       </ul>
-                    </div>
-                    <div>
+                     </div>
+                    <div> 
                       <h3 className="text-xl my-2">{services.amenitiesIdealUses}</h3>
                       <p className="text-lg text-justify">{services.IdealUsesdome}</p>
                     </div>
                   </div>
-                )}
+                )}*/}
                 <div
                   className="flex w-[80%] mx-auto mt-28 gap-x-8"
                   data-aos="zoom-in-left"
