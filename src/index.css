@@ -29,6 +29,19 @@
     /* object-position: center; */
     background-repeat: no-repeat;
   }
+
+  .bg-5 {
+    background-image: url("./assets/services/CCTV Backgrouund2.jpeg");
+    background-size: cover;
+    background-position: top;
+    object-fit: fill;
+    /* position: fixed; */
+    background-attachment: fixed;
+    /* object-position: center; */
+    background-repeat: no-repeat;
+  }
+
+  
   #line-clamp {
     width: auto;
     display: -webkit-box;

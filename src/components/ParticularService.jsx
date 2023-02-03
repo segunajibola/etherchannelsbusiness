@@ -419,10 +419,10 @@ const ParticularService = ({ services }) => {
                 <h1 className="text-xl pb-8 mx-20">{services.subamenities}</h1>
               )}
 
-              <div className="mx-20 pb-10">
+              <div className="mx-10 pb-10">
 
                 <div
-                  className="flex w-[80%] mx-auto mt-28 gap-x-8"
+                  className="flex w-[90%] mx-auto mt-28 gap-x-8 bg-5 p-5"
                   data-aos="zoom-in-right"
                 >
                   <img
@@ -432,12 +432,22 @@ const ParticularService = ({ services }) => {
                     alt=""
                     srcset=""
                   />
-                  
-                  <div className="flex flex-col justify-center">
-                    <h3 className="text-2xl my-4 font-semibold">
-                      {services.amenities1}
-                    </h3>
-                    <p className="text-lg">{services.amenities1text}</p>
+                  <div className="flex flex-row w-[80%] p-2 text-white">
+                    <div className="flex flex-col w-[80%] mr-10">
+                      <h3 className="text-2l mb-4 font-semibold">
+                        {services.amenities1}
+                      </h3>
+                      <p className="text-md text-justify">{services.amenities1text}</p>
+                    </div>
+                    <div>
+                      <h3 className="text-xl my-2">{services.amenitiesMainBenefit}</h3>
+                      <ul className="list-disc text-left text-lg">
+                        <li>{services.mainBenefitsdome1}</li>
+                        <li>{services.mainBenefitsdome2}</li>
+                        <li>{services.mainBenefitsdome3}</li>
+                        <li>{services.mainBenefitsdome4}</li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               {!services.subamenities && (<div
@@ -459,7 +469,7 @@ const ParticularService = ({ services }) => {
                   </div>
                 </div>)}
                 
-                {services.amenitiesMainBenefit && (
+                {!services.amenitiesMainBenefit && (
                   <div
                     className="grid grid-cols-2 w-[70%] mx-auto mt-20 gap-x-8"
                     data-aos="zoom-down"
