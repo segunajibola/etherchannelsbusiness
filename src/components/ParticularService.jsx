@@ -420,7 +420,27 @@ const ParticularService = ({ services }) => {
               )}
 
               <div className="mx-20 pb-10">
+
                 <div
+                  className="flex w-[80%] mx-auto mt-28 gap-x-8"
+                  data-aos="zoom-in-right"
+                >
+                  <img
+                    src={services.amenities1pic}
+                    style={{ width: "480px" }}
+                    className="object-cover object-bottom h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
+                    alt=""
+                    srcset=""
+                  />
+                  
+                  <div className="flex flex-col justify-center">
+                    <h3 className="text-2xl my-4 font-semibold">
+                      {services.amenities1}
+                    </h3>
+                    <p className="text-lg">{services.amenities1text}</p>
+                  </div>
+                </div>
+              {!services.subamenities && (<div
                   className="flex w-[80%] mx-auto mt-28 gap-x-8"
                   data-aos="zoom-in-right"
                 >
@@ -437,7 +457,8 @@ const ParticularService = ({ services }) => {
                     </h3>
                     <p className="text-lg">{services.amenities1text}</p>
                   </div>
-                </div>
+                </div>)}
+                
                 {services.amenitiesMainBenefit && (
                   <div
                     className="grid grid-cols-2 w-[70%] mx-auto mt-20 gap-x-8"
