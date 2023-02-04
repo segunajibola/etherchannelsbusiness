@@ -17,9 +17,7 @@
   .bg-3 {
     background-image: url("./assets/home/bg5.jpeg");
   }
-  .bg-4 {
-    background-image: url("./assets/services/CBTTestingBackground2.jpeg");
-  }
+
   .bg-4 {
     background-image: url("./assets/services/CBTTestingBackground2.jpg");
     background-size: cover;
@@ -31,7 +29,7 @@
   }
 
   .bg-5 {
-    background-image: url("./assets/services/CCTV Backgrouund2.jpeg");
+    background-image: url("./assets/services/cctv-bg-4.jpeg");
     background-size: cover;
     background-position: top;
     object-fit: fill;
@@ -40,7 +38,6 @@
     /* object-position: center; */
     background-repeat: no-repeat;
   }
-
   
   #line-clamp {
     width: auto;
