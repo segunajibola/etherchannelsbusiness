@@ -422,7 +422,7 @@ const ParticularService = ({ services }) => {
 
               <div className="mx-10 pb-10">
                 {services.subamenities && (<div
-                  className="flex w-[90%] mx-auto mt-28 gap-x-8 bg-5 p-5"
+                  className=" flex w-[90%] mx-auto mt-28 gap-x-8 bg-5 p-5"
                   data-aos="zoom-in-right"
                 >
                   <img
