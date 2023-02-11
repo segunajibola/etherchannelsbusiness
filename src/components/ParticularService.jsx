@@ -424,14 +424,14 @@ const ParticularService = ({ services }) => {
                     className="bg-5"
                     datad-aos="zoom-in-right"
                   >
-                    <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-4 border-4 py-5">
+                    <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-5 px-12">
                       <img
                         src={services.amenities1pic}
                         style={{ width: "480px", height: "100%" }}
                         className="object-cover object-bottom h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
                         alt=""
                       />
-                      <div className="grid grid-cols-1 grid-rows-2 w-[80%] p-2 text-white">
+                      <div className="grid grid-cols-1 grid-rows-2 w-[80%b] p-2 text-white">
                         <div className="w-[80%] mr-10">
                           <h3 className="text-2l mb-4 font-semibold">
                             {services.amenities1}
