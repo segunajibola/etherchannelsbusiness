@@ -5,7 +5,6 @@ import Logo from "../assets/navbar/etherchannellogo.png";
 import { Link } from "react-router-dom";
 import services from "../data/services.js";
 
-
 const Navbar = ({ handleMode, darkMode }) => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
@@ -32,9 +31,9 @@ const Navbar = ({ handleMode, darkMode }) => {
           </Link>
         </li>
         <li className="hover:scale-110">
-        <li className="cursor-pointer">
-          <Link to="/about">About</Link>
-        </li>
+          <li className="cursor-pointer">
+            <Link to="/about">About</Link>
+          </li>
           {/* <Link to="/about" className="peer">
             About
             <IoIosArrowDown className="inline ml-1" />
@@ -75,10 +74,11 @@ const Navbar = ({ handleMode, darkMode }) => {
           <Link to="/contact">Contact</Link>
         </li>
         <li className="cursor-pointer">
-        {services.filter(services => services.name == "Corporate Training")
-          .map((services) => (
-            <Link to={`/services/${services.name}`}>Corporate Training</Link>
-          ))}
+          {services
+            .filter((services) => services.name == "Corporate Training")
+            .map((services) => (
+              <Link to={`/services/${services.name}`}>Corporate Training</Link>
+            ))}
         </li>
       </ul>
 

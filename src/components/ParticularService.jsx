@@ -45,8 +45,6 @@ const ParticularService = ({ services }) => {
                 ""
               )}
             </div>
-
-            {/* <div className={`${services.amenitiesMainBenefit ? "bg-4" : ""}`}> */}
             <div>
               <h1 className="pt-10 text-4xl font-semibold">{services.name}</h1>
               <p className="px-20 bg-remd-500 py-4 text-lg">
@@ -421,55 +419,64 @@ const ParticularService = ({ services }) => {
               )}
 
               <div className="mx-10 pb-10">
-                {services.subamenities && (<div
-                  className=" flex w-[90%] mx-auto mt-28 gap-x-8 bg-5 p-5"
-                  data-aos="zoom-in-right"
-                >
-                  <img
-                    src={services.amenities1pic}
-                    style={{ width: "480px" }}
-                    className="object-cover object-bottom h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
-                    alt=""
-                    srcset=""
-                  />
-                  <div className="flex flex-row w-[80%] p-2 text-white">
-                    <div className="flex flex-col w-[80%] mr-10">
-                      <h3 className="text-2l mb-4 font-semibold">
+                {services.subamenities && (
+                  <div
+                    className="bg-5"
+                    datad-aos="zoom-in-right"
+                  >
+                    <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-5 px-12">
+                      <img
+                        src={services.amenities1pic}
+                        style={{ width: "480px", height: "100%" }}
+                        className="object-cover object-bottom h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
+                        alt=""
+                      />
+                      <div className="grid grid-cols-1 grid-rows-2 w-[80%b] p-2 text-white">
+                        <div className="w-[80%] mr-10">
+                          <h3 className="text-2l mb-4 font-semibold">
+                            {services.amenities1}
+                          </h3>
+                          <p className="text-md text-justify">
+                            {services.amenities1text}
+                          </p>
+                        </div>
+                        <div>
+                          <h3 className="text-xl my-2">
+                            {services.amenitiesMainBenefit}
+                          </h3>
+                          <ul className="list-disc text-left text-lg">
+                            <li>{services.mainBenefitsdome1}</li>
+                            <li>{services.mainBenefitsdome2}</li>
+                            <li>{services.mainBenefitsdome3}</li>
+                            <li>{services.mainBenefitsdome4}</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                )}
+
+                {!services.subamenities && (
+                  <div
+                    className="flex w-[80%] mx-auto mt-28 gap-x-8"
+                    data-aos="zoom-in-right"
+                  >
+                    <img
+                      src={services.amenities1pic}
+                      style={{ width: "480px" }}
+                      className="object-cover object-bottom h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
+                      alt=""
+                      srcset=""
+                    />
+                    <div className="flex flex-col justify-center">
+                      <h3 className="text-2xl my-4 font-semibold">
                         {services.amenities1}
                       </h3>
-                      <p className="text-md text-justify">{services.amenities1text}</p>
-                    </div>
-                    <div>
-                      <h3 className="text-xl my-2">{services.amenitiesMainBenefit}</h3>
-                      <ul className="list-disc text-left text-lg">
-                        <li>{services.mainBenefitsdome1}</li>
-                        <li>{services.mainBenefitsdome2}</li>
-                        <li>{services.mainBenefitsdome3}</li>
-                        <li>{services.mainBenefitsdome4}</li>
-                      </ul>
+                      <p className="text-lg">{services.amenities1text}</p>
                     </div>
                   </div>
-                </div>)}
+                )}
 
-              {!services.subamenities && (<div
-                  className="flex w-[80%] mx-auto mt-28 gap-x-8"
-                  data-aos="zoom-in-right"
-                >
-                  <img
-                    src={services.amenities1pic}
-                    style={{ width: "480px" }}
-                    className="object-cover object-bottom h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
-                    alt=""
-                    srcset=""
-                  />
-                  <div className="flex flex-col justify-center">
-                    <h3 className="text-2xl my-4 font-semibold">
-                      {services.amenities1}
-                    </h3>
-                    <p className="text-lg">{services.amenities1text}</p>
-                  </div>
-                </div>)}
-                
                 {/*{services.amenitiesMainBenefit && (
                   <div
                     className="grid grid-cols-2 w-[70%] mx-auto mt-20 gap-x-8"
@@ -514,7 +521,9 @@ const ParticularService = ({ services }) => {
                     data-aos="zoom-down"
                   >
                     <div>
-                      <h3 className="text-xl my-2">{services.amenitiesMainBenefit}</h3>
+                      <h3 className="text-xl my-2">
+                        {services.amenitiesMainBenefit}
+                      </h3>
                       <ul className="list-disc text-left text-lg">
                         <li>{services.mainBenefitsbullet1}</li>
                         <li>{services.mainBenefitsbullet2}</li>
@@ -523,8 +532,12 @@ const ParticularService = ({ services }) => {
                       </ul>
                     </div>
                     <div>
-                      <h3 className="text-xl my-2">{services.amenitiesIdealUses}</h3>
-                      <p className="text-lg text-justify">{services.IdealUsesbullet}</p>
+                      <h3 className="text-xl my-2">
+                        {services.amenitiesIdealUses}
+                      </h3>
+                      <p className="text-lg text-justify">
+                        {services.IdealUsesbullet}
+                      </p>
                     </div>
                   </div>
                 )}
@@ -553,7 +566,9 @@ const ParticularService = ({ services }) => {
                     data-aos="zoom-down"
                   >
                     <div>
-                      <h3 className="text-xl my-2">{services.amenitiesMainBenefit}</h3>
+                      <h3 className="text-xl my-2">
+                        {services.amenitiesMainBenefit}
+                      </h3>
                       <ul className="list-disc text-left text-lg">
                         <li>{services.mainBenefitscmount1}</li>
                         <li>{services.mainBenefitscmount2}</li>
@@ -562,8 +577,12 @@ const ParticularService = ({ services }) => {
                       </ul>
                     </div>
                     <div>
-                      <h3 className="text-xl my-2">{services.amenitiesIdealUses}</h3>
-                      <p className="text-lg text-justify">{services.IdealUsescmount}</p>
+                      <h3 className="text-xl my-2">
+                        {services.amenitiesIdealUses}
+                      </h3>
+                      <p className="text-lg text-justify">
+                        {services.IdealUsescmount}
+                      </p>
                     </div>
                   </div>
                 )}
@@ -592,7 +611,9 @@ const ParticularService = ({ services }) => {
                     data-aos="zoom-down"
                   >
                     <div>
-                      <h3 className="text-xl my-2">{services.amenitiesMainBenefit}</h3>
+                      <h3 className="text-xl my-2">
+                        {services.amenitiesMainBenefit}
+                      </h3>
                       <ul className="list-disc text-left text-lg">
                         <li>{services.mainBenefitsptz1}</li>
                         <li>{services.mainBenefitsptz2}</li>
@@ -601,8 +622,12 @@ const ParticularService = ({ services }) => {
                       </ul>
                     </div>
                     <div>
-                      <h3 className="text-xl my-2">{services.amenitiesIdealUses}</h3>
-                      <p className="text-lg text-justify">{services.IdealUsesptz}</p>
+                      <h3 className="text-xl my-2">
+                        {services.amenitiesIdealUses}
+                      </h3>
+                      <p className="text-lg text-justify">
+                        {services.IdealUsesptz}
+                      </p>
                     </div>
                   </div>
                 )}
@@ -631,7 +656,9 @@ const ParticularService = ({ services }) => {
                     data-aos="zoom-down"
                   >
                     <div>
-                      <h3 className="text-xl my-2">{services.amenitiesMainBenefit}</h3>
+                      <h3 className="text-xl my-2">
+                        {services.amenitiesMainBenefit}
+                      </h3>
                       <ul className="list-disc text-left text-lg">
                         <li>{services.mainBenefitsdaynight1}</li>
                         <li>{services.mainBenefitsdaynight2}</li>
@@ -640,8 +667,12 @@ const ParticularService = ({ services }) => {
                       </ul>
                     </div>
                     <div>
-                      <h3 className="text-xl my-2">{services.amenitiesIdealUses}</h3>
-                      <p className="text-lg text-justify">{services.IdealUsesdaynight}</p>
+                      <h3 className="text-xl my-2">
+                        {services.amenitiesIdealUses}
+                      </h3>
+                      <p className="text-lg text-justify">
+                        {services.IdealUsesdaynight}
+                      </p>
                     </div>
                   </div>
                 )}
@@ -670,7 +701,9 @@ const ParticularService = ({ services }) => {
                     data-aos="zoom-down"
                   >
                     <div>
-                      <h3 className="text-xl my-2">{services.amenitiesMainBenefit}</h3>
+                      <h3 className="text-xl my-2">
+                        {services.amenitiesMainBenefit}
+                      </h3>
                       <ul className="list-disc text-left text-lg">
                         <li>{services.mainBenefitsinfarednight1}</li>
                         <li>{services.mainBenefitsinfarednight2}</li>
@@ -679,8 +712,12 @@ const ParticularService = ({ services }) => {
                       </ul>
                     </div>
                     <div>
-                      <h3 className="text-xl my-2">{services.amenitiesIdealUses}</h3>
-                      <p className="text-lg text-justify">{services.IdealUsesinfarednight}</p>
+                      <h3 className="text-xl my-2">
+                        {services.amenitiesIdealUses}
+                      </h3>
+                      <p className="text-lg text-justify">
+                        {services.IdealUsesinfarednight}
+                      </p>
                     </div>
                   </div>
                 )}
@@ -709,7 +746,9 @@ const ParticularService = ({ services }) => {
                     data-aos="zoom-down"
                   >
                     <div>
-                      <h3 className="text-xl my-2">{services.amenitiesMainBenefit}</h3>
+                      <h3 className="text-xl my-2">
+                        {services.amenitiesMainBenefit}
+                      </h3>
                       <ul className="list-disc text-left text-lg">
                         <li>{services.mainBenefitsnetwork1}</li>
                         <li>{services.mainBenefitsnetwork2}</li>
@@ -718,8 +757,12 @@ const ParticularService = ({ services }) => {
                       </ul>
                     </div>
                     <div>
-                      <h3 className="text-xl my-2">{services.amenitiesIdealUses}</h3>
-                      <p className="text-lg text-justify">{services.IdealUsesnetwork}</p>
+                      <h3 className="text-xl my-2">
+                        {services.amenitiesIdealUses}
+                      </h3>
+                      <p className="text-lg text-justify">
+                        {services.IdealUsesnetwork}
+                      </p>
                     </div>
                   </div>
                 )}
@@ -748,7 +791,9 @@ const ParticularService = ({ services }) => {
                     data-aos="zoom-down"
                   >
                     <div>
-                      <h3 className="text-xl my-2">{services.amenitiesMainBenefit}</h3>
+                      <h3 className="text-xl my-2">
+                        {services.amenitiesMainBenefit}
+                      </h3>
                       <ul className="list-disc text-left text-lg">
                         <li>{services.mainBenefitswireless1}</li>
                         <li>{services.mainBenefitswireless2}</li>
@@ -757,8 +802,12 @@ const ParticularService = ({ services }) => {
                       </ul>
                     </div>
                     <div>
-                      <h3 className="text-xl my-2">{services.amenitiesIdealUses}</h3>
-                      <p className="text-lg text-justify">{services.IdealUseswireless}</p>
+                      <h3 className="text-xl my-2">
+                        {services.amenitiesIdealUses}
+                      </h3>
+                      <p className="text-lg text-justify">
+                        {services.IdealUseswireless}
+                      </p>
                     </div>
                   </div>
                 )}
@@ -787,7 +836,9 @@ const ParticularService = ({ services }) => {
                     data-aos="zoom-down"
                   >
                     <div>
-                      <h3 className="text-xl my-2">{services.amenitiesMainBenefit}</h3>
+                      <h3 className="text-xl my-2">
+                        {services.amenitiesMainBenefit}
+                      </h3>
                       <ul className="list-disc text-left text-lg">
                         <li>{services.mainBenefitshd1}</li>
                         <li>{services.mainBenefitshd2}</li>
@@ -796,8 +847,12 @@ const ParticularService = ({ services }) => {
                       </ul>
                     </div>
                     <div>
-                      <h3 className="text-xl my-2">{services.amenitiesIdealUses}</h3>
-                      <p className="text-lg text-justify">{services.IdealUseshd}</p>
+                      <h3 className="text-xl my-2">
+                        {services.amenitiesIdealUses}
+                      </h3>
+                      <p className="text-lg text-justify">
+                        {services.IdealUseshd}
+                      </p>
                     </div>
                   </div>
                 )}
