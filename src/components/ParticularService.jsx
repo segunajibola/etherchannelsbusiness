@@ -712,6 +712,103 @@ const ParticularService = ({ services }) => {
                 </div>
               )}
             </div>
+
+            {!services.subamenities && (
+              <div className="pb-10">
+                <div
+                  className="flex w-[80%] mx-auto mt-28 gap-x-8"
+                  data-aos="zoom-in-right"
+                >
+                  <img
+                    src={services.amenities1pic}
+                    style={{ width: "480px" }}
+                    className="object-cover object-bottom h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
+                    alt=""
+                    srcset=""
+                  />
+                  <div className="flex flex-col justify-center">
+                    <h3 className="text-2xl my-4 font-semibold">
+                      {services.amenities1}
+                    </h3>
+                    <p className="text-lg">{services.amenities1text}</p>
+                  </div>
+                </div>
+
+                <div
+                  className="flex w-[80%] mx-auto mt-28 gap-x-8"
+                  data-aos="zoom-in-right"
+                >
+                  <div className="flex flex-col justify-center">
+                    <h3 className="text-2xl my-4 font-semibold">
+                      {services.amenities2}
+                    </h3>
+                    <p className="text-lg">{services.amenities2text}</p>
+                  </div>
+                  <img
+                    src={services.amenities2pic}
+                    style={{ width: "480px" }}
+                    className="object-cover object-bottom h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
+                    alt=""
+                    srcset=""
+                  />                  
+                </div>
+                <div
+                  className="flex w-[80%] mx-auto mt-28 gap-x-8"
+                  data-aos="slide-in-right"
+                >
+                  <img
+                    src={services.amenities3pic}
+                    style={{ width: "480px" }}
+                    className="object-cover object-bottom h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
+                    alt=""
+                    srcset=""
+                  />
+                  <div className="flex flex-col justify-center">
+                    <h3 className="text-2xl my-4 font-semibold">
+                      {services.amenities3}
+                    </h3>
+                    <p className="text-lg">{services.amenities3text}</p>
+                  </div>
+                </div>
+
+                <div
+                  className="flex w-[80%] mx-auto mt-28 gap-x-8"
+                  data-aos="zoom-in-left"
+                >
+                  <div className="flex flex-col justify-center">
+                    <h3 className="text-2xl my-4 font-semibold">
+                      {services.amenities4}
+                    </h3>
+                    <p className="text-lg">{services.amenities4text}</p>
+                  </div>
+                  <img
+                    src={services.amenities4pic}
+                    style={{ width: "480px" }}
+                    className="object-cover object-bottom h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
+                    alt=""
+                    srcset=""
+                  />                  
+                </div>
+                <div
+                  className="flex w-[80%] mx-auto mt-28 gap-x-8"
+                  data-aos="zoom-down"
+                >
+                  <img
+                    src={services.amenities5pic}
+                    style={{ width: "480px" }}
+                    className="object-cover object-bottom h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
+                    alt=""
+                    srcset=""
+                  />
+                  <div className="flex flex-col justify-center">
+                    <h3 className="text-2xl my-4 font-semibold">
+                      {services.amenities5}
+                    </h3>
+                    <p className="text-lg">{services.amenities5text}</p>
+                  </div>
+                </div>
+              </div>
+            )}
           </div>
         ))}
     </div>
