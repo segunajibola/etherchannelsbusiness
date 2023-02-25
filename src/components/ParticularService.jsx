@@ -724,7 +724,7 @@ const ParticularService = ({ services }) => {
                       srcset=""
                     />
                     <div className="flex flex-col justify-center">
-                      <h3 className="text-2xl my-4 font-semibold">
+                      <h3 className="text-2xlmy-4 font-semibold">
                         {services.amenities1}
                       </h3>
                       <p className="text-lg">{services.amenities1text}</p>
