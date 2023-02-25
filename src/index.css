@@ -8,6 +8,15 @@
       display: none;
     }
   }
+
+  .all-bg {
+    background-size: cover;
+    background-position: top;
+    object-fit: fill;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+
   .bg {
     background-image: url("./assets/home/bg22.jpeg");
   }
@@ -38,6 +47,32 @@
     /* object-position: center; */
     background-repeat: no-repeat;
   }
+
+  .bg-6 {
+    background-image: url("./assets/services/cctv-bg-6.jpeg");
+  }
+  .bg-7 {
+    background-image: url("./assets/services/cctv-bg-7.jpeg");
+  }
+  .bg-8 {
+    background-image: url("./assets/services/cctv-bg-8.jpeg");
+  }
+  .bg-9 {
+    background-image: url("./assets/services/cctv-bg-9.jpeg");
+  }
+  .bg-10 {
+    background-image: url("./assets/services/cctv-bg-4.jpeg");
+  }
+  .bg-11 {
+    background-image: url("./assets/services/cctv-bg-4.jpeg");
+  }
+  .bg-12 {
+    background-image: url("./assets/services/cctv-bg-4.jpeg");
+  }
+  .bg-13 {
+    background-image: url("./assets/services/cctv-bg-4.jpeg");
+  }
+  
   
   #line-clamp {
     width: auto;
