@@ -417,681 +417,300 @@ const ParticularService = ({ services }) => {
               {services.subamenities && (
                 <h1 className="text-xl pb-8 mx-20">{services.subamenities}</h1>
               )}
+            </div>
 
-              <div className="pb-10">
-                {services.subamenities && (
-                  <div>
-                    <div className="bg-5" datad-aos="zoom-in-right">
-                      <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-5 px-12">
-                        <img
-                          src={services.amenities1pic}
-                          style={{ width: "480px", height: "100%" }}
-                          className="object-cover object-bottom h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
-                          alt=""
-                        />
-                        <div className="grid grid-cols-1 grid-rows-2 w-[80%b] p-2 text-white">
-                          <div className="w-[80%] mr-10">
-                            <h3 className="text-2l mb-4 font-semibold">
-                              {services.amenities1}
-                            </h3>
-                            <p className="text-md text-justify">
-                              {services.amenities1text}
-                            </p>
-                          </div>
-                          <div>
-                            <h3 className="text-xl my-2">
-                              {services.amenitiesMainBenefit}
-                            </h3>
-                            <ul className="list-disc text-left text-lg">
-                              <li>{services.mainBenefitsdome1}</li>
-                              <li>{services.mainBenefitsdome2}</li>
-                              <li>{services.mainBenefitsdome3}</li>
-                              <li>{services.mainBenefitsdome4}</li>
-                            </ul>
-                          </div>
+            <div className="pb-10">
+              {services.subamenities && (
+                <div>
+                  <div className="bg-6" data-aos="zoom-in-right">
+                    <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-5 px-12">
+                      <img
+                        src={services.amenities1pic}
+                        style={{ width: "480px", height: "100%" }}
+                        className="object-cover object-bottom h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
+                        alt=""
+                      />
+                      <div className="grid grid-cols-1 grid-rows-2 w-[80%b] p-2 text-white">
+                        <div className="w-[80%] mr-10">
+                          <h3 className="text-2l mb-4 font-semibold">
+                            {services.amenities1}
+                          </h3>
+                          <p className="text-md text-justify">
+                            {services.amenities1text}
+                          </p>
                         </div>
-                      </div>
-                    </div>
-
-                    <div className="bg-5" datad-aos="zoom-in-right">
-                      <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-5 px-12">
-                        <img
-                          src={services.amenities2pic}
-                          style={{ width: "480px", height: "100%" }}
-                          className="object-cover object-bottom h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
-                          alt=""
-                        />
-                        <div className="grid grid-cols-1 grid-rows-2 w-[80%b] p-2 text-white">
-                          <div className="w-[80%] mr-10">
-                            <h3 className="text-2l mb-4 font-semibold">
-                              {services.amenities2}
-                            </h3>
-                            <p className="text-md text-justify">
-                              {services.amenities2text}
-                            </p>
-                          </div>
-                          <div>
-                            <h3 className="text-xl my-2">
-                              {services.amenitiesMainBenefit}
-                            </h3>
-                            <ul className="list-disc text-left text-lg">
-                              <li>{services.mainBenefitsbullet1}</li>
-                              <li>{services.mainBenefitsbullet2}</li>
-                              <li>{services.mainBenefitsbullet3}</li>
-                              <li>{services.mainBenefitsbullet4}</li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="bg-5" datad-aos="zoom-in-right">
-                      <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-5 px-12">
-                        <img
-                          src={services.amenities3pic}
-                          style={{ width: "480px", height: "100%" }}
-                          className="object-cover object-bottom h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
-                          alt=""
-                        />
-                        <div className="grid grid-cols-1 grid-rows-2 w-[80%b] p-2 text-white">
-                          <div className="w-[80%] mr-10">
-                            <h3 className="text-2l mb-4 font-semibold">
-                              {services.amenities3}
-                            </h3>
-                            <p className="text-md text-justify">
-                              {services.amenities3text}
-                            </p>
-                          </div>
-                          <div>
-                            <h3 className="text-xl my-2">
-                              {services.amenitiesMainBenefit}
-                            </h3>
-                            <ul className="list-disc text-left text-lg">
-                              <li>{services.mainBenefitscmount1}</li>
-                              <li>{services.mainBenefitscmount2}</li>
-                              <li>{services.mainBenefitscmount3}</li>
-                              <li>{services.mainBenefitscmount4}</li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="bg-5" datad-aos="zoom-in-right">
-                      <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-5 px-12">
-                        <img
-                          src={services.amenities4pic}
-                          style={{ width: "480px", height: "100%" }}
-                          className="object-cover object-bottom h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
-                          alt=""
-                        />
-                        <div className="grid grid-cols-1 grid-rows-2 w-[80%b] p-2 text-white">
-                          <div className="w-[80%] mr-10">
-                            <h3 className="text-2l mb-4 font-semibold">
-                              {services.amenities4}
-                            </h3>
-                            <p className="text-md text-justify">
-                              {services.amenities4text}
-                            </p>
-                          </div>
-                          <div>
-                            <h3 className="text-xl my-2">
-                              {services.amenitiesMainBenefit}
-                            </h3>
-                            <ul className="list-disc text-left text-lg">
-                              <li>{services.mainBenefitsptz1}</li>
-                              <li>{services.mainBenefitsptz2}</li>
-                              <li>{services.mainBenefitsptz3}</li>
-                              <li>{services.mainBenefitsptz4}</li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    
-                    <div className="bg-5" datad-aos="zoom-in-right">
-                      <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-5 px-12">
-                        <img
-                          src={services.amenities5pic}
-                          style={{ width: "480px", height: "100%" }}
-                          className="object-cover object-bottom h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
-                          alt=""
-                        />
-                        <div className="grid grid-cols-1 grid-rows-2 w-[80%b] p-2 text-white">
-                          <div className="w-[80%] mr-10">
-                            <h3 className="text-2l mb-4 font-semibold">
-                              {services.amenities5}
-                            </h3>
-                            <p className="text-md text-justify">
-                              {services.amenities5text}
-                            </p>
-                          </div>
-                          <div>
-                            <h3 className="text-xl my-2">
-                              {services.amenitiesMainBenefit}
-                            </h3>
-                            <ul className="list-disc text-left text-lg">
-                              <li>{services.mainBenefitsdaynight1}</li>
-                              <li>{services.mainBenefitsdaynight2}</li>
-                              <li>{services.mainBenefitsdaynight3}</li>
-                              <li>{services.mainBenefitsdaynight4}</li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    
-                    <div className="bg-5" datad-aos="zoom-in-right">
-                      <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-5 px-12">
-                        <img
-                          src={services.amenities6pic}
-                          style={{ width: "480px", height: "100%" }}
-                          className="object-cover object-bottom h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
-                          alt=""
-                        />
-                        <div className="grid grid-cols-1 grid-rows-2 w-[80%b] p-2 text-white">
-                          <div className="w-[80%] mr-10">
-                            <h3 className="text-2l mb-4 font-semibold">
-                              {services.amenities6}
-                            </h3>
-                            <p className="text-md text-justify">
-                              {services.amenities6text}
-                            </p>
-                          </div>
-                          <div>
-                            <h3 className="text-xl my-2">
-                              {services.amenitiesMainBenefit}
-                            </h3>
-                            <ul className="list-disc text-left text-lg">
-                              <li>{services.mainBenefitsinfarednight1}</li>
-                              <li>{services.mainBenefitsinfarednight2}</li>
-                              <li>{services.mainBenefitsinfarednight3}</li>
-                              <li>{services.mainBenefitsinfarednight4}</li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    
-                    <div className="bg-5" datad-aos="zoom-in-right">
-                      <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-5 px-12">
-                        <img
-                          src={services.amenities7pic}
-                          style={{ width: "480px", height: "100%" }}
-                          className="object-cover object-bottom h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
-                          alt=""
-                        />
-                        <div className="grid grid-cols-1 grid-rows-2 w-[80%b] p-2 text-white">
-                          <div className="w-[80%] mr-10">
-                            <h3 className="text-2l mb-4 font-semibold">
-                              {services.amenities7}
-                            </h3>
-                            <p className="text-md text-justify">
-                              {services.amenities7text}
-                            </p>
-                          </div>
-                          <div>
-                            <h3 className="text-xl my-2">
-                              {services.amenitiesMainBenefit}
-                            </h3>
-                            <ul className="list-disc text-left text-lg">
-                              <li>{services.mainBenefitsnetwork1}</li>
-                              <li>{services.mainBenefitsnetwork2}</li>
-                              <li>{services.mainBenefitsnetwork3}</li>
-                              <li>{services.mainBenefitsnetwork4}</li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    
-                    <div className="bg-5" datad-aos="zoom-in-right">
-                      <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-5 px-12">
-                        <img
-                          src={services.amenities8pic}
-                          style={{ width: "480px", height: "100%" }}
-                          className="object-cover object-bottom h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
-                          alt=""
-                        />
-                        <div className="grid grid-cols-1 grid-rows-2 w-[80%b] p-2 text-white">
-                          <div className="w-[80%] mr-10">
-                            <h3 className="text-2l mb-4 font-semibold">
-                              {services.amenities8}
-                            </h3>
-                            <p className="text-md text-justify">
-                              {services.amenities8text}
-                            </p>
-                          </div>
-                          <div>
-                            <h3 className="text-xl my-2">
-                              {services.amenitiesMainBenefit}
-                            </h3>
-                            <ul className="list-disc text-left text-lg">
-                              <li>{services.mainBenefitswireless1}</li>
-                              <li>{services.mainBenefitswireless2}</li>
-                              <li>{services.mainBenefitswireless3}</li>
-                              <li>{services.mainBenefitswireless4}</li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    
-                    <div className="bg-5" datad-aos="zoom-in-right">
-                      <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-5 px-12">
-                        <img
-                          src={services.amenities9pic}
-                          style={{ width: "480px", height: "100%" }}
-                          className="object-cover object-bottom h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
-                          alt=""
-                        />
-                        <div className="grid grid-cols-1 grid-rows-2 w-[80%b] p-2 text-white">
-                          <div className="w-[80%] mr-10">
-                            <h3 className="text-2l mb-4 font-semibold">
-                              {services.amenities9}
-                            </h3>
-                            <p className="text-md text-justify">
-                              {services.amenities9text}
-                            </p>
-                          </div>
-                          <div>
-                            <h3 className="text-xl my-2">
-                              {services.amenitiesMainBenefit}
-                            </h3>
-                            <ul className="list-disc text-left text-lg">
-                              <li>{services.mainBenefitshd1}</li>
-                              <li>{services.mainBenefitshd2}</li>
-                              <li>{services.mainBenefitshd3}</li>
-                              <li>{services.mainBenefitshd4}</li>
-                            </ul>
-                          </div>
+                        <div>
+                          <h3 className="text-xl my-2">
+                            {services.amenitiesMainBenefit}
+                          </h3>
+                          <ul className="list-disc text-left text-lg">
+                            <li>{services.mainBenefitsdome1}</li>
+                            <li>{services.mainBenefitsdome2}</li>
+                            <li>{services.mainBenefitsdome3}</li>
+                            <li>{services.mainBenefitsdome4}</li>
+                          </ul>
                         </div>
                       </div>
                     </div>
                   </div>
-                )}
 
-                {!services.subamenities && (
-                  <div
-                    className="flex w-[80%] mx-auto mt-28 gap-x-8"
-                    data-aos="zoom-in-right"
-                  >
-                    <img
-                      src={services.amenities1pic}
-                      style={{ width: "480px" }}
-                      className="object-cover object-bottom h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
-                      alt=""
-                      srcset=""
-                    />
-                    <div className="flex flex-col justify-center">
-                      <h3 className="text-2xl my-4 font-semibold">
-                        {services.amenities1}
-                      </h3>
-                      <p className="text-lg">{services.amenities1text}</p>
+                  <div className="all-bg bg-6" data-aos="zoom-in-left">
+                    <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-5 px-12">
+                      <img
+                        src={services.amenities2pic}
+                        style={{ width: "480px", height: "100%" }}
+                        className="object-cover object-bottom h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
+                        alt=""
+                      />
+                      <div className="grid grid-cols-1 grid-rows-2 w-[80%b] p-2 text-white">
+                        <div className="w-[80%] mr-10">
+                          <h3 className="text-2l mb-4 font-semibold">
+                            {services.amenities2}
+                          </h3>
+                          <p className="text-md text-justify">
+                            {services.amenities2text}
+                          </p>
+                        </div>
+                        <div>
+                          <h3 className="text-xl my-2">
+                            {services.amenitiesMainBenefit}
+                          </h3>
+                          <ul className="list-disc text-left text-lg">
+                            <li>{services.mainBenefitsbullet1}</li>
+                            <li>{services.mainBenefitsbullet2}</li>
+                            <li>{services.mainBenefitsbullet3}</li>
+                            <li>{services.mainBenefitsbullet4}</li>
+                          </ul>
+                        </div>
+                      </div>
                     </div>
                   </div>
-                )}
 
-                <div
-                  className="flex w-[80%] mx-auto mt-28 gap-x-8"
-                  data-aos="zoom-in-left"
-                >
-                  <div className="flex flex-col justify-center">
-                    <h3 className="text-2xl my-4 font-semibold">
-                      {services.amenities2}
-                    </h3>
-                    <p className="text-lg">{services.amenities2text}</p>
-                  </div>
-                  <img
-                    src={services.amenities2pic}
-                    style={{ width: "480px" }}
-                    className="object-cover object-center h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
-                    alt=""
-                    srcset=""
-                  />
-                </div>
-                {services.amenitiesMainBenefit && (
-                  <div
-                    className="grid grid-cols-2 w-[70%] mx-auto mt-20 gap-x-8"
-                    data-aos="zoom-down"
-                  >
-                    <div>
-                      <h3 className="text-xl my-2">
-                        {services.amenitiesMainBenefit}
-                      </h3>
-                      <ul className="list-disc text-left text-lg">
-                        <li>{services.mainBenefitsbullet1}</li>
-                        <li>{services.mainBenefitsbullet2}</li>
-                        <li>{services.mainBenefitsbullet3}</li>
-                        <li>{services.mainBenefitsbullet4}</li>
-                      </ul>
-                    </div>
-                    <div>
-                      <h3 className="text-xl my-2">
-                        {services.amenitiesIdealUses}
-                      </h3>
-                      <p className="text-lg text-justify">
-                        {services.IdealUsesbullet}
-                      </p>
+                  <div className="all-bg bg-7" data-aos="zoom-down">
+                    <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-5 px-12">
+                      <img
+                        src={services.amenities3pic}
+                        style={{ width: "480px", height: "100%" }}
+                        className="object-cover object-bottom h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
+                        alt=""
+                      />
+                      <div className="grid grid-cols-1 grid-rows-2 w-[80%b] p-2 text-white">
+                        <div className="w-[80%] mr-10">
+                          <h3 className="text-2l mb-4 font-semibold">
+                            {services.amenities3}
+                          </h3>
+                          <p className="text-md text-justify">
+                            {services.amenities3text}
+                          </p>
+                        </div>
+                        <div>
+                          <h3 className="text-xl my-2">
+                            {services.amenitiesMainBenefit}
+                          </h3>
+                          <ul className="list-disc text-left text-lg">
+                            <li>{services.mainBenefitscmount1}</li>
+                            <li>{services.mainBenefitscmount2}</li>
+                            <li>{services.mainBenefitscmount3}</li>
+                            <li>{services.mainBenefitscmount4}</li>
+                          </ul>
+                        </div>
+                      </div>
                     </div>
                   </div>
-                )}
 
-                <div
-                  className="flex w-[80%] mx-auto mt-28 gap-x-8"
-                  data-aos="slide-right"
-                >
-                  <img
-                    src={services.amenities3pic}
-                    style={{ width: "480px" }}
-                    className="object-cover object-center h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
-                    alt=""
-                    srcset=""
-                  />
-                  <div className="flex flex-col justify-center">
-                    <h3 className="text-2xl my-4 font-semibold">
-                      {services.amenities3}
-                    </h3>
-                    <p className="text-lg">{services.amenities3text}</p>
+                  <div className="all-bg bg-8" data-aos="slide-right">
+                    <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-5 px-12">
+                      <img
+                        src={services.amenities4pic}
+                        style={{ width: "480px", height: "100%" }}
+                        className="object-cover object-bottom h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
+                        alt=""
+                      />
+                      <div className="grid grid-cols-1 grid-rows-2 w-[80%b] p-2 text-white">
+                        <div className="w-[80%] mr-10">
+                          <h3 className="text-2l mb-4 font-semibold">
+                            {services.amenities4}
+                          </h3>
+                          <p className="text-md text-justify">
+                            {services.amenities4text}
+                          </p>
+                        </div>
+                        <div>
+                          <h3 className="text-xl my-2">
+                            {services.amenitiesMainBenefit}
+                          </h3>
+                          <ul className="list-disc text-left text-lg">
+                            <li>{services.mainBenefitsptz1}</li>
+                            <li>{services.mainBenefitsptz2}</li>
+                            <li>{services.mainBenefitsptz3}</li>
+                            <li>{services.mainBenefitsptz4}</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="all-bg bg-9" data-aos="slide-left">
+                    <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-5 px-12">
+                      <img
+                        src={services.amenities5pic}
+                        style={{ width: "480px", height: "100%" }}
+                        className="object-cover object-bottom h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
+                        alt=""
+                      />
+                      <div className="grid grid-cols-1 grid-rows-2 w-[80%b] p-2 text-white">
+                        <div className="w-[80%] mr-10">
+                          <h3 className="text-2l mb-4 font-semibold">
+                            {services.amenities5}
+                          </h3>
+                          <p className="text-md text-justify">
+                            {services.amenities5text}
+                          </p>
+                        </div>
+                        <div>
+                          <h3 className="text-xl my-2">
+                            {services.amenitiesMainBenefit}
+                          </h3>
+                          <ul className="list-disc text-left text-lg">
+                            <li>{services.mainBenefitsdaynight1}</li>
+                            <li>{services.mainBenefitsdaynight2}</li>
+                            <li>{services.mainBenefitsdaynight3}</li>
+                            <li>{services.mainBenefitsdaynight4}</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="all-bg bg-10" data-aos="slide-right">
+                    <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-5 px-12">
+                      <img
+                        src={services.amenities6pic}
+                        style={{ width: "480px", height: "100%" }}
+                        className="object-cover object-bottom h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
+                        alt=""
+                      />
+                      <div className="grid grid-cols-1 grid-rows-2 w-[80%b] p-2 text-white">
+                        <div className="w-[80%] mr-10">
+                          <h3 className="text-2l mb-4 font-semibold">
+                            {services.amenities6}
+                          </h3>
+                          <p className="text-md text-justify">
+                            {services.amenities6text}
+                          </p>
+                        </div>
+                        <div>
+                          <h3 className="text-xl my-2">
+                            {services.amenitiesMainBenefit}
+                          </h3>
+                          <ul className="list-disc text-left text-lg">
+                            <li>{services.mainBenefitsinfarednight1}</li>
+                            <li>{services.mainBenefitsinfarednight2}</li>
+                            <li>{services.mainBenefitsinfarednight3}</li>
+                            <li>{services.mainBenefitsinfarednight4}</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="all-bg bg-11" data-aos="zoom-down">
+                    <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-5 px-12">
+                      <img
+                        src={services.amenities7pic}
+                        style={{ width: "480px", height: "100%" }}
+                        className="object-cover object-bottom h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
+                        alt=""
+                      />
+                      <div className="grid grid-cols-1 grid-rows-2 w-[80%b] p-2 text-white">
+                        <div className="w-[80%] mr-10">
+                          <h3 className="text-2l mb-4 font-semibold">
+                            {services.amenities7}
+                          </h3>
+                          <p className="text-md text-justify">
+                            {services.amenities7text}
+                          </p>
+                        </div>
+                        <div>
+                          <h3 className="text-xl my-2">
+                            {services.amenitiesMainBenefit}
+                          </h3>
+                          <ul className="list-disc text-left text-lg">
+                            <li>{services.mainBenefitsnetwork1}</li>
+                            <li>{services.mainBenefitsnetwork2}</li>
+                            <li>{services.mainBenefitsnetwork3}</li>
+                            <li>{services.mainBenefitsnetwork4}</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="all-bg bg-12" data-aos="zoom-in-right">
+                    <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-5 px-12">
+                      <img
+                        src={services.amenities8pic}
+                        style={{ width: "480px", height: "100%" }}
+                        className="object-cover object-bottom h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
+                        alt=""
+                      />
+                      <div className="grid grid-cols-1 grid-rows-2 w-[80%b] p-2 text-white">
+                        <div className="w-[80%] mr-10">
+                          <h3 className="text-2l mb-4 font-semibold">
+                            {services.amenities8}
+                          </h3>
+                          <p className="text-md text-justify">
+                            {services.amenities8text}
+                          </p>
+                        </div>
+                        <div>
+                          <h3 className="text-xl my-2">
+                            {services.amenitiesMainBenefit}
+                          </h3>
+                          <ul className="list-disc text-left text-lg">
+                            <li>{services.mainBenefitswireless1}</li>
+                            <li>{services.mainBenefitswireless2}</li>
+                            <li>{services.mainBenefitswireless3}</li>
+                            <li>{services.mainBenefitswireless4}</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="all-bg bg-13" data-aos="slide-right">
+                    <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-5 px-12">
+                      <img
+                        src={services.amenities9pic}
+                        style={{ width: "480px", height: "100%" }}
+                        className="object-cover object-bottom h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
+                        alt=""
+                      />
+                      <div className="grid grid-cols-1 grid-rows-2 w-[80%b] p-2 text-white">
+                        <div className="w-[80%] mr-10">
+                          <h3 className="text-2l mb-4 font-semibold">
+                            {services.amenities9}
+                          </h3>
+                          <p className="text-md text-justify">
+                            {services.amenities9text}
+                          </p>
+                        </div>
+                        <div>
+                          <h3 className="text-xl my-2">
+                            {services.amenitiesMainBenefit}
+                          </h3>
+                          <ul className="list-disc text-left text-lg">
+                            <li>{services.mainBenefitshd1}</li>
+                            <li>{services.mainBenefitshd2}</li>
+                            <li>{services.mainBenefitshd3}</li>
+                            <li>{services.mainBenefitshd4}</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                {services.amenitiesMainBenefit && (
-                  <div
-                    className="grid grid-cols-2 w-[70%] mx-auto mt-20 gap-x-8"
-                    data-aos="zoom-down"
-                  >
-                    <div>
-                      <h3 className="text-xl my-2">
-                        {services.amenitiesMainBenefit}
-                      </h3>
-                      <ul className="list-disc text-left text-lg">
-                        <li>{services.mainBenefitscmount1}</li>
-                        <li>{services.mainBenefitscmount2}</li>
-                        <li>{services.mainBenefitscmount3}</li>
-                        <li>{services.mainBenefitscmount4}</li>
-                      </ul>
-                    </div>
-                    <div>
-                      <h3 className="text-xl my-2">
-                        {services.amenitiesIdealUses}
-                      </h3>
-                      <p className="text-lg text-justify">
-                        {services.IdealUsescmount}
-                      </p>
-                    </div>
-                  </div>
-                )}
-
-                <div
-                  className="flex w-[80%] mx-auto mt-28 gap-x-8"
-                  data-aos="slide-left"
-                >
-                  <div className="flex flex-col justify-center">
-                    <h3 className="text-2xl my-4 font-semibold">
-                      {services.amenities4}
-                    </h3>
-                    <p className="text-lg">{services.amenities4text}</p>
-                  </div>
-                  <img
-                    src={services.amenities4pic}
-                    style={{ width: "480px" }}
-                    className="object-cover object-center h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
-                    alt=""
-                    srcset=""
-                  />
-                </div>
-                {services.amenitiesMainBenefit && (
-                  <div
-                    className="grid grid-cols-2 w-[70%] mx-auto mt-20 gap-x-8"
-                    data-aos="zoom-down"
-                  >
-                    <div>
-                      <h3 className="text-xl my-2">
-                        {services.amenitiesMainBenefit}
-                      </h3>
-                      <ul className="list-disc text-left text-lg">
-                        <li>{services.mainBenefitsptz1}</li>
-                        <li>{services.mainBenefitsptz2}</li>
-                        <li>{services.mainBenefitsptz3}</li>
-                        <li>{services.mainBenefitsptz4}</li>
-                      </ul>
-                    </div>
-                    <div>
-                      <h3 className="text-xl my-2">
-                        {services.amenitiesIdealUses}
-                      </h3>
-                      <p className="text-lg text-justify">
-                        {services.IdealUsesptz}
-                      </p>
-                    </div>
-                  </div>
-                )}
-
-                <div
-                  className="flex w-[80%] mx-auto mt-28 gap-x-8"
-                  data-aos="slide-right"
-                >
-                  <img
-                    src={services.amenities5pic}
-                    style={{ width: "480px" }}
-                    className="object-cover object-center h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
-                    alt=""
-                    srcset=""
-                  />
-                  <div className="flex flex-col justify-center">
-                    <h3 className="text-2xl my-4 font-semibold">
-                      {services.amenities5}
-                    </h3>
-                    <p className="text-lg">{services.amenities5text}</p>
-                  </div>
-                </div>
-                {services.amenitiesMainBenefit && (
-                  <div
-                    className="grid grid-cols-2 w-[70%] mx-auto mt-20 gap-x-8"
-                    data-aos="zoom-down"
-                  >
-                    <div>
-                      <h3 className="text-xl my-2">
-                        {services.amenitiesMainBenefit}
-                      </h3>
-                      <ul className="list-disc text-left text-lg">
-                        <li>{services.mainBenefitsdaynight1}</li>
-                        <li>{services.mainBenefitsdaynight2}</li>
-                        <li>{services.mainBenefitsdaynight3}</li>
-                        <li>{services.mainBenefitsdaynight4}</li>
-                      </ul>
-                    </div>
-                    <div>
-                      <h3 className="text-xl my-2">
-                        {services.amenitiesIdealUses}
-                      </h3>
-                      <p className="text-lg text-justify">
-                        {services.IdealUsesdaynight}
-                      </p>
-                    </div>
-                  </div>
-                )}
-
-                {services.amenities6text && (
-                  <div
-                    className="flex w-[80%] mx-auto mt-28 gap-x-8"
-                    data-aos="slide-left"
-                  >
-                    <div className="flex flex-col justify-center">
-                      <h3 className="text-xl my-4">{services.amenities6}</h3>
-                      <p className="text-lg">{services.amenities6text}</p>
-                    </div>
-                    <img
-                      src={services.amenities6pic}
-                      style={{ width: "600px" }}
-                      className="w-[7f0rem] h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
-                      alt=""
-                      srcset=""
-                    />
-                  </div>
-                )}
-                {services.amenitiesMainBenefit && (
-                  <div
-                    className="grid grid-cols-2 w-[70%] mx-auto mt-20 gap-x-8"
-                    data-aos="zoom-down"
-                  >
-                    <div>
-                      <h3 className="text-xl my-2">
-                        {services.amenitiesMainBenefit}
-                      </h3>
-                      <ul className="list-disc text-left text-lg">
-                        <li>{services.mainBenefitsinfarednight1}</li>
-                        <li>{services.mainBenefitsinfarednight2}</li>
-                        <li>{services.mainBenefitsinfarednight3}</li>
-                        <li>{services.mainBenefitsinfarednight4}</li>
-                      </ul>
-                    </div>
-                    <div>
-                      <h3 className="text-xl my-2">
-                        {services.amenitiesIdealUses}
-                      </h3>
-                      <p className="text-lg text-justify">
-                        {services.IdealUsesinfarednight}
-                      </p>
-                    </div>
-                  </div>
-                )}
-
-                {services.amenities7text && (
-                  <div
-                    className="flex w-[80%] mx-auto mt-28 gap-x-8"
-                    data-aos="slide-left"
-                  >
-                    <div className="flex flex-col justify-center">
-                      <h3 className="text-xl my-4">{services.amenities7}</h3>
-                      <p className="text-lg">{services.amenities7text}</p>
-                    </div>
-                    <img
-                      src={services.amenities7pic}
-                      style={{ width: "600px" }}
-                      className="w-[7f0rem] h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
-                      alt=""
-                      srcset=""
-                    />
-                  </div>
-                )}
-                {services.amenitiesMainBenefit && (
-                  <div
-                    className="grid grid-cols-2 w-[70%] mx-auto mt-20 gap-x-8"
-                    data-aos="zoom-down"
-                  >
-                    <div>
-                      <h3 className="text-xl my-2">
-                        {services.amenitiesMainBenefit}
-                      </h3>
-                      <ul className="list-disc text-left text-lg">
-                        <li>{services.mainBenefitsnetwork1}</li>
-                        <li>{services.mainBenefitsnetwork2}</li>
-                        <li>{services.mainBenefitsnetwork3}</li>
-                        <li>{services.mainBenefitsnetwork4}</li>
-                      </ul>
-                    </div>
-                    <div>
-                      <h3 className="text-xl my-2">
-                        {services.amenitiesIdealUses}
-                      </h3>
-                      <p className="text-lg text-justify">
-                        {services.IdealUsesnetwork}
-                      </p>
-                    </div>
-                  </div>
-                )}
-
-                {services.amenities8text && (
-                  <div
-                    className="flex w-[80%] mx-auto mt-28 gap-x-8"
-                    data-aos="slide-right"
-                  >
-                    <div className="flex flex-col justify-center">
-                      <h3 className="text-xl my-4">{services.amenities8}</h3>
-                      <p className="text-lg">{services.amenities8text}</p>
-                    </div>
-                    <img
-                      src={services.amenities8pic}
-                      style={{ width: "600px" }}
-                      className="w-[7f0rem] h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
-                      alt=""
-                      srcset=""
-                    />
-                  </div>
-                )}
-                {services.amenitiesMainBenefit && (
-                  <div
-                    className="grid grid-cols-2 w-[70%] mx-auto mt-20 gap-x-8"
-                    data-aos="zoom-down"
-                  >
-                    <div>
-                      <h3 className="text-xl my-2">
-                        {services.amenitiesMainBenefit}
-                      </h3>
-                      <ul className="list-disc text-left text-lg">
-                        <li>{services.mainBenefitswireless1}</li>
-                        <li>{services.mainBenefitswireless2}</li>
-                        <li>{services.mainBenefitswireless3}</li>
-                        <li>{services.mainBenefitswireless4}</li>
-                      </ul>
-                    </div>
-                    <div>
-                      <h3 className="text-xl my-2">
-                        {services.amenitiesIdealUses}
-                      </h3>
-                      <p className="text-lg text-justify">
-                        {services.IdealUseswireless}
-                      </p>
-                    </div>
-                  </div>
-                )}
-
-                {services.amenities9text && (
-                  <div
-                    className="flex w-[80%] mx-auto mt-28 gap-x-8"
-                    data-aos="zoom-down"
-                  >
-                    <div className="flex flex-col justify-center">
-                      <h3 className="text-xl my-4">{services.amenities9}</h3>
-                      <p className="text-lg">{services.amenities9text}</p>
-                    </div>
-                    <img
-                      src={services.amenities9pic}
-                      style={{ width: "600px" }}
-                      className="w-[7f0rem] h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
-                      alt=""
-                      srcset=""
-                    />
-                  </div>
-                )}
-                {services.amenitiesMainBenefit && (
-                  <div
-                    className="grid grid-cols-2 w-[70%] mx-auto mt-20 gap-x-8"
-                    data-aos="zoom-down"
-                  >
-                    <div>
-                      <h3 className="text-xl my-2">
-                        {services.amenitiesMainBenefit}
-                      </h3>
-                      <ul className="list-disc text-left text-lg">
-                        <li>{services.mainBenefitshd1}</li>
-                        <li>{services.mainBenefitshd2}</li>
-                        <li>{services.mainBenefitshd3}</li>
-                        <li>{services.mainBenefitshd4}</li>
-                      </ul>
-                    </div>
-                    <div>
-                      <h3 className="text-xl my-2">
-                        {services.amenitiesIdealUses}
-                      </h3>
-                      <p className="text-lg text-justify">
-                        {services.IdealUseshd}
-                      </p>
-                    </div>
-                  </div>
-                )}
-              </div>
+              )}
             </div>
           </div>
         ))}
