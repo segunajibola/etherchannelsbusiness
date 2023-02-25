@@ -423,7 +423,7 @@ const ParticularService = ({ services }) => {
               {services.subamenities && (
                 <div>
                   <div className="bg-6" data-aos="zoom-in-right">
-                    <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-5 px-12">
+                    <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-10 px-12">
                       <img
                         src={services.amenities1pic}
                         style={{ width: "480px", height: "100%" }}
@@ -455,7 +455,7 @@ const ParticularService = ({ services }) => {
                   </div>
 
                   <div className="all-bg bg-6" data-aos="zoom-in-left">
-                    <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-5 px-12">
+                    <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-10 px-12">
                       <img
                         src={services.amenities2pic}
                         style={{ width: "480px", height: "100%" }}
@@ -487,7 +487,7 @@ const ParticularService = ({ services }) => {
                   </div>
 
                   <div className="all-bg bg-7" data-aos="zoom-down">
-                    <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-5 px-12">
+                    <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-10 px-12">
                       <img
                         src={services.amenities3pic}
                         style={{ width: "480px", height: "100%" }}
@@ -519,7 +519,7 @@ const ParticularService = ({ services }) => {
                   </div>
 
                   <div className="all-bg bg-8" data-aos="slide-right">
-                    <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-5 px-12">
+                    <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-10 px-12">
                       <img
                         src={services.amenities4pic}
                         style={{ width: "480px", height: "100%" }}
@@ -551,7 +551,7 @@ const ParticularService = ({ services }) => {
                   </div>
 
                   <div className="all-bg bg-9" data-aos="slide-left">
-                    <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-5 px-12">
+                    <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-10 px-12">
                       <img
                         src={services.amenities5pic}
                         style={{ width: "480px", height: "100%" }}
@@ -583,7 +583,7 @@ const ParticularService = ({ services }) => {
                   </div>
 
                   <div className="all-bg bg-10" data-aos="slide-right">
-                    <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-5 px-12">
+                    <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-10 px-12">
                       <img
                         src={services.amenities6pic}
                         style={{ width: "480px", height: "100%" }}
@@ -615,7 +615,7 @@ const ParticularService = ({ services }) => {
                   </div>
 
                   <div className="all-bg bg-11" data-aos="zoom-down">
-                    <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-5 px-12">
+                    <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-10 px-12">
                       <img
                         src={services.amenities7pic}
                         style={{ width: "480px", height: "100%" }}
@@ -647,7 +647,7 @@ const ParticularService = ({ services }) => {
                   </div>
 
                   <div className="all-bg bg-12" data-aos="zoom-in-right">
-                    <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-5 px-12">
+                    <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-10 px-12">
                       <img
                         src={services.amenities8pic}
                         style={{ width: "480px", height: "100%" }}
@@ -679,7 +679,7 @@ const ParticularService = ({ services }) => {
                   </div>
 
                   <div className="all-bg bg-13" data-aos="slide-right">
-                    <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-5 px-12">
+                    <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-10 px-12">
                       <img
                         src={services.amenities9pic}
                         style={{ width: "480px", height: "100%" }}
