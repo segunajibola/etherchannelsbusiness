@@ -421,7 +421,7 @@ const ParticularService = ({ services }) => {
 
             <div className="pb-10">
               {services.subamenities && (
-                <div>
+                <div className="bg-gray-700">
                   <div className="bg-6" data-aos="zoom-in-right">
                     <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-10 px-12">
                       <img
@@ -430,17 +430,17 @@ const ParticularService = ({ services }) => {
                         className="object-cover object-bottom h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
                         alt=""
                       />
-                      <div className="grid grid-cols-1 grid-rows-2 w-[80%b] p-2 text-white">
-                        <div className="w-[80%] mr-10">
-                          <h3 className="text-2l mb-4 font-semibold">
+                      <div className="grid grid-cols-1 grid-rows-2 p-2 text-white gap-4">
+                        <div>
+                          <h3 className="text-2xl mb-4 font-semibold">
                             {services.amenities1}
                           </h3>
-                          <p className="text-md text-justify">
+                          <p className="text-md text-justify text-lg">
                             {services.amenities1text}
                           </p>
                         </div>
                         <div>
-                          <h3 className="text-xl my-2">
+                          <h3 className="text-2xl my-2">
                             {services.amenitiesMainBenefit}
                           </h3>
                           <ul className="list-disc text-left text-lg">
@@ -454,7 +454,7 @@ const ParticularService = ({ services }) => {
                     </div>
                   </div>
 
-                  <div className="all-bg bg-6" data-aos="zoom-in-left">
+                  <div data-aos="slide-left">
                     <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-10 px-12">
                       <img
                         src={services.amenities2pic}
@@ -462,17 +462,17 @@ const ParticularService = ({ services }) => {
                         className="object-cover object-bottom h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
                         alt=""
                       />
-                      <div className="grid grid-cols-1 grid-rows-2 w-[80%b] p-2 text-white">
-                        <div className="w-[80%] mr-10">
-                          <h3 className="text-2l mb-4 font-semibold">
+                      <div className="grid grid-cols-1 grid-rows-2 p-2 text-white gap-4">
+                        <div>
+                          <h3 className="text-2xl mb-4 font-semibold">
                             {services.amenities2}
                           </h3>
-                          <p className="text-md text-justify">
+                          <p className="text-md text-justify text-lg">
                             {services.amenities2text}
                           </p>
                         </div>
                         <div>
-                          <h3 className="text-xl my-2">
+                          <h3 className="text-2xl my-2">
                             {services.amenitiesMainBenefit}
                           </h3>
                           <ul className="list-disc text-left text-lg">
@@ -486,7 +486,7 @@ const ParticularService = ({ services }) => {
                     </div>
                   </div>
 
-                  <div className="all-bg bg-7" data-aos="zoom-down">
+                  <div data-aos="slide-right">
                     <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-10 px-12">
                       <img
                         src={services.amenities3pic}
@@ -494,17 +494,17 @@ const ParticularService = ({ services }) => {
                         className="object-cover object-bottom h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
                         alt=""
                       />
-                      <div className="grid grid-cols-1 grid-rows-2 w-[80%b] p-2 text-white">
-                        <div className="w-[80%] mr-10">
-                          <h3 className="text-2l mb-4 font-semibold">
+                      <div className="grid grid-cols-1 grid-rows-2 p-2 text-white gap-4">
+                        <div>
+                          <h3 className="text-2xl mb-4 font-semibold">
                             {services.amenities3}
                           </h3>
-                          <p className="text-md text-justify">
+                          <p className="text-md text-justify text-lg">
                             {services.amenities3text}
                           </p>
                         </div>
                         <div>
-                          <h3 className="text-xl my-2">
+                          <h3 className="text-2xl my-2">
                             {services.amenitiesMainBenefit}
                           </h3>
                           <ul className="list-disc text-left text-lg">
@@ -518,7 +518,7 @@ const ParticularService = ({ services }) => {
                     </div>
                   </div>
 
-                  <div className="all-bg bg-8" data-aos="slide-right">
+                  <div data-aos="zoom-down">
                     <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-10 px-12">
                       <img
                         src={services.amenities4pic}
@@ -526,17 +526,17 @@ const ParticularService = ({ services }) => {
                         className="object-cover object-bottom h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
                         alt=""
                       />
-                      <div className="grid grid-cols-1 grid-rows-2 w-[80%b] p-2 text-white">
-                        <div className="w-[80%] mr-10">
-                          <h3 className="text-2l mb-4 font-semibold">
+                      <div className="grid grid-cols-1 grid-rows-2 p-2 text-white gap-4">
+                        <div>
+                          <h3 className="text-2xl mb-4 font-semibold">
                             {services.amenities4}
                           </h3>
-                          <p className="text-md text-justify">
+                          <p className="text-md text-justify text-lg">
                             {services.amenities4text}
                           </p>
                         </div>
                         <div>
-                          <h3 className="text-xl my-2">
+                          <h3 className="text-2xl my-2">
                             {services.amenitiesMainBenefit}
                           </h3>
                           <ul className="list-disc text-left text-lg">
@@ -550,7 +550,7 @@ const ParticularService = ({ services }) => {
                     </div>
                   </div>
 
-                  <div className="all-bg bg-9" data-aos="slide-left">
+                  <div data-aos="zoom-in-right">
                     <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-10 px-12">
                       <img
                         src={services.amenities5pic}
@@ -558,17 +558,17 @@ const ParticularService = ({ services }) => {
                         className="object-cover object-bottom h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
                         alt=""
                       />
-                      <div className="grid grid-cols-1 grid-rows-2 w-[80%b] p-2 text-white">
-                        <div className="w-[80%] mr-10">
-                          <h3 className="text-2l mb-4 font-semibold">
+                      <div className="grid grid-cols-1 grid-rows-2 p-2 text-white gap-4">
+                        <div>
+                          <h3 className="text-2xl mb-4 font-semibold">
                             {services.amenities5}
                           </h3>
-                          <p className="text-md text-justify">
+                          <p className="text-md text-justify text-lg">
                             {services.amenities5text}
                           </p>
                         </div>
                         <div>
-                          <h3 className="text-xl my-2">
+                          <h3 className="text-2xl my-2">
                             {services.amenitiesMainBenefit}
                           </h3>
                           <ul className="list-disc text-left text-lg">
@@ -582,7 +582,7 @@ const ParticularService = ({ services }) => {
                     </div>
                   </div>
 
-                  <div className="all-bg bg-10" data-aos="slide-right">
+                  <div data-aos="slide-down">
                     <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-10 px-12">
                       <img
                         src={services.amenities6pic}
@@ -590,17 +590,17 @@ const ParticularService = ({ services }) => {
                         className="object-cover object-bottom h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
                         alt=""
                       />
-                      <div className="grid grid-cols-1 grid-rows-2 w-[80%b] p-2 text-white">
-                        <div className="w-[80%] mr-10">
-                          <h3 className="text-2l mb-4 font-semibold">
+                      <div className="grid grid-cols-1 grid-rows-2 p-2 text-white gap-4">
+                        <div>
+                          <h3 className="text-2xl mb-4 font-semibold">
                             {services.amenities6}
                           </h3>
-                          <p className="text-md text-justify">
+                          <p className="text-md text-justify text-lg">
                             {services.amenities6text}
                           </p>
                         </div>
                         <div>
-                          <h3 className="text-xl my-2">
+                          <h3 className="text-2xl my-2">
                             {services.amenitiesMainBenefit}
                           </h3>
                           <ul className="list-disc text-left text-lg">
@@ -614,7 +614,7 @@ const ParticularService = ({ services }) => {
                     </div>
                   </div>
 
-                  <div className="all-bg bg-11" data-aos="zoom-down">
+                  <div data-aos="zoom-in-left">
                     <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-10 px-12">
                       <img
                         src={services.amenities7pic}
@@ -622,17 +622,17 @@ const ParticularService = ({ services }) => {
                         className="object-cover object-bottom h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
                         alt=""
                       />
-                      <div className="grid grid-cols-1 grid-rows-2 w-[80%b] p-2 text-white">
-                        <div className="w-[80%] mr-10">
-                          <h3 className="text-2l mb-4 font-semibold">
+                      <div className="grid grid-cols-1 grid-rows-2 p-2 text-white gap-4">
+                        <div>
+                          <h3 className="text-2xl mb-4 font-semibold">
                             {services.amenities7}
                           </h3>
-                          <p className="text-md text-justify">
+                          <p className="text-md text-justify text-lg">
                             {services.amenities7text}
                           </p>
                         </div>
                         <div>
-                          <h3 className="text-xl my-2">
+                          <h3 className="text-2xl my-2">
                             {services.amenitiesMainBenefit}
                           </h3>
                           <ul className="list-disc text-left text-lg">
@@ -646,7 +646,7 @@ const ParticularService = ({ services }) => {
                     </div>
                   </div>
 
-                  <div className="all-bg bg-12" data-aos="zoom-in-right">
+                  <div data-aos="zoom-left">
                     <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-10 px-12">
                       <img
                         src={services.amenities8pic}
@@ -654,17 +654,17 @@ const ParticularService = ({ services }) => {
                         className="object-cover object-bottom h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
                         alt=""
                       />
-                      <div className="grid grid-cols-1 grid-rows-2 w-[80%b] p-2 text-white">
-                        <div className="w-[80%] mr-10">
-                          <h3 className="text-2l mb-4 font-semibold">
+                      <div className="grid grid-cols-1 grid-rows-2 p-2 text-white gap-4">
+                        <div>
+                          <h3 className="text-2xl mb-4 font-semibold">
                             {services.amenities8}
                           </h3>
-                          <p className="text-md text-justify">
+                          <p className="text-md text-justify text-lg">
                             {services.amenities8text}
                           </p>
                         </div>
                         <div>
-                          <h3 className="text-xl my-2">
+                          <h3 className="text-2xl my-2">
                             {services.amenitiesMainBenefit}
                           </h3>
                           <ul className="list-disc text-left text-lg">
@@ -678,7 +678,7 @@ const ParticularService = ({ services }) => {
                     </div>
                   </div>
 
-                  <div className="all-bg bg-13" data-aos="slide-right">
+                  <div data-aos="slide-down">
                     <div className="grid md:grid-cols-2 w-[95%] mx-auto mt-28 gap-x-2 py-10 px-12">
                       <img
                         src={services.amenities9pic}
@@ -686,17 +686,17 @@ const ParticularService = ({ services }) => {
                         className="object-cover object-bottom h-[20rem] rounded-lg border-4 border-blue-500 p-2 hover:scale-110 duration-200 delay-100 ease-in-out"
                         alt=""
                       />
-                      <div className="grid grid-cols-1 grid-rows-2 w-[80%b] p-2 text-white">
-                        <div className="w-[80%] mr-10">
-                          <h3 className="text-2l mb-4 font-semibold">
+                      <div className="grid grid-cols-1 grid-rows-2 p-2 text-white gap-4">
+                        <div>
+                          <h3 className="text-2xl mb-4 font-semibold">
                             {services.amenities9}
                           </h3>
-                          <p className="text-md text-justify">
+                          <p className="text-md text-justify text-lg">
                             {services.amenities9text}
                           </p>
                         </div>
                         <div>
-                          <h3 className="text-xl my-2">
+                          <h3 className="text-2xl my-2">
                             {services.amenitiesMainBenefit}
                           </h3>
                           <ul className="list-disc text-left text-lg">
