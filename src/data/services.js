@@ -113,7 +113,7 @@ const data = [
     id: 5,
     image1: "/images/cctvInstallation1.jpeg",
     image2: "/images/cctvInstallation2.jpeg",
-    image3: "/images/services/cctv/CCTV Landing page.jpeg",
+    image3: "/images/services/cctv/cctv-bg-7.jpeg",
     alt: "CCTV Installation",
     name: "CCTV Installation",
     description:

@@ -45,14 +45,14 @@ const ParticularService = ({ services }) => {
                 ""
               )}
             </div>
-            <div>
+            <div className="md:w-[85%] mx-auto">
               <h1 className="pt-10 text-4xl font-semibold">{services.name}</h1>
-              <p className="px-20 bg-remd-500 py-4 text-lg">
+              <p className="px-20 py-4 text-lg">
                 {services.description}
               </p>
-              <h1 className="text-2xl font-semibold pt-[150px] pb-8">
+              {services.heading0 && <h1 className="text-2xl font-semibold pt-[150px] pb-8">
                 {services.heading0}
-              </h1>
+              </h1>}
             </div>
 
             {/* CBT TESTING */}
@@ -409,8 +409,8 @@ const ParticularService = ({ services }) => {
 
             {/* CORPORATE TRAINING */}
 
-            <div className="pb-5">
-              <h2 className="pt-24 pb-8 font-bold text-3xl">
+            <div className="pb-5  md:w-[85%] mx-auto">
+              <h2 className="pt-20 pb-6 font-bold text-3xl">
                 {services.amenities}
               </h2>
 
