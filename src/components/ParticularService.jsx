@@ -292,7 +292,7 @@ const ParticularService = ({ services }) => {
                 <h3 className="pt-24 pb-8 font-bold text-3xl">
                   {services.coursesHeading}
                 </h3>
-                <div className="grid grid-cols-4 gap-4 w-[80%] mx-auto">
+                <div className="grid grid-cols-3 gap-4 w-[80%] mx-auto">
                   {courses?.map((course) => (
                     <CorporateCourses course={course} />
                   ))}
