@@ -18,7 +18,6 @@ const ServiceCard = (props) => {
           <div
             class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out flex items-center justify-center bg-black-rgba"
           ><BsLink className="text-blue-500" size={72}/></div>
-          
         </div>
 
         <div className="px-4 py-8 text-center">
