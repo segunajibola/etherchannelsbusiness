@@ -20,7 +20,7 @@ const Services = () => {
             <h2 className="text-3xl font-semibold tracking-wider text-gray-900 dark:text-white my-8">
               Our Services
             </h2>
-            <p className="w-11/12 mx-auto py-16 text-xl">
+            <p className="w-11/12 mx-auto py-16 text-xl md:w-[80%]">
               Our core value is the provision of affordable, professional and up-to-date digital I.T training skills that focuses on business need for both corporate organizations, governments and individuals.
             </p>
           </div>

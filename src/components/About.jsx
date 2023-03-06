@@ -33,7 +33,7 @@ const About = () => {
           <h2 className="text-3xl font-semibold tracking-wider text-gray-900 dark:text-white my-4">
             About Us
           </h2>
-          <p className="w-11/12 mx-auto py-16 text-xl">
+          <p className="w-11/12 mx-auto py-16 text-xl md:w-[80%] leading-relaxed">
             We are IT Solution Services firm founded on the 21st of December
             2020 and Our motive is aimed at providing quality assurance with an
             unbeatable solutions driven to all our business partners and

@@ -41,7 +41,7 @@ const Home = () => {
             <div className="w-full h-[230px] md:hidden">
               <ImageSlider slides={slides} className="h-fit" />
             </div>
-            <p className="my-12 text-sm text-gray-900 dark:text-white lg:text-2xl">
+            <p className="my-12 text-sm text-gray-900 dark:text-white lg:text-2xl md:w-[80%] mx-auto">
               Are you thinking of acquiring an in-demand IT skills to fetch you
               your dream job? Here is the best place for you to up-skill your
               knowledge and growth in the digital world.
