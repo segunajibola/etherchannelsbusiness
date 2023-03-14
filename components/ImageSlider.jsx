@@ -89,11 +89,11 @@ const ImageSlider = ({ slides }) => {
   const [replay, setReplay] = useState(true);
   // Placeholder text data, as if from API
   const placeholderText = [
-    { type: "heading1", text: "Framer Motion" },
-    {
-      type: "heading2",
-      text: "Animating responsive text!",
-    },
+    // { type: "heading1", text: "Framer Motion" },
+    // {
+    //   type: "heading2",
+    //   text: "Animating responsive text!",
+    // },
   ];
 
   const container = {
