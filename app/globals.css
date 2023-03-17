@@ -1,3 +1,109 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @media only screen and (min-width: 992px) {
+    #nav {
+      display: none;
+    }
+  }
+
+  .all-bg {
+    background-size: cover;
+    background-position: top;
+    object-fit: fill;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+
+  .bg {
+    background-image: url("/home/bg22.jpeg");
+  }
+  .bg-2 {
+    background-image: url("/home/bg3.png");
+  }
+  .bg-3 {
+    background-image: url("/home/bg5.jpeg");
+  }
+
+  .bg-4 {
+    background-image: url("/services/CBTTestingBackground2.jpg");
+    background-size: cover;
+    background-position: top;
+    object-fit: fill;
+    background-attachment: fixed;
+    /* object-position: center; */
+    background-repeat: no-repeat;
+  }
+
+  .bg-5 {
+    background-image: url("/services/cctv-bg-4.jpeg");
+    background-size: cover;
+    background-position: top;
+    object-fit: fill;
+    /* position: fixed; */
+    background-attachment: fixed;
+    /* object-position: center; */
+    background-repeat: no-repeat;
+  }
+
+  /* .bg-6 {
+    background-image: url("/services/cctv-bg-6.jpeg");
+  }
+  .bg-7 {
+    background-image: url("/services/cctv-bg-7.jpeg");
+  }
+  .bg-8 {
+    background-image: url("/services/cctv-bg-8.jpeg");
+  }
+  .bg-9 {
+    background-image: url("/services/cctv-bg-9.jpeg");
+  }
+  .bg-10 {
+    background-image: url("/services/cctv-bg-4.jpeg");
+  }
+  .bg-11 {
+    background-image: url("/services/cctv-bg-4.jpeg");
+  }
+  .bg-12 {
+    background-image: url("/services/cctv-bg-4.jpeg");
+  }
+  .bg-13 {
+    background-image: url("/services/cctv-bg-4.jpeg");
+  } */
+
+  #line-clamp {
+    width: auto;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+  }
+  .shadow {
+    text-shadow: 2px 2px #6463a1;
+  }
+}
+
+/* 
+module.exports = {
+  theme: {
+    screens: {
+      'sm': '640px',
+      => @media (min-width: 640px) { ... }
+
+      'md': '768px',
+      => @media (min-width: 768px) { ... }
+
+      'lg': '1024px',
+      => @media (min-width: 1024px) { ... }
+
+      'xl': '1280px',
+      => @media (min-width: 1280px) { ... }
+
+      '2xl': '1536px',
+      => @media (min-width: 1536px) { ... }
+    }
+  }
+}
+*/
